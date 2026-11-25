@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Narration pipeline (local Piper, free, cached).
+"""Narration pipeline (Edge neural voice "Remy Multilingual" — free, no account; cached per sentence).
 content/<id>.json -> public/vo/<hash>.wav (only new/changed lines are synthesised)
                   -> src/generated/<id>.json (frame-accurate timing per beat/line)
                   -> out/<id>.srt
@@ -7,41 +7,48 @@ Usage: python3 scripts/tts.py content/ch01.json [content/ch02.json ...]
        python3 scripts/tts.py all
 Chapter format: {"id","num","title","accent","music", "beats":[{"v":{...visual}, "lines":[str | {"text","say","pause"}]}]}
 """
-import hashlib, json, re, subprocess, sys, wave, pathlib
+import hashlib, json, os, re, subprocess, sys, time, wave, pathlib
 from concurrent.futures import ThreadPoolExecutor
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-VOICE = ROOT / "tts/voices/fr_FR-tom-medium.onnx"
-LENGTH_SCALE = "0.92"
+VOICE = "fr-FR-RemyMultilingualNeural"
+RATE = "+6%"
 CACHE = ROOT / "public/vo"
 FPS = 60
 LINE_GAP, BEAT_GAP, LEAD_IN, TAIL = 0.32, 0.75, 0.9, 1.6
 
-# English trading vocabulary -> French phonetic spelling for Piper (longest match first, case-insensitive, whole words).
-PRON = json.loads((ROOT / "content/pronunciation.json").read_text())
-_keys = sorted(PRON, key=len, reverse=True)
-_rx = re.compile(r"(?<![\w-])(" + "|".join(re.escape(k) for k in _keys) + r")(?![\w-])", re.I)
+# Light text normalisation for speech (English terms are left as-is: the voice is multilingual).
+FIX = [(r"\bEUR/USD\b", "euro dollar"), (r"\bXAU/USD\b", "or contre dollar"), (r"\b1:(\d+)", r"un pour \1"), (r"P&L", "P and L"),
+       (r"S&P", "S and P"), (r"→", ","), (r"×", " fois "), (r"÷", " divisé par "), (r" = ", " égale "), (r"CySEC", "Cysec"),
+       (r"\bspréd\b", "spread"), (r"\bbide\b", "Bid"), (r"\basque\b", "Ask"), (r"\bpipes\b", "pips"), (r"\bpipe\b", "pip")]
 
 
 def phon(text: str) -> str:
-    t = _rx.sub(lambda m: PRON[next(k for k in _keys if k.lower() == m.group(0).lower())], text)
-    t = re.sub(r"(\d) (\d{3})", r"\1\2", t)           # 10 000 -> 10000 (espeak reads it as one number)
-    t = t.replace("€", " euros").replace("$", " dollars").replace("%", " pour cent").replace("→", ",").replace("×", " fois ")
-    t = t.replace("1:", "un pour ").replace(" = ", " égale ").replace("…", "...")
+    t = text
+    for a, b in FIX:
+        t = re.sub(a, b, t)
     return re.sub(r"\s+", " ", t).strip()
 
 
 def synth(text: str) -> pathlib.Path:
-    key = hashlib.sha1(f"{VOICE.name}|{LENGTH_SCALE}|{text}".encode()).hexdigest()[:16]
-    out = CACHE / f"{key}.wav"
+    key = hashlib.sha1(f"{VOICE}|{RATE}|{text}".encode()).hexdigest()[:16]
+    out = CACHE / f"e{key}.wav"
     if not out.exists():
-        raw = CACHE / f"{key}.raw.wav"
-        subprocess.run([sys.executable, "-m", "piper", "-m", str(VOICE), "-f", str(raw),
-                        "--length-scale", LENGTH_SCALE, "--sentence-silence", "0.12"],
-                       input=text.encode(), check=True, capture_output=True)
+        raw = CACHE / f"e{key}.mp3"
+        for attempt in range(4):
+            r = subprocess.run(["edge-tts", "--proxy", os.environ.get("HTTPS_PROXY", ""), "--voice", VOICE, f"--rate={RATE}",
+                                "--text", text, "--write-media", str(raw)], capture_output=True)
+            if r.returncode == 0 and raw.exists() and raw.stat().st_size > 1000:
+                break
+            time.sleep(2 + attempt * 3)
+        else:
+            raise RuntimeError(f"edge-tts failed: {text[:60]}")
+        # trim leading/trailing silence, gentle broadcast polish, loudness normalisation
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw), "-af",
-                        "highpass=f=70,acompressor=threshold=-18dB:ratio=3:attack=5:release=80,"
-                        "loudnorm=I=-16:TP=-1.5:LRA=7,atrim=start=0", "-ar", "48000", str(out)], check=True)
+                        "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.03,areverse,"
+                        "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.08,areverse,"
+                        "highpass=f=60,acompressor=threshold=-20dB:ratio=2.5:attack=5:release=90,loudnorm=I=-16:TP=-1.5:LRA=7",
+                        "-ar", "48000", "-ac", "1", str(out)], check=True)
         raw.unlink()
     return out
 
@@ -62,9 +69,9 @@ def build(path):
     for b in doc["beats"]:
         for l in b["lines"]:
             l = {"text": l} if isinstance(l, str) else l
-            l["_say"] = l.get("say") or phon(l["text"])
+            l["_say"] = phon(l.get("say") or l["text"])
             lines.append(l)
-    with ThreadPoolExecutor(4) as ex:
+    with ThreadPoolExecutor(6) as ex:
         files = list(ex.map(lambda l: synth(l["_say"]), lines))
     t, beats, segs, srt, i = LEAD_IN, [], [], [], 0
     for bi, b in enumerate(doc["beats"]):
