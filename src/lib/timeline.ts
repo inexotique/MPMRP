@@ -1,4 +1,4 @@
-export type Seg = {id: string; text: string; file: string; from: number; dur: number};
+export type Seg = {id: string; text: string; file?: string; from: number; dur: number; words?: number[]; audio?: {file: string; from: number; dur: number}};
 export type Timing = {id: string; fps: number; total: number; segments: Seg[]};
 
 /** Lookup helper so scenes are written against narration ids, never hard-coded frames. */

@@ -5,7 +5,7 @@ import {C, F} from '../theme';
 import {clamp, pop} from '../lib/anim';
 import pron from '../../content/pronunciation.json';
 
-type Seg = {text: string; from: number; dur: number; beat: number};
+type Seg = {text: string; from: number; dur: number; beat: number; words?: number[]};
 const TERMS = new Set(Object.keys(pron).flatMap((k) => k.toLowerCase().split(' ')));
 const isKey = (w: string) => {
   const c = w.replace(/[.,:;!?…«»()"]/g, '');
@@ -34,7 +34,7 @@ export const KineticCaptions: React.FC<{segments: Seg[]; accent: string; topBeat
   const tot = weights.reduce((a, b) => a + b, 0);
   const lead = 7, span = Math.max(1, s.dur - lead - 6);
   let acc = 0;
-  const start = weights.map((w) => { const t = s.from + lead + (acc / tot) * span; acc += w; return t; });
+  const start = s.words && s.words.length === words.length ? s.words : weights.map((w) => { const t = s.from + lead + (acc / tot) * span; acc += w; return t; });
   const chunks = chunk(words);
   let ci = 0;
   chunks.forEach((c, i) => { if (f >= start[c[0]] - 3) ci = i; });

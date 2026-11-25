@@ -110,11 +110,15 @@ export const Soundtrack: React.FC<{timing: Timing; music?: string; musicVol?: nu
   return (
     <>
       <Audio src={staticFile(music)} volume={vol} loop />
-      {segs.map((s) => (
+      {segs.map((s: any) => s.audio ? (
+        <Sequence key={s.id} from={s.audio.from} durationInFrames={s.audio.dur}>
+          <Audio src={staticFile(s.audio.file)} volume={1} />
+        </Sequence>
+      ) : s.file ? (
         <Sequence key={s.id} from={s.from} durationInFrames={s.dur + 6}>
           <Audio src={staticFile(s.file)} volume={1} />
         </Sequence>
-      ))}
+      ) : null)}
     </>
   );
 };

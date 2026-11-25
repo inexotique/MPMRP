@@ -9,7 +9,7 @@ import * as G from './gui';
 import type {VP} from './kit';
 
 export type Ch = {id: string; num: number; title: string; accent: string; music: number; fps: number; total: number;
-  beats: {v: any; from: number; dur: number}[]; segments: {id: string; beat: number; line: number; text: string; file: string; from: number; dur: number}[]};
+  beats: {v: any; from: number; dur: number}[]; segments: {id: string; beat: number; line: number; text: string; file?: string; from: number; dur: number; words?: number[]; audio?: {file: string; from: number; dur: number}}[]};
 
 const MAP: Record<string, React.FC<any>> = {
   chapter: V.ChapterV, intro: V.IntroV, kinetic: V.KineticV, stat: V.StatV, list: V.ListV, term: V.TermV, compare: V.CompareV,
