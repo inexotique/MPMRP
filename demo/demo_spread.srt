@@ -1,0 +1,35 @@
+1
+00:00:00,600 --> 00:00:01,651
+Le spread.
+
+2
+00:00:02,001 --> 00:00:04,857
+Sur un marché, il n'y a jamais un seul prix… mais deux.
+
+3
+00:00:05,207 --> 00:00:07,813
+Le Bid : le prix auquel tu peux vendre.
+
+4
+00:00:08,163 --> 00:00:10,822
+L'Ask : le prix auquel tu peux acheter.
+
+5
+00:00:11,172 --> 00:00:13,552
+L'écart entre les deux, c'est le spread.
+
+6
+00:00:13,902 --> 00:00:20,335
+Ici : 1,08520 moins 1,08500. Soit 2 pips.
+
+7
+00:00:20,685 --> 00:00:24,731
+Conséquence : tu achètes à l'Ask, mais tu ne peux revendre qu'au Bid.
+
+8
+00:00:25,081 --> 00:00:27,879
+Ta position démarre donc légèrement en négatif.
+
+9
+00:00:28,229 --> 00:00:31,393
+Le spread, c'est le coût d'entrée de chaque transaction.
