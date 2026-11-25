@@ -1,0 +1,44 @@
+{"id":"ch12","num":12,"title":"Risque et psychologie","accent":"#E879F9","music":3,
+"beats":[
+ {"v":{"t":"chapter"},"lines":["Chapitre douze : le risque et la psychologie."]},
+ {"v":{"t":"kinetic","w":"RISQUE","sub":"Ne risque jamais un argent dont tu as besoin","c":"red"},"lines":[
+  "Le trading comporte un risque réel de perte en capital.",
+  "Règle de base : ne jamais utiliser un argent dont tu as besoin pour vivre, payer tes factures, ou faire face aux imprévus."]},
+ {"v":{"t":"calc","h":"Perdre 50 %, puis remonter","rows":["Capital : 1 000 €","Perte de 50 % → 500 €","Pour revenir à 1 000 € : +500 €","500 ÷ 500 = +100 %"],"res":"−50 % exige +100 %","rc":"red"},"lines":[
+  "Voici une vérité mathématique essentielle.",
+  "Tu as mille euros.",
+  "Tu perds cinquante pour cent : il te reste cinq cents euros.",
+  "Pour revenir à mille euros, tu dois regagner cinq cents euros…",
+  "…soit cent pour cent de ce qu'il te reste.",
+  "Plus une perte est grande, plus il devient difficile de la récupérer."]},
+ {"v":{"t":"bars","h":"Gain nécessaire pour récupérer une perte","items":[{"label":"−10 %","v":11.1,"txt":"+11,1 %","c":"accent"},{"label":"−25 %","v":33.3,"txt":"+33,3 %","c":"accent"},{"label":"−50 %","v":100,"txt":"+100 %","c":"red"},{"label":"−75 %","v":300,"txt":"+300 %","c":"red"}]},"lines":[
+  "Une perte de dix pour cent demande onze virgule un pour cent de gain.",
+  "Vingt-cinq pour cent de perte : trente-trois pour cent de gain.",
+  "Cinquante pour cent de perte : cent pour cent.",
+  "Et soixante-quinze pour cent de perte : il faut tripler pour revenir. Protéger son capital est donc la priorité absolue."]},
+ {"v":{"t":"calc","h":"Le rapport risque / rendement","rows":["Risque prévu : 20 €","Gain visé : 40 €"],"res":"Rapport 1 : 2","rc":"accent"},"lines":[
+  "Le rapport risque sur rendement compare ce que tu acceptes de perdre à ce que tu vises.",
+  "Si tu risques vingt euros pour viser quarante euros…",
+  "…le rapport est de un pour deux. C'est un outil de mesure, pas une garantie : le gain visé peut ne jamais être atteint."]},
+ {"v":{"t":"bars","h":"Pertes successives : ça arrive","items":[{"label":"Après 1 perte","v":98,"txt":"980 €","c":"accent"},{"label":"Après 5 pertes","v":90.4,"txt":"904 €","c":"accent"},{"label":"Après 10 pertes","v":81.7,"txt":"817 €","c":"red"}]},"lines":[
+  "Les séries de pertes font partie du trading. Même une méthode qui a fonctionné dans le passé peut enchaîner plusieurs pertes d'affilée.",
+  "Avec mille euros et deux pour cent de perte à chaque fois, il reste environ neuf cent quatre euros après cinq pertes.",
+  "Et environ huit cent dix-sept euros après dix pertes. Avec dix pour cent de perte à chaque fois, il ne resterait qu'environ trois cent quarante-neuf euros."]},
+ {"v":{"t":"bento","h":"Les pièges psychologiques","cols":3,"tiles":[{"tag":"FOMO","k":"Peur de rater","d":"entrer dans la précipitation parce que ça monte"},{"tag":"REVENGE","k":"Revenge Trading","d":"vouloir se refaire tout de suite après une perte"},{"tag":"OVERTRADING","k":"Trop de trades","d":"multiplier les positions… et les frais"},{"tag":"PEUR","k":"Paralysie","d":"fermer trop tôt, ou ne plus oser agir"},{"tag":"CONFIANCE","k":"Excès de confiance","d":"augmenter les risques après quelques gains"},{"tag":"CONSÉQUENCE","k":"Décisions émotionnelles","d":"les règles sont oubliées","c":"red"}]},"lines":[
+  "Le plus grand adversaire du trader, c'est souvent lui-même.",
+  "Le FOMO, la peur de rater une occasion, pousse à entrer précipitamment sur un mouvement déjà lancé.",
+  "Le Revenge Trading, c'est vouloir se refaire immédiatement après une perte, souvent en prenant plus de risques.",
+  "L'Overtrading, c'est multiplier les positions sans raison, et donc multiplier les frais.",
+  "La peur peut pousser à fermer trop tôt, ou à ne plus oser agir du tout.",
+  "Et l'excès de confiance, après quelques gains, pousse à augmenter les risques.",
+  "Dans tous les cas, l'émotion remplace la réflexion."]},
+ {"v":{"t":"list","h":"Reconnaître une arnaque","items":[{"s":"✕","t":"Gains « garantis » ou réguliers","d":"aucun placement à risque ne peut les promettre","c":"red"},{"s":"✕","t":"Pression et urgence","d":"« offre limitée », appels insistants","c":"red"},{"s":"✕","t":"Plateforme non autorisée","d":"vérifie les listes noires de l'AMF","c":"red"},{"s":"✕","t":"Retraits impossibles","d":"frais surprises pour « débloquer » tes fonds","c":"red"}]},"lines":[
+  "Enfin, apprends à reconnaître les arnaques.",
+  "Une promesse de gains garantis ou réguliers : aucun placement risqué ne peut la tenir.",
+  "La pression et l'urgence : offre limitée, appels insistants, messages privés sur les réseaux sociaux.",
+  "Une plateforme non autorisée : vérifie toujours les listes noires publiées par l'AMF.",
+  "Et des retraits impossibles, ou des frais surprises pour débloquer ton argent. Dans ce cas, ne paie rien de plus et signale-le à l'AMF."]},
+ {"v":{"t":"quote","q":"Si c'est trop beau pour être vrai, c'est probablement faux.","hl":[1,2,3,4,5]},"lines":[
+  "Un dernier conseil : si c'est trop beau pour être vrai, c'est probablement faux.",
+  "Il est temps de vérifier tout ce que tu as appris."]}
+]}

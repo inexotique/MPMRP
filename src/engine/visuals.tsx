@@ -234,7 +234,7 @@ export const BarsV: React.FC<VP> = ({v, cue, n, accent}) => {
           return (
             <R key={i} at={at} k="left">
               <div style={{display: 'flex', alignItems: 'center', gap: 30}}>
-                <div style={{width: 340, fontFamily: F.sans, fontWeight: 700, fontSize: 38, color: C.white}}>{it.label}</div>
+                <div style={{width: v.lw ?? 420, fontFamily: F.sans, fontWeight: 700, fontSize: 36, color: C.white}}>{it.label}</div>
                 <div style={{flex: 1, height: 64, background: 'rgba(255,255,255,0.05)', borderRadius: 14, overflow: 'hidden'}}>
                   <div style={{height: '100%', width: `${(Math.abs(it.v) / max) * 100 * p}%`, background: `linear-gradient(90deg, ${c}55, ${c})`, borderRadius: 14, boxShadow: `0 0 30px ${c}66`}} />
                 </div>

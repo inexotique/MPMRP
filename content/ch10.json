@@ -1,0 +1,30 @@
+{"id":"ch10","num":10,"title":"Horaires et styles de trading","accent":"#2DD4BF","music":1,
+"beats":[
+ {"v":{"t":"chapter"},"lines":["Chapitre dix : les horaires et les styles de trading."]},
+ {"v":{"t":"map","h":"Les sessions du Forex","seq":["all","sydney","tokyo","london","newyork","overlap","asia"]},"lines":[
+  "Le Forex est ouvert vingt-quatre heures sur vingt-quatre, du dimanche soir au vendredi soir. L'activité suit le soleil, à travers quatre grandes sessions.",
+  "La journée commence à Sydney, vers vingt-trois heures, heure de Paris, en hiver.",
+  "Puis vient Tokyo, la session asiatique.",
+  "Vers neuf heures, Londres ouvre : c'est la place la plus active du Forex.",
+  "À quatorze heures, New York prend le relais.",
+  "Entre quatorze et dix-huit heures, Londres et New York sont ouvertes en même temps. Ce chevauchement est souvent la période la plus liquide et la plus volatile.",
+  "À l'inverse, la nuit, pendant la session asiatique, certaines paires européennes bougent généralement moins. Attention, ces horaires changent d'une heure avec les changements d'heure, qui ne tombent pas aux mêmes dates partout."]},
+ {"v":{"t":"bento","h":"Chaque marché a ses horaires","cols":3,"tiles":[{"tag":"FOREX","k":"24 h / 5 j","d":"du dimanche soir au vendredi soir"},{"tag":"ACTIONS","k":"Heures de bourse","d":"ex : Paris de 9 h à 17 h 30"},{"tag":"CRYPTOS","k":"24 h / 7 j","d":"même le week-end"}]},"lines":[
+  "Chaque marché a ses propres horaires.",
+  "Le Forex tourne cinq jours sur sept, jour et nuit.",
+  "Les actions suivent les heures de leur bourse, par exemple de neuf heures à dix-sept heures trente à Paris. Les CFD sur indices peuvent avoir des horaires étendus selon le courtier.",
+  "Et les cryptomonnaies s'échangent en continu, sept jours sur sept."]},
+ {"v":{"t":"bars","h":"Les styles de trading · durée de détention","items":[{"label":"Scalping","v":5,"txt":"secondes · minutes"},{"label":"Day Trading","v":30,"txt":"dans la journée"},{"label":"Swing Trading","v":65,"txt":"jours · semaines"},{"label":"Position Trading","v":100,"txt":"semaines · mois"}]},"lines":[
+  "Les traders se distinguent aussi par la durée de leurs positions.",
+  "Le scalping : des positions de quelques secondes à quelques minutes, avec de très nombreuses transactions. Les coûts comme le spread pèsent très lourd.",
+  "Le day trading : toutes les positions sont fermées avant la fin de la journée, donc pas de swap.",
+  "Le swing trading : des positions gardées plusieurs jours, voire quelques semaines.",
+  "Et le position trading : des positions de plusieurs semaines ou plusieurs mois, plus proche de l'investissement."]},
+ {"v":{"t":"bento","h":"Automatisation","cols":3,"tiles":[{"tag":"ALGORITHMES","k":"Trading algorithmique","d":"des règles exécutées par un programme"},{"tag":"MT5","k":"Expert Advisors","d":"les robots de MetaTrader"},{"tag":"TEST","k":"Backtesting","d":"tester des règles sur des données passées"},{"tag":"SOCIAL","k":"Copy Trading","d":"copier automatiquement les positions d'un autre trader","wide":true},{"tag":"PRUDENCE","k":"Robots « miracles »","d":"vendus avec des promesses de gains : signal d'alerte","c":"red"}]},"lines":[
+  "Enfin, le trading peut être automatisé.",
+  "Le trading algorithmique consiste à confier à un programme l'exécution de règles précises.",
+  "Sur MetaTrader, ces programmes s'appellent des Expert Advisors, ou robots de trading.",
+  "Le backtesting permet de tester ces règles sur des données passées. Mais un bon résultat passé ne garantit jamais les résultats futurs.",
+  "Le copy trading permet de copier automatiquement les positions d'un autre trader. Tu copies aussi ses pertes, et tu restes responsable de ton compte.",
+  "Et méfie-toi des robots vendus avec des promesses de gains réguliers : c'est un signal d'alerte classique."]}
+]}

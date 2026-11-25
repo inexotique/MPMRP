@@ -1,0 +1,79 @@
+{"id":"ch08","num":8,"title":"Courtiers et MetaTrader 5","accent":"#38BDF8","music":3,
+"beats":[
+ {"v":{"t":"chapter"},"lines":["Chapitre huit : les courtiers et MetaTrader cinq."]},
+ {"v":{"t":"list","h":"Le rôle du broker","items":[{"s":"⇄","t":"Intermédiaire","d":"il transmet tes ordres et fournit les prix"},{"s":"▣","t":"Plateforme","d":"il te donne accès à un logiciel de trading"},{"s":"€","t":"Conservation des fonds","d":"il détient ton argent, sur des comptes séparés"}]},"lines":[
+  "Pour trader, tu passes par un courtier, ou broker.",
+  "Il fait l'intermédiaire entre toi et le marché : il reçoit tes ordres et te fournit les prix.",
+  "Il te donne accès à une plateforme de trading.",
+  "Et il conserve ton argent. Chez un courtier régulé, ces fonds doivent être placés sur des comptes séparés des siens."]},
+ {"v":{"t":"bento","h":"Un courtier régulé","cols":3,"tiles":[{"tag":"FRANCE","k":"AMF","d":"autorité des marchés · listes noires publiques"},{"tag":"EUROPE","k":"Passeport UE","d":"un courtier agréé dans un pays de l'UE peut servir les clients français"},{"tag":"EXEMPLE","k":"CySEC · Chypre","d":"régulateur de nombreux courtiers européens"},{"tag":"FONDS SÉPARÉS","k":"Ségrégation","d":"ton argent n'est pas celui du courtier"},{"tag":"INDEMNISATION","k":"Jusqu'à 20 000 €","d":"fonds de garantie des investisseurs à Chypre"},{"tag":"SOLDE NÉGATIF","k":"Protection","d":"impossible de perdre plus que son dépôt"}]},"lines":[
+  "Un courtier régulé est surveillé par une autorité financière.",
+  "En France, c'est l'AMF. Elle publie des listes noires de sites non autorisés : c'est le premier réflexe à avoir.",
+  "Grâce au passeport européen, un courtier agréé dans un autre pays de l'Union peut proposer ses services en France.",
+  "Beaucoup de courtiers européens sont par exemple régulés à Chypre, par la CySEC.",
+  "La régulation impose notamment de séparer l'argent des clients de celui de l'entreprise.",
+  "À Chypre, un fonds d'indemnisation peut couvrir jusqu'à vingt mille euros par client en cas de faillite du courtier.",
+  "Et les clients particuliers bénéficient de la protection contre le solde négatif."]},
+ {"v":{"t":"compare","h":"Régulé ou non régulé","l":{"t":"✓ Régulé","c":"green","items":["Contrôles réguliers","Fonds séparés","Leviers plafonnés","Recours possible"]},"r":{"t":"✕ Non régulé","c":"red","items":["Aucun contrôle","Retraits bloqués possibles","Leviers extrêmes","Aucun recours"],"at":1}},"lines":[
+  "La différence est majeure.",
+  "Avec un courtier non régulé, rien ne garantit que tu pourras récupérer ton argent. Les retraits peuvent être bloqués, et en cas de problème, il n'y a souvent aucun recours."]},
+ {"v":{"t":"kinetic","w":"Pepperstone","sub":"Exemple pédagogique · ni publicité, ni recommandation","size":150},"lines":[
+  "Pour illustrer la suite, prenons l'exemple de Pepperstone, un courtier connu. Ce n'est ni une publicité, ni une recommandation.",
+  "Il propose, comme beaucoup d'autres, des comptes de démonstration et des comptes réels, ainsi que plusieurs types de comptes."]},
+ {"v":{"t":"compare","h":"Compte démo ou compte réel","l":{"t":"Démo","c":"accent","items":["Argent fictif","Idéal pour apprendre la plateforme","Exécution parfois plus favorable"]},"r":{"t":"Réel","c":"#FFB547","items":["Argent réel","Gains et pertes réels","Émotions réelles"],"at":1}},"lines":[
+  "Le compte de démonstration fonctionne avec de l'argent fictif. C'est l'outil idéal pour découvrir une plateforme sans rien risquer.",
+  "Le compte réel engage ton propre argent. Et la différence la plus sous-estimée, ce sont les émotions."]},
+ {"v":{"t":"compare","h":"Standard ou Raw Spread","l":{"t":"Standard","c":"accent","st":"Spread plus large","items":["Pas de commission","Le coût est dans le spread"]},"r":{"t":"Raw Spread","c":"cyan","st":"Spread très serré","items":["Commission par lot","Coût séparé et visible"],"at":1}},"lines":[
+  "Il existe souvent deux grands types de comptes.",
+  "Le compte Standard : pas de commission, mais un spread plus large. Le compte Raw Spread : un spread très serré, mais une commission par lot. Selon le volume, l'un ou l'autre peut coûter moins cher."]},
+ {"v":{"t":"bento","h":"Les modèles d'exécution","cols":3,"tiles":[{"tag":"MARKET MAKER","k":"Contrepartie","d":"le courtier peut être en face de ton ordre"},{"tag":"STP","k":"Transmission","d":"les ordres sont transmis à des fournisseurs de liquidité"},{"tag":"ECN","k":"Réseau","d":"les ordres rencontrent ceux d'autres participants"}]},"lines":[
+  "Les courtiers utilisent différents modèles d'exécution.",
+  "Le Market Maker peut se placer lui-même en contrepartie de tes ordres.",
+  "Le modèle STP transmet tes ordres à des fournisseurs de liquidité, comme des banques.",
+  "Le modèle ECN fait se rencontrer les ordres de nombreux participants dans un réseau. Dans tous les cas, la régulation impose une obligation de meilleure exécution."]},
+ {"v":{"t":"list","h":"Dépôts, retraits et frais","items":[{"s":"↓","t":"Dépôts","d":"virement, carte… au nom du titulaire du compte"},{"s":"↑","t":"Retraits","d":"en général vers le même moyen de paiement"},{"s":"€","t":"Frais","d":"spread, commission, swap, parfois frais d'inactivité ou de conversion"}]},"lines":[
+  "Côté argent, les dépôts se font par virement ou par carte, toujours à ton nom.",
+  "Les retraits sont généralement renvoyés vers le même moyen de paiement, pour lutter contre le blanchiment.",
+  "Et les frais à surveiller sont le spread, la commission, le swap, mais aussi parfois des frais de conversion ou d'inactivité. Lis toujours la grille tarifaire."]},
+ {"v":{"t":"mt5","steps":[
+   {"f":"full","tip":"MetaTrader 5"},
+   {"f":"mw","tip":"Market Watch : les cotations"},
+   {"f":"mw","tip":"Bid à gauche · Ask à droite"},
+   {"f":"nav","tip":"Navigator : comptes, indicateurs, robots"},
+   {"f":"chart","tip":"Le graphique · EURUSD en H1"},
+   {"f":"tf","tip":"Les unités de temps"},
+   {"f":"toolbox","tip":"La boîte à outils"},
+   {"f":"account","tip":"Balance · Equity · Margin · Free Margin"}]},"lines":[
+  "Découvrons maintenant MetaTrader cinq, l'une des plateformes les plus utilisées au monde. Ce que tu vois est une reconstitution simplifiée.",
+  "À gauche, la fenêtre Market Watch affiche les cotations des instruments.",
+  "Pour chaque symbole, le Bid à gauche, et l'Ask à droite. Les prix changent de couleur à chaque variation.",
+  "En dessous, le Navigator donne accès à tes comptes, aux indicateurs et aux robots de trading.",
+  "Au centre, le graphique de l'instrument sélectionné, ici l'euro dollar en une heure.",
+  "En haut, tu peux changer d'unité de temps : de M1 à MN1.",
+  "En bas, la boîte à outils, avec l'onglet Trade, qui affiche tes positions ouvertes.",
+  "Et sur la dernière ligne, l'état de ton compte : Balance, Equity, Margin, Free Margin, et Margin Level."]},
+ {"v":{"t":"mt5","sl":"1.08250","tp":"1.08900","steps":[
+   {"f":"toolbar","a":"open","cur":[130,122],"tip":"Nouvel ordre"},
+   {"f":"volume","tip":"Volume : 0,10 lot"},
+   {"f":"sltp","a":"sltp","tip":"Stop Loss et Take Profit"},
+   {"f":"buttons","a":"buy","cur":[1120,695],"tip":"Buy by Market"},
+   {"f":"trade","tip":"La position apparaît dans l'onglet Trade"},
+   {"f":"account","tip":"Equity et Margin évoluent en direct"},
+   {"f":"trade","tip":"Profit latent"},
+   {"f":"close","a":"close","cur":[1765,855],"tip":"Fermeture de la position"},
+   {"f":"history","a":"history","cur":[340,782],"tip":"Historique : le résultat est réalisé"}]},"lines":[
+  "Passons à la pratique, sur un compte de démonstration. On clique sur Nouvel ordre.",
+  "On choisit le volume : zéro virgule un lot.",
+  "On définit un Stop Loss et un Take Profit.",
+  "Puis on clique sur Buy by Market : achat au prix du marché.",
+  "La position apparaît immédiatement dans l'onglet Trade, avec son prix d'ouverture.",
+  "Regarde le bas de l'écran : une marge est maintenant bloquée, et l'Equity bouge avec le prix.",
+  "Le profit latent varie en direct, d'abord légèrement négatif à cause du spread.",
+  "Pour fermer la position, on clique sur la croix. Le résultat est alors réalisé, et la Balance est mise à jour.",
+  "Dans l'onglet Historique, on retrouve la transaction terminée."]},
+ {"v":{"t":"bento","h":"Les autres plateformes","cols":3,"tiles":[{"tag":"GRAPHIQUES","k":"TradingView","d":"outil d'analyse graphique très populaire, connectable à certains courtiers"},{"tag":"PLATEFORME","k":"cTrader","d":"interface moderne, orientée exécution transparente"},{"tag":"HISTORIQUE","k":"MetaTrader 4","d":"l'ancêtre de MT5, encore très répandu sur le Forex"}]},"lines":[
+  "D'autres plateformes existent.",
+  "TradingView est surtout connu pour ses graphiques. Il peut être relié à certains courtiers pour passer des ordres.",
+  "cTrader propose une interface moderne, appréciée pour la transparence de l'exécution.",
+  "Et MetaTrader quatre, l'ancêtre de MT5, reste très répandu sur le Forex. Le principe est le même partout : des prix, des ordres, et un compte à surveiller."]}
+]}
