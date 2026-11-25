@@ -4,7 +4,7 @@ synthesises each missing file sentence by sentence (XTTS reads trailing periods 
 import json, re, sys, pathlib, subprocess
 import numpy as np, soundfile as sf, torch
 
-torch.set_num_threads(4)
+torch.set_num_threads(2)
 from TTS.api import TTS
 
 SPEAKER = "Viktor Menelaos"

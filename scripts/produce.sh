@@ -10,12 +10,12 @@ mkdir -p out/ready; touch out/ready/ch01 out/ready/ch02
 for n in $(seq -w 3 18); do
   id="ch$n"; [ -f "out/ready/$id" ] && continue
   echo "== voice $id $(date +%T)"
-  TTS_ENGINE=xtts python3 scripts/tts.py "content/$id.json" 2>&1 | grep -E "min,|Error" 
+  TTS_ENGINE=xtts nice -n 19 python3 scripts/tts.py "content/$id.json" 2>&1 | grep -E "min,|Error" 
   nice -n 5 python3 scripts/check_voice.py "$id" 2>/dev/null | tail -1
   for retry in 1 2; do
     [ -s "out/flagged_$id.txt" ] || break
     echo "   retry $retry: $(wc -l < out/flagged_$id.txt) lines"; xargs rm -f < "out/flagged_$id.txt"
-    TTS_ENGINE=xtts python3 scripts/tts.py "content/$id.json" 2>&1 | grep -E "min,|Error"
+    TTS_ENGINE=xtts nice -n 19 python3 scripts/tts.py "content/$id.json" 2>&1 | grep -E "min,|Error"
     nice -n 5 python3 scripts/check_voice.py "$id" 2>/dev/null | tail -1
   done
   touch "out/ready/$id"
