@@ -1,0 +1,70 @@
+{
+ "id": "demo_spread",
+ "fps": 60,
+ "total": 1977,
+ "segments": [
+  {
+   "id": "s1",
+   "text": "Le spread.",
+   "file": "vo/55f7c0f5cb0fd1fe.wav",
+   "from": 36,
+   "dur": 63
+  },
+  {
+   "id": "s2",
+   "text": "Sur un marché, il n'y a jamais un seul prix… mais deux.",
+   "file": "vo/7f159ec8d47ed7bd.wav",
+   "from": 120,
+   "dur": 171
+  },
+  {
+   "id": "s3",
+   "text": "Le Bid : le prix auquel tu peux vendre.",
+   "file": "vo/978e4d81838dd4d6.wav",
+   "from": 312,
+   "dur": 156
+  },
+  {
+   "id": "s4",
+   "text": "L'Ask : le prix auquel tu peux acheter.",
+   "file": "vo/4ff3f459f9c1436d.wav",
+   "from": 490,
+   "dur": 160
+  },
+  {
+   "id": "s5",
+   "text": "L'écart entre les deux, c'est le spread.",
+   "file": "vo/c70b7d671a98b251.wav",
+   "from": 670,
+   "dur": 143
+  },
+  {
+   "id": "s6",
+   "text": "Ici : 1,08520 moins 1,08500. Soit 2 pips.",
+   "file": "vo/4ff6cdb17435ece5.wav",
+   "from": 834,
+   "dur": 386
+  },
+  {
+   "id": "s7",
+   "text": "Conséquence : tu achètes à l'Ask, mais tu ne peux revendre qu'au Bid.",
+   "file": "vo/400f6da89db6171e.wav",
+   "from": 1241,
+   "dur": 243
+  },
+  {
+   "id": "s8",
+   "text": "Ta position démarre donc légèrement en négatif.",
+   "file": "vo/82d028533282b048.wav",
+   "from": 1505,
+   "dur": 168
+  },
+  {
+   "id": "s9",
+   "text": "Le spread, c'est le coût d'entrée de chaque transaction.",
+   "file": "vo/4ad845aca8303008.wav",
+   "from": 1694,
+   "dur": 190
+  }
+ ]
+}

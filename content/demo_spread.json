@@ -1,0 +1,15 @@
+{
+  "id": "demo_spread",
+  "gap": 0.35,
+  "segments": [
+    { "id": "s1", "text": "Le spread.", "say": "Le spréd." },
+    { "id": "s2", "text": "Sur un marché, il n'y a jamais un seul prix… mais deux.", "say": "Sur un marché, il n'y a jamais un seul prix... mais deux." },
+    { "id": "s3", "text": "Le Bid : le prix auquel tu peux vendre.", "say": "Le bide : le prix auquel tu peux vendre." },
+    { "id": "s4", "text": "L'Ask : le prix auquel tu peux acheter.", "say": "L'asque : le prix auquel tu peux acheter." },
+    { "id": "s5", "text": "L'écart entre les deux, c'est le spread.", "say": "L'écart entre les deux, c'est le spréd." },
+    { "id": "s6", "text": "Ici : 1,08520 moins 1,08500. Soit 2 pips.", "say": "Ici : un virgule zéro huit cinq deux zéro, moins un virgule zéro huit cinq zéro zéro. Soit deux pipse." },
+    { "id": "s7", "text": "Conséquence : tu achètes à l'Ask, mais tu ne peux revendre qu'au Bid.", "say": "Conséquence : tu achètes à l'asque, mais tu ne peux revendre qu'au bide." },
+    { "id": "s8", "text": "Ta position démarre donc légèrement en négatif.", "say": "Ta position démarre donc légèrement en négatif." },
+    { "id": "s9", "text": "Le spread, c'est le coût d'entrée de chaque transaction.", "say": "Le spréd, c'est le coût d'entrée de chaque transaction." }
+  ]
+}
