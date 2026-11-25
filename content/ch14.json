@@ -1,0 +1,49 @@
+{"id":"ch14","num":14,"title":"Calculer la taille de position","accent":"#34D399","music":2,
+"beats":[
+ {"v":{"t":"chapter"},"lines":["Chapitre quatorze : calculer la taille d'une position."]},
+ {"v":{"t":"quote","q":"La taille d'une position se décide avant d'ouvrir, jamais après.","hl":[5,6,7]},"lines":[
+  "Beaucoup de débutants choisissent leur volume au hasard, ou au feeling.",
+  "Or la taille de position est l'un des leviers les plus importants pour maîtriser son risque. Elle se décide avant d'ouvrir, jamais après."]},
+ {"v":{"t":"list","h":"Les trois ingrédients","items":[{"s":"1","t":"Le montant que tu acceptes de risquer","d":"souvent exprimé en % du capital"},{"s":"2","t":"La distance du Stop Loss","d":"en pips ou en points"},{"s":"3","t":"La valeur d'un pip","d":"selon l'instrument et le volume"}]},"lines":[
+  "Pour calculer une taille de position, il faut trois informations.",
+  "Le montant maximum que tu acceptes de perdre si le Stop Loss est touché.",
+  "La distance entre ton prix d'entrée et ton Stop Loss.",
+  "Et la valeur d'un pip pour l'instrument choisi."]},
+ {"v":{"t":"calc","h":"Étape 1 · le risque en argent","ctx":"Compte de 1 000 $ · exemple pédagogique","rows":["Risque choisi : 1 % du capital","1 000 $ × 1 % = 10 $"],"res":"Perte maximale prévue : 10 $","rc":"red"},"lines":[
+  "Prenons un compte de mille dollars. Pour simplifier, le compte est en dollars.",
+  "Imaginons que tu décides de ne pas risquer plus de un pour cent du capital sur une position.",
+  "Un pour cent de mille dollars, c'est dix dollars. C'est la perte maximale prévue si le Stop Loss est touché. Ce pourcentage est un exemple, pas une recommandation."]},
+ {"v":{"t":"calc","h":"Étape 2 · la taille","ctx":"EUR/USD · Stop Loss à 25 pips","rows":["Valeur du pip admissible : 10 $ ÷ 25 = 0,40 $","1 lot = 10 $ par pip","0,40 ÷ 10 = 0,04 lot"],"res":"Taille : 0,04 lot","rc":"accent"},"lines":[
+  "Supposons maintenant que ton Stop Loss se trouve à vingt-cinq pips de ton prix d'entrée.",
+  "Dix dollars de risque, divisés par vingt-cinq pips : chaque pip peut valoir au maximum quarante centimes.",
+  "On sait qu'un lot vaut dix dollars par pip.",
+  "Quarante centimes divisés par dix dollars : zéro virgule zéro quatre lot.",
+  "Avec zéro virgule zéro quatre lot, si le Stop Loss est touché, tu perds environ dix dollars. Hors slippage et frais."]},
+ {"v":{"t":"calc","h":"La formule","rows":["Lots = Risque ÷ (Distance SL × Valeur du pip pour 1 lot)","Lots = 10 ÷ (25 × 10)","Lots = 0,04"],"res":"Toujours arrondir vers le bas","rc":"accent"},"lines":[
+  "La formule générale est donc la suivante.",
+  "Nombre de lots égale risque, divisé par la distance du Stop Loss multipliée par la valeur du pip pour un lot.",
+  "Dans notre exemple : dix, divisé par vingt-cinq fois dix.",
+  "Soit zéro virgule zéro quatre.",
+  "Si le résultat tombe entre deux valeurs, on arrondit toujours vers le bas, pour ne jamais dépasser le risque prévu."]},
+ {"v":{"t":"bars","h":"Même risque de 10 $, distances différentes","items":[{"label":"Stop à 10 pips","v":0.1,"txt":"0,10 lot"},{"label":"Stop à 25 pips","v":0.04,"txt":"0,04 lot"},{"label":"Stop à 50 pips","v":0.02,"txt":"0,02 lot"},{"label":"Stop à 100 pips","v":0.01,"txt":"0,01 lot"}]},"lines":[
+  "Voici le point clé : à risque égal, la taille s'adapte à la distance du Stop Loss.",
+  "Avec un Stop Loss à dix pips, on peut prendre zéro virgule un lot.",
+  "À vingt-cinq pips, zéro virgule zéro quatre lot.",
+  "À cinquante pips, zéro virgule zéro deux lot.",
+  "Et à cent pips, zéro virgule zéro un lot. Dans les quatre cas, la perte prévue reste de dix dollars."]},
+ {"v":{"t":"calc","h":"Le cas des petits comptes","ctx":"Compte de 100 $ · Stop Loss à 25 pips","rows":["1 % de 100 $ = 1 $","1 ÷ (25 × 10) = 0,004 lot","Minimum autorisé : 0,01 lot → risque réel 2,50 $"],"res":"Risque réel : 2,5 % au lieu de 1 %","rc":"red"},"lines":[
+  "Et avec un petit compte ?",
+  "Avec cent dollars, un pour cent représente un dollar.",
+  "Le calcul donne zéro virgule zéro zéro quatre lot…",
+  "…mais le volume minimum est de zéro virgule zéro un lot. Avec ce minimum, le risque réel est de deux dollars cinquante.",
+  "Soit deux virgule cinq pour cent du compte. Avec un petit capital, il est donc souvent impossible de respecter un risque très faible."]},
+ {"v":{"t":"list","h":"Ce que le calcul ne voit pas","items":[{"s":"!","t":"Le slippage","d":"le Stop Loss peut être exécuté plus loin","c":"red"},{"s":"!","t":"Les frais","d":"spread, commission et swap s'ajoutent"},{"s":"!","t":"Les positions corrélées","d":"EUR/USD et GBP/USD bougent souvent ensemble"},{"s":"!","t":"L'exposition totale","d":"plusieurs positions = plusieurs risques cumulés"}]},"lines":[
+  "Attention, ce calcul a des limites.",
+  "Le slippage peut faire exécuter le Stop Loss plus loin que prévu, et donc augmenter la perte.",
+  "Les frais s'ajoutent : spread, commission et swap.",
+  "Certaines positions sont corrélées : l'euro dollar et la livre dollar, par exemple, bougent souvent dans le même sens. Deux positions, c'est parfois presque le même risque, en double.",
+  "Il faut donc toujours raisonner sur l'exposition totale du compte."]},
+ {"v":{"t":"quote","q":"Ce n'est pas une stratégie. C'est un outil de mesure du risque.","hl":[5,6,7,8,9,10]},"lines":[
+  "Ce calcul ne te dit pas quand acheter ou vendre. C'est simplement un outil pour mesurer, et limiter, ce que tu peux perdre.",
+  "Maintenant, mettons tout ensemble avec un trade complet, de A à Z."]}
+]}

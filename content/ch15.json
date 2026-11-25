@@ -1,0 +1,57 @@
+{"id":"ch15","num":15,"title":"Un trade de A à Z","accent":"#38BDF8","music":3,
+"beats":[
+ {"v":{"t":"chapter"},"lines":["Chapitre quinze : un trade de A à Z, sur un compte de démonstration.","L'objectif n'est pas de choisir le bon moment, mais de comprendre chaque étape du processus."]},
+ {"v":{"t":"list","h":"Les 7 étapes","items":[{"s":"1","t":"Lire la fiche de l'instrument"},{"s":"2","t":"Consulter le calendrier économique"},{"s":"3","t":"Définir le Stop Loss et la taille"},{"s":"4","t":"Ouvrir la position"},{"s":"5","t":"Suivre l'Equity et la marge"},{"s":"6","t":"Fermer la position"},{"s":"7","t":"Noter le trade dans un journal"}]},"lines":[
+  "Un trade, ce n'est pas juste un clic. C'est une suite d'étapes.",
+  "Lire la fiche de l'instrument.",
+  "Consulter le calendrier économique.",
+  "Définir le Stop Loss et la taille de position.",
+  "Ouvrir la position.",
+  "Suivre l'évolution du compte.",
+  "Fermer la position.",
+  "Et noter le trade dans un journal."]},
+ {"v":{"t":"bento","h":"Étape 1 · la fiche","cols":3,"tiles":[{"tag":"INSTRUMENT","k":"EUR/USD"},{"tag":"SPREAD","k":"≈ 1,2 pip"},{"tag":"VALEUR DU PIP","k":"10 $ / lot"},{"tag":"VOLUME MIN","k":"0,01 lot"},{"tag":"LEVIER","k":"1:30"},{"tag":"COMPTE DÉMO","k":"1 000 $"}]},"lines":[
+  "Première étape : on vérifie la fiche de l'euro dollar.",
+  "Spread d'environ un virgule deux pip, dix dollars par pip et par lot, volume minimum de zéro virgule zéro un lot, levier de un pour trente. Le compte de démonstration contient mille dollars."]},
+ {"v":{"t":"calendar","h":"Étape 2 · le calendrier","rows":[{"t":"10:00","cur":"EUR","ev":"Indice de confiance","imp":1},{"t":"14:30","cur":"USD","ev":"Inflation américaine (CPI)","imp":3},{"t":"16:00","cur":"USD","ev":"Stocks de pétrole","imp":1}],"hl":[-1,1,1]},"lines":[
+  "Deuxième étape : le calendrier économique.",
+  "Aujourd'hui, une publication importante est prévue à quatorze heures trente : l'inflation américaine.",
+  "On le note : à ce moment-là, le spread peut s'élargir et le prix peut bouger brutalement. Ce n'est pas un signal, c'est une information sur le risque."]},
+ {"v":{"t":"calc","h":"Étape 3 · Stop Loss et taille","rows":["Risque prévu : 1 % de 1 000 $ = 10 $","Stop Loss à 20 pips de l'entrée","10 ÷ (20 × 10) = 0,05 lot"],"res":"Volume : 0,05 lot","rc":"accent"},"lines":[
+  "Troisième étape : on fixe le risque et la taille.",
+  "On prévoit de risquer au maximum dix dollars.",
+  "Le Stop Loss est placé à vingt pips du prix d'entrée.",
+  "Dix divisé par vingt fois dix : zéro virgule zéro cinq lot.",
+  "On fixe aussi un Take Profit, ici à quarante pips. Ces niveaux sont purement pédagogiques."]},
+ {"v":{"t":"mt5","lots":0.05,"sl":"1.08320","tp":"1.08920","dir":1,"steps":[
+   {"f":"toolbar","a":"open","cur":[130,122],"tip":"Étape 4 · Nouvel ordre"},
+   {"f":"volume","tip":"Volume : 0,05 lot"},
+   {"f":"sltp","a":"sltp","tip":"SL à 20 pips · TP à 40 pips"},
+   {"f":"buttons","a":"buy","cur":[1120,695],"tip":"Buy by Market"},
+   {"f":"account","tip":"Étape 5 · Margin, Equity, Free Margin"},
+   {"f":"trade","tip":"Profit latent"},
+   {"f":"close","a":"close","cur":[1765,855],"tip":"Étape 6 · Fermeture"},
+   {"f":"history","a":"history","cur":[340,782],"tip":"Résultat réalisé"}]},"lines":[
+  "Quatrième étape : on ouvre la position. Nouvel ordre.",
+  "On saisit le volume calculé : zéro virgule zéro cinq lot.",
+  "On renseigne le Stop Loss et le Take Profit.",
+  "Et on achète au prix du marché.",
+  "Cinquième étape : on surveille le compte. La marge bloquée est d'environ cent quatre-vingts dollars, et l'Equity varie avec le prix.",
+  "Le profit latent commence légèrement négatif, à cause du spread, puis il évolue.",
+  "Sixième étape : la position est fermée, ici manuellement. Elle aurait aussi pu être fermée par le Stop Loss ou le Take Profit.",
+  "Le résultat est maintenant réalisé, et il apparaît dans l'historique."]},
+ {"v":{"t":"compare","h":"Les deux issues possibles","l":{"t":"Take Profit touché","c":"green","st":"+40 pips × 0,50 $","items":["≈ +20 $ avant frais","+2 % du compte"]},"r":{"t":"Stop Loss touché","c":"red","st":"−20 pips × 0,50 $","items":["≈ −10 $ avant frais","−1 % du compte, comme prévu"],"at":1}},"lines":[
+  "Si le Take Profit avait été atteint, le gain aurait été d'environ vingt dollars, avant frais.",
+  "Si le Stop Loss avait été touché, la perte aurait été d'environ dix dollars, exactement le risque prévu. Dans les deux cas, le résultat était connu à l'avance."]},
+ {"v":{"t":"bento","h":"Étape 7 · le journal","cols":3,"tiles":[{"tag":"QUAND","k":"Date et heure"},{"tag":"QUOI","k":"Instrument et sens"},{"tag":"COMBIEN","k":"Taille et risque"},{"tag":"NIVEAUX","k":"Entrée, SL, TP"},{"tag":"RÉSULTAT","k":"Gain ou perte, frais"},{"tag":"RESSENTI","k":"Émotions, erreurs"}]},"lines":[
+  "Dernière étape, souvent oubliée : le journal.",
+  "On note la date et l'heure…",
+  "…l'instrument et le sens de la position…",
+  "…la taille et le risque…",
+  "…les niveaux d'entrée, de Stop Loss et de Take Profit…",
+  "…le résultat, frais compris…",
+  "…et le ressenti. C'est ce journal qui permet ensuite d'analyser ses statistiques."]},
+ {"v":{"t":"quote","q":"En démo, le but n'est pas de gagner. C'est de maîtriser le processus.","hl":[7,8,9,10,11]},"lines":[
+  "Sur un compte de démonstration, le but n'est pas de gagner de l'argent fictif. C'est de maîtriser chaque étape du processus.",
+  "Justement, parlons de ces statistiques."]}
+]}

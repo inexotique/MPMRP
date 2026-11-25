@@ -12,10 +12,10 @@ from concurrent.futures import ThreadPoolExecutor
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 VOICE = "fr-FR-RemyMultilingualNeural"
-RATE = "+6%"
+RATE = "+0%"
 CACHE = ROOT / "public/vo"
 FPS = 60
-LINE_GAP, BEAT_GAP, LEAD_IN, TAIL = 0.32, 0.75, 0.9, 1.6
+LINE_GAP, BEAT_GAP, LEAD_IN, TAIL = 0.42, 0.95, 0.9, 1.6
 
 # Light text normalisation for speech (English terms are left as-is: the voice is multilingual).
 FIX = [(r"\bEUR/USD\b", "euro dollar"), (r"\bXAU/USD\b", "or contre dollar"), (r"\b1:(\d+)", r"un pour \1"), (r"P&L", "P and L"),

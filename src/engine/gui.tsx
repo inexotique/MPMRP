@@ -169,7 +169,7 @@ export const MT5V: React.FC<VP> = ({v, cue, n, accent}) => {
   const bid = 1.085 + tick(0) + drift;
   const open = 1.085 + tick(0) * 0 + 0.00012 + (Number.isFinite(tBuy) ? tickAt(tBuy) : 0);
   function tickAt(fr: number) { return Math.sin(fr / 23) * 0.00018 + Math.sin(fr / 61) * 0.0003; }
-  const lots = 0.1;
+  const lots = v.lots ?? 0.1;
   const closeBid = 1.085 + tickAt(tClose) + (v.dir ?? 1) * 0.0025 * interpolate(tClose, [tBuy, tBuy + 900], [0, 1], clamp);
   const profit = hasPos ? (bid - open) * 100000 * lots : 0;
   const realized = closed ? (closeBid - open) * 100000 * lots : 0;

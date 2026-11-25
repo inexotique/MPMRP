@@ -1,0 +1,329 @@
+{
+"id": "ch18",
+"num": 18,
+"title": "Quiz final",
+"accent": "#A3E635",
+"music": 0,
+"beats": [
+{
+"v": {
+"t": "chapter"
+},
+"lines": [
+"Chapitre dix-huit : le quiz final.",
+"Une question, quelques secondes pour réfléchir, puis la réponse. C'est parti."
+]
+},
+{
+"v": {
+"t": "quiz",
+"num": 1,
+"q": "À quel prix une position acheteuse est-elle ouverte ?",
+"opts": [
+"Au Bid",
+"À l'Ask",
+"Au prix moyen",
+"Au prix de clôture"
+],
+"a": 1,
+"why": "On achète à l'Ask, le prix le plus haut des deux."
+},
+"lines": [
+{
+"text": "Question un : à quel prix une position acheteuse est-elle ouverte ?",
+"pause": 5
+},
+"Réponse : à l'Ask. On achète au prix le plus haut, et on revend au Bid."
+]
+},
+{
+"v": {
+"t": "quiz",
+"num": 2,
+"q": "EUR/USD passe de 1,08500 à 1,08800. Combien de pips ?",
+"opts": [
+"3 pips",
+"30 pips",
+"300 pips",
+"0,3 pip"
+],
+"a": 1,
+"why": "0,00300 ÷ 0,0001 = 30 pips."
+},
+"lines": [
+{
+"text": "Question deux : l'euro dollar passe de 1,08500 à 1,08800. Combien de pips ?",
+"say": "Question deux : l'euro dollar passe de un virgule zéro huit cinq zéro zéro à un virgule zéro huit huit zéro zéro. Combien de pipes ?",
+"pause": 5
+},
+{
+"text": "Réponse : 30 pips. L'écart est de 0,00300, et un pip vaut 0,0001.",
+"say": "Réponse : trente pipes. L'écart est de zéro virgule zéro zéro trois, et un pip vaut zéro virgule zéro zéro zéro un."
+}
+]
+},
+{
+"v": {
+"t": "quiz",
+"num": 3,
+"q": "Quelle est la valeur d'un pip pour 0,10 lot d'EUR/USD ?",
+"opts": [
+"0,10 $",
+"1 $",
+"10 $",
+"100 $"
+],
+"a": 1,
+"why": "10 000 unités × 0,0001 = 1 $ par pip."
+},
+"lines": [
+{
+"text": "Question trois : quelle est la valeur d'un pip pour zéro virgule un lot d'euro dollar ?",
+"pause": 5
+},
+"Réponse : un dollar. Dix mille unités, fois zéro virgule zéro zéro zéro un."
+]
+},
+{
+"v": {
+"t": "quiz",
+"num": 4,
+"q": "Quelle marge pour 0,01 lot EUR/USD avec un levier de 1:30 ?",
+"opts": [
+"10 €",
+"33,33 €",
+"300 €",
+"1 000 €"
+],
+"a": 1,
+"why": "1 000 € d'exposition ÷ 30 = 33,33 €."
+},
+"lines": [
+{
+"text": "Question quatre : quelle marge faut-il pour zéro virgule zéro un lot d'euro dollar, avec un levier de un pour trente ?",
+"pause": 5
+},
+"Réponse : environ trente-trois euros. Mille euros d'exposition, divisés par trente."
+]
+},
+{
+"v": {
+"t": "quiz",
+"num": 5,
+"q": "Balance 1 000 €, position ouverte à −40 €. Quelle est l'Equity ?",
+"opts": [
+"1 040 €",
+"1 000 €",
+"960 €",
+"40 €"
+],
+"a": 2,
+"why": "Equity = Balance + résultat latent = 960 €."
+},
+"lines": [
+{
+"text": "Question cinq : ta Balance est de mille euros, et ta position ouverte perd quarante euros. Quelle est ton Equity ?",
+"pause": 5
+},
+"Réponse : neuf cent soixante euros. L'Equity inclut les résultats latents."
+]
+},
+{
+"v": {
+"t": "quiz",
+"num": 6,
+"q": "Quel ordre achète uniquement si le prix descend à un niveau ?",
+"opts": [
+"Buy Stop",
+"Sell Limit",
+"Buy Limit",
+"Take Profit"
+],
+"a": 2,
+"why": "Le Buy Limit est placé sous le prix actuel."
+},
+"lines": [
+{
+"text": "Question six : quel ordre permet d'acheter uniquement si le prix descend jusqu'à un niveau choisi ?",
+"pause": 5
+},
+"Réponse : le Buy Limit, placé sous le prix actuel."
+]
+},
+{
+"v": {
+"t": "quiz",
+"num": 7,
+"q": "Après une perte de 50 %, quel gain faut-il pour revenir au capital initial ?",
+"opts": [
+"+50 %",
+"+75 %",
+"+100 %",
+"+150 %"
+],
+"a": 2,
+"why": "500 € doivent regagner 500 € : +100 %."
+},
+"lines": [
+{
+"text": "Question sept : après une perte de cinquante pour cent, quel gain faut-il pour retrouver ton capital initial ?",
+"pause": 5
+},
+"Réponse : cent pour cent. Cinq cents euros doivent regagner cinq cents euros."
+]
+},
+{
+"v": {
+"t": "quiz",
+"num": 8,
+"q": "Dans l'UE, à quel Margin Level le Stop Out intervient-il pour un particulier ?",
+"opts": [
+"100 %",
+"75 %",
+"50 %",
+"0 %"
+],
+"a": 2,
+"why": "La règle européenne impose la fermeture à 50 %."
+},
+"lines": [
+{
+"text": "Question huit : dans l'Union européenne, à quel Margin Level le Stop Out intervient-il pour un client particulier ?",
+"pause": 5
+},
+"Réponse : cinquante pour cent."
+]
+},
+{
+"v": {
+"t": "quiz",
+"num": 9,
+"q": "Compte de 1 000 $, risque de 10 $, Stop Loss à 50 pips sur EUR/USD. Quelle taille ?",
+"opts": [
+"0,01 lot",
+"0,02 lot",
+"0,05 lot",
+"0,10 lot"
+],
+"a": 1,
+"why": "10 ÷ (50 × 10) = 0,02 lot."
+},
+"lines": [
+{
+"text": "Question neuf : compte de mille dollars, risque prévu de dix dollars, Stop Loss à cinquante pips sur l'euro dollar. Quelle taille de position ?",
+"pause": 5
+},
+"Réponse : zéro virgule zéro deux lot. Dix, divisé par cinquante fois dix."
+]
+},
+{
+"v": {
+"t": "quiz",
+"num": 10,
+"q": "70 % de trades gagnants signifie-t-il forcément un compte en hausse ?",
+"opts": [
+"Oui, toujours",
+"Non, tout dépend de la taille des gains et des pertes",
+"Oui, au-delà de 100 trades",
+"Non, il faut 90 %"
+],
+"a": 1,
+"why": "7 × 10 $ − 3 × 30 $ = −20 $ : on peut perdre avec 70 % de réussite."
+},
+"lines": [
+{
+"text": "Question dix : un taux de réussite de soixante-dix pour cent garantit-il un compte en hausse ?",
+"pause": 5
+},
+"Réponse : non. Si les pertes sont beaucoup plus grandes que les gains, le compte peut baisser malgré tout."
+]
+},
+{
+"v": {
+"t": "bento",
+"h": "Ce que tu sais maintenant",
+"cols": 4,
+"tiles": [
+{
+"tag": "01",
+"k": "Les marchés",
+"d": "offre, demande, acteurs"
+},
+{
+"tag": "02",
+"k": "Le vocabulaire",
+"d": "Bid, Ask, spread, pip, lot"
+},
+{
+"tag": "03",
+"k": "Les graphiques",
+"d": "bougies, tendances, unités de temps"
+},
+{
+"tag": "04",
+"k": "Les ordres",
+"d": "market, limit, stop, SL, TP"
+},
+{
+"tag": "05",
+"k": "Les calculs",
+"d": "pips, Balance, Equity"
+},
+{
+"tag": "06",
+"k": "Le levier",
+"d": "marge, Margin Level, Stop Out"
+},
+{
+"tag": "07",
+"k": "Les plateformes",
+"d": "courtiers régulés, MT5"
+},
+{
+"tag": "08",
+"k": "Les risques",
+"d": "psychologie, arnaques"
+}
+]
+},
+"lines": [
+"Bravo, tu es arrivé au bout de cette formation. Récapitulons.",
+"Tu sais comment fonctionnent les marchés et qui y participe.",
+"Tu parles le langage des traders.",
+"Tu sais lire un graphique en chandeliers.",
+"Tu connais les différents types d'ordres.",
+"Tu sais calculer un gain, une perte, et distinguer Balance et Equity.",
+"Tu comprends l'effet de levier, la marge et le Stop Out.",
+"Tu sais reconnaître un courtier régulé et utiliser MetaTrader cinq.",
+"Et tu connais les risques, y compris ceux qui viennent de ta propre psychologie."
+]
+},
+{
+"v": {
+"t": "quote",
+"q": "Comprendre ne rend pas rentable. Mais comprendre protège.",
+"hl": [
+0,
+6,
+7
+]
+},
+"lines": [
+"Un dernier mot. Comprendre le trading ne garantit aucun gain.",
+"Mais comprendre te protège : des mauvaises décisions, des promesses trompeuses, et des risques que tu n'aurais pas vus.",
+"Si tu veux aller plus loin, commence toujours par un compte de démonstration. Merci d'avoir suivi Trading Academy."
+]
+},
+{
+"v": {
+"t": "kinetic",
+"w": "TRADING ACADEMY",
+"sub": "Contenu éducatif · aucun conseil en investissement",
+"size": 150
+},
+"lines": [
+"À bientôt."
+]
+}
+]
+}

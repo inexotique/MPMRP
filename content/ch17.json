@@ -1,0 +1,38 @@
+{"id":"ch17","num":17,"title":"S'entraîner intelligemment","accent":"#2DD4BF","music":1,
+"beats":[
+ {"v":{"t":"chapter"},"lines":["Chapitre dix-sept : s'entraîner intelligemment."]},
+ {"v":{"t":"stat","h":"Le coût d'un compte démo","n":"0 €","c":"accent","d":"pour apprendre la plateforme, les ordres et les calculs, sans risquer d'argent réel","dl":1},"lines":[
+  "Un compte de démonstration ne coûte rien.",
+  "C'est l'endroit idéal pour apprendre la plateforme, tester chaque type d'ordre et vérifier tes calculs, sans risquer un centime."]},
+ {"v":{"t":"list","h":"Que pratiquer en démo ?","items":[{"s":"▸","t":"Chaque type d'ordre","d":"market, limit, stop, SL, TP, trailing"},{"s":"▸","t":"Les calculs","d":"valeur du pip, marge, taille de position"},{"s":"▸","t":"La lecture du compte","d":"Balance, Equity, Margin Level"},{"s":"▸","t":"Le journal","d":"noter chaque position, sans exception"}]},"lines":[
+  "Que faut-il pratiquer ?",
+  "Chaque type d'ordre, pour voir concrètement comment il se comporte.",
+  "Les calculs : vérifier que la valeur du pip, la marge et la taille de position correspondent à ce que tu avais prévu.",
+  "La lecture du compte : observer comment l'Equity et le Margin Level réagissent.",
+  "Et le journal, pour chaque position, sans exception."]},
+ {"v":{"t":"compare","h":"Utiliser la démo de façon réaliste","l":{"t":"✓ Réaliste","c":"green","items":["Capital proche de ce que tu aurais en réel","Mêmes tailles de position","Mêmes règles de risque"]},"r":{"t":"✕ Trompeur","c":"red","items":["100 000 $ fictifs","Positions démesurées","Aucune conséquence ressentie"],"at":1}},"lines":[
+  "Pour que la démo soit utile, elle doit être réaliste : un capital proche de ce que tu pourrais réellement engager, et les mêmes règles de risque.",
+  "Trader cent mille dollars fictifs avec des positions démesurées n'apprend rien, et peut même donner de mauvaises habitudes."]},
+ {"v":{"t":"bento","h":"Une routine simple","cols":3,"tiles":[{"tag":"AVANT","k":"Préparer","d":"calendrier, fiche, risque maximum du jour"},{"tag":"PENDANT","k":"Respecter","d":"les tailles et les niveaux prévus"},{"tag":"APRÈS","k":"Analyser","d":"journal, statistiques, erreurs"}]},"lines":[
+  "Une routine simple aide à rester rigoureux.",
+  "Avant : consulter le calendrier, relire la fiche de l'instrument, fixer une perte maximale pour la journée.",
+  "Pendant : respecter les tailles et les niveaux prévus, sans improviser.",
+  "Après : remplir le journal, et analyser les erreurs à froid."]},
+ {"v":{"t":"list","h":"Les erreurs classiques du débutant","items":[{"s":"✕","t":"Ignorer les frais","c":"red"},{"s":"✕","t":"Trader sans Stop Loss","c":"red"},{"s":"✕","t":"Augmenter la taille après une perte","c":"red"},{"s":"✕","t":"Suivre aveuglément des influenceurs","c":"red"},{"s":"✕","t":"Passer en réel trop vite","c":"red"}]},"lines":[
+  "Voici les erreurs les plus fréquentes chez les débutants.",
+  "Ignorer les frais, qui s'accumulent position après position.",
+  "Trader sans Stop Loss, en espérant que le prix revienne.",
+  "Augmenter la taille après une perte, pour se refaire.",
+  "Suivre aveuglément des influenceurs, qui ne montrent souvent que leurs gains.",
+  "Et passer en réel trop vite, avant d'avoir compris tous les mécanismes."]},
+ {"v":{"t":"bento","h":"Des sources fiables","cols":2,"tiles":[{"tag":"FRANCE","k":"AMF","d":"guides pédagogiques, listes noires, alertes"},{"tag":"FRANCE","k":"REGAFI","d":"registre des établissements financiers autorisés"},{"tag":"EUROPE","k":"ESMA","d":"règles européennes sur les CFD"},{"tag":"PRODUIT","k":"Le DIC","d":"document d'informations clés du courtier"}]},"lines":[
+  "Pour continuer à apprendre, privilégie les sources officielles.",
+  "L'AMF publie des guides pédagogiques et des listes noires de sites non autorisés.",
+  "Le registre REGAFI permet de vérifier si un établissement financier est autorisé à exercer en France.",
+  "L'ESMA, l'autorité européenne, publie les règles qui encadrent les CFD.",
+  "Et le document d'informations clés de ton courtier détaille les risques et les coûts de chaque produit."]},
+ {"v":{"t":"quote","q":"Apprendre prend du temps. Et c'est normal.","hl":[0,1,2,3]},"lines":[
+  "Apprendre le trading prend du temps, et c'est normal.",
+  "Il n'existe aucun raccourci, et ceux qui en vendent vendent surtout… des raccourcis.",
+  "Il est temps de vérifier tout ce que tu as appris, avec le quiz final."]}
+]}
