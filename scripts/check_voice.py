@@ -24,7 +24,7 @@ for cid in ids:
         total += 1
         if r < 0.8:
             bad += 1
-            if r < 0.6: flagged.append(str(ROOT / "public" / s["file"]))
+            if r < 0.7: flagged.append(str(ROOT / "public" / s["file"]))
             report.append(f"[{cid} {s['id']}] {r:.2f}\n  texte : {s['text']}\n  entendu: {heard}\n")
 (ROOT / f"out/flagged_{'_'.join(ids)}.txt").write_text("\n".join(flagged))
 (ROOT / f"out/voice_check_{'_'.join(ids)}.txt").write_text(f"{bad}/{total} lignes à vérifier\n\n" + "\n".join(report), encoding="utf-8")

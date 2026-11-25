@@ -12,11 +12,12 @@ for n in $(seq -w 3 18); do
   echo "== voice $id $(date +%T)"
   TTS_ENGINE=xtts python3 scripts/tts.py "content/$id.json" 2>&1 | grep -E "min,|Error" 
   nice -n 5 python3 scripts/check_voice.py "$id" 2>/dev/null | tail -1
-  if [ -s "out/flagged_$id.txt" ]; then
-    echo "   retry $(wc -l < out/flagged_$id.txt) lines"; xargs rm -f < "out/flagged_$id.txt"
+  for retry in 1 2; do
+    [ -s "out/flagged_$id.txt" ] || break
+    echo "   retry $retry: $(wc -l < out/flagged_$id.txt) lines"; xargs rm -f < "out/flagged_$id.txt"
     TTS_ENGINE=xtts python3 scripts/tts.py "content/$id.json" 2>&1 | grep -E "min,|Error"
     nice -n 5 python3 scripts/check_voice.py "$id" 2>/dev/null | tail -1
-  fi
+  done
   touch "out/ready/$id"
 done
 wait

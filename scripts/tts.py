@@ -30,6 +30,21 @@ def phon(text: str) -> str:
     return re.sub(r"\s+", " ", t).strip()
 
 
+# XTTS: French phonetic spelling for English trading terms (the model mispronounces raw English).
+PRON = json.loads((ROOT / "content/pronunciation.json").read_text())
+_pk = sorted(PRON, key=len, reverse=True)
+_prx = re.compile(r"(?<![\w-])(" + "|".join(re.escape(k) for k in _pk) + r")(?![\w-])", re.I)
+
+
+def phon_x(text: str) -> str:
+    t = _prx.sub(lambda m: PRON[next(k for k in _pk if k.lower() == m.group(0).lower())], text)
+    t = re.sub(r"(\d) (\d{3})", r"\1\2", t)
+    t = re.sub(r"\b1:(\d+)", r"un pour \1", t)
+    t = t.replace("€", " euros").replace("$", " dollars").replace("%", " pour cent").replace("→", ",").replace("×", " fois ").replace("÷", " divisé par ")
+    t = t.replace(" = ", " égale ").replace("…", ",").replace("·", ",")
+    return re.sub(r"\s+", " ", t).strip()
+
+
 def synth(text: str) -> pathlib.Path:
     key = hashlib.sha1(f"{VOICE}|{RATE}|{text}".encode()).hexdigest()[:16]
     out = CACHE / f"e{key}.wav"
@@ -69,7 +84,7 @@ def build(path):
     for b in doc["beats"]:
         for l in b["lines"]:
             l = {"text": l} if isinstance(l, str) else l
-            l["_say"] = phon(l.get("say") or l["text"])
+            l["_say"] = (phon_x if os.environ.get("TTS_ENGINE") == "xtts" else phon)(l.get("say") or l["text"])
             lines.append(l)
     if os.environ.get("TTS_ENGINE") == "xtts":
         files = [CACHE / f"v{hashlib.sha1(('xtts-viktor|' + l['_say']).encode()).hexdigest()[:16]}.wav" for l in lines]
