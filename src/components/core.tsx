@@ -17,16 +17,6 @@ export const Background: React.FC<{accent?: string; shiftX?: number}> = ({accent
                        radial-gradient(800px 700px at ${75 - a / 25}% ${70 - b / 25}%, ${accent}0C, transparent 70%)`,
         }}
       />
-      <AbsoluteFill
-        style={{
-          backgroundImage: `linear-gradient(${C.faint} 1px, transparent 1px), linear-gradient(90deg, ${C.faint} 1px, transparent 1px)`,
-          backgroundSize: '80px 80px',
-          backgroundPosition: `${-shiftX * 0.3}px 0`,
-          opacity: 0.12,
-          maskImage: 'radial-gradient(ellipse at center, black 30%, transparent 75%)',
-          WebkitMaskImage: 'radial-gradient(ellipse at center, black 30%, transparent 75%)',
-        }}
-      />
       <AbsoluteFill style={{background: 'radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.75))'}} />
     </AbsoluteFill>
   );
@@ -103,7 +93,7 @@ export const Subtitles: React.FC<{timing: Timing}> = ({timing}) => {
 };
 
 /** Narration + music bed with automatic ducking under the voice. */
-export const Soundtrack: React.FC<{timing: Timing; music?: string; musicVol?: number; duckVol?: number}> = ({timing, music = 'sfx/music_bed.wav', musicVol = 0.22, duckVol = 0.07}) => {
+export const Soundtrack: React.FC<{timing: Timing; music?: string; musicVol?: number; duckVol?: number}> = ({timing, music = 'sfx/music_0.wav', musicVol = 0.22, duckVol = 0.07}) => {
   const segs = timing.segments;
   const vol = (f: number) => {
     // distance (frames) to nearest active narration window → smooth 12-frame ramps

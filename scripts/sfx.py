@@ -35,17 +35,22 @@ def whoosh(d=0.6):
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
-    save("whoosh", whoosh())
-    x = t(0.06); save("click", np.sin(2 * np.pi * 2400 * x) * np.exp(-x / 0.008) + 0.3 * rng.standard_normal(len(x)) * np.exp(-x / 0.002))
-    x = t(0.18); f = 300 + 900 * np.exp(-x / 0.03); save("pop", np.sin(2 * np.pi * np.cumsum(f) / SR) * env(0.18, 0.002, 0.04))
-    x = t(1.4); f = 40 * np.exp(-x / 0.25) + 38
-    save("impact", np.sin(2 * np.pi * np.cumsum(f) / SR) * env(1.4, 0.003, 0.35) + lp(rng.standard_normal(len(x)), 0.05) * env(1.4, 0.001, 0.08))
-    x = t(1.6); f = 200 * 2 ** (x * 2.2)
-    save("riser", (lp(rng.standard_normal(len(x)), 0.02 + 0.2 * x / 1.6) * 0.6 + 0.2 * np.sin(2 * np.pi * np.cumsum(f) / SR)) * (x / 1.6) ** 2)
-    x = t(0.5); save("ding", sum(np.sin(2 * np.pi * h * x) * a for h, a in [(880, 1), (1320, .5), (1760, .25)]) * env(0.5, 0.004, 0.12))
-    x = t(0.45); tone = np.where(x < 0.12, 660, 990); save("validate", np.sin(2 * np.pi * np.cumsum(tone) / SR) * env(0.45, 0.003, 0.12))
     # ambient tech bed: Am - F - C - G pads + soft pulse, 32 s loop
-    bar = 4.0; chords = [[220, 261.6, 329.6], [174.6, 220, 261.6], [261.6, 329.6, 392], [196, 246.9, 293.7]]
+    for v, (tr, prog) in enumerate([(1.0, 0), (1.122, 1), (0.891, 2), (1.0595, 3)]):
+        music(v, tr, prog)
+    print("music ok")
+
+
+PROGS = [
+    [[220, 261.6, 329.6], [174.6, 220, 261.6], [261.6, 329.6, 392], [196, 246.9, 293.7]],
+    [[220, 261.6, 329.6], [196, 246.9, 293.7], [174.6, 220, 261.6], [164.8, 207.7, 246.9]],
+    [[174.6, 220, 261.6], [196, 246.9, 293.7], [220, 261.6, 329.6], [220, 261.6, 329.6]],
+    [[220, 277.2, 329.6], [185, 220, 277.2], [246.9, 293.7, 370], [164.8, 207.7, 246.9]],
+]
+
+
+def music(v, tr, prog):
+    bar = 4.0; chords = [[f * tr for f in c] for c in PROGS[prog]]
     L = np.zeros(int(SR * bar * 8)); R = np.zeros_like(L)
     for b in range(8):
         x = t(bar); seg = slice(int(b * bar * SR), int((b + 1) * bar * SR)); fade = np.minimum(1, np.minimum(x / 0.8, (bar - x) / 0.8))
@@ -60,8 +65,7 @@ def main():
         for k in range(4):  # sub kick on beats
             s = int((b * bar + k) * SR); kk = np.sin(2 * np.pi * np.cumsum(50 + 60 * np.exp(-y / 0.02)) / SR) * np.exp(-y / 0.12) * 0.35
             L[s:s + len(y)] += kk; R[s:s + len(y)] += kk
-    save("music_bed", np.stack([L, R], 1), stereo=True)
-    print("sfx ok")
+    save(f"music_{v}", np.stack([L, R], 1) * 0.8, stereo=True)
 
 
 if __name__ == "__main__":
