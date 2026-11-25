@@ -2,7 +2,7 @@
 # Render every chapter that has narration timing but no MP4 yet (sequential, resumable).
 cd "$(dirname "$0")/.." || exit 1
 for n in $(seq -w 1 18); do
-  id="ch$n"; [ -f "src/generated/$id.json" ] || continue; [ -f "out/chapters/$id.mp4" ] && continue
+  id="ch$n"; [ -f "src/generated/$id.json" ] || continue; [ -f "out/chapters/$id.mp4" ] && continue; [ -f "out/ready/$id" ] || continue
   ids=$(ls src/generated/ch*.json | xargs -n1 basename | sed 's/.json//' | tr '\n' ' ')
   { for i in $ids; do echo "import $i from './$i.json';"; done; echo "export const CHAPTERS = [$(echo $ids | sed 's/ /, /g')];"; } > src/generated/index.ts
   echo "== $id $(date +%T)"

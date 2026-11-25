@@ -71,8 +71,15 @@ def build(path):
             l = {"text": l} if isinstance(l, str) else l
             l["_say"] = phon(l.get("say") or l["text"])
             lines.append(l)
-    with ThreadPoolExecutor(6) as ex:
-        files = list(ex.map(lambda l: synth(l["_say"]), lines))
+    if os.environ.get("TTS_ENGINE") == "xtts":
+        files = [CACHE / f"v{hashlib.sha1(('xtts-viktor|' + l['_say']).encode()).hexdigest()[:16]}.wav" for l in lines]
+        jobs = ROOT / "out/xtts_jobs.json"
+        jobs.write_text(json.dumps([[l["_say"], str(f)] for l, f in zip(lines, files)]))
+        subprocess.run(["/opt/xtts/bin/python", str(ROOT / "scripts/xtts_worker.py"), str(jobs)], check=True,
+                       env={**os.environ, "COQUI_TOS_AGREED": "1", "HF_HUB_DISABLE_XET": "1"})
+    else:
+        with ThreadPoolExecutor(6) as ex:
+            files = list(ex.map(lambda l: synth(l["_say"]), lines))
     t, beats, segs, srt, i = LEAD_IN, [], [], [], 0
     for bi, b in enumerate(doc["beats"]):
         bstart = t
