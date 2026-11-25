@@ -14,7 +14,7 @@ export const Background: React.FC<{accent?: string; shiftX?: number}> = ({accent
       <AbsoluteFill
         style={{
           background: `radial-gradient(900px 600px at ${30 + a / 20}% ${35 + b / 20}%, ${accent}22, transparent 70%),
-                       radial-gradient(800px 700px at ${75 - a / 25}% ${70 - b / 25}%, ${C.cyan}14, transparent 70%)`,
+                       radial-gradient(800px 700px at ${75 - a / 25}% ${70 - b / 25}%, ${accent}0C, transparent 70%)`,
         }}
       />
       <AbsoluteFill
@@ -22,7 +22,7 @@ export const Background: React.FC<{accent?: string; shiftX?: number}> = ({accent
           backgroundImage: `linear-gradient(${C.faint} 1px, transparent 1px), linear-gradient(90deg, ${C.faint} 1px, transparent 1px)`,
           backgroundSize: '80px 80px',
           backgroundPosition: `${-shiftX * 0.3}px 0`,
-          opacity: 0.35,
+          opacity: 0.12,
           maskImage: 'radial-gradient(ellipse at center, black 30%, transparent 75%)',
           WebkitMaskImage: 'radial-gradient(ellipse at center, black 30%, transparent 75%)',
         }}
