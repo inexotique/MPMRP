@@ -27,8 +27,8 @@ const Shell: React.FC<{dur: number; children: React.ReactNode; kind: number}> = 
   const dir = kind % 3; // vary entry direction: zoom / slide-left / slide-up
   const tin = dir === 0 ? `scale(${0.92 + 0.08 * ei})` : dir === 1 ? `translateX(${(1 - ei) * 160}px)` : `translateY(${(1 - ei) * 120}px)`;
   const tout = `scale(${1 + 0.08 * eo}) translateX(${dir === 1 ? -eo * 160 : 0}px)`;
-  const blur = (1 - ei) * 14 + eo * 14;
-  return <AbsoluteFill style={{opacity: ei * (1 - eo), transform: `${tin} ${tout}`, filter: blur > 0.3 ? `blur(${blur.toFixed(1)}px)` : undefined}}>{children}</AbsoluteFill>;
+  const blur = (1 - ei) * 8 + eo * 8;
+  return <AbsoluteFill style={{opacity: ei * (1 - eo), transform: `${tin} ${tout}`, filter: blur > 1 ? `blur(${blur.toFixed(0)}px)` : undefined}}>{children}</AbsoluteFill>;
 };
 
 export const Chapter: React.FC<{ch: Ch}> = ({ch}) => {

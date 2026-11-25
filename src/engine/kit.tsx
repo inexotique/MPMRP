@@ -122,8 +122,10 @@ export const Chart: React.FC<{
       {mode === 'line' ? (
         <>
           {area ? <polygon points={`${X(0, n)},${h - pad} ${pts.join(' ')} ${X(lastI, n)},${h - pad}`} fill={`url(#${id})`} /> : null}
-          <polyline points={pts.join(' ')} fill="none" stroke={stroke} strokeWidth={5} strokeLinejoin="round" strokeLinecap="round" style={{filter: `drop-shadow(0 0 10px ${stroke}88)`}} />
-          <circle cx={X(lastI, n)} cy={Y(p[lastI])} r={10} fill={stroke} style={{filter: `drop-shadow(0 0 14px ${stroke})`}} />
+          <polyline points={pts.join(' ')} fill="none" stroke={stroke} strokeOpacity={0.18} strokeWidth={16} strokeLinejoin="round" strokeLinecap="round" />
+          <polyline points={pts.join(' ')} fill="none" stroke={stroke} strokeWidth={5} strokeLinejoin="round" strokeLinecap="round" />
+          <circle cx={X(lastI, n)} cy={Y(p[lastI])} r={22} fill={stroke} opacity={0.2} />
+          <circle cx={X(lastI, n)} cy={Y(p[lastI])} r={10} fill={stroke} />
         </>
       ) : (
         candlesOf(p, per).map((c, i, arr) => {

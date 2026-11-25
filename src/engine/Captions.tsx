@@ -52,7 +52,7 @@ export const KineticCaptions: React.FC<{segments: Seg[]; accent: string; topBeat
             <span key={`${ci}-${wi}`} style={{
               display: 'inline-block', position: 'relative', fontFamily: F.display, fontWeight: key ? 900 : 700, fontSize: key ? 54 : 50, letterSpacing: '-0.01em',
               color: key ? accent : C.white, opacity: Math.min(1, p * 1.3), transform: `translateY(${(1 - p) * 26}px) scale(${0.85 + 0.15 * p + (active ? 0.04 : 0)})`,
-              filter: `blur(${Math.max(0, (1 - p) * 6).toFixed(1)}px)`,
+              filter: (1 - p) * 6 > 0.4 ? `blur(${((1 - p) * 6).toFixed(1)}px)` : undefined,
               textShadow: key ? `0 0 24px ${accent}88, 0 3px 14px rgba(0,0,0,0.9)` : '0 3px 14px rgba(0,0,0,0.95), 0 0 2px rgba(0,0,0,0.9)',
             }}>
               {words[wi]}

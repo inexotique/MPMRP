@@ -337,7 +337,7 @@ export const MapV: React.FC<VP> = ({v, cue, n, accent}) => {
           return (
             <g key={s.k} opacity={ease(f, 20 + i * 10, 20) * a}>
               <circle cx={x} cy={y} r={14 + pulse * 70} fill="none" stroke={s.c} strokeWidth={3} opacity={1 - pulse} />
-              <circle cx={x} cy={y} r={14} fill={s.c} style={{filter: `drop-shadow(0 0 16px ${s.c})`}} />
+              <circle cx={x} cy={y} r={26} fill={s.c} opacity={0.25} /><circle cx={x} cy={y} r={14} fill={s.c} />
               <text x={x} y={y - 34} textAnchor="middle" fill={C.white} fontFamily={F.display} fontWeight={800} fontSize={38}>{s.name}</text>
             </g>
           );

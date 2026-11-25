@@ -33,7 +33,7 @@ export const KineticWord: React.FC<{text: string; start: number; size?: number; 
         const p = pop(f, start + i * stagger, {damping: 12, stiffness: 120});
         const blur = interpolate(p, [0, 1], [18, 0], clamp);
         return (
-          <span key={i} style={{display: 'inline-block', whiteSpace: 'pre', transform: `translateY(${(1 - p) * size * 0.6}px) scale(${0.6 + 0.4 * p})`, opacity: Math.min(1, p * 1.4), filter: `blur(${blur}px)`}}>
+          <span key={i} style={{display: 'inline-block', whiteSpace: 'pre', transform: `translateY(${(1 - p) * size * 0.6}px) scale(${0.6 + 0.4 * p})`, opacity: Math.min(1, p * 1.4), filter: blur > 0.4 ? `blur(${blur.toFixed(1)}px)` : undefined}}>
             {ch}
           </span>
         );
