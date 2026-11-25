@@ -238,7 +238,7 @@ export const BarsV: React.FC<VP> = ({v, cue, n, accent}) => {
                 <div style={{flex: 1, height: 64, background: 'rgba(255,255,255,0.05)', borderRadius: 14, overflow: 'hidden'}}>
                   <div style={{height: '100%', width: `${(Math.abs(it.v) / max) * 100 * p}%`, background: `linear-gradient(90deg, ${c}55, ${c})`, borderRadius: 14, boxShadow: `0 0 30px ${c}66`}} />
                 </div>
-                <div style={{width: 330, fontFamily: F.mono, fontWeight: 700, fontSize: 40, color: c, textAlign: 'right'}}>{it.txt}</div>
+                <div style={{width: 380, fontFamily: F.mono, fontWeight: 700, fontSize: 34, color: c, textAlign: 'right', whiteSpace: 'nowrap'}}>{it.txt}</div>
               </div>
             </R>
           );

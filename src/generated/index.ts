@@ -1,2 +1,8 @@
 import ch01 from './ch01.json';
-export const CHAPTERS = [ch01];
+import ch02 from './ch02.json';
+import ch03 from './ch03.json';
+import ch04 from './ch04.json';
+import ch05 from './ch05.json';
+import ch06 from './ch06.json';
+import ch07 from './ch07.json';
+export const CHAPTERS = [ch01, ch02, ch03, ch04, ch05, ch06, ch07];
