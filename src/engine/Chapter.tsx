@@ -2,7 +2,8 @@ import React from 'react';
 import {AbsoluteFill, Sequence, interpolate, useCurrentFrame} from 'remotion';
 import {C} from '../theme';
 import {clamp} from '../lib/anim';
-import {Background, Sfx, Soundtrack, Subtitles} from '../components/core';
+import {Background, Sfx, Soundtrack} from '../components/core';
+import {KineticCaptions} from './Captions';
 import * as V from './visuals';
 import * as G from './gui';
 import type {VP} from './kit';
@@ -40,7 +41,7 @@ export const Chapter: React.FC<{ch: Ch}> = ({ch}) => {
     if (t === 'chapter' || t === 'intro') sfx.push([b.from + 4, 'impact', 0.55]);
     segsOf(bi).forEach((s, li) => {
       if (li === 0) return;
-      const at = s.from - b.from;
+      const at = s.from - b.from + Math.min(30, Math.round(s.dur * 0.15));
       const name = t === 'quiz' ? 'validate' : t === 'mt5' ? 'click' : t === 'calc' && li === segsOf(bi).length - 1 ? 'ding' : t === 'intro' ? 'bass' : 'pop';
       sfx.push([b.from + at, name, name === 'pop' ? 0.18 : 0.35]);
     });
@@ -53,7 +54,7 @@ export const Chapter: React.FC<{ch: Ch}> = ({ch}) => {
       <AbsoluteFill style={{transform: `translate(${drift}px, ${Math.cos(f / 300) * 6}px) scale(${1.01 + 0.01 * Math.sin(f / 400)})`}}>
         {ch.beats.map((b, bi) => {
           const segs = segsOf(bi);
-          const cue = (k: number) => (segs[Math.min(k, segs.length - 1)]?.from ?? b.from) - b.from + (k > segs.length - 1 ? 60 : 0);
+          const cue = (k: number) => { const sg = segs[Math.min(k, segs.length - 1)]; return (sg ? sg.from + (k === 0 ? 8 : Math.min(30, Math.round(sg.dur * 0.15))) : b.from) - b.from + (k > segs.length - 1 ? 60 : 0); };
           const Comp = MAP[b.v.t] ?? V.KineticV;
           const props: VP & {num: number; title: string} = {v: b.v, cue, n: segs.length, dur: b.dur, accent: ch.accent, num: ch.num, title: ch.title};
           return (
@@ -63,7 +64,7 @@ export const Chapter: React.FC<{ch: Ch}> = ({ch}) => {
           );
         })}
       </AbsoluteFill>
-      <Subtitles timing={{id: ch.id, fps: ch.fps, total: ch.total, segments: ch.segments}} />
+      <KineticCaptions segments={ch.segments} accent={ch.accent} topBeats={new Set(ch.beats.map((b, i) => (b.v.t === 'mt5' ? i : -1)))} />
       <Soundtrack timing={{id: ch.id, fps: ch.fps, total: ch.total, segments: ch.segments}} music={`sfx/music_${ch.music % 4}.wav`} />
       <Sfx cues={sfx} />
     </AbsoluteFill>
