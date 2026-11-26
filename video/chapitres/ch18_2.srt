@@ -1,0 +1,147 @@
+1
+00:00:01,080 --> 00:00:07,344
+Si le plus haut de la bougie trois reste sous le plus bas de la bougie un, l'écart forme un Fair Value Gap baissier.
+
+2
+00:00:08,714 --> 00:00:10,892
+Attention à ce qu'un FVG n'est pas.
+
+3
+00:00:11,312 --> 00:00:16,895
+Ce n'est pas une garantie : le prix peut revenir dans la zone, la traverser, ou ne jamais y revenir.
+
+4
+00:00:17,315 --> 00:00:21,424
+Ce n'est pas un signal d'achat ou de vente : c'est une zone à observer, comme un support.
+
+5
+00:00:21,844 --> 00:00:23,925
+Son importance dépend de l'unité de temps.
+
+6
+00:00:24,345 --> 00:00:29,671
+Et c'est un concept popularisé sur les réseaux, dont l'efficacité n'a pas été démontrée scientifiquement.
+
+7
+00:00:31,041 --> 00:00:35,866
+Maintenant, place à la pratique. Regarde-moi faire, sur un compte de démonstration.
+
+8
+00:00:36,286 --> 00:00:43,096
+Je vais suivre un plan d'exemple, écrit à l'avance. Ce plan est pédagogique : ce n'est pas une méthode garantie.
+
+9
+00:00:44,466 --> 00:00:47,455
+Voici mon plan, écrit avant d'ouvrir le moindre graphique.
+
+10
+00:00:47,875 --> 00:00:51,842
+Un : je ne regarde que les achats si la tendance journalière est haussière.
+
+11
+00:00:52,262 --> 00:00:57,963
+Deux : j'attends que le prix revienne dans un Fair Value Gap en une heure, dans le sens de cette tendance.
+
+12
+00:00:58,383 --> 00:01:02,015
+Trois : aucune annonce importante ne doit tomber dans l'heure qui suit.
+
+13
+00:01:02,435 --> 00:01:07,308
+Quatre : mon Stop Loss se place sous la zone, et je ne risque pas plus de un pour cent du compte.
+
+14
+00:01:07,728 --> 00:01:16,448
+Cinq : mon objectif est le plus haut récent, et il doit représenter au moins deux fois mon risque. Si une seule condition manque, je ne trade pas.
+
+15
+00:01:17,818 --> 00:01:24,088
+Je descends en une heure. La tendance journalière est haussière : la condition un est remplie.
+
+16
+00:01:24,508 --> 00:01:28,012
+Le mouvement de hausse a laissé un Fair Value Gap, que je trace.
+
+17
+00:01:28,432 --> 00:01:35,665
+Ici, le prix monte encore, loin de ma zone. Je ne trade pas : acheter maintenant, ce serait courir après le prix.
+
+18
+00:01:36,085 --> 00:01:42,520
+Ici, le prix redescend, mais il n'est pas encore dans la zone. J'attends, et je pose une alerte.
+
+19
+00:01:42,940 --> 00:01:49,257
+Le prix entre dans le FVG. Je ne clique pas tout de suite : je vérifie d'abord toutes mes conditions.
+
+20
+00:01:50,627 --> 00:01:53,410
+Avant de cliquer, je passe la liste de contrôle.
+
+21
+00:01:53,830 --> 00:01:57,683
+Une annonce importante dans quarante-cinq minutes ? Alors je ne trade pas.
+
+22
+00:01:58,103 --> 00:02:01,286
+Un spread anormalement large ? Je ne trade pas.
+
+23
+00:02:01,706 --> 00:02:05,738
+J'ai déjà atteint ma perte maximale du jour ? Je ne trade pas.
+
+24
+00:02:06,158 --> 00:02:10,876
+Le ratio entre l'objectif et le risque est inférieur à deux ? Je ne trade pas.
+
+25
+00:02:11,296 --> 00:02:16,252
+Ici, toutes les conditions sont réunies. Alors seulement, je prépare l'ordre.
+
+26
+00:02:17,622 --> 00:02:19,688
+Je calcule tout, avant de cliquer.
+
+27
+00:02:20,108 --> 00:02:28,649
+Entrée vers 1,08600, Stop Loss sous la zone à 1,08450 : quinze pips de risque.
+
+28
+00:02:29,069 --> 00:02:41,936
+Un pour cent du compte, c'est dix dollars. Dix, divisé par quinze fois dix : zéro virgule zéro six six lot. J'arrondis vers le bas : zéro virgule zéro six lot.
+
+29
+00:02:42,356 --> 00:02:47,907
+Objectif au plus haut récent, à 1,08900 : trente pips, soit deux fois le risque.
+
+30
+00:02:48,327 --> 00:02:57,419
+Je risque environ neuf dollars pour un objectif d'environ dix-huit dollars. J'ouvre la position, avec le Stop Loss et le Take Profit déjà en place.
+
+31
+00:02:58,789 --> 00:03:00,150
+Premier scénario possible.
+
+32
+00:03:00,570 --> 00:03:09,685
+Le prix repart à la hausse et atteint mon objectif. La position se ferme seule : environ dix-huit dollars de gain. Je n'ai rien eu à faire.
+
+33
+00:03:11,055 --> 00:03:13,314
+Mais l'autre scénario est tout aussi possible.
+
+34
+00:03:13,734 --> 00:03:22,633
+Le prix traverse la zone et touche mon Stop Loss. La position se ferme : environ neuf dollars de perte, exactement ce que j'avais accepté.
+
+35
+00:03:23,053 --> 00:03:31,899
+Et c'est normal. Même un plan bien suivi enchaîne des pertes. Ce qui compte, c'est que chaque perte reste petite et prévue.
+
+36
+00:03:33,269 --> 00:03:35,541
+Dans les deux cas, ma conduite est la même.
+
+37
+00:03:35,961 --> 00:03:36,633
+Une fois la position ouverte, je ne touche plus à rien : je ne déplace pas mon Stop Loss, et je n'ajoute pas de position.

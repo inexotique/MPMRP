@@ -1,0 +1,163 @@
+1
+00:00:06,180 --> 00:00:09,203
+Je note tout dans mon journal, avec une capture d'écran.
+
+2
+00:00:09,623 --> 00:00:17,910
+Et si ma perte maximale du jour est atteinte, la séance s'arrête. C'est ce cadre, bien plus que le point d'entrée, qui protège le compte.
+
+3
+00:00:19,280 --> 00:00:22,162
+Pendant la séance, le travail consiste surtout à observer.
+
+4
+00:00:22,582 --> 00:00:26,799
+On regarde comment le prix réagit quand il arrive sur les zones tracées le matin.
+
+5
+00:00:27,219 --> 00:00:29,951
+On pose des alertes de prix, pour ne pas rester collé à l'écran.
+
+6
+00:00:30,371 --> 00:00:36,618
+Et si on prend une position, c'est uniquement selon son plan écrit, avec un Stop Loss et une taille calculée.
+
+7
+00:00:37,038 --> 00:00:40,783
+À l'inverse, on évite de fixer l'écran pendant des heures…
+
+8
+00:00:41,203 --> 00:00:42,866
+…d'ouvrir une position par ennui…
+
+9
+00:00:43,286 --> 00:00:47,352
+…ou de déplacer son Stop Loss pour laisser une chance à une position perdante.
+
+10
+00:00:48,722 --> 00:00:53,039
+Et surtout, retiens ceci : ne rien faire est une décision à part entière.
+
+11
+00:00:53,459 --> 00:00:58,890
+Une journée sans aucune position, parce que rien ne correspondait à ton plan, est une journée réussie.
+
+12
+00:01:00,260 --> 00:01:02,766
+En fin de journée, on clôture la séance dans l'ordre.
+
+13
+00:01:03,186 --> 00:01:06,571
+Les positions sont fermées, ou protégées par un Stop Loss.
+
+14
+00:01:06,991 --> 00:01:07,977
+On remplit le journal.
+
+15
+00:01:08,397 --> 00:01:11,108
+On fait le bilan : as-tu respecté ton plan et tes limites ?
+
+16
+00:01:11,528 --> 00:01:13,141
+On note une seule leçon à retenir.
+
+17
+00:01:13,561 --> 00:01:15,506
+On jette un œil au calendrier du lendemain.
+
+18
+00:01:15,926 --> 00:01:20,045
+Et on ferme la plateforme. Décrocher fait partie de la routine.
+
+19
+00:01:21,415 --> 00:01:26,989
+En résumé : on commence par le compte, le calendrier, ses limites, et la vue d'ensemble.
+
+20
+00:01:27,409 --> 00:01:33,981
+Et on finit par protéger ses positions, remplir son journal, préparer le lendemain, puis fermer la plateforme.
+
+21
+00:01:35,351 --> 00:01:38,325
+Pour finir, voici mes conseils concrets pour bien débuter.
+
+22
+00:01:38,745 --> 00:01:45,154
+Un : commence sur un compte de démonstration, pendant plusieurs mois, jusqu'à suivre ton plan sans jamais y déroger.
+
+23
+00:01:45,574 --> 00:01:52,001
+Deux : choisis un courtier régulé, et vérifie-le toi-même sur les listes de l'AMF et le registre REGAFI.
+
+24
+00:01:52,421 --> 00:01:59,663
+Trois : quand tu passes en réel, commence avec un petit capital que tu peux te permettre de perdre. Jamais d'argent emprunté.
+
+25
+00:02:00,083 --> 00:02:09,475
+Quatre : concentre-toi sur un seul instrument et une seule méthode, par exemple l'euro dollar en une heure, plutôt que de tout essayer.
+
+26
+00:02:09,895 --> 00:02:17,119
+Cinq : ne risque jamais plus de un pour cent par position, mets toujours un Stop Loss, et fixe une perte maximale par jour.
+
+27
+00:02:17,539 --> 00:02:24,011
+Six : tiens ton journal, et fais un bilan chaque semaine, à partir de tes statistiques, pas de tes impressions.
+
+28
+00:02:24,431 --> 00:02:31,006
+Et sept : fuis les signaux payants, les robots miracles et les promesses de gains. Personne ne vend une machine à billets.
+
+29
+00:02:32,376 --> 00:02:36,347
+Bravo, tu es arrivé au bout de cette formation. Récapitulons.
+
+30
+00:02:36,767 --> 00:02:39,216
+Tu sais comment fonctionnent les marchés et qui y participe.
+
+31
+00:02:39,636 --> 00:02:41,115
+Tu parles le langage des traders.
+
+32
+00:02:41,535 --> 00:02:43,132
+Tu sais lire un graphique en chandeliers.
+
+33
+00:02:43,552 --> 00:02:45,018
+Tu connais les différents types d'ordres.
+
+34
+00:02:45,438 --> 00:02:48,760
+Tu sais calculer un gain, une perte, et une taille de position.
+
+35
+00:02:49,180 --> 00:02:53,352
+Tu comprends l'effet de levier, la marge et le Stop Out.
+
+36
+00:02:53,772 --> 00:02:56,985
+Tu sais organiser une journée sur ta plateforme, et tenir un journal.
+
+37
+00:02:57,405 --> 00:03:01,278
+Et tu connais les risques, y compris ceux qui viennent de ta propre psychologie.
+
+38
+00:03:02,648 --> 00:03:06,512
+Un dernier mot. Comprendre le trading ne garantit aucun gain.
+
+39
+00:03:06,932 --> 00:03:14,162
+Mais comprendre te protège : des mauvaises décisions, des promesses trompeuses, et des risques que tu n'aurais pas vus.
+
+40
+00:03:14,582 --> 00:03:19,864
+Commence toujours par un compte de démonstration. Merci d'avoir suivi Trading Academy.
+
+41
+00:03:21,234 --> 00:03:21,833
+À bientôt.

@@ -1,0 +1,3143 @@
+1
+00:00:00,900 --> 00:00:03,397
+Chaque seconde, des millions de personnes achètent…
+
+2
+00:00:03,817 --> 00:00:04,507
+…et vendent.
+
+3
+00:00:04,927 --> 00:00:05,877
+Certains gagnent.
+
+4
+00:00:06,297 --> 00:00:07,201
+Beaucoup perdent.
+
+5
+00:00:07,621 --> 00:00:10,327
+Avant de toucher au moindre bouton, il faut comprendre.
+
+6
+00:00:10,747 --> 00:00:12,689
+Bienvenue dans Trading Academy.
+
+7
+00:00:14,059 --> 00:00:16,235
+Dans cette formation, on part de zéro.
+
+8
+00:00:16,655 --> 00:00:22,055
+Pas de stratégie miracle, pas de signal d'achat. Juste les bases, expliquées clairement.
+
+9
+00:00:23,425 --> 00:00:25,699
+Chapitre un : comprendre le trading.
+
+10
+00:00:27,069 --> 00:00:31,299
+Le trading, c'est tout simplement le fait d'acheter et de vendre des actifs financiers.
+
+11
+00:00:31,719 --> 00:00:37,011
+Une action, une devise, de l'or, du pétrole… L'idée est toujours la même.
+
+12
+00:00:38,381 --> 00:00:40,192
+Tu achètes un actif à cent euros.
+
+13
+00:00:40,612 --> 00:00:43,180
+Son prix monte, et tu le revends à cent dix euros.
+
+14
+00:00:43,600 --> 00:00:46,252
+La différence, dix euros, c'est ton gain.
+
+15
+00:00:46,672 --> 00:00:49,675
+Le trading consiste à profiter de ces variations de prix.
+
+16
+00:00:51,045 --> 00:00:53,791
+Mais si le prix baisse et que tu revends à quatre-vingt-dix euros…
+
+17
+00:00:54,211 --> 00:00:55,161
+…tu perds dix euros.
+
+18
+00:00:55,581 --> 00:00:58,569
+Retiens-le dès maintenant : le prix peut aller dans les deux sens.
+
+19
+00:00:58,989 --> 00:01:01,527
+Et personne ne sait à l'avance de quel côté il ira.
+
+20
+00:01:02,897 --> 00:01:04,826
+Mais à quoi servent les marchés financiers ?
+
+21
+00:01:05,246 --> 00:01:08,181
+D'abord, ils permettent aux entreprises de se financer.
+
+22
+00:01:08,601 --> 00:01:12,828
+Ils permettent aussi de se protéger, par exemple contre la variation d'une devise.
+
+23
+00:01:13,248 --> 00:01:16,337
+Ils permettent aux investisseurs de faire fructifier leur épargne.
+
+24
+00:01:16,757 --> 00:01:21,808
+Et surtout, ils fixent un prix, en permanence, grâce à la rencontre entre acheteurs et vendeurs.
+
+25
+00:01:23,178 --> 00:01:25,581
+Et c'est là que tout se joue : l'offre et la demande.
+
+26
+00:01:26,000 --> 00:01:31,607
+Quand il y a plus d'acheteurs que de vendeurs, les acheteurs doivent accepter de payer plus cher. Le prix monte.
+
+27
+00:01:32,027 --> 00:01:37,161
+Quand les vendeurs sont plus nombreux, ils doivent baisser leur prix pour trouver preneur. Le prix descend.
+
+28
+00:01:37,581 --> 00:01:40,493
+Le prix, c'est simplement le point d'équilibre du moment.
+
+29
+00:01:41,863 --> 00:01:43,709
+Mais pourquoi l'équilibre change-t-il ?
+
+30
+00:01:44,129 --> 00:01:47,880
+À cause des nouvelles économiques, comme l'inflation ou les taux d'intérêt.
+
+31
+00:01:48,300 --> 00:01:50,330
+À cause des résultats des entreprises.
+
+32
+00:01:50,750 --> 00:01:52,331
+À cause des événements mondiaux.
+
+33
+00:01:52,751 --> 00:01:57,948
+Et à cause de la psychologie des participants : la peur et l'euphorie font bouger les prix, parfois très vite.
+
+34
+00:01:59,318 --> 00:02:01,519
+Il existe deux façons de se positionner.
+
+35
+00:02:01,939 --> 00:02:07,632
+Si tu achètes, tu gagnes quand le prix monte. Si tu vends à découvert, tu gagnes quand le prix baisse.
+
+36
+00:02:08,052 --> 00:02:11,842
+Regarde : sur le même mouvement, quand l'un gagne, l'autre perd.
+
+37
+00:02:12,262 --> 00:02:15,650
+On reviendra en détail sur ces deux positions dans le chapitre trois.
+
+38
+00:02:17,020 --> 00:02:19,418
+On confond souvent trading et investissement.
+
+39
+00:02:19,838 --> 00:02:25,288
+L'investisseur achète un actif pour le garder longtemps, parfois des années, parce qu'il croit en sa valeur.
+
+40
+00:02:25,708 --> 00:02:30,815
+Le trader, lui, cherche à profiter des variations de prix, sur des durées beaucoup plus courtes.
+
+41
+00:02:31,235 --> 00:02:38,325
+Et la spéculation ? C'est le fait de parier sur l'évolution future d'un prix. Le trading est donc une forme de spéculation.
+
+42
+00:02:39,695 --> 00:02:41,345
+Qui sont les acteurs de ce marché ?
+
+43
+00:02:41,765 --> 00:02:45,613
+Les banques, et en particulier les banques centrales, qui pèsent énormément.
+
+44
+00:02:46,033 --> 00:02:48,212
+Les fonds d'investissement et les assureurs.
+
+45
+00:02:48,632 --> 00:02:51,830
+Les entreprises, qui ont besoin de devises pour commercer.
+
+46
+00:02:52,250 --> 00:02:56,828
+Et toi, le trader particulier, qui ne représente qu'une petite partie du volume.
+
+47
+00:02:57,248 --> 00:03:02,210
+Entre toi et le marché, il y a un intermédiaire : le courtier, qu'on appelle aussi broker.
+
+48
+00:03:02,630 --> 00:03:07,612
+Il transmet tes ordres et te donne accès aux prix. On en parlera en détail au chapitre huit.
+
+49
+00:03:08,982 --> 00:03:11,322
+Avant d'aller plus loin, un chiffre important.
+
+50
+00:03:11,742 --> 00:03:21,346
+En Europe, les courtiers doivent afficher la part de leurs clients particuliers qui perdent de l'argent sur les CFD. Elle se situe le plus souvent entre soixante-quatorze et quatre-vingt-neuf pour cent.
+
+51
+00:03:21,766 --> 00:03:26,308
+Ce n'est pas pour te décourager. C'est pour que tu abordes ce sujet avec lucidité.
+
+52
+00:03:27,678 --> 00:03:31,138
+Comprendre avant d'agir : c'est tout l'objectif de cette formation.
+
+53
+00:03:31,558 --> 00:03:35,372
+Maintenant que les bases sont posées, découvrons les différents marchés financiers.
+
+54
+00:03:39,311 --> 00:03:42,111
+Chapitre deux : les marchés financiers.
+
+55
+00:03:43,211 --> 00:03:49,771
+Il existe de nombreux marchés, mais ils fonctionnent tous sur le même principe : un prix qui bouge selon l'offre et la demande.
+
+56
+00:03:49,811 --> 00:03:50,891
+Faisons le tour des principaux.
+
+57
+00:03:51,991 --> 00:03:54,551
+Commençons par le Forex, le marché des devises.
+
+58
+00:03:54,831 --> 00:04:00,711
+C'est le plus grand marché financier du monde : il s'y échange plusieurs milliers de milliards de dollars chaque jour.
+
+59
+00:04:00,924 --> 00:04:08,791
+On y échange toujours une devise contre une autre. Par exemple, la paire euro dollar indique combien de dollars vaut un euro.
+
+60
+00:04:09,891 --> 00:04:13,091
+Si l'euro dollar cote un virgule zéro huit cinq zéro…
+
+61
+00:04:13,371 --> 00:04:17,331
+…cela signifie qu'un euro vaut un dollar et huit centimes et demi.
+
+62
+00:04:17,598 --> 00:04:22,891
+La première devise est la devise de base, la seconde est la devise de cotation.
+
+63
+00:04:23,038 --> 00:04:28,371
+Quand la paire monte, l'euro se renforce face au dollar. Quand elle baisse, il s'affaiblit.
+
+64
+00:04:29,471 --> 00:04:30,751
+Viennent ensuite les actions.
+
+65
+00:04:30,951 --> 00:04:40,031
+Une action, c'est une petite part d'une entreprise. Acheter une action Apple, c'est devenir copropriétaire d'Apple, à toute petite échelle.
+
+66
+00:04:40,251 --> 00:04:46,911
+Son prix varie selon les résultats de l'entreprise et selon ce que les investisseurs anticipent pour son avenir.
+
+67
+00:04:48,011 --> 00:04:52,011
+Un indice boursier mesure la performance d'un panier d'actions.
+
+68
+00:04:52,064 --> 00:05:01,611
+Le CAC 40 regroupe quarante grandes entreprises françaises. Le S&P 500, cinq cents grandes entreprises américaines.
+
+69
+00:05:01,664 --> 00:05:07,371
+Suivre un indice, c'est observer la santé globale d'un marché, plutôt que celle d'une seule entreprise.
+
+70
+00:05:08,471 --> 00:05:12,071
+Les cryptomonnaies, comme le Bitcoin, sont des actifs numériques.
+
+71
+00:05:12,311 --> 00:05:16,071
+Leur marché est ouvert en permanence, même le week-end.
+
+72
+00:05:16,098 --> 00:05:22,071
+Et leurs prix peuvent varier de plusieurs dizaines de pour cent en peu de temps. Le risque est donc particulièrement élevé.
+
+73
+00:05:23,171 --> 00:05:25,651
+Les matières premières sont des ressources physiques.
+
+74
+00:05:26,051 --> 00:05:33,011
+L'or est souvent considéré comme une valeur refuge : en période d'inquiétude, certains investisseurs s'y réfugient.
+
+75
+00:05:33,171 --> 00:05:41,091
+Le pétrole, avec le Brent et le WTI, réagit fortement aux tensions géopolitiques et aux décisions des pays producteurs.
+
+76
+00:05:41,438 --> 00:05:48,611
+Il existe aussi des matières premières agricoles, comme le blé ou le café, qui dépendent des récoltes et de la météo.
+
+77
+00:05:49,711 --> 00:05:51,871
+Les ETF sont des fonds cotés en bourse.
+
+78
+00:05:51,911 --> 00:05:59,231
+Ils répliquent un indice, un secteur ou un thème. Avec un seul ETF, on peut être exposé à des centaines d'entreprises.
+
+79
+00:05:59,251 --> 00:06:03,391
+Ils sont surtout utilisés par les investisseurs de long terme, pour diversifier à moindre coût.
+
+80
+00:06:04,491 --> 00:06:06,891
+Les obligations, elles, sont des titres de dette.
+
+81
+00:06:07,078 --> 00:06:13,131
+Quand tu achètes une obligation, tu prêtes de l'argent à un État ou à une entreprise, qui te verse des intérêts.
+
+82
+00:06:13,371 --> 00:06:16,091
+Leur prix varie notamment en fonction des taux d'intérêt.
+
+83
+00:06:17,191 --> 00:06:21,391
+Et maintenant, une famille essentielle : les produits dérivés.
+
+84
+00:06:21,564 --> 00:06:27,431
+Un dérivé est un contrat dont la valeur dépend d'un autre actif, qu'on appelle le sous-jacent.
+
+85
+00:06:27,471 --> 00:06:35,271
+Les futures, ou contrats à terme, fixent aujourd'hui un prix pour une transaction future. Ils sont échangés sur des marchés organisés.
+
+86
+00:06:35,491 --> 00:06:46,311
+Les CFD, pour contrats sur la différence, sont très utilisés par les traders particuliers : on échange simplement la différence de prix entre l'ouverture et la fermeture.
+
+87
+00:06:47,411 --> 00:06:49,171
+C'est une différence fondamentale.
+
+88
+00:06:49,358 --> 00:06:52,691
+Quand tu achètes réellement une action, tu la possèdes.
+
+89
+00:06:52,878 --> 00:06:57,571
+Tu peux percevoir des dividendes, et tu n'utilises pas d'effet de levier.
+
+90
+00:06:57,619 --> 00:07:03,171
+Avec un CFD, tu ne possèdes rien : tu signes un contrat avec ton courtier sur l'évolution du prix.
+
+91
+00:07:03,438 --> 00:07:06,371
+Tu peux te positionner à la baisse comme à la hausse.
+
+92
+00:07:06,483 --> 00:07:12,612
+Mais tu utilises souvent un effet de levier, et tu paies des frais de financement si tu gardes la position plusieurs jours.
+
+93
+00:07:13,711 --> 00:07:19,471
+Les autorités européennes classent les CFD parmi les produits complexes et risqués.
+
+94
+00:07:19,511 --> 00:07:25,231
+C'est pour cela que leur levier est plafonné pour les particuliers. On verra tout cela en détail au chapitre sept.
+
+95
+00:07:25,311 --> 00:07:28,191
+Prochaine étape : apprendre à parler le langage des traders.
+
+96
+00:07:31,844 --> 00:07:34,657
+Chapitre trois : le vocabulaire du trader.
+
+97
+00:07:35,077 --> 00:07:40,971
+Voici ton dictionnaire. Pour chaque mot : l'anglais, le français, et un exemple visuel.
+
+98
+00:07:42,341 --> 00:07:44,382
+Buy et Sell : acheter et vendre.
+
+99
+00:07:44,802 --> 00:07:50,090
+Une position acheteuse gagne quand le prix monte. Une position vendeuse gagne quand le prix baisse.
+
+100
+00:07:50,510 --> 00:07:58,273
+Regarde le même prix : à gauche le gain, à droite la perte. Puis, quand le prix se retourne, les rôles s'inversent.
+
+101
+00:07:59,643 --> 00:08:01,686
+Être Long, c'est être acheteur.
+
+102
+00:08:02,106 --> 00:08:09,026
+Être Short, c'est être vendeur : on vend un actif qu'on ne possède pas, pour le racheter plus tard, en espérant moins cher.
+
+103
+00:08:10,396 --> 00:08:19,490
+Bullish signifie haussier. L'image vient du taureau, qui frappe avec ses cornes de bas en haut. Un Bull Market, c'est un marché en hausse durable.
+
+104
+00:08:19,910 --> 00:08:28,949
+Bearish signifie baissier. L'ours frappe avec ses pattes de haut en bas. Un Bear Market, c'est un marché en baisse durable.
+
+105
+00:08:30,319 --> 00:08:31,524
+Bid et Ask.
+
+106
+00:08:31,944 --> 00:08:40,102
+Le Bid est le prix auquel tu peux vendre. L'Ask est le prix auquel tu peux acheter. Et l'Ask est toujours légèrement au-dessus du Bid.
+
+107
+00:08:41,472 --> 00:08:42,948
+Cet écart s'appelle le spread.
+
+108
+00:08:43,368 --> 00:08:46,443
+Si l'Ask est à 1,08520…
+
+109
+00:08:46,863 --> 00:08:49,774
+…et le Bid à 1,08500…
+
+110
+00:08:50,194 --> 00:08:53,446
+…l'écart est de 0,00020.
+
+111
+00:08:53,866 --> 00:08:58,432
+Soit 2 pips. C'est un coût que tu paies à chaque ouverture de position.
+
+112
+00:08:59,802 --> 00:09:02,610
+Pip, Point et Tick mesurent les mouvements de prix.
+
+113
+00:09:03,030 --> 00:09:12,565
+Sur l'euro dollar, un pip correspond à la quatrième décimale : zéro virgule zéro zéro zéro un. Sur les paires en yen, c'est la deuxième décimale.
+
+114
+00:09:12,985 --> 00:09:24,157
+Sur MetaTrader, un point correspond généralement à la plus petite décimale affichée, soit un dixième de pip sur l'euro dollar. Attention, certains utilisent ce mot différemment.
+
+115
+00:09:24,577 --> 00:09:28,313
+Le tick, c'est le plus petit mouvement de prix possible pour un instrument donné.
+
+116
+00:09:29,683 --> 00:09:36,438
+Le lot mesure la taille d'une position sur le Forex. Un lot standard représente cent mille unités de la devise de base.
+
+117
+00:09:36,858 --> 00:09:41,288
+Un mini lot, zéro virgule un, représente dix mille unités.
+
+118
+00:09:41,708 --> 00:09:48,856
+Et un micro lot, zéro virgule zéro un, mille unités. C'est souvent la plus petite taille disponible.
+
+119
+00:09:50,226 --> 00:09:52,428
+Volatility, la volatilité.
+
+120
+00:09:52,848 --> 00:09:57,965
+Elle mesure l'amplitude des mouvements de prix. Un marché volatil bouge beaucoup et vite.
+
+121
+00:09:58,385 --> 00:10:02,437
+Plus la volatilité est forte, plus les gains et les pertes potentiels sont importants.
+
+122
+00:10:03,807 --> 00:10:05,843
+Liquidity, la liquidité.
+
+123
+00:10:06,263 --> 00:10:12,529
+Un marché liquide compte beaucoup d'acheteurs et de vendeurs : on peut y passer un ordre rapidement, avec un spread généralement faible.
+
+124
+00:10:12,949 --> 00:10:15,905
+Un marché peu liquide peut provoquer des écarts de prix importants.
+
+125
+00:10:17,275 --> 00:10:21,001
+Le volume, c'est la quantité d'actif échangée sur une période.
+
+126
+00:10:21,421 --> 00:10:24,827
+Un fort volume montre qu'un mouvement implique beaucoup de participants.
+
+127
+00:10:26,197 --> 00:10:28,087
+Momentum, c'est l'élan du marché.
+
+128
+00:10:28,507 --> 00:10:36,038
+Il décrit la vitesse et la force d'un mouvement. Un mouvement peut ralentir, accélérer, ou s'essouffler.
+
+129
+00:10:37,408 --> 00:10:39,072
+Trend, la tendance.
+
+130
+00:10:39,492 --> 00:10:45,034
+C'est la direction générale du prix sur une période : haussière, baissière, ou sans direction claire.
+
+131
+00:10:46,404 --> 00:10:48,575
+Range, le marché latéral.
+
+132
+00:10:48,995 --> 00:10:53,186
+Le prix fait des allers-retours entre un plafond et un plancher, sans vraie direction.
+
+133
+00:10:54,556 --> 00:10:56,218
+Breakout, la cassure.
+
+134
+00:10:56,638 --> 00:10:59,798
+C'est le moment où le prix sort d'une zone dans laquelle il était enfermé.
+
+135
+00:11:00,218 --> 00:11:06,624
+Une cassure n'est jamais garantie : le prix peut aussi revenir dans la zone. On parle alors de fausse cassure.
+
+136
+00:11:07,994 --> 00:11:09,568
+Pullback, le repli.
+
+137
+00:11:09,988 --> 00:11:16,919
+Dans une tendance, le prix ne monte jamais en ligne droite. Il recule parfois temporairement : c'est un pullback.
+
+138
+00:11:18,289 --> 00:11:18,959
+Retest.
+
+139
+00:11:19,379 --> 00:11:23,304
+Après une cassure, le prix revient parfois tester le niveau qu'il vient de franchir.
+
+140
+00:11:24,674 --> 00:11:26,482
+Support et Resistance.
+
+141
+00:11:26,902 --> 00:11:33,125
+Une résistance est une zone où le prix a eu du mal à monter plus haut. Les vendeurs y ont été plus actifs.
+
+142
+00:11:33,545 --> 00:11:38,597
+Un support est une zone où le prix a eu du mal à descendre. Les acheteurs y ont été plus présents.
+
+143
+00:11:39,017 --> 00:11:44,236
+Ce sont des zones, pas des lignes parfaites. Et elles finissent souvent par être franchies.
+
+144
+00:11:45,606 --> 00:11:47,803
+Trois mots proches, mais différents.
+
+145
+00:11:48,223 --> 00:11:52,474
+Une consolidation est une pause : le prix se resserre, il hésite.
+
+146
+00:11:52,894 --> 00:12:01,475
+Une correction est un recul temporaire après une hausse. Sur les actions, on parle souvent de correction au-delà de dix pour cent de baisse.
+
+147
+00:12:01,895 --> 00:12:06,620
+Un reversal, c'est un vrai retournement : la tendance change de direction.
+
+148
+00:12:07,990 --> 00:12:10,736
+Pour décrire une tendance, on observe les sommets et les creux.
+
+149
+00:12:11,156 --> 00:12:13,986
+Higher High : un sommet plus haut que le précédent.
+
+150
+00:12:14,406 --> 00:12:21,140
+Higher Low : un creux plus haut que le précédent. Une succession des deux décrit une tendance haussière.
+
+151
+00:12:22,510 --> 00:12:23,179
+À l'inverse…
+
+152
+00:12:23,599 --> 00:12:26,742
+Lower High : un sommet plus bas que le précédent.
+
+153
+00:12:27,162 --> 00:12:32,615
+Lower Low : un creux plus bas. Ensemble, ils décrivent une tendance baissière.
+
+154
+00:12:33,985 --> 00:12:35,650
+Slippage, le glissement.
+
+155
+00:12:36,070 --> 00:12:42,049
+C'est l'écart entre le prix que tu demandes et le prix auquel ton ordre est réellement exécuté.
+
+156
+00:12:42,469 --> 00:12:48,580
+Il apparaît surtout quand le marché bouge très vite. Il peut jouer contre toi, ou parfois en ta faveur.
+
+157
+00:12:49,950 --> 00:12:51,980
+Gap, c'est un trou dans le graphique.
+
+158
+00:12:52,400 --> 00:12:59,908
+Le prix saute d'un niveau à un autre sans passer par les prix intermédiaires. C'est fréquent après le week-end ou après une annonce importante.
+
+159
+00:13:01,278 --> 00:13:01,921
+Drawdown.
+
+160
+00:13:02,341 --> 00:13:06,165
+C'est la baisse d'un compte entre son point le plus haut et son point le plus bas.
+
+161
+00:13:06,585 --> 00:13:10,854
+Si ton compte passe de mille à huit cents euros, ton drawdown est de vingt pour cent.
+
+162
+00:13:12,224 --> 00:13:14,886
+Encore quelques mots indispensables.
+
+163
+00:13:15,306 --> 00:13:19,729
+Break Even, le point mort : la position ne gagne ni ne perd.
+
+164
+00:13:20,149 --> 00:13:27,426
+Swap : des frais, ou parfois un petit crédit, appliqués quand tu gardes une position ouverte après la clôture du jour.
+
+165
+00:13:27,846 --> 00:13:31,850
+Commission : des frais facturés par certains courtiers à chaque transaction.
+
+166
+00:13:32,270 --> 00:13:37,950
+Hedging, la couverture : ouvrir une position opposée pour réduire un risque existant.
+
+167
+00:13:39,320 --> 00:13:40,772
+Et pour finir ce dictionnaire…
+
+168
+00:13:41,192 --> 00:13:46,817
+Exposure, l'exposition : la valeur totale du marché à laquelle tu es exposé.
+
+169
+00:13:47,237 --> 00:13:52,031
+Position Size, la taille de position : le volume que tu choisis.
+
+170
+00:13:52,451 --> 00:13:59,927
+Et Profit and Loss, souvent abrégé P&L : le résultat de tes positions, en gain ou en perte.
+
+171
+00:14:00,347 --> 00:14:03,973
+Tu as maintenant le vocabulaire. Passons à la lecture des graphiques.
+
+172
+00:14:07,897 --> 00:14:10,072
+Chapitre quatre : lire un graphique.
+
+173
+00:14:11,442 --> 00:14:15,500
+Un graphique de prix raconte une histoire, et il se lit sur deux axes.
+
+174
+00:14:15,920 --> 00:14:20,730
+L'axe horizontal, c'est le temps. Plus on va vers la droite, plus on se rapproche du présent.
+
+175
+00:14:21,150 --> 00:14:26,436
+L'axe vertical, c'est le prix. Plus la courbe est haute, plus le prix est élevé.
+
+176
+00:14:27,806 --> 00:14:30,150
+Le graphique le plus simple est le graphique en ligne.
+
+177
+00:14:30,570 --> 00:14:36,683
+Il relie les prix de clôture successifs. C'est clair, mais on perd beaucoup d'informations : que s'est-il passé entre deux points ?
+
+178
+00:14:38,053 --> 00:14:41,388
+C'est là qu'intervient le chandelier japonais, utilisé depuis des siècles.
+
+179
+00:14:41,808 --> 00:14:46,087
+Prenons tous les mouvements de prix d'une période, et résumons-les en une seule bougie.
+
+180
+00:14:46,507 --> 00:14:49,521
+Le point le plus haut atteint pendant la période : le High.
+
+181
+00:14:49,941 --> 00:14:53,427
+Le prix de clôture, à la fin de la période : le Close.
+
+182
+00:14:53,847 --> 00:14:56,323
+Le prix d'ouverture, au début : l'Open.
+
+183
+00:14:56,743 --> 00:14:58,227
+Et le point le plus bas : le Low.
+
+184
+00:14:58,647 --> 00:15:05,557
+La partie épaisse est le corps, entre l'ouverture et la clôture. Les traits fins au-dessus et en dessous sont les mèches.
+
+185
+00:15:06,927 --> 00:15:12,240
+Ici, la clôture est au-dessus de l'ouverture : c'était une bougie haussière, en vert.
+
+186
+00:15:12,660 --> 00:15:15,427
+Voici maintenant une bougie baissière, en rouge.
+
+187
+00:15:15,847 --> 00:15:16,932
+Le prix a ouvert en haut…
+
+188
+00:15:17,352 --> 00:15:18,712
+…puis a clôturé plus bas.
+
+189
+00:15:19,132 --> 00:15:23,303
+Le corps va donc de l'ouverture, en haut, jusqu'à la clôture, en bas.
+
+190
+00:15:23,723 --> 00:15:28,056
+Les mèches montent toujours au plus haut et descendent toujours au plus bas de la période.
+
+191
+00:15:28,476 --> 00:15:39,342
+Une seule bougie résume donc quatre prix : Open, High, Low, Close. On parle de données OHLC.
+
+192
+00:15:40,712 --> 00:15:43,352
+Une bougie se construit en direct, pendant toute sa période.
+
+193
+00:15:43,772 --> 00:15:48,362
+Tant que la période n'est pas terminée, la bougie bouge, s'allonge, change parfois de couleur.
+
+194
+00:15:48,782 --> 00:15:52,900
+Quand la période se termine, la bougie se fige, et une nouvelle commence.
+
+195
+00:15:54,270 --> 00:15:58,185
+La durée d'une bougie s'appelle l'unité de temps, ou timeframe.
+
+196
+00:15:58,605 --> 00:16:05,498
+M1, M5, M15 et M30 : une, cinq, quinze ou trente minutes par bougie.
+
+197
+00:16:05,918 --> 00:16:09,399
+H1 et H4 : une heure et quatre heures.
+
+198
+00:16:09,819 --> 00:16:15,143
+D1, W1 et MN1 : un jour, une semaine et un mois.
+
+199
+00:16:16,513 --> 00:16:19,913
+Voici le même mouvement de prix, vu en cinq minutes…
+
+200
+00:16:20,333 --> 00:16:20,997
+…en une heure…
+
+201
+00:16:21,417 --> 00:16:22,289
+…et en un jour.
+
+202
+00:16:22,709 --> 00:16:33,796
+Plus l'unité de temps est petite, plus on voit de détails et de bruit. Plus elle est grande, plus on voit la direction générale. Aucune n'est meilleure : elles répondent à des questions différentes.
+
+203
+00:16:35,166 --> 00:16:37,936
+Avec les bougies, on peut décrire l'état du marché.
+
+204
+00:16:38,356 --> 00:16:42,624
+Une tendance haussière : les sommets et les creux sont de plus en plus hauts.
+
+205
+00:16:43,994 --> 00:16:48,360
+Une tendance baissière : les sommets et les creux sont de plus en plus bas.
+
+206
+00:16:49,730 --> 00:16:52,206
+Et un marché latéral, ou range…
+
+207
+00:16:52,626 --> 00:16:56,693
+…où le prix rebondit entre un plafond et un plancher, sans direction nette.
+
+208
+00:16:58,063 --> 00:17:01,203
+Sur un graphique, certaines zones reviennent souvent.
+
+209
+00:17:01,623 --> 00:17:05,536
+Une résistance, là où le prix a buté plusieurs fois vers le haut.
+
+210
+00:17:05,956 --> 00:17:08,767
+Un support, là où il a rebondi plusieurs fois vers le bas.
+
+211
+00:17:09,187 --> 00:17:14,599
+Ces zones sont observées par beaucoup de participants, mais elles ne garantissent rien.
+
+212
+00:17:15,969 --> 00:17:19,801
+Enfin, la structure du marché, c'est l'enchaînement des sommets et des creux.
+
+213
+00:17:20,221 --> 00:17:24,903
+Tant que la succession de sommets et de creux plus hauts se poursuit, la structure reste haussière.
+
+214
+00:17:25,323 --> 00:17:30,315
+Lire un graphique, ce n'est pas prédire l'avenir : c'est décrire objectivement ce qui s'est passé.
+
+215
+00:17:30,735 --> 00:17:34,252
+Maintenant que tu sais lire un graphique, voyons comment on passe un ordre.
+
+216
+00:17:38,180 --> 00:17:40,753
+Chapitre cinq : les ordres de trading.
+
+217
+00:17:42,123 --> 00:17:45,081
+Un ordre, c'est une instruction que tu donnes à ton courtier.
+
+218
+00:17:45,501 --> 00:17:52,833
+Une position acheteuse s'ouvre à l'Ask et se ferme en vendant au Bid. Une position vendeuse, c'est l'inverse.
+
+219
+00:17:53,253 --> 00:18:01,757
+Ouvrir une position, c'est entrer sur le marché. La fermer, c'est en sortir, et transformer le résultat latent en résultat réel.
+
+220
+00:18:03,127 --> 00:18:06,702
+Le plus simple : le Market Order, l'ordre au marché.
+
+221
+00:18:07,122 --> 00:18:10,458
+Il est exécuté immédiatement, au meilleur prix disponible à cet instant.
+
+222
+00:18:10,878 --> 00:18:17,457
+Avantage : la rapidité. Limite : tu ne contrôles pas exactement le prix d'exécution.
+
+223
+00:18:18,827 --> 00:18:22,374
+Il existe aussi les ordres en attente, ou Pending orders.
+
+224
+00:18:22,794 --> 00:18:27,293
+Ils ne sont exécutés que si le prix atteint un niveau que tu as défini à l'avance.
+
+225
+00:18:28,663 --> 00:18:32,456
+Le Buy Limit est un ordre d'achat placé en dessous du prix actuel.
+
+226
+00:18:32,876 --> 00:18:36,269
+Si le prix descend jusqu'à ce niveau, l'achat est déclenché.
+
+227
+00:18:36,689 --> 00:18:41,265
+Il exprime l'idée : j'accepte d'acheter, mais seulement à un prix plus bas.
+
+228
+00:18:42,635 --> 00:18:47,143
+Le Sell Limit est l'inverse : un ordre de vente placé au-dessus du prix actuel.
+
+229
+00:18:47,563 --> 00:18:50,248
+Il s'exécute si le prix monte jusqu'à ce niveau.
+
+230
+00:18:51,618 --> 00:18:55,491
+Le Buy Stop est un ordre d'achat placé au-dessus du prix actuel.
+
+231
+00:18:55,911 --> 00:19:01,189
+Il se déclenche si le prix monte et franchit ce niveau. Il est souvent associé à l'idée de cassure.
+
+232
+00:19:02,559 --> 00:19:07,153
+Le Sell Stop est un ordre de vente placé en dessous du prix actuel.
+
+233
+00:19:07,573 --> 00:19:10,685
+Il se déclenche si le prix descend et franchit ce niveau.
+
+234
+00:19:12,055 --> 00:19:13,809
+Le Stop Limit combine deux niveaux.
+
+235
+00:19:14,229 --> 00:19:17,878
+Quand le prix atteint le niveau stop, un ordre limite est placé à son tour.
+
+236
+00:19:18,298 --> 00:19:25,093
+L'ordre ne sera exécuté qu'au prix limite, ou mieux. Et si le prix n'y revient jamais, l'ordre n'est pas exécuté.
+
+237
+00:19:26,463 --> 00:19:32,867
+Passons à la protection. Le Stop Loss est un ordre qui ferme automatiquement ta position si le prix va contre toi.
+
+238
+00:19:33,287 --> 00:19:36,782
+Il sert à limiter une perte à un niveau que tu as décidé à l'avance.
+
+239
+00:19:37,202 --> 00:19:41,230
+Sans Stop Loss, une position perdante peut continuer à se dégrader.
+
+240
+00:19:42,600 --> 00:19:44,571
+Le Take Profit fait l'inverse.
+
+241
+00:19:44,991 --> 00:19:50,488
+Il ferme automatiquement la position quand un objectif de gain est atteint, même si tu n'es pas devant ton écran.
+
+242
+00:19:51,858 --> 00:19:56,361
+Le Trailing Stop, ou stop suiveur, est un Stop Loss qui se déplace.
+
+243
+00:19:56,781 --> 00:20:00,430
+Quand le prix évolue en ta faveur, le stop le suit à distance fixe.
+
+244
+00:20:00,850 --> 00:20:06,812
+Mais il ne recule jamais. Si le prix se retourne, le stop est touché et la position se ferme.
+
+245
+00:20:08,182 --> 00:20:12,091
+La fermeture partielle consiste à fermer seulement une partie de ta position.
+
+246
+00:20:12,511 --> 00:20:19,209
+Par exemple, sur une position d'un lot, tu fermes zéro virgule cinq lot, et le reste continue d'évoluer.
+
+247
+00:20:20,579 --> 00:20:25,637
+Un point essentiel : le prix d'exécution n'est pas toujours celui que tu as demandé.
+
+248
+00:20:26,057 --> 00:20:30,577
+Lors d'une annonce économique ou d'un gap, le prix peut sauter plusieurs niveaux d'un coup.
+
+249
+00:20:30,997 --> 00:20:37,170
+Ton Stop Loss est alors exécuté au premier prix disponible, parfois bien plus loin. C'est le slippage.
+
+250
+00:20:37,590 --> 00:20:47,485
+Un Stop Loss classique limite le risque, mais ne garantit pas un prix exact. Certains courtiers proposent des stops garantis, généralement contre des frais.
+
+251
+00:20:48,855 --> 00:20:49,887
+Récapitulons.
+
+252
+00:20:50,307 --> 00:20:58,832
+Les ordres au marché s'exécutent tout de suite. Les ordres limites attendent un meilleur prix. Les ordres stop attendent un franchissement.
+
+253
+00:20:59,252 --> 00:21:05,073
+Et le Stop Loss, le Take Profit et le Trailing Stop encadrent la sortie de la position.
+
+254
+00:21:05,493 --> 00:21:09,541
+Maintenant, passons aux chiffres : comment calcule-t-on un gain ou une perte ?
+
+255
+00:21:13,476 --> 00:21:16,480
+Chapitre six : calculer ses gains et ses pertes.
+
+256
+00:21:17,850 --> 00:21:24,110
+Pour tous les exemples de ce chapitre, on utilise un instrument fictif mais réaliste : l'euro dollar.
+
+257
+00:21:24,530 --> 00:21:26,141
+Un lot représente cent mille euros.
+
+258
+00:21:26,561 --> 00:21:28,924
+Un pip correspond à la quatrième décimale.
+
+259
+00:21:29,344 --> 00:21:38,943
+Et sur l'euro dollar, un pip vaut dix dollars pour un lot. Donc un dollar pour zéro virgule un lot, et dix centimes de dollar pour zéro virgule zéro un lot.
+
+260
+00:21:39,363 --> 00:21:48,469
+Les montants sont en dollars, la devise de cotation. Sur un compte en euros, ils sont convertis : dix centimes de dollar font environ neuf centimes d'euro.
+
+261
+00:21:49,839 --> 00:21:54,564
+D'où vient cette valeur ? Valeur du pip égale volume, fois taille du pip.
+
+262
+00:21:54,984 --> 00:22:02,885
+Pour un lot : cent mille fois zéro virgule zéro zéro zéro un, soit dix dollars.
+
+263
+00:22:03,305 --> 00:22:06,357
+Pour zéro virgule un lot : un dollar par pip.
+
+264
+00:22:06,777 --> 00:22:10,456
+Pour zéro virgule zéro un lot : dix centimes par pip.
+
+265
+00:22:10,876 --> 00:22:16,483
+Conclusion : le volume de ta position détermine directement la vitesse à laquelle tu gagnes… ou tu perds.
+
+266
+00:22:17,853 --> 00:22:22,909
+Prenons un compte de mille euros. On achète zéro virgule un lot d'euro dollar.
+
+267
+00:22:23,329 --> 00:22:26,072
+Achat à l'Ask, à 1,08520.
+
+268
+00:22:26,492 --> 00:22:30,518
+Plus tard, on revend au Bid, à 1,08820.
+
+269
+00:22:30,938 --> 00:22:32,283
+L'écart est de trente pips.
+
+270
+00:22:32,703 --> 00:22:35,440
+Trente pips, fois un dollar par pip : trente dollars.
+
+271
+00:22:35,861 --> 00:22:39,284
+Soit environ vingt-sept euros et soixante-dix-huit centimes de gain.
+
+272
+00:22:40,654 --> 00:22:41,990
+Et si le prix baisse ?
+
+273
+00:22:42,410 --> 00:22:45,802
+Même achat à 1,08520.
+
+274
+00:22:46,222 --> 00:22:49,237
+Revente à 1,08220.
+
+275
+00:22:49,657 --> 00:22:50,669
+Moins trente pips.
+
+276
+00:22:51,089 --> 00:22:52,582
+Soit une perte de trente dollars.
+
+277
+00:22:53,002 --> 00:22:59,766
+Le calcul est parfaitement symétrique : le même mouvement, dans l'autre sens, donne la même somme en négatif.
+
+278
+00:23:01,136 --> 00:23:04,508
+Comparons trois comptes face au même mouvement de trente pips.
+
+279
+00:23:04,928 --> 00:23:11,800
+Avec dix euros, on verra au chapitre sept qu'ouvrir même zéro virgule zéro un lot n'est souvent pas possible.
+
+280
+00:23:12,220 --> 00:23:21,174
+Avec cent euros et zéro virgule zéro un lot, trente pips représentent trois dollars, soit environ trois pour cent du compte.
+
+281
+00:23:21,594 --> 00:23:30,587
+Avec mille euros et zéro virgule un lot, trente dollars, soit là aussi environ trois pour cent. Ce qui compte, c'est le rapport entre le volume et la taille du compte.
+
+282
+00:23:31,957 --> 00:23:36,932
+Tu as peut-être remarqué que juste après l'ouverture, une position est déjà en négatif.
+
+283
+00:23:37,352 --> 00:23:39,197
+C'est normal : tu as acheté à l'Ask…
+
+284
+00:23:39,617 --> 00:23:43,616
+…mais ta position est évaluée au Bid, le prix auquel tu pourrais revendre.
+
+285
+00:23:44,036 --> 00:23:49,511
+Avec un spread de deux pips sur zéro virgule un lot, tu démarres à moins deux dollars.
+
+286
+00:23:49,931 --> 00:23:53,376
+Le prix doit d'abord parcourir le spread pour que tu reviennes à zéro.
+
+287
+00:23:54,746 --> 00:23:56,066
+Le spread n'est pas le seul coût.
+
+288
+00:23:56,486 --> 00:24:00,400
+Le spread est intégré au prix, et il est payé à chaque ouverture de position.
+
+289
+00:24:00,820 --> 00:24:12,141
+Certains comptes facturent aussi une commission. Par exemple, avec trois dollars cinquante par lot et par côté, une position de zéro virgule un lot coûte soixante-dix centimes aller-retour.
+
+290
+00:24:12,561 --> 00:24:24,734
+Enfin, si tu gardes une position ouverte la nuit, un swap s'applique. Il dépend des taux d'intérêt des deux devises, et il est le plus souvent négatif. Le mercredi, il est souvent triplé pour couvrir le week-end.
+
+291
+00:24:26,104 --> 00:24:28,425
+Distinguons maintenant deux types de résultat.
+
+292
+00:24:28,845 --> 00:24:33,829
+Tant que la position est ouverte, le gain ou la perte est latent : il change à chaque mouvement de prix.
+
+293
+00:24:34,249 --> 00:24:39,817
+Quand tu fermes la position, le résultat devient réalisé, et il est définitivement ajouté à ton solde.
+
+294
+00:24:41,187 --> 00:24:43,781
+C'est la différence entre Balance et Equity.
+
+295
+00:24:44,201 --> 00:24:47,952
+La Balance, c'est ton solde, en tenant compte uniquement des positions fermées.
+
+296
+00:24:48,372 --> 00:24:54,963
+L'Equity, c'est la valeur réelle de ton compte à l'instant présent : la Balance, plus ou moins les résultats latents.
+
+297
+00:24:55,383 --> 00:24:59,643
+Avec une Balance de mille euros et une position en perte de quinze euros…
+
+298
+00:25:00,063 --> 00:25:05,373
+…ton Equity est de neuf cent quatre-vingt-cinq euros. Si tu fermais tout maintenant, c'est ce qu'il te resterait.
+
+299
+00:25:05,793 --> 00:25:12,193
+Et c'est justement l'Equity qui compte pour la marge et l'effet de levier. C'est le sujet du prochain chapitre.
+
+300
+00:25:16,121 --> 00:25:19,127
+Chapitre sept : l'effet de levier et la marge.
+
+301
+00:25:19,547 --> 00:25:22,997
+C'est probablement le chapitre le plus important de toute la formation.
+
+302
+00:25:24,367 --> 00:25:26,213
+Leverage, l'effet de levier.
+
+303
+00:25:26,633 --> 00:25:37,565
+Il permet d'ouvrir une position dont la valeur est bien supérieure à l'argent que tu immobilises. Avec un levier de un pour trente, un euro de marge permet une exposition de trente euros.
+
+304
+00:25:38,935 --> 00:25:42,062
+Prenons zéro virgule zéro un lot d'euro dollar.
+
+305
+00:25:42,482 --> 00:25:47,616
+Sa valeur notionnelle, c'est-à-dire la valeur réelle de la position, est de mille euros.
+
+306
+00:25:48,036 --> 00:25:49,468
+Avec un levier de un pour trente…
+
+307
+00:25:49,888 --> 00:25:57,639
+…la marge, c'est-à-dire la somme bloquée comme garantie, est de mille divisé par trente, soit trente-trois euros et trente-trois centimes.
+
+308
+00:25:58,059 --> 00:26:05,063
+Attention : la marge n'est pas un coût. C'est une garantie, immobilisée tant que la position est ouverte.
+
+309
+00:26:06,433 --> 00:26:09,586
+Comparons plusieurs leviers pour la même exposition de mille euros.
+
+310
+00:26:10,006 --> 00:26:12,941
+Sans levier, en un pour un, il faut mille euros.
+
+311
+00:26:13,361 --> 00:26:15,251
+En un pour dix, cent euros.
+
+312
+00:26:15,671 --> 00:26:17,770
+En un pour vingt, cinquante euros.
+
+313
+00:26:18,190 --> 00:26:28,505
+En un pour trente, trente-trois euros. Mais quel que soit le levier, l'exposition reste de mille euros : le gain ou la perte par pip est exactement le même.
+
+314
+00:26:29,875 --> 00:26:37,757
+Revenons à notre question : pourquoi un compte de dix euros ne permet-il pas forcément d'ouvrir zéro virgule zéro un lot ?
+
+315
+00:26:38,177 --> 00:26:43,991
+Parce qu'avec un levier de un pour trente, cette position demande environ trente-trois euros de marge.
+
+316
+00:26:44,411 --> 00:26:52,457
+Avec dix euros, la marge disponible est insuffisante : l'ordre est refusé. Avec cent euros ou mille euros, c'est possible.
+
+317
+00:26:52,877 --> 00:27:01,877
+Sur d'autres instruments, la taille minimale et la marge peuvent être différentes. Il faut toujours vérifier les spécifications du contrat chez son courtier.
+
+318
+00:27:03,247 --> 00:27:06,723
+Sur ta plateforme, trois indicateurs surveillent cette marge.
+
+319
+00:27:07,143 --> 00:27:11,236
+Margin : la marge totale actuellement bloquée par tes positions.
+
+320
+00:27:11,656 --> 00:27:20,988
+Free Margin : la marge libre, c'est-à-dire l'Equity moins la marge utilisée. C'est ce qui te reste pour encaisser des pertes ou ouvrir d'autres positions.
+
+321
+00:27:21,408 --> 00:27:27,920
+Margin Level : l'Equity divisée par la marge, multipliée par cent. C'est la jauge de santé de ton compte.
+
+322
+00:27:29,290 --> 00:27:31,472
+Maintenant, la démonstration la plus importante.
+
+323
+00:27:31,892 --> 00:27:42,127
+Trois comptes identiques de mille euros, avec le même levier. Seule la taille de la position change : exposition de mille, dix mille, puis trente mille euros.
+
+324
+00:27:42,547 --> 00:27:48,284
+Le marché baisse de deux cents pips. Regarde l'Equity et le Margin Level de chaque compte.
+
+325
+00:27:48,704 --> 00:27:51,656
+Le premier perd environ dix-huit euros : presque rien.
+
+326
+00:27:52,076 --> 00:27:54,600
+Le deuxième perd environ cent quatre-vingt-cinq euros.
+
+327
+00:27:55,020 --> 00:28:03,777
+Le troisième voit son Margin Level s'effondrer… jusqu'au Stop Out. La position est fermée automatiquement, avec une perte d'environ cinq cents euros.
+
+328
+00:28:05,147 --> 00:28:06,076
+Que s'est-il passé ?
+
+329
+00:28:06,496 --> 00:28:14,297
+Quand le Margin Level descend sous un premier seuil, souvent autour de cent pour cent selon le courtier, tu reçois un Margin Call : un avertissement.
+
+330
+00:28:14,717 --> 00:28:23,851
+S'il continue de baisser et atteint le niveau de Stop Out, cinquante pour cent pour les clients particuliers dans l'Union européenne, le courtier ferme automatiquement tes positions.
+
+331
+00:28:24,271 --> 00:28:31,140
+C'est une liquidation automatique : elle protège le compte contre une perte encore plus grande, mais elle rend la perte définitive.
+
+332
+00:28:32,510 --> 00:28:39,270
+En Europe, l'Autorité européenne des marchés financiers a plafonné l'effet de levier des particuliers sur les CFD.
+
+333
+00:28:39,690 --> 00:28:41,820
+Un pour trente sur les paires de devises majeures.
+
+334
+00:28:42,240 --> 00:28:45,608
+Un pour vingt sur les autres paires, l'or et les grands indices.
+
+335
+00:28:46,028 --> 00:28:50,527
+Un pour dix sur les autres matières premières et les indices secondaires.
+
+336
+00:28:50,947 --> 00:28:52,266
+Un pour cinq sur les actions…
+
+337
+00:28:52,686 --> 00:29:01,073
+…et un pour deux sur les cryptomonnaies. Les particuliers bénéficient aussi d'une protection contre le solde négatif : ils ne peuvent pas perdre plus que leur dépôt.
+
+338
+00:29:02,443 --> 00:29:09,727
+Certains courtiers proposent des leviers de un pour cinq cents, voire plus, souvent depuis des pays moins régulés, ou réservés aux clients professionnels.
+
+339
+00:29:10,147 --> 00:29:16,634
+Avec un tel levier, une variation de zéro virgule deux pour cent suffit à faire perdre l'équivalent de toute la marge engagée.
+
+340
+00:29:17,054 --> 00:29:22,830
+Plus le levier est élevé, plus il devient facile d'ouvrir une exposition démesurée par rapport à son capital.
+
+341
+00:29:24,200 --> 00:29:25,392
+Retiens bien cette idée.
+
+342
+00:29:25,812 --> 00:29:34,463
+Le levier ne rend pas une position plus risquée en soi : il permet d'en ouvrir une plus grosse. C'est l'exposition totale par rapport au capital qui fait le risque.
+
+343
+00:29:34,883 --> 00:29:38,771
+Maintenant, voyons les courtiers et la plateforme MetaTrader cinq.
+
+344
+00:29:42,681 --> 00:29:46,216
+Chapitre huit : les courtiers et MetaTrader cinq.
+
+345
+00:29:47,586 --> 00:29:50,842
+Pour trader, tu passes par un courtier, ou broker.
+
+346
+00:29:51,262 --> 00:29:56,144
+Il fait l'intermédiaire entre toi et le marché : il reçoit tes ordres et te fournit les prix.
+
+347
+00:29:56,564 --> 00:29:58,879
+Il te donne accès à une plateforme de trading.
+
+348
+00:29:59,299 --> 00:30:06,157
+Et il conserve ton argent. Chez un courtier régulé, ces fonds doivent être placés sur des comptes séparés des siens.
+
+349
+00:30:07,527 --> 00:30:10,610
+Un courtier régulé est surveillé par une autorité financière.
+
+350
+00:30:11,030 --> 00:30:17,877
+En France, c'est l'AMF. Elle publie des listes noires de sites non autorisés : c'est le premier réflexe à avoir.
+
+351
+00:30:18,297 --> 00:30:24,786
+Grâce au passeport européen, un courtier agréé dans un autre pays de l'Union peut proposer ses services en France.
+
+352
+00:30:25,206 --> 00:30:29,308
+Beaucoup de courtiers européens sont par exemple régulés à Chypre, par la CySEC.
+
+353
+00:30:29,728 --> 00:30:34,228
+La régulation impose notamment de séparer l'argent des clients de celui de l'entreprise.
+
+354
+00:30:34,648 --> 00:30:40,909
+À Chypre, un fonds d'indemnisation peut couvrir jusqu'à vingt mille euros par client en cas de faillite du courtier.
+
+355
+00:30:41,329 --> 00:30:45,190
+Et les clients particuliers bénéficient de la protection contre le solde négatif.
+
+356
+00:30:46,560 --> 00:30:47,999
+La différence est majeure.
+
+357
+00:30:48,419 --> 00:30:58,290
+Avec un courtier non régulé, rien ne garantit que tu pourras récupérer ton argent. Les retraits peuvent être bloqués, et en cas de problème, il n'y a souvent aucun recours.
+
+358
+00:30:59,660 --> 00:31:07,476
+Pour illustrer la suite, prenons l'exemple de Pepperstone, un courtier connu. Ce n'est ni une publicité, ni une recommandation.
+
+359
+00:31:07,896 --> 00:31:14,094
+Il propose, comme beaucoup d'autres, des comptes de démonstration et des comptes réels, ainsi que plusieurs types de comptes.
+
+360
+00:31:15,464 --> 00:31:22,779
+Le compte de démonstration fonctionne avec de l'argent fictif. C'est l'outil idéal pour découvrir une plateforme sans rien risquer.
+
+361
+00:31:23,199 --> 00:31:29,144
+Le compte réel engage ton propre argent. Et la différence la plus sous-estimée, ce sont les émotions.
+
+362
+00:31:30,513 --> 00:31:32,615
+Il existe souvent deux grands types de comptes.
+
+363
+00:31:33,035 --> 00:31:45,796
+Le compte Standard : pas de commission, mais un spread plus large. Le compte Raw Spread : un spread très serré, mais une commission par lot. Selon le volume, l'un ou l'autre peut coûter moins cher.
+
+364
+00:31:47,166 --> 00:31:49,904
+Les courtiers utilisent différents modèles d'exécution.
+
+365
+00:31:50,324 --> 00:31:53,696
+Le Market Maker peut se placer lui-même en contrepartie de tes ordres.
+
+366
+00:31:54,116 --> 00:31:59,661
+Le modèle STP transmet tes ordres à des fournisseurs de liquidité, comme des banques.
+
+367
+00:32:00,081 --> 00:32:09,559
+Le modèle ECN fait se rencontrer les ordres de nombreux participants dans un réseau. Dans tous les cas, la régulation impose une obligation de meilleure exécution.
+
+368
+00:32:10,929 --> 00:32:15,114
+Côté argent, les dépôts se font par virement ou par carte, toujours à ton nom.
+
+369
+00:32:15,534 --> 00:32:20,177
+Les retraits sont généralement renvoyés vers le même moyen de paiement, pour lutter contre le blanchiment.
+
+370
+00:32:20,597 --> 00:32:30,704
+Et les frais à surveiller sont le spread, la commission, le swap, mais aussi parfois des frais de conversion ou d'inactivité. Lis toujours la grille tarifaire.
+
+371
+00:32:32,074 --> 00:32:39,949
+Découvrons maintenant MetaTrader cinq, l'une des plateformes les plus utilisées au monde. Ce que tu vois est une reconstitution simplifiée.
+
+372
+00:32:40,369 --> 00:32:44,826
+À gauche, la fenêtre Market Watch affiche les cotations des instruments.
+
+373
+00:32:45,246 --> 00:32:51,563
+Pour chaque symbole, le Bid à gauche, et l'Ask à droite. Les prix changent de couleur à chaque variation.
+
+374
+00:32:51,983 --> 00:32:57,661
+En dessous, le Navigator donne accès à tes comptes, aux indicateurs et aux robots de trading.
+
+375
+00:32:58,081 --> 00:33:03,270
+Au centre, le graphique de l'instrument sélectionné, ici l'euro dollar en une heure.
+
+376
+00:33:03,690 --> 00:33:07,971
+En haut, tu peux changer d'unité de temps : de M1 à MN1.
+
+377
+00:33:08,391 --> 00:33:13,056
+En bas, la boîte à outils, avec l'onglet Trade, qui affiche tes positions ouvertes.
+
+378
+00:33:13,476 --> 00:33:21,763
+Et sur la dernière ligne, l'état de ton compte : Balance, Equity, Margin, Free Margin, et Margin Level.
+
+379
+00:33:23,133 --> 00:33:28,322
+Passons à la pratique, sur un compte de démonstration. On clique sur Nouvel ordre.
+
+380
+00:33:28,742 --> 00:33:31,743
+On choisit le volume : zéro virgule un lot.
+
+381
+00:33:32,163 --> 00:33:34,650
+On définit un Stop Loss et un Take Profit.
+
+382
+00:33:35,070 --> 00:33:37,973
+Puis on clique sur Buy by Market : achat au prix du marché.
+
+383
+00:33:38,393 --> 00:33:42,631
+La position apparaît immédiatement dans l'onglet Trade, avec son prix d'ouverture.
+
+384
+00:33:43,051 --> 00:33:47,646
+Regarde le bas de l'écran : une marge est maintenant bloquée, et l'Equity bouge avec le prix.
+
+385
+00:33:48,066 --> 00:33:52,373
+Le profit latent varie en direct, d'abord légèrement négatif à cause du spread.
+
+386
+00:33:52,793 --> 00:33:59,652
+Pour fermer la position, on clique sur la croix. Le résultat est alors réalisé, et la Balance est mise à jour.
+
+387
+00:34:00,072 --> 00:34:03,493
+Dans l'onglet Historique, on retrouve la transaction terminée.
+
+388
+00:34:04,863 --> 00:34:06,207
+D'autres plateformes existent.
+
+389
+00:34:06,627 --> 00:34:13,432
+TradingView est surtout connu pour ses graphiques. Il peut être relié à certains courtiers pour passer des ordres.
+
+390
+00:34:13,852 --> 00:34:18,894
+cTrader propose une interface moderne, appréciée pour la transparence de l'exécution.
+
+391
+00:34:19,314 --> 00:34:29,704
+Et MetaTrader quatre, l'ancêtre de MT5, reste très répandu sur le Forex. Le principe est le même partout : des prix, des ordres, et un compte à surveiller.
+
+392
+00:34:33,625 --> 00:34:36,611
+Chapitre neuf : les indicateurs et l'économie.
+
+393
+00:34:37,981 --> 00:34:41,013
+Un indicateur technique est un calcul appliqué aux prix passés.
+
+394
+00:34:41,433 --> 00:34:49,531
+Il ne prédit pas l'avenir : il résume ce qui s'est déjà passé, d'une autre manière. Voyons les plus connus, sans aucune règle d'achat ou de vente.
+
+395
+00:34:50,901 --> 00:34:52,333
+Les moyennes mobiles, d'abord.
+
+396
+00:34:52,753 --> 00:35:04,186
+La SMA est la moyenne simple des derniers prix, par exemple sur vingt bougies. L'EMA est une moyenne exponentielle : elle donne plus de poids aux prix récents, et réagit donc plus vite.
+
+397
+00:35:04,606 --> 00:35:09,616
+Leur limite : elles sont toujours en retard sur le prix, puisqu'elles sont calculées sur le passé.
+
+398
+00:35:10,986 --> 00:35:13,694
+Le RSI, ou indice de force relative.
+
+399
+00:35:14,114 --> 00:35:23,330
+Il oscille entre zéro et cent, et compare la force des hausses et des baisses récentes, souvent sur quatorze périodes. Les niveaux soixante-dix et trente sont souvent tracés.
+
+400
+00:35:23,750 --> 00:35:30,946
+Sa limite : dans une tendance forte, il peut rester longtemps à un extrême pendant que le prix continue dans la même direction.
+
+401
+00:35:32,316 --> 00:35:38,393
+Le MACD mesure l'écart entre deux moyennes mobiles exponentielles, une rapide et une lente.
+
+402
+00:35:38,813 --> 00:35:46,225
+Il permet d'observer l'accélération ou le ralentissement d'un mouvement. Lui aussi est en retard, car il est construit à partir de moyennes.
+
+403
+00:35:47,595 --> 00:35:51,891
+Les bandes de Bollinger entourent une moyenne mobile de deux bandes, calculées avec l'écart-type.
+
+404
+00:35:52,311 --> 00:36:00,015
+Elles s'écartent quand le marché devient volatil, et se resserrent quand il se calme. Elles décrivent la volatilité, pas la direction.
+
+405
+00:36:01,385 --> 00:36:03,290
+Quatre autres outils très répandus.
+
+406
+00:36:03,710 --> 00:36:09,534
+L'ATR mesure l'amplitude moyenne des bougies. C'est un thermomètre de la volatilité.
+
+407
+00:36:09,954 --> 00:36:17,288
+Le VWAP est le prix moyen de la séance, pondéré par les volumes échangés. Il est surtout utilisé en intraday.
+
+408
+00:36:17,708 --> 00:36:26,890
+Le volume montre l'activité derrière chaque mouvement. Sur le Forex, il s'agit souvent d'un volume de ticks fourni par le courtier, pas du volume global.
+
+409
+00:36:27,310 --> 00:36:35,655
+Et les retracements de Fibonacci tracent des niveaux en pourcentage d'un mouvement. Ce sont des repères conventionnels, sans fondement prédictif démontré.
+
+410
+00:36:37,025 --> 00:36:45,345
+Retiens la limite commune à tous ces outils : aucun indicateur ne fonctionne à tous les coups. Ils aident à décrire le marché, pas à le prédire.
+
+411
+00:36:45,765 --> 00:36:49,302
+Passons maintenant à ce qui fait bouger les prix en profondeur : l'économie.
+
+412
+00:36:50,672 --> 00:36:54,335
+L'inflation, c'est la hausse générale des prix dans une économie.
+
+413
+00:36:54,755 --> 00:36:59,748
+Elle est mesurée par l'indice des prix à la consommation, appelé CPI aux États-Unis.
+
+414
+00:37:00,168 --> 00:37:02,950
+Une inflation trop forte pousse les banques centrales à agir.
+
+415
+00:37:04,320 --> 00:37:06,046
+Les banques centrales jouent un rôle clé.
+
+416
+00:37:06,466 --> 00:37:13,869
+Aux États-Unis, la FED. Ses décisions sont prises lors des réunions du FOMC, huit fois par an.
+
+417
+00:37:14,289 --> 00:37:18,069
+En zone euro, la BCE, la Banque centrale européenne.
+
+418
+00:37:18,489 --> 00:37:27,958
+Leur outil principal : les taux d'intérêt. Monter les taux rend le crédit plus cher et freine l'inflation. Cela rend souvent aussi la monnaie plus attractive.
+
+419
+00:37:29,328 --> 00:37:31,775
+Certaines statistiques sont suivies de très près.
+
+420
+00:37:32,195 --> 00:37:35,044
+Le PIB mesure la croissance de l'économie.
+
+421
+00:37:35,464 --> 00:37:38,083
+Le CPI mesure l'inflation, chaque mois.
+
+422
+00:37:38,503 --> 00:37:47,718
+Et le NFP, les créations d'emplois aux États-Unis, publié en général le premier vendredi du mois, à quatorze heures trente, heure de Paris.
+
+423
+00:37:49,088 --> 00:37:54,165
+Toutes ces annonces sont regroupées dans un calendrier économique, gratuit sur de nombreux sites.
+
+424
+00:37:54,585 --> 00:37:59,889
+Chaque événement a une heure précise, une devise concernée, et un niveau d'importance.
+
+425
+00:38:00,309 --> 00:38:09,535
+Au moment d'une annonce importante, le marché compare le chiffre publié à ce qui était attendu. Une surprise peut provoquer un mouvement très violent en quelques secondes.
+
+426
+00:38:09,955 --> 00:38:18,262
+Les spreads s'élargissent, la liquidité diminue, et le slippage devient fréquent. C'est pour cela que ces moments sont particulièrement risqués.
+
+427
+00:38:19,632 --> 00:38:24,710
+Enfin, les événements géopolitiques : élections, conflits, sanctions, crises.
+
+428
+00:38:25,130 --> 00:38:32,278
+Ils sont imprévisibles, et peuvent créer des gaps et des mouvements extrêmes, notamment sur le pétrole, l'or et les devises.
+
+429
+00:38:32,698 --> 00:38:39,044
+Comprendre l'économie, ce n'est pas deviner l'avenir : c'est savoir pourquoi le marché peut soudain s'agiter.
+
+430
+00:38:42,969 --> 00:38:46,707
+Chapitre dix : les horaires et les styles de trading.
+
+431
+00:38:48,077 --> 00:38:56,708
+Le Forex est ouvert vingt-quatre heures sur vingt-quatre, du dimanche soir au vendredi soir. L'activité suit le soleil, à travers quatre grandes sessions.
+
+432
+00:38:57,128 --> 00:39:01,518
+La journée commence à Sydney, vers vingt-trois heures, heure de Paris, en hiver.
+
+433
+00:39:01,938 --> 00:39:05,389
+Puis vient Tokyo, la session asiatique.
+
+434
+00:39:05,809 --> 00:39:10,031
+Vers neuf heures, Londres ouvre : c'est la place la plus active du Forex.
+
+435
+00:39:10,451 --> 00:39:12,821
+À quatorze heures, New York prend le relais.
+
+436
+00:39:13,241 --> 00:39:21,920
+Entre quatorze et dix-huit heures, Londres et New York sont ouvertes en même temps. Ce chevauchement est souvent la période la plus liquide et la plus volatile.
+
+437
+00:39:22,340 --> 00:39:34,778
+À l'inverse, la nuit, pendant la session asiatique, certaines paires européennes bougent généralement moins. Attention, ces horaires changent d'une heure avec les changements d'heure, qui ne tombent pas aux mêmes dates partout.
+
+438
+00:39:36,148 --> 00:39:38,066
+Chaque marché a ses propres horaires.
+
+439
+00:39:38,486 --> 00:39:41,319
+Le Forex tourne cinq jours sur sept, jour et nuit.
+
+440
+00:39:41,739 --> 00:39:51,750
+Les actions suivent les heures de leur bourse, par exemple de neuf heures à dix-sept heures trente à Paris. Les CFD sur indices peuvent avoir des horaires étendus selon le courtier.
+
+441
+00:39:52,170 --> 00:39:55,366
+Et les cryptomonnaies s'échangent en continu, sept jours sur sept.
+
+442
+00:39:56,736 --> 00:39:59,401
+Les traders se distinguent aussi par la durée de leurs positions.
+
+443
+00:39:59,821 --> 00:40:08,115
+Le scalping : des positions de quelques secondes à quelques minutes, avec de très nombreuses transactions. Les coûts comme le spread pèsent très lourd.
+
+444
+00:40:08,535 --> 00:40:13,391
+Le day trading : toutes les positions sont fermées avant la fin de la journée, donc pas de swap.
+
+445
+00:40:13,811 --> 00:40:18,763
+Le swing trading : des positions gardées plusieurs jours, voire quelques semaines.
+
+446
+00:40:19,183 --> 00:40:26,209
+Et le position trading : des positions de plusieurs semaines ou plusieurs mois, plus proche de l'investissement.
+
+447
+00:40:27,579 --> 00:40:30,304
+Enfin, le trading peut être automatisé.
+
+448
+00:40:30,724 --> 00:40:35,240
+Le trading algorithmique consiste à confier à un programme l'exécution de règles précises.
+
+449
+00:40:35,660 --> 00:40:40,555
+Sur MetaTrader, ces programmes s'appellent des Expert Advisors, ou robots de trading.
+
+450
+00:40:40,975 --> 00:40:48,717
+Le backtesting permet de tester ces règles sur des données passées. Mais un bon résultat passé ne garantit jamais les résultats futurs.
+
+451
+00:40:49,137 --> 00:40:57,707
+Le copy trading permet de copier automatiquement les positions d'un autre trader. Tu copies aussi ses pertes, et tu restes responsable de ton compte.
+
+452
+00:40:58,127 --> 00:41:03,274
+Et méfie-toi des robots vendus avec des promesses de gains réguliers : c'est un signal d'alerte classique.
+
+453
+00:41:07,183 --> 00:41:09,965
+Chapitre onze : les prop firms.
+
+454
+00:41:11,335 --> 00:41:13,722
+Tu as sûrement vu des publicités pour des prop firms.
+
+455
+00:41:14,142 --> 00:41:23,914
+Ce sont des sociétés qui proposent de trader un capital qu'elles mettent à ta disposition, après une évaluation. On parle de compte financé, ou funded account.
+
+456
+00:41:25,284 --> 00:41:27,219
+Le fonctionnement est généralement le suivant.
+
+457
+00:41:27,639 --> 00:41:33,427
+Tu paies des frais d'inscription pour passer un challenge, souvent de quelques dizaines à quelques centaines d'euros.
+
+458
+00:41:33,847 --> 00:41:37,601
+Tu dois atteindre un objectif de profit, par exemple huit ou dix pour cent…
+
+459
+00:41:38,021 --> 00:41:40,071
+…sans jamais dépasser certaines limites de perte.
+
+460
+00:41:40,491 --> 00:41:44,525
+Si tu réussis, tu obtiens un compte financé, et tu touches une part des bénéfices.
+
+461
+00:41:45,895 --> 00:41:49,656
+Voici des règles typiques, sur un exemple fictif de cent mille dollars.
+
+462
+00:41:50,076 --> 00:41:51,919
+Un objectif de profit de huit pour cent.
+
+463
+00:41:52,339 --> 00:41:59,050
+Un drawdown journalier maximal de cinq pour cent : si tu perds plus de cinq mille dollars dans la journée, le challenge est perdu.
+
+464
+00:41:59,470 --> 00:42:02,609
+Un drawdown maximal de dix pour cent sur toute la durée.
+
+465
+00:42:03,029 --> 00:42:07,789
+Et un partage des bénéfices, ou profit split, par exemple quatre-vingts pour cent pour toi.
+
+466
+00:42:09,159 --> 00:42:10,428
+Quelques points essentiels.
+
+467
+00:42:10,848 --> 00:42:16,359
+Beaucoup de comptes dits financés sont en réalité des comptes simulés : tes positions ne vont pas réellement sur le marché.
+
+468
+00:42:16,779 --> 00:42:20,729
+Les retraits sont soumis à des conditions précises, et les règles peuvent changer.
+
+469
+00:42:21,149 --> 00:42:29,372
+Et en cas d'échec, les frais d'inscription sont perdus. Une grande partie des revenus de certaines sociétés provient justement de ces frais.
+
+470
+00:42:30,742 --> 00:42:38,866
+Avant de t'engager, lis l'intégralité des conditions générales. Une prop firm n'est ni un emploi, ni un placement garanti.
+
+471
+00:42:39,286 --> 00:42:42,612
+Et souviens-toi que ce secteur est encore peu encadré dans de nombreux pays.
+
+472
+00:42:46,532 --> 00:42:49,480
+Chapitre douze : le risque et la psychologie.
+
+473
+00:42:50,850 --> 00:42:53,989
+Le trading comporte un risque réel de perte en capital.
+
+474
+00:42:54,409 --> 00:43:01,650
+Règle de base : ne jamais utiliser un argent dont tu as besoin pour vivre, payer tes factures, ou faire face aux imprévus.
+
+475
+00:43:03,020 --> 00:43:05,416
+Voici une vérité mathématique essentielle.
+
+476
+00:43:05,836 --> 00:43:06,748
+Tu as mille euros.
+
+477
+00:43:07,168 --> 00:43:09,478
+Tu perds cinquante pour cent : il te reste cinq cents euros.
+
+478
+00:43:09,898 --> 00:43:13,486
+Pour revenir à mille euros, tu dois regagner cinq cents euros…
+
+479
+00:43:13,906 --> 00:43:15,657
+…soit cent pour cent de ce qu'il te reste.
+
+480
+00:43:16,077 --> 00:43:19,939
+Plus une perte est grande, plus il devient difficile de la récupérer.
+
+481
+00:43:21,309 --> 00:43:24,626
+Une perte de dix pour cent demande onze virgule un pour cent de gain.
+
+482
+00:43:25,046 --> 00:43:27,679
+Vingt-cinq pour cent de perte : trente-trois pour cent de gain.
+
+483
+00:43:28,099 --> 00:43:30,587
+Cinquante pour cent de perte : cent pour cent.
+
+484
+00:43:31,007 --> 00:43:38,898
+Et soixante-quinze pour cent de perte : il faut quadrupler pour revenir. Protéger son capital est donc la priorité absolue.
+
+485
+00:43:40,268 --> 00:43:44,721
+Le rapport risque sur rendement compare ce que tu acceptes de perdre à ce que tu vises.
+
+486
+00:43:45,141 --> 00:43:48,050
+Si tu risques vingt euros pour viser quarante euros…
+
+487
+00:43:48,470 --> 00:43:55,449
+…le rapport est de un pour deux. C'est un outil de mesure, pas une garantie : le gain visé peut ne jamais être atteint.
+
+488
+00:43:56,819 --> 00:44:03,687
+Les séries de pertes font partie du trading. Même une méthode qui a fonctionné dans le passé peut enchaîner plusieurs pertes d'affilée.
+
+489
+00:44:04,107 --> 00:44:09,233
+Avec mille euros et deux pour cent de perte à chaque fois, il reste environ neuf cent quatre euros après cinq pertes.
+
+490
+00:44:09,653 --> 00:44:17,727
+Et environ huit cent dix-sept euros après dix pertes. Avec dix pour cent de perte à chaque fois, il ne resterait qu'environ trois cent quarante-neuf euros.
+
+491
+00:44:19,097 --> 00:44:21,943
+Le plus grand adversaire du trader, c'est souvent lui-même.
+
+492
+00:44:22,363 --> 00:44:28,287
+Le FOMO, la peur de rater une occasion, pousse à entrer précipitamment sur un mouvement déjà lancé.
+
+493
+00:44:28,707 --> 00:44:34,371
+Le Revenge Trading, c'est vouloir se refaire immédiatement après une perte, souvent en prenant plus de risques.
+
+494
+00:44:34,791 --> 00:44:40,301
+L'Overtrading, c'est multiplier les positions sans raison, et donc multiplier les frais.
+
+495
+00:44:40,721 --> 00:44:44,718
+La peur peut pousser à fermer trop tôt, ou à ne plus oser agir du tout.
+
+496
+00:44:45,138 --> 00:44:48,773
+Et l'excès de confiance, après quelques gains, pousse à augmenter les risques.
+
+497
+00:44:49,193 --> 00:44:52,205
+Dans tous les cas, l'émotion remplace la réflexion.
+
+498
+00:44:53,575 --> 00:44:55,815
+Enfin, apprends à reconnaître les arnaques.
+
+499
+00:44:56,235 --> 00:45:00,637
+Une promesse de gains garantis ou réguliers : aucun placement risqué ne peut la tenir.
+
+500
+00:45:01,057 --> 00:45:07,758
+La pression et l'urgence : offre limitée, appels insistants, messages privés sur les réseaux sociaux.
+
+501
+00:45:08,178 --> 00:45:13,203
+Une plateforme non autorisée : vérifie toujours les listes noires publiées par l'AMF.
+
+502
+00:45:13,623 --> 00:45:22,934
+Et des retraits impossibles, ou des frais surprises pour débloquer ton argent. Dans ce cas, ne paie rien de plus et signale-le à l'AMF.
+
+503
+00:45:24,304 --> 00:45:28,401
+Un dernier conseil : si c'est trop beau pour être vrai, c'est probablement faux.
+
+504
+00:45:28,821 --> 00:45:33,199
+Passons maintenant à la pratique, en commençant par la fiche d'identité d'un instrument.
+
+505
+00:45:37,113 --> 00:45:40,886
+Chapitre treize : la fiche d'identité d'un instrument.
+
+506
+00:45:42,256 --> 00:45:48,814
+Chaque instrument a ses propres règles : taille du contrat, valeur d'un mouvement, marge, horaires, frais.
+
+507
+00:45:49,234 --> 00:45:55,470
+Toutes ces informations sont regroupées dans une fiche qu'on appelle la spécification du contrat. Apprenons à la lire.
+
+508
+00:45:56,840 --> 00:46:01,021
+Voici à quoi ressemble la fiche de l'euro dollar, avec des valeurs typiques.
+
+509
+00:46:01,441 --> 00:46:03,827
+La taille du contrat : cent mille euros pour un lot.
+
+510
+00:46:04,247 --> 00:46:06,775
+Le nombre de décimales affichées : cinq.
+
+511
+00:46:07,195 --> 00:46:14,531
+Le volume minimum : zéro virgule zéro un lot, avec un pas de zéro virgule zéro un.
+
+512
+00:46:14,951 --> 00:46:21,632
+La marge : trois virgule trente-trois pour cent de la valeur, ce qui correspond à un levier de un pour trente.
+
+513
+00:46:22,052 --> 00:46:26,809
+Les horaires de cotation : vingt-quatre heures sur vingt-quatre, cinq jours sur sept.
+
+514
+00:46:27,229 --> 00:46:29,379
+Le swap pour une position acheteuse…
+
+515
+00:46:29,799 --> 00:46:34,638
+…et celui pour une position vendeuse. Ils changent régulièrement.
+
+516
+00:46:35,058 --> 00:46:37,270
+Et la valeur d'un pip : dix dollars par lot.
+
+517
+00:46:38,640 --> 00:46:45,063
+Prenons maintenant l'or. Chez beaucoup de courtiers, un lot d'or représente cent onces.
+
+518
+00:46:45,483 --> 00:46:49,567
+Avec une once à deux mille quatre cents dollars, un lot vaut deux cent quarante mille dollars.
+
+519
+00:46:49,987 --> 00:46:54,168
+Quand le prix de l'or bouge d'un dollar, un lot gagne ou perd cent dollars.
+
+520
+00:46:54,588 --> 00:47:03,767
+Avec zéro virgule zéro un lot, c'est un dollar par dollar de variation. Et l'or peut bouger de plusieurs dizaines de dollars en une journée.
+
+521
+00:47:04,187 --> 00:47:14,290
+Le levier maximum sur l'or est de un pour vingt pour un particulier en Europe : zéro virgule zéro un lot demande donc environ cent vingt dollars de marge.
+
+522
+00:47:14,710 --> 00:47:20,235
+Même volume affiché, mais une exposition et une marge très différentes de l'euro dollar.
+
+523
+00:47:21,605 --> 00:47:27,232
+Sur un CFD d'indice, comme le US500, la logique change encore.
+
+524
+00:47:27,652 --> 00:47:36,275
+Chez certains courtiers, un lot vaut un dollar par point d'indice. À cinq mille trois cents points, l'exposition est de cinq mille trois cents dollars.
+
+525
+00:47:36,695 --> 00:47:41,366
+Si l'indice bouge de cinquante points, la position gagne ou perd cinquante dollars.
+
+526
+00:47:41,786 --> 00:47:46,286
+Avec un levier de un pour vingt, la marge est d'environ deux cent soixante-cinq dollars.
+
+527
+00:47:46,706 --> 00:47:54,861
+Mais attention : d'autres courtiers utilisent dix dollars, ou même cinquante dollars par point. Il faut toujours vérifier.
+
+528
+00:47:56,231 --> 00:48:01,733
+Et sur les cryptomonnaies ? Prenons le bitcoin, avec un lot égal à un bitcoin.
+
+529
+00:48:02,153 --> 00:48:06,244
+Zéro virgule zéro un lot représente six cents dollars d'exposition.
+
+530
+00:48:06,664 --> 00:48:11,092
+Avec le levier maximum de un pour deux, il faut trois cents dollars de marge.
+
+531
+00:48:11,512 --> 00:48:16,254
+Et une variation de cinq pour cent, assez fréquente sur le bitcoin, représente trente dollars.
+
+532
+00:48:17,624 --> 00:48:21,179
+Comparons la marge nécessaire pour zéro virgule zéro un lot.
+
+533
+00:48:21,599 --> 00:48:23,981
+Environ trente-six dollars sur l'euro dollar.
+
+534
+00:48:24,401 --> 00:48:26,632
+Environ cent vingt dollars sur l'or.
+
+535
+00:48:27,052 --> 00:48:33,961
+Et environ trois cents dollars sur le bitcoin. Le même chiffre de volume ne veut donc rien dire sans la fiche de l'instrument.
+
+536
+00:48:35,331 --> 00:48:37,052
+Où trouver ces informations ?
+
+537
+00:48:37,472 --> 00:48:42,897
+Dans MetaTrader cinq : un clic droit sur le symbole dans le Market Watch, puis Spécification.
+
+538
+00:48:43,317 --> 00:48:46,752
+Sur le site de ton courtier, dans la rubrique des conditions de trading.
+
+539
+00:48:47,172 --> 00:48:55,391
+Et dans le document d'informations clés, obligatoire en Europe pour chaque type de CFD. Il décrit les risques et les coûts.
+
+540
+00:48:56,761 --> 00:49:01,057
+La règle est simple : avant de toucher à un nouvel instrument, lis sa fiche.
+
+541
+00:49:01,477 --> 00:49:05,352
+Et maintenant que tu sais lire une fiche, voyons comment calculer la taille d'une position.
+
+542
+00:49:09,273 --> 00:49:12,315
+Chapitre quatorze : calculer la taille d'une position.
+
+543
+00:49:13,685 --> 00:49:17,073
+Beaucoup de débutants choisissent leur volume au hasard, ou au feeling.
+
+544
+00:49:17,493 --> 00:49:25,668
+Or la taille de position est l'un des leviers les plus importants pour maîtriser son risque. Elle se décide avant d'ouvrir, jamais après.
+
+545
+00:49:27,038 --> 00:49:30,222
+Pour calculer une taille de position, il faut trois informations.
+
+546
+00:49:30,642 --> 00:49:34,750
+Le montant maximum que tu acceptes de perdre si le Stop Loss est touché.
+
+547
+00:49:35,170 --> 00:49:38,023
+La distance entre ton prix d'entrée et ton Stop Loss.
+
+548
+00:49:38,443 --> 00:49:40,915
+Et la valeur d'un pip pour l'instrument choisi.
+
+549
+00:49:42,285 --> 00:49:46,658
+Prenons un compte de mille dollars. Pour simplifier, le compte est en dollars.
+
+550
+00:49:47,078 --> 00:49:50,932
+Imaginons que tu décides de ne pas risquer plus de un pour cent du capital sur une position.
+
+551
+00:49:51,352 --> 00:50:02,311
+Un pour cent de mille dollars, c'est dix dollars. C'est la perte maximale prévue si le Stop Loss est touché. Ce pourcentage est un exemple, pas une recommandation.
+
+552
+00:50:03,681 --> 00:50:07,683
+Supposons maintenant que ton Stop Loss se trouve à vingt-cinq pips de ton prix d'entrée.
+
+553
+00:50:08,103 --> 00:50:14,355
+Dix dollars de risque, divisés par vingt-cinq pips : chaque pip peut valoir au maximum quarante centimes.
+
+554
+00:50:14,775 --> 00:50:17,292
+On sait qu'un lot vaut dix dollars par pip.
+
+555
+00:50:17,712 --> 00:50:22,337
+Quarante centimes divisés par dix dollars : zéro virgule zéro quatre lot.
+
+556
+00:50:22,757 --> 00:50:30,333
+Avec zéro virgule zéro quatre lot, si le Stop Loss est touché, tu perds environ dix dollars. Hors slippage et frais.
+
+557
+00:50:31,703 --> 00:50:33,716
+La formule générale est donc la suivante.
+
+558
+00:50:34,136 --> 00:50:41,283
+Nombre de lots égale risque, divisé par la distance du Stop Loss multipliée par la valeur du pip pour un lot.
+
+559
+00:50:41,703 --> 00:50:45,347
+Dans notre exemple : dix, divisé par vingt-cinq fois dix.
+
+560
+00:50:45,767 --> 00:50:47,382
+Soit zéro virgule zéro quatre.
+
+561
+00:50:47,802 --> 00:50:53,515
+Si le résultat tombe entre deux valeurs, on arrondit toujours vers le bas, pour ne jamais dépasser le risque prévu.
+
+562
+00:50:54,885 --> 00:51:00,835
+Voici le point clé : à risque égal, la taille s'adapte à la distance du Stop Loss.
+
+563
+00:51:01,255 --> 00:51:04,545
+Avec un Stop Loss à dix pips, on peut prendre zéro virgule un lot.
+
+564
+00:51:04,965 --> 00:51:07,645
+À vingt-cinq pips, zéro virgule zéro quatre lot.
+
+565
+00:51:08,065 --> 00:51:10,623
+À cinquante pips, zéro virgule zéro deux lot.
+
+566
+00:51:11,043 --> 00:51:17,994
+Et à cent pips, zéro virgule zéro un lot. Dans les quatre cas, la perte prévue reste de dix dollars.
+
+567
+00:51:19,364 --> 00:51:20,437
+Et avec un petit compte ?
+
+568
+00:51:20,857 --> 00:51:23,550
+Avec cent dollars, un pour cent représente un dollar.
+
+569
+00:51:23,970 --> 00:51:27,066
+Le calcul donne zéro virgule zéro zéro quatre lot…
+
+570
+00:51:27,486 --> 00:51:35,111
+…mais le volume minimum est de zéro virgule zéro un lot. Avec ce minimum, le risque réel est de deux dollars cinquante.
+
+571
+00:51:35,531 --> 00:51:42,914
+Soit deux virgule cinq pour cent du compte. Avec un petit capital, il est donc souvent impossible de respecter un risque très faible.
+
+572
+00:51:44,284 --> 00:51:46,063
+Attention, ce calcul a des limites.
+
+573
+00:51:46,483 --> 00:51:52,450
+Le slippage peut faire exécuter le Stop Loss plus loin que prévu, et donc augmenter la perte.
+
+574
+00:51:52,870 --> 00:51:55,908
+Les frais s'ajoutent : spread, commission et swap.
+
+575
+00:51:56,328 --> 00:52:07,364
+Certaines positions sont corrélées : l'euro dollar et la livre dollar, par exemple, bougent souvent dans le même sens. Deux positions, c'est parfois presque le même risque, en double.
+
+576
+00:52:07,784 --> 00:52:11,030
+Il faut donc toujours raisonner sur l'exposition totale du compte.
+
+577
+00:52:12,400 --> 00:52:19,720
+Ce calcul ne te dit pas quand acheter ou vendre. C'est simplement un outil pour mesurer, et limiter, ce que tu peux perdre.
+
+578
+00:52:20,140 --> 00:52:24,186
+Maintenant, mettons tout ensemble avec un trade complet, de A à Z.
+
+579
+00:52:28,100 --> 00:52:32,802
+Chapitre quinze : un trade de A à Z, sur un compte de démonstration.
+
+580
+00:52:33,222 --> 00:52:37,411
+L'objectif n'est pas de choisir le bon moment, mais de comprendre chaque étape du processus.
+
+581
+00:52:38,781 --> 00:52:42,617
+Un trade, ce n'est pas juste un clic. C'est une suite d'étapes.
+
+582
+00:52:43,037 --> 00:52:44,697
+Lire la fiche de l'instrument.
+
+583
+00:52:45,117 --> 00:52:47,039
+Consulter le calendrier économique.
+
+584
+00:52:47,459 --> 00:52:50,539
+Définir le Stop Loss et la taille de position.
+
+585
+00:52:50,959 --> 00:52:52,212
+Ouvrir la position.
+
+586
+00:52:52,632 --> 00:52:53,970
+Suivre l'évolution du compte.
+
+587
+00:52:54,390 --> 00:52:55,585
+Fermer la position.
+
+588
+00:52:56,005 --> 00:52:57,944
+Et noter le trade dans un journal.
+
+589
+00:52:59,314 --> 00:53:02,546
+Première étape : on vérifie la fiche de l'euro dollar.
+
+590
+00:53:02,966 --> 00:53:15,369
+Spread d'environ un virgule deux pip, dix dollars par pip et par lot, volume minimum de zéro virgule zéro un lot, levier de un pour trente. Le compte de démonstration contient mille dollars.
+
+591
+00:53:16,739 --> 00:53:18,868
+Deuxième étape : le calendrier économique.
+
+592
+00:53:19,288 --> 00:53:24,891
+Aujourd'hui, une publication importante est prévue à quatorze heures trente : l'inflation américaine.
+
+593
+00:53:25,311 --> 00:53:34,457
+On le note : à ce moment-là, le spread peut s'élargir et le prix peut bouger brutalement. Ce n'est pas un signal, c'est une information sur le risque.
+
+594
+00:53:35,827 --> 00:53:39,096
+Troisième étape : on fixe le risque et la taille.
+
+595
+00:53:39,516 --> 00:53:41,619
+On prévoit de risquer au maximum dix dollars.
+
+596
+00:53:42,039 --> 00:53:44,725
+Le Stop Loss est placé à vingt pips du prix d'entrée.
+
+597
+00:53:45,145 --> 00:53:50,205
+Dix divisé par vingt fois dix : zéro virgule zéro cinq lot.
+
+598
+00:53:50,625 --> 00:53:55,565
+On fixe aussi un Take Profit, ici à quarante pips. Ces niveaux sont purement pédagogiques.
+
+599
+00:53:56,935 --> 00:54:00,915
+Quatrième étape : on ouvre la position. Nouvel ordre.
+
+600
+00:54:01,335 --> 00:54:05,107
+On saisit le volume calculé : zéro virgule zéro cinq lot.
+
+601
+00:54:05,527 --> 00:54:07,845
+On renseigne le Stop Loss et le Take Profit.
+
+602
+00:54:08,265 --> 00:54:16,089
+Et on achète au prix du marché. Cet achat sert uniquement d'exemple de mécanique : ce n'est ni un signal, ni une recommandation.
+
+603
+00:54:16,509 --> 00:54:24,351
+Cinquième étape : on surveille le compte. La marge bloquée est d'environ cent quatre-vingts dollars, et l'Equity varie avec le prix.
+
+604
+00:54:24,771 --> 00:54:29,353
+Le profit latent commence légèrement négatif, à cause du spread, puis il évolue.
+
+605
+00:54:29,773 --> 00:54:37,310
+Sixième étape : la position est fermée, ici manuellement. Elle aurait aussi pu être fermée par le Stop Loss ou le Take Profit.
+
+606
+00:54:37,730 --> 00:54:41,006
+Le résultat est maintenant réalisé, et il apparaît dans l'historique.
+
+607
+00:54:42,376 --> 00:54:47,621
+Si le Take Profit avait été atteint, le gain aurait été d'environ vingt dollars, avant frais.
+
+608
+00:54:48,041 --> 00:55:01,923
+Si le Stop Loss avait été touché, la perte aurait été d'environ dix dollars, exactement le risque prévu. Dans les deux cas, le gain visé et la perte maximale étaient fixés à l'avance. L'issue du trade, elle, ne l'était pas.
+
+609
+00:55:03,293 --> 00:55:06,308
+Dernière étape, souvent oubliée : le journal.
+
+610
+00:55:06,728 --> 00:55:07,933
+On note la date et l'heure…
+
+611
+00:55:08,353 --> 00:55:10,296
+…l'instrument et le sens de la position…
+
+612
+00:55:10,716 --> 00:55:11,884
+…la taille et le risque…
+
+613
+00:55:12,304 --> 00:55:15,737
+…les niveaux d'entrée, de Stop Loss et de Take Profit…
+
+614
+00:55:16,157 --> 00:55:17,906
+…le résultat, frais compris…
+
+615
+00:55:18,326 --> 00:55:22,820
+…et le ressenti. C'est ce journal qui permet ensuite d'analyser ses statistiques.
+
+616
+00:55:24,190 --> 00:55:31,310
+Sur un compte de démonstration, le but n'est pas de gagner de l'argent fictif. C'est de maîtriser chaque étape du processus.
+
+617
+00:55:31,730 --> 00:55:33,776
+Justement, parlons de ces statistiques.
+
+618
+00:55:37,711 --> 00:55:40,405
+Chapitre seize : comprendre ses statistiques.
+
+619
+00:55:41,775 --> 00:55:45,596
+Le premier chiffre que tout le monde regarde : le win rate, ou taux de réussite.
+
+620
+00:55:46,016 --> 00:55:55,464
+C'est la proportion de positions gagnantes. Six gagnantes sur dix, c'est un taux de réussite de soixante pour cent. Mais ce chiffre seul ne veut presque rien dire.
+
+621
+00:55:56,834 --> 00:55:57,783
+Regarde cet exemple.
+
+622
+00:55:58,203 --> 00:56:02,509
+Sept positions gagnantes, de dix dollars chacune : soixante-dix dollars.
+
+623
+00:56:02,929 --> 00:56:06,886
+Trois positions perdantes, de trente dollars chacune : quatre-vingt-dix dollars.
+
+624
+00:56:07,306 --> 00:56:09,084
+Résultat : moins vingt dollars.
+
+625
+00:56:09,504 --> 00:56:12,799
+Soixante-dix pour cent de réussite, et pourtant le compte baisse.
+
+626
+00:56:14,169 --> 00:56:15,403
+Et à l'inverse…
+
+627
+00:56:15,823 --> 00:56:19,275
+Quatre positions gagnantes de trente dollars : cent vingt dollars.
+
+628
+00:56:19,695 --> 00:56:23,145
+Six positions perdantes de dix dollars : soixante dollars.
+
+629
+00:56:23,565 --> 00:56:25,238
+Résultat : plus soixante dollars.
+
+630
+00:56:25,658 --> 00:56:33,665
+Quarante pour cent de réussite seulement, et le compte progresse. Ce qui compte, c'est la combinaison entre la fréquence et la taille des gains et des pertes.
+
+631
+00:56:35,035 --> 00:56:37,432
+On peut résumer cela avec l'espérance mathématique.
+
+632
+00:56:37,852 --> 00:56:43,998
+Espérance égale pourcentage de gains fois gain moyen, moins pourcentage de pertes fois perte moyenne.
+
+633
+00:56:44,418 --> 00:56:52,217
+Exemple A : zéro virgule sept fois dix, moins zéro virgule trois fois trente : moins deux dollars par trade, en moyenne.
+
+634
+00:56:52,637 --> 00:56:56,169
+Exemple B : plus six dollars par trade, en moyenne.
+
+635
+00:56:56,589 --> 00:57:02,711
+Attention : ces chiffres décrivent le passé. Rien ne garantit qu'ils se reproduiront.
+
+636
+00:57:04,081 --> 00:57:05,984
+D'autres statistiques complètent le tableau.
+
+637
+00:57:06,404 --> 00:57:13,718
+Le profit factor : les gains bruts divisés par les pertes brutes. Au-dessus de un, les gains ont dépassé les pertes.
+
+638
+00:57:14,138 --> 00:57:19,623
+Le drawdown maximal : la plus forte baisse du compte, d'un sommet à un creux.
+
+639
+00:57:20,043 --> 00:57:22,599
+Le ratio entre le gain moyen et la perte moyenne.
+
+640
+00:57:23,019 --> 00:57:31,165
+Et surtout, le nombre de trades. Sur dix trades, les statistiques ne prouvent presque rien. Il en faut beaucoup plus.
+
+641
+00:57:32,535 --> 00:57:35,401
+Les statistiques aident aussi à anticiper les séries de pertes.
+
+642
+00:57:35,821 --> 00:57:43,172
+Avec une chance sur deux de gagner chaque trade, sur cent trades, il y a environ quatre-vingt-un pour cent de chances de subir au moins une série de cinq pertes d'affilée.
+
+643
+00:57:43,592 --> 00:57:52,784
+Et environ dix-sept pour cent de chances d'en subir huit d'affilée. Une série de pertes n'est donc pas forcément anormale : elle est statistiquement attendue.
+
+644
+00:57:54,154 --> 00:57:59,650
+Retiens ceci : les statistiques permettent de comprendre ce qui s'est passé, et de mesurer le risque.
+
+645
+00:58:00,070 --> 00:58:08,066
+Mais elles ne promettent jamais l'avenir. Les marchés changent, et un résultat passé, même excellent, peut ne pas se reproduire.
+
+646
+00:58:11,993 --> 00:58:14,538
+Chapitre dix-sept : s'entraîner intelligemment.
+
+647
+00:58:15,908 --> 00:58:17,997
+Un compte de démonstration ne coûte rien.
+
+648
+00:58:18,417 --> 00:58:26,336
+C'est l'endroit idéal pour apprendre la plateforme, tester chaque type d'ordre et vérifier tes calculs, sans risquer un centime.
+
+649
+00:58:27,706 --> 00:58:28,693
+Que faut-il pratiquer ?
+
+650
+00:58:29,113 --> 00:58:32,927
+Chaque type d'ordre, pour voir concrètement comment il se comporte.
+
+651
+00:58:33,347 --> 00:58:39,578
+Les calculs : vérifier que la valeur du pip, la marge et la taille de position correspondent à ce que tu avais prévu.
+
+652
+00:58:39,998 --> 00:58:45,276
+La lecture du compte : observer comment l'Equity et le Margin Level réagissent.
+
+653
+00:58:45,696 --> 00:58:49,216
+Et le journal, pour chaque position, sans exception.
+
+654
+00:58:50,586 --> 00:58:58,630
+Pour que la démo soit utile, elle doit être réaliste : un capital proche de ce que tu pourrais réellement engager, et les mêmes règles de risque.
+
+655
+00:58:59,050 --> 00:59:05,934
+Trader cent mille dollars fictifs avec des positions démesurées n'apprend rien, et peut même donner de mauvaises habitudes.
+
+656
+00:59:07,304 --> 00:59:09,521
+Une routine simple aide à rester rigoureux.
+
+657
+00:59:09,941 --> 00:59:15,845
+Avant : consulter le calendrier, relire la fiche de l'instrument, fixer une perte maximale pour la journée.
+
+658
+00:59:16,265 --> 00:59:20,279
+Pendant : respecter les tailles et les niveaux prévus, sans improviser.
+
+659
+00:59:20,699 --> 00:59:24,036
+Après : remplir le journal, et analyser les erreurs à froid.
+
+660
+00:59:25,406 --> 00:59:27,883
+Voici les erreurs les plus fréquentes chez les débutants.
+
+661
+00:59:28,303 --> 00:59:31,317
+Ignorer les frais, qui s'accumulent position après position.
+
+662
+00:59:31,737 --> 00:59:34,594
+Trader sans Stop Loss, en espérant que le prix revienne.
+
+663
+00:59:35,014 --> 00:59:37,470
+Augmenter la taille après une perte, pour se refaire.
+
+664
+00:59:37,890 --> 00:59:41,976
+Suivre aveuglément des influenceurs, qui ne montrent souvent que leurs gains.
+
+665
+00:59:42,396 --> 00:59:45,941
+Et passer en réel trop vite, avant d'avoir compris tous les mécanismes.
+
+666
+00:59:47,311 --> 00:59:50,547
+Pour continuer à apprendre, privilégie les sources officielles.
+
+667
+00:59:50,967 --> 00:59:55,824
+L'AMF publie des guides pédagogiques et des listes noires de sites non autorisés.
+
+668
+00:59:56,244 --> 01:00:02,344
+Le registre REGAFI permet de vérifier si un établissement financier est autorisé à exercer en France.
+
+669
+01:00:02,764 --> 01:00:07,269
+L'ESMA, l'autorité européenne, publie les règles qui encadrent les CFD.
+
+670
+01:00:07,689 --> 01:00:11,883
+Et le document d'informations clés de ton courtier détaille les risques et les coûts de chaque produit.
+
+671
+01:00:13,253 --> 01:00:16,058
+Apprendre le trading prend du temps, et c'est normal.
+
+672
+01:00:16,478 --> 01:00:21,054
+Il n'existe aucun raccourci, et ceux qui en vendent vendent surtout… des raccourcis.
+
+673
+01:00:21,474 --> 01:00:25,319
+Pour finir, mettons tout cela en pratique, avec une journée type devant ta plateforme.
+
+674
+01:00:29,252 --> 01:00:32,136
+Chapitre dix-huit : une journée type.
+
+675
+01:00:32,556 --> 01:00:46,855
+Tu t'installes devant ta plateforme. Concrètement, par quoi tu commences, et par quoi tu finis ? Voici une routine d'observation complète. Ce n'est pas une stratégie, ni un signal : c'est une méthode de travail.
+
+676
+01:00:48,225 --> 01:00:53,088
+Voici le déroulé d'une journée type, à l'heure de Paris, pour quelqu'un qui observe le Forex.
+
+677
+01:00:53,508 --> 01:00:55,564
+Vers huit heures trente, on prépare.
+
+678
+01:00:55,984 --> 01:01:00,167
+Ensuite, on analyse le marché, de la grande unité de temps vers la petite.
+
+679
+01:01:00,587 --> 01:01:04,096
+À neuf heures, Londres ouvre : on observe, sans se précipiter.
+
+680
+01:01:04,516 --> 01:01:09,786
+À partir de quatorze heures, New York ouvre, et les annonces américaines peuvent secouer le marché.
+
+681
+01:01:10,206 --> 01:01:15,547
+Et en fin de journée, on clôture la séance proprement. Détaillons chaque étape.
+
+682
+01:01:16,917 --> 01:01:24,291
+Huit heures trente. Tu ouvres ta plateforme, MetaTrader ou TradingView : la démarche est la même.
+
+683
+01:01:24,711 --> 01:01:33,117
+Premier réflexe : l'état du compte. Balance, Equity, marge libre. Tu sais exactement d'où tu pars.
+
+684
+01:01:33,537 --> 01:01:40,218
+Deuxième réflexe : y a-t-il des positions encore ouvertes depuis la veille ? Avec quel Stop Loss, et quel swap ?
+
+685
+01:01:40,638 --> 01:01:48,923
+Troisième réflexe : dans le Market Watch, tu regardes le spread de l'instrument. S'il est anormalement large, c'est une information.
+
+686
+01:01:50,293 --> 01:01:52,818
+Ensuite, le calendrier économique de la journée.
+
+687
+01:01:53,238 --> 01:02:00,230
+Tu repères les annonces importantes et leur heure, ici les inscriptions au chômage américaines à quatorze heures trente.
+
+688
+01:02:00,650 --> 01:02:12,932
+Et un discours du président de la FED à seize heures. Autour de ces moments, le spread peut s'élargir et le prix bouger brutalement. Beaucoup préfèrent n'avoir aucune position ouverte à ces heures-là.
+
+689
+01:02:14,302 --> 01:02:18,633
+Dernière étape de la préparation : écrire ses limites du jour, avant de commencer.
+
+690
+01:02:19,053 --> 01:02:22,752
+Par exemple : jamais plus de un pour cent du compte par position.
+
+691
+01:02:23,172 --> 01:02:29,996
+Une perte maximale de trois pour cent pour la journée. Si elle est atteinte, la séance s'arrête, quoi qu'il arrive.
+
+692
+01:02:30,416 --> 01:02:37,801
+Et un nombre maximum de positions. Ces chiffres sont des exemples. L'important, c'est de les fixer à froid.
+
+693
+01:02:39,171 --> 01:02:45,501
+Vient ensuite l'analyse. On commence toujours par la grande unité de temps : le graphique journalier.
+
+694
+01:02:45,921 --> 01:02:47,156
+Puis on descend en quatre heures…
+
+695
+01:02:47,576 --> 01:02:49,068
+…et enfin en une heure.
+
+696
+01:02:49,488 --> 01:03:00,588
+Le journalier donne le contexte général, le quatre heures précise la structure, et le une heure montre le détail du moment. Commencer par le détail, c'est risquer de ne pas voir la forêt derrière l'arbre.
+
+697
+01:03:01,958 --> 01:03:04,658
+Sur chaque unité de temps, tu poses les mêmes questions.
+
+698
+01:03:05,078 --> 01:03:11,322
+Quelle est la structure ? Des sommets et des creux de plus en plus hauts, de plus en plus bas, ou un marché latéral ?
+
+699
+01:03:11,742 --> 01:03:16,984
+Où sont les zones clés ? Par exemple le plus haut récent, qui peut agir comme résistance…
+
+700
+01:03:17,404 --> 01:03:24,457
+…et le dernier creux important, qui peut agir comme support. Tu les traces sur le graphique, sans rien décider pour l'instant.
+
+701
+01:03:25,827 --> 01:03:29,658
+Beaucoup de traders repèrent aussi les Fair Value Gaps, ou FVG.
+
+702
+01:03:30,078 --> 01:03:36,720
+C'est une zone de prix que le marché a traversée si vite qu'il n'y a presque pas eu d'échanges. Elle se repère sur trois bougies.
+
+703
+01:03:38,090 --> 01:03:39,428
+Regarde ces bougies.
+
+704
+01:03:39,848 --> 01:03:45,807
+On s'intéresse à trois bougies consécutives : la bougie un, la grande bougie deux, et la bougie trois.
+
+705
+01:03:46,227 --> 01:03:54,167
+Si le plus bas de la bougie trois reste au-dessus du plus haut de la bougie un, l'espace entre les deux forme un Fair Value Gap haussier.
+
+706
+01:03:54,587 --> 01:03:58,836
+Tu le traces comme une zone, au même titre qu'un support ou une résistance.
+
+707
+01:04:00,206 --> 01:04:01,984
+Le principe est le même à la baisse.
+
+708
+01:04:02,404 --> 01:04:05,629
+Trois bougies, avec une grande bougie baissière au milieu.
+
+709
+01:04:06,049 --> 01:04:12,313
+Si le plus haut de la bougie trois reste sous le plus bas de la bougie un, l'écart forme un Fair Value Gap baissier.
+
+710
+01:04:13,683 --> 01:04:15,861
+Attention à ce qu'un FVG n'est pas.
+
+711
+01:04:16,281 --> 01:04:21,864
+Ce n'est pas une garantie : le prix peut revenir dans la zone, la traverser, ou ne jamais y revenir.
+
+712
+01:04:22,284 --> 01:04:26,393
+Ce n'est pas un signal d'achat ou de vente : c'est une zone à observer, comme un support.
+
+713
+01:04:26,813 --> 01:04:28,894
+Son importance dépend de l'unité de temps.
+
+714
+01:04:29,314 --> 01:04:34,640
+Et c'est un concept popularisé sur les réseaux, dont l'efficacité n'a pas été démontrée scientifiquement.
+
+715
+01:04:36,010 --> 01:04:40,835
+Maintenant, place à la pratique. Regarde-moi faire, sur un compte de démonstration.
+
+716
+01:04:41,255 --> 01:04:48,065
+Je vais suivre un plan d'exemple, écrit à l'avance. Ce plan est pédagogique : ce n'est pas une méthode garantie.
+
+717
+01:04:49,435 --> 01:04:52,424
+Voici mon plan, écrit avant d'ouvrir le moindre graphique.
+
+718
+01:04:52,844 --> 01:04:56,811
+Un : je ne regarde que les achats si la tendance journalière est haussière.
+
+719
+01:04:57,231 --> 01:05:02,932
+Deux : j'attends que le prix revienne dans un Fair Value Gap en une heure, dans le sens de cette tendance.
+
+720
+01:05:03,352 --> 01:05:06,984
+Trois : aucune annonce importante ne doit tomber dans l'heure qui suit.
+
+721
+01:05:07,404 --> 01:05:12,277
+Quatre : mon Stop Loss se place sous la zone, et je ne risque pas plus de un pour cent du compte.
+
+722
+01:05:12,697 --> 01:05:21,417
+Cinq : mon objectif est le plus haut récent, et il doit représenter au moins deux fois mon risque. Si une seule condition manque, je ne trade pas.
+
+723
+01:05:22,787 --> 01:05:29,057
+Je descends en une heure. La tendance journalière est haussière : la condition un est remplie.
+
+724
+01:05:29,477 --> 01:05:32,981
+Le mouvement de hausse a laissé un Fair Value Gap, que je trace.
+
+725
+01:05:33,401 --> 01:05:40,634
+Ici, le prix monte encore, loin de ma zone. Je ne trade pas : acheter maintenant, ce serait courir après le prix.
+
+726
+01:05:41,054 --> 01:05:47,489
+Ici, le prix redescend, mais il n'est pas encore dans la zone. J'attends, et je pose une alerte.
+
+727
+01:05:47,909 --> 01:05:54,226
+Le prix entre dans le FVG. Je ne clique pas tout de suite : je vérifie d'abord toutes mes conditions.
+
+728
+01:05:55,596 --> 01:05:58,379
+Avant de cliquer, je passe la liste de contrôle.
+
+729
+01:05:58,799 --> 01:06:02,652
+Une annonce importante dans quarante-cinq minutes ? Alors je ne trade pas.
+
+730
+01:06:03,072 --> 01:06:06,255
+Un spread anormalement large ? Je ne trade pas.
+
+731
+01:06:06,675 --> 01:06:10,707
+J'ai déjà atteint ma perte maximale du jour ? Je ne trade pas.
+
+732
+01:06:11,127 --> 01:06:15,845
+Le ratio entre l'objectif et le risque est inférieur à deux ? Je ne trade pas.
+
+733
+01:06:16,265 --> 01:06:21,221
+Ici, toutes les conditions sont réunies. Alors seulement, je prépare l'ordre.
+
+734
+01:06:22,591 --> 01:06:24,657
+Je calcule tout, avant de cliquer.
+
+735
+01:06:25,077 --> 01:06:33,618
+Entrée vers 1,08600, Stop Loss sous la zone à 1,08450 : quinze pips de risque.
+
+736
+01:06:34,038 --> 01:06:46,905
+Un pour cent du compte, c'est dix dollars. Dix, divisé par quinze fois dix : zéro virgule zéro six six lot. J'arrondis vers le bas : zéro virgule zéro six lot.
+
+737
+01:06:47,325 --> 01:06:52,876
+Objectif au plus haut récent, à 1,08900 : trente pips, soit deux fois le risque.
+
+738
+01:06:53,296 --> 01:07:02,388
+Je risque environ neuf dollars pour un objectif d'environ dix-huit dollars. J'ouvre la position, avec le Stop Loss et le Take Profit déjà en place.
+
+739
+01:07:03,758 --> 01:07:05,119
+Premier scénario possible.
+
+740
+01:07:05,539 --> 01:07:14,654
+Le prix repart à la hausse et atteint mon objectif. La position se ferme seule : environ dix-huit dollars de gain. Je n'ai rien eu à faire.
+
+741
+01:07:16,024 --> 01:07:18,283
+Mais l'autre scénario est tout aussi possible.
+
+742
+01:07:18,703 --> 01:07:27,602
+Le prix traverse la zone et touche mon Stop Loss. La position se ferme : environ neuf dollars de perte, exactement ce que j'avais accepté.
+
+743
+01:07:28,022 --> 01:07:36,868
+Et c'est normal. Même un plan bien suivi enchaîne des pertes. Ce qui compte, c'est que chaque perte reste petite et prévue.
+
+744
+01:07:38,238 --> 01:07:40,510
+Dans les deux cas, ma conduite est la même.
+
+745
+01:07:40,930 --> 01:07:47,362
+Une fois la position ouverte, je ne touche plus à rien : je ne déplace pas mon Stop Loss, et je n'ajoute pas de position.
+
+746
+01:07:47,782 --> 01:07:50,805
+Je note tout dans mon journal, avec une capture d'écran.
+
+747
+01:07:51,225 --> 01:07:59,512
+Et si ma perte maximale du jour est atteinte, la séance s'arrête. C'est ce cadre, bien plus que le point d'entrée, qui protège le compte.
+
+748
+01:08:00,882 --> 01:08:03,764
+Pendant la séance, le travail consiste surtout à observer.
+
+749
+01:08:04,184 --> 01:08:08,401
+On regarde comment le prix réagit quand il arrive sur les zones tracées le matin.
+
+750
+01:08:08,821 --> 01:08:11,553
+On pose des alertes de prix, pour ne pas rester collé à l'écran.
+
+751
+01:08:11,973 --> 01:08:18,220
+Et si on prend une position, c'est uniquement selon son plan écrit, avec un Stop Loss et une taille calculée.
+
+752
+01:08:18,640 --> 01:08:22,385
+À l'inverse, on évite de fixer l'écran pendant des heures…
+
+753
+01:08:22,805 --> 01:08:24,468
+…d'ouvrir une position par ennui…
+
+754
+01:08:24,888 --> 01:08:28,954
+…ou de déplacer son Stop Loss pour laisser une chance à une position perdante.
+
+755
+01:08:30,324 --> 01:08:34,641
+Et surtout, retiens ceci : ne rien faire est une décision à part entière.
+
+756
+01:08:35,061 --> 01:08:40,492
+Une journée sans aucune position, parce que rien ne correspondait à ton plan, est une journée réussie.
+
+757
+01:08:41,862 --> 01:08:44,368
+En fin de journée, on clôture la séance dans l'ordre.
+
+758
+01:08:44,788 --> 01:08:48,173
+Les positions sont fermées, ou protégées par un Stop Loss.
+
+759
+01:08:48,593 --> 01:08:49,579
+On remplit le journal.
+
+760
+01:08:49,999 --> 01:08:52,710
+On fait le bilan : as-tu respecté ton plan et tes limites ?
+
+761
+01:08:53,130 --> 01:08:54,743
+On note une seule leçon à retenir.
+
+762
+01:08:55,163 --> 01:08:57,108
+On jette un œil au calendrier du lendemain.
+
+763
+01:08:57,528 --> 01:09:01,647
+Et on ferme la plateforme. Décrocher fait partie de la routine.
+
+764
+01:09:03,017 --> 01:09:08,591
+En résumé : on commence par le compte, le calendrier, ses limites, et la vue d'ensemble.
+
+765
+01:09:09,011 --> 01:09:15,583
+Et on finit par protéger ses positions, remplir son journal, préparer le lendemain, puis fermer la plateforme.
+
+766
+01:09:16,953 --> 01:09:19,927
+Pour finir, voici mes conseils concrets pour bien débuter.
+
+767
+01:09:20,347 --> 01:09:26,756
+Un : commence sur un compte de démonstration, pendant plusieurs mois, jusqu'à suivre ton plan sans jamais y déroger.
+
+768
+01:09:27,176 --> 01:09:33,603
+Deux : choisis un courtier régulé, et vérifie-le toi-même sur les listes de l'AMF et le registre REGAFI.
+
+769
+01:09:34,023 --> 01:09:41,265
+Trois : quand tu passes en réel, commence avec un petit capital que tu peux te permettre de perdre. Jamais d'argent emprunté.
+
+770
+01:09:41,685 --> 01:09:51,077
+Quatre : concentre-toi sur un seul instrument et une seule méthode, par exemple l'euro dollar en une heure, plutôt que de tout essayer.
+
+771
+01:09:51,497 --> 01:09:58,721
+Cinq : ne risque jamais plus de un pour cent par position, mets toujours un Stop Loss, et fixe une perte maximale par jour.
+
+772
+01:09:59,141 --> 01:10:05,613
+Six : tiens ton journal, et fais un bilan chaque semaine, à partir de tes statistiques, pas de tes impressions.
+
+773
+01:10:06,033 --> 01:10:12,608
+Et sept : fuis les signaux payants, les robots miracles et les promesses de gains. Personne ne vend une machine à billets.
+
+774
+01:10:13,978 --> 01:10:17,949
+Bravo, tu es arrivé au bout de cette formation. Récapitulons.
+
+775
+01:10:18,369 --> 01:10:20,818
+Tu sais comment fonctionnent les marchés et qui y participe.
+
+776
+01:10:21,238 --> 01:10:22,717
+Tu parles le langage des traders.
+
+777
+01:10:23,137 --> 01:10:24,734
+Tu sais lire un graphique en chandeliers.
+
+778
+01:10:25,154 --> 01:10:26,620
+Tu connais les différents types d'ordres.
+
+779
+01:10:27,040 --> 01:10:30,362
+Tu sais calculer un gain, une perte, et une taille de position.
+
+780
+01:10:30,782 --> 01:10:34,954
+Tu comprends l'effet de levier, la marge et le Stop Out.
+
+781
+01:10:35,374 --> 01:10:38,587
+Tu sais organiser une journée sur ta plateforme, et tenir un journal.
+
+782
+01:10:39,007 --> 01:10:42,880
+Et tu connais les risques, y compris ceux qui viennent de ta propre psychologie.
+
+783
+01:10:44,250 --> 01:10:48,114
+Un dernier mot. Comprendre le trading ne garantit aucun gain.
+
+784
+01:10:48,534 --> 01:10:55,764
+Mais comprendre te protège : des mauvaises décisions, des promesses trompeuses, et des risques que tu n'aurais pas vus.
+
+785
+01:10:56,184 --> 01:11:01,466
+Commence toujours par un compte de démonstration. Merci d'avoir suivi Trading Academy.
+
+786
+01:11:02,836 --> 01:11:03,435
+À bientôt.
