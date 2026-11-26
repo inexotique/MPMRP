@@ -1,0 +1,5 @@
+node_modules/
+out/
+tts/voices/*.onnx
+*.wav
+!public/sfx/*.wav

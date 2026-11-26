@@ -1,0 +1,111 @@
+1
+00:00:00,900 --> 00:00:03,594
+Chapitre seize : comprendre ses statistiques.
+
+2
+00:00:04,964 --> 00:00:08,785
+Le premier chiffre que tout le monde regarde : le win rate, ou taux de réussite.
+
+3
+00:00:09,205 --> 00:00:18,653
+C'est la proportion de positions gagnantes. Six gagnantes sur dix, c'est un taux de réussite de soixante pour cent. Mais ce chiffre seul ne veut presque rien dire.
+
+4
+00:00:20,023 --> 00:00:20,972
+Regarde cet exemple.
+
+5
+00:00:21,392 --> 00:00:25,698
+Sept positions gagnantes, de dix dollars chacune : soixante-dix dollars.
+
+6
+00:00:26,118 --> 00:00:30,075
+Trois positions perdantes, de trente dollars chacune : quatre-vingt-dix dollars.
+
+7
+00:00:30,495 --> 00:00:32,273
+Résultat : moins vingt dollars.
+
+8
+00:00:32,693 --> 00:00:35,988
+Soixante-dix pour cent de réussite, et pourtant le compte baisse.
+
+9
+00:00:37,358 --> 00:00:38,592
+Et à l'inverse…
+
+10
+00:00:39,012 --> 00:00:42,464
+Quatre positions gagnantes de trente dollars : cent vingt dollars.
+
+11
+00:00:42,884 --> 00:00:46,334
+Six positions perdantes de dix dollars : soixante dollars.
+
+12
+00:00:46,754 --> 00:00:48,427
+Résultat : plus soixante dollars.
+
+13
+00:00:48,847 --> 00:00:56,854
+Quarante pour cent de réussite seulement, et le compte progresse. Ce qui compte, c'est la combinaison entre la fréquence et la taille des gains et des pertes.
+
+14
+00:00:58,224 --> 00:01:00,621
+On peut résumer cela avec l'espérance mathématique.
+
+15
+00:01:01,041 --> 00:01:07,187
+Espérance égale pourcentage de gains fois gain moyen, moins pourcentage de pertes fois perte moyenne.
+
+16
+00:01:07,607 --> 00:01:15,406
+Exemple A : zéro virgule sept fois dix, moins zéro virgule trois fois trente : moins deux dollars par trade, en moyenne.
+
+17
+00:01:15,826 --> 00:01:19,358
+Exemple B : plus six dollars par trade, en moyenne.
+
+18
+00:01:19,778 --> 00:01:25,900
+Attention : ces chiffres décrivent le passé. Rien ne garantit qu'ils se reproduiront.
+
+19
+00:01:27,270 --> 00:01:29,173
+D'autres statistiques complètent le tableau.
+
+20
+00:01:29,593 --> 00:01:36,907
+Le profit factor : les gains bruts divisés par les pertes brutes. Au-dessus de un, les gains ont dépassé les pertes.
+
+21
+00:01:37,327 --> 00:01:42,812
+Le drawdown maximal : la plus forte baisse du compte, d'un sommet à un creux.
+
+22
+00:01:43,232 --> 00:01:45,788
+Le ratio entre le gain moyen et la perte moyenne.
+
+23
+00:01:46,208 --> 00:01:54,354
+Et surtout, le nombre de trades. Sur dix trades, les statistiques ne prouvent presque rien. Il en faut beaucoup plus.
+
+24
+00:01:55,724 --> 00:01:58,590
+Les statistiques aident aussi à anticiper les séries de pertes.
+
+25
+00:01:59,010 --> 00:02:06,361
+Avec une chance sur deux de gagner chaque trade, sur cent trades, il y a environ quatre-vingt-un pour cent de chances de subir au moins une série de cinq pertes d'affilée.
+
+26
+00:02:06,781 --> 00:02:15,973
+Et environ dix-sept pour cent de chances d'en subir huit d'affilée. Une série de pertes n'est donc pas forcément anormale : elle est statistiquement attendue.
+
+27
+00:02:17,343 --> 00:02:22,839
+Retiens ceci : les statistiques permettent de comprendre ce qui s'est passé, et de mesurer le risque.
+
+28
+00:02:23,259 --> 00:02:31,255
+Mais elles ne promettent jamais l'avenir. Les marchés changent, et un résultat passé, même excellent, peut ne pas se reproduire.

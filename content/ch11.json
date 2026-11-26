@@ -1,0 +1,27 @@
+{"id":"ch11","num":11,"title":"Les prop firms","accent":"#FACC15","music":2,
+"beats":[
+ {"v":{"t":"chapter"},"lines":["Chapitre onze : les prop firms."]},
+ {"v":{"t":"term","en":"Prop firm","fr":"Société de trading pour compte propre","def":"Une entreprise qui propose de trader un capital qu'elle met à disposition, après une évaluation payante."},"lines":[
+  "Tu as sûrement vu des publicités pour des prop firms.",
+  "Ce sont des sociétés qui proposent de trader un capital qu'elles mettent à ta disposition, après une évaluation. On parle de compte financé, ou funded account."]},
+ {"v":{"t":"list","h":"Le principe du challenge","items":[{"s":"1","t":"Frais d'inscription","d":"tu paies pour passer l'évaluation"},{"s":"2","t":"Objectif de profit","d":"ex. fictif : +8 % à +10 % du capital"},{"s":"3","t":"Règles de perte","d":"drawdown journalier et maximal à ne jamais dépasser"},{"s":"4","t":"Compte financé","d":"si tu réussis, tu reçois une part des bénéfices"}]},"lines":[
+  "Le fonctionnement est généralement le suivant.",
+  "Tu paies des frais d'inscription pour passer un challenge, souvent de quelques dizaines à quelques centaines d'euros.",
+  "Tu dois atteindre un objectif de profit, par exemple huit ou dix pour cent…",
+  "…sans jamais dépasser certaines limites de perte.",
+  "Si tu réussis, tu obtiens un compte financé, et tu touches une part des bénéfices."]},
+ {"v":{"t":"bars","h":"Exemple fictif · compte de 100 000 $","items":[{"label":"Objectif de profit","v":8,"txt":"+8 % = +8 000 $","c":"green"},{"label":"Drawdown journalier","v":5,"txt":"−5 % = −5 000 $","c":"red"},{"label":"Drawdown maximal","v":10,"txt":"−10 % = −10 000 $","c":"red"},{"label":"Partage des bénéfices","v":80,"txt":"80 % pour toi","c":"accent"}]},"lines":[
+  "Voici des règles typiques, sur un exemple fictif de cent mille dollars.",
+  "Un objectif de profit de huit pour cent.",
+  "Un drawdown journalier maximal de cinq pour cent : si tu perds plus de cinq mille dollars dans la journée, le challenge est perdu.",
+  "Un drawdown maximal de dix pour cent sur toute la durée.",
+  "Et un partage des bénéfices, ou profit split, par exemple quatre-vingts pour cent pour toi."]},
+ {"v":{"t":"compare","h":"Ce qu'il faut savoir","l":{"t":"Simulé","c":"#FFB547","items":["De nombreux comptes « financés » sont en réalité simulés","Tes gains sont versés par la société"],"step":true},"r":{"t":"Contrat","c":"red","items":["Conditions de retrait parfois strictes","Règles modifiables par la société","Les frais sont perdus en cas d'échec"],"step":true,"at":2}},"lines":[
+  "Quelques points essentiels.",
+  "Beaucoup de comptes dits financés sont en réalité des comptes simulés : tes positions ne vont pas réellement sur le marché.",
+  "Les retraits sont soumis à des conditions précises, et les règles peuvent changer.",
+  "Et en cas d'échec, les frais d'inscription sont perdus. Une grande partie des revenus de certaines sociétés provient justement de ces frais."]},
+ {"v":{"t":"quote","q":"Lis le contrat en entier. Ce n'est pas un emploi, ni un placement garanti.","hl":[0,1,2,3]},"lines":[
+  "Avant de t'engager, lis l'intégralité des conditions générales. Une prop firm n'est ni un emploi, ni un placement garanti.",
+  "Et souviens-toi que ce secteur est encore peu encadré dans de nombreux pays."]}
+]}

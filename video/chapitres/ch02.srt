@@ -1,0 +1,167 @@
+1
+00:00:00,900 --> 00:00:03,700
+Chapitre deux : les marchés financiers.
+
+2
+00:00:04,800 --> 00:00:11,360
+Il existe de nombreux marchés, mais ils fonctionnent tous sur le même principe : un prix qui bouge selon l'offre et la demande.
+
+3
+00:00:11,400 --> 00:00:12,480
+Faisons le tour des principaux.
+
+4
+00:00:13,580 --> 00:00:16,140
+Commençons par le Forex, le marché des devises.
+
+5
+00:00:16,420 --> 00:00:22,300
+C'est le plus grand marché financier du monde : il s'y échange plusieurs milliers de milliards de dollars chaque jour.
+
+6
+00:00:22,513 --> 00:00:30,380
+On y échange toujours une devise contre une autre. Par exemple, la paire euro dollar indique combien de dollars vaut un euro.
+
+7
+00:00:31,480 --> 00:00:34,680
+Si l'euro dollar cote un virgule zéro huit cinq zéro…
+
+8
+00:00:34,960 --> 00:00:38,920
+…cela signifie qu'un euro vaut un dollar et huit centimes et demi.
+
+9
+00:00:39,187 --> 00:00:44,480
+La première devise est la devise de base, la seconde est la devise de cotation.
+
+10
+00:00:44,627 --> 00:00:49,960
+Quand la paire monte, l'euro se renforce face au dollar. Quand elle baisse, il s'affaiblit.
+
+11
+00:00:51,060 --> 00:00:52,340
+Viennent ensuite les actions.
+
+12
+00:00:52,540 --> 00:01:01,620
+Une action, c'est une petite part d'une entreprise. Acheter une action Apple, c'est devenir copropriétaire d'Apple, à toute petite échelle.
+
+13
+00:01:01,840 --> 00:01:08,500
+Son prix varie selon les résultats de l'entreprise et selon ce que les investisseurs anticipent pour son avenir.
+
+14
+00:01:09,600 --> 00:01:13,600
+Un indice boursier mesure la performance d'un panier d'actions.
+
+15
+00:01:13,653 --> 00:01:23,200
+Le CAC 40 regroupe quarante grandes entreprises françaises. Le S&P 500, cinq cents grandes entreprises américaines.
+
+16
+00:01:23,253 --> 00:01:28,960
+Suivre un indice, c'est observer la santé globale d'un marché, plutôt que celle d'une seule entreprise.
+
+17
+00:01:30,060 --> 00:01:33,660
+Les cryptomonnaies, comme le Bitcoin, sont des actifs numériques.
+
+18
+00:01:33,900 --> 00:01:37,660
+Leur marché est ouvert en permanence, même le week-end.
+
+19
+00:01:37,687 --> 00:01:43,660
+Et leurs prix peuvent varier de plusieurs dizaines de pour cent en peu de temps. Le risque est donc particulièrement élevé.
+
+20
+00:01:44,760 --> 00:01:47,240
+Les matières premières sont des ressources physiques.
+
+21
+00:01:47,640 --> 00:01:54,600
+L'or est souvent considéré comme une valeur refuge : en période d'inquiétude, certains investisseurs s'y réfugient.
+
+22
+00:01:54,760 --> 00:02:02,680
+Le pétrole, avec le Brent et le WTI, réagit fortement aux tensions géopolitiques et aux décisions des pays producteurs.
+
+23
+00:02:03,027 --> 00:02:10,200
+Il existe aussi des matières premières agricoles, comme le blé ou le café, qui dépendent des récoltes et de la météo.
+
+24
+00:02:11,300 --> 00:02:13,460
+Les ETF sont des fonds cotés en bourse.
+
+25
+00:02:13,500 --> 00:02:20,820
+Ils répliquent un indice, un secteur ou un thème. Avec un seul ETF, on peut être exposé à des centaines d'entreprises.
+
+26
+00:02:20,840 --> 00:02:24,980
+Ils sont surtout utilisés par les investisseurs de long terme, pour diversifier à moindre coût.
+
+27
+00:02:26,080 --> 00:02:28,480
+Les obligations, elles, sont des titres de dette.
+
+28
+00:02:28,667 --> 00:02:34,720
+Quand tu achètes une obligation, tu prêtes de l'argent à un État ou à une entreprise, qui te verse des intérêts.
+
+29
+00:02:34,960 --> 00:02:37,680
+Leur prix varie notamment en fonction des taux d'intérêt.
+
+30
+00:02:38,780 --> 00:02:42,980
+Et maintenant, une famille essentielle : les produits dérivés.
+
+31
+00:02:43,153 --> 00:02:49,020
+Un dérivé est un contrat dont la valeur dépend d'un autre actif, qu'on appelle le sous-jacent.
+
+32
+00:02:49,060 --> 00:02:56,860
+Les futures, ou contrats à terme, fixent aujourd'hui un prix pour une transaction future. Ils sont échangés sur des marchés organisés.
+
+33
+00:02:57,080 --> 00:03:07,900
+Les CFD, pour contrats sur la différence, sont très utilisés par les traders particuliers : on échange simplement la différence de prix entre l'ouverture et la fermeture.
+
+34
+00:03:09,000 --> 00:03:10,760
+C'est une différence fondamentale.
+
+35
+00:03:10,947 --> 00:03:14,280
+Quand tu achètes réellement une action, tu la possèdes.
+
+36
+00:03:14,467 --> 00:03:19,160
+Tu peux percevoir des dividendes, et tu n'utilises pas d'effet de levier.
+
+37
+00:03:19,208 --> 00:03:24,760
+Avec un CFD, tu ne possèdes rien : tu signes un contrat avec ton courtier sur l'évolution du prix.
+
+38
+00:03:25,027 --> 00:03:27,960
+Tu peux te positionner à la baisse comme à la hausse.
+
+39
+00:03:28,072 --> 00:03:34,201
+Mais tu utilises souvent un effet de levier, et tu paies des frais de financement si tu gardes la position plusieurs jours.
+
+40
+00:03:35,300 --> 00:03:41,060
+Les autorités européennes classent les CFD parmi les produits complexes et risqués.
+
+41
+00:03:41,100 --> 00:03:46,820
+C'est pour cela que leur levier est plafonné pour les particuliers. On verra tout cela en détail au chapitre sept.
+
+42
+00:03:46,900 --> 00:03:49,780
+Prochaine étape : apprendre à parler le langage des traders.

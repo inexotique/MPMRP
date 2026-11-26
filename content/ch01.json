@@ -1,0 +1,69 @@
+{"id":"ch01","num":1,"title":"Comprendre le trading","accent":"#2BFF88","music":0,
+"beats":[
+ {"v":{"t":"intro","words":["ACHETER","VENDRE","GAGNER ?","PERDRE ?","COMPRENDRE","TRADING ACADEMY"]},"lines":[
+  "Chaque seconde, des millions de personnes achètent…",
+  "…et vendent.",
+  "Certains gagnent.",
+  "Beaucoup perdent.",
+  "Avant de toucher au moindre bouton, il faut comprendre.",
+  "Bienvenue dans Trading Academy."]},
+ {"v":{"t":"quote","q":"En une heure, tu vas comprendre comment fonctionnent les marchés, sans stratégie miracle.","hl":[2,3,5,6]},"lines":[
+  "Dans cette formation, on part de zéro.",
+  "Pas de stratégie miracle, pas de signal d'achat. Juste les bases, expliquées clairement."]},
+ {"v":{"t":"chapter"},"lines":["Chapitre un : comprendre le trading."]},
+ {"v":{"t":"kinetic","w":"TRADING","sub":"Acheter et vendre des actifs financiers"},"lines":[
+  "Le trading, c'est tout simplement le fait d'acheter et de vendre des actifs financiers.",
+  "Une action, une devise, de l'or, du pétrole… L'idée est toujours la même."]},
+ {"v":{"t":"calc","h":"Le principe de base","rows":["Achat à 100 €","Revente à 110 €","110 − 100 = +10 €"],"res":"▲ +10 € de gain","rc":"green"},"lines":[
+  "Tu achètes un actif à cent euros.",
+  "Son prix monte, et tu le revends à cent dix euros.",
+  "La différence, dix euros, c'est ton gain.",
+  "Le trading consiste à profiter de ces variations de prix."]},
+ {"v":{"t":"calc","h":"…mais l'inverse existe","rows":["Achat à 100 €","Revente à 90 €","90 − 100 = −10 €"],"res":"▼ −10 € de perte","rc":"red"},"lines":[
+  "Mais si le prix baisse et que tu revends à quatre-vingt-dix euros…",
+  "…tu perds dix euros.",
+  "Retiens-le dès maintenant : le prix peut aller dans les deux sens.",
+  "Et personne ne sait à l'avance de quel côté il ira."]},
+ {"v":{"t":"bento","h":"À quoi servent les marchés ?","tiles":[{"tag":"FINANCER","k":"Les entreprises","d":"lèvent des capitaux en vendant des actions"},{"tag":"PROTÉGER","k":"Les importateurs","d":"se couvrent contre la variation des devises"},{"tag":"ÉPARGNER","k":"Les investisseurs","d":"placent leur argent sur le long terme"},{"tag":"FIXER UN PRIX","k":"Le marché","d":"rencontre permanente entre acheteurs et vendeurs"}]},"lines":[
+  "Mais à quoi servent les marchés financiers ?",
+  "D'abord, ils permettent aux entreprises de se financer.",
+  "Ils permettent aussi de se protéger, par exemple contre la variation d'une devise.",
+  "Ils permettent aux investisseurs de faire fructifier leur épargne.",
+  "Et surtout, ils fixent un prix, en permanence, grâce à la rencontre entre acheteurs et vendeurs."]},
+ {"v":{"t":"flow","h":"L'offre et la demande","states":[[50,50],[85,35],[30,80],[50,50]],"note":"Le prix bouge pour trouver un équilibre"},"lines":[
+  "Et c'est là que tout se joue : l'offre et la demande.",
+  "Quand il y a plus d'acheteurs que de vendeurs, les acheteurs doivent accepter de payer plus cher. Le prix monte.",
+  "Quand les vendeurs sont plus nombreux, ils doivent baisser leur prix pour trouver preneur. Le prix descend.",
+  "Le prix, c'est simplement le point d'équilibre du moment."]},
+ {"v":{"t":"list","h":"Pourquoi les prix bougent","items":[{"s":"01","t":"Les nouvelles économiques","d":"inflation, taux d'intérêt, emploi"},{"s":"02","t":"Les résultats des entreprises","d":"bénéfices, prévisions, annonces"},{"s":"03","t":"Les événements mondiaux","d":"élections, conflits, catastrophes"},{"s":"04","t":"La psychologie collective","d":"peur, euphorie, rumeurs"}]},"lines":[
+  "Mais pourquoi l'équilibre change-t-il ?",
+  "À cause des nouvelles économiques, comme l'inflation ou les taux d'intérêt.",
+  "À cause des résultats des entreprises.",
+  "À cause des événements mondiaux.",
+  "Et à cause de la psychologie des participants : la peur et l'euphorie font bouger les prix, parfois très vite."]},
+ {"v":{"t":"split","p":"reversal","scale":40,"draw":420},"lines":[
+  "Il existe deux façons de se positionner.",
+  "Si tu achètes, tu gagnes quand le prix monte. Si tu vends à découvert, tu gagnes quand le prix baisse.",
+  "Regarde : sur le même mouvement, quand l'un gagne, l'autre perd.",
+  "On reviendra en détail sur ces deux positions dans le chapitre trois."]},
+ {"v":{"t":"compare","h":"Trading, investissement, spéculation","l":{"t":"Investissement","c":"accent","st":"Horizon : des années","items":["Acheter un actif pour sa valeur","Dividendes, croissance","On subit les baisses temporaires"]},"r":{"t":"Trading","c":"cyan","st":"Horizon : minutes à semaines","items":["Profiter des variations de prix","Positions plus courtes","Gestion active du risque"],"at":2}},"lines":[
+  "On confond souvent trading et investissement.",
+  "L'investisseur achète un actif pour le garder longtemps, parfois des années, parce qu'il croit en sa valeur.",
+  "Le trader, lui, cherche à profiter des variations de prix, sur des durées beaucoup plus courtes.",
+  "Et la spéculation ? C'est le fait de parier sur l'évolution future d'un prix. Le trading est donc une forme de spéculation."]},
+ {"v":{"t":"bento","h":"Les acteurs du marché","cols":3,"tiles":[{"tag":"BANQUES","k":"Banques centrales et commerciales","d":"fixent les taux, échangent des volumes énormes"},{"tag":"INSTITUTIONS","k":"Fonds et assureurs","d":"gèrent l'épargne de millions de personnes"},{"tag":"ENTREPRISES","k":"Entreprises","d":"achètent des devises pour commercer"},{"tag":"PARTICULIERS","k":"Traders particuliers","d":"une toute petite part du volume total"},{"tag":"COURTIERS","k":"Brokers","d":"donnent accès au marché"},{"tag":"PLATEFORMES","k":"Bourses et plateformes","d":"organisent les échanges"}]},"lines":[
+  "Qui sont les acteurs de ce marché ?",
+  "Les banques, et en particulier les banques centrales, qui pèsent énormément.",
+  "Les fonds d'investissement et les assureurs.",
+  "Les entreprises, qui ont besoin de devises pour commercer.",
+  "Et toi, le trader particulier, qui ne représente qu'une petite partie du volume.",
+  "Entre toi et le marché, il y a un intermédiaire : le courtier, qu'on appelle aussi broker.",
+  "Il transmet tes ordres et te donne accès aux prix. On en parlera en détail au chapitre huit."]},
+ {"v":{"t":"stat","h":"Un chiffre à garder en tête","n":"74 – 89 %","c":"red","d":"des comptes de particuliers perdent de l'argent en tradant des CFD (avertissements des courtiers européens)","dl":1},"lines":[
+  "Avant d'aller plus loin, un chiffre important.",
+  "En Europe, les courtiers doivent afficher la part de leurs clients particuliers qui perdent de l'argent sur les CFD. Elle se situe le plus souvent entre soixante-quatorze et quatre-vingt-neuf pour cent.",
+  "Ce n'est pas pour te décourager. C'est pour que tu abordes ce sujet avec lucidité."]},
+ {"v":{"t":"kinetic","w":"COMPRENDRE","sub":"avant d'agir","c":"accent"},"lines":[
+  "Comprendre avant d'agir : c'est tout l'objectif de cette formation.",
+  "Maintenant que les bases sont posées, découvrons les différents marchés financiers."]}
+]}

@@ -1,0 +1,179 @@
+1
+00:00:00,900 --> 00:00:03,904
+Chapitre six : calculer ses gains et ses pertes.
+
+2
+00:00:05,274 --> 00:00:11,534
+Pour tous les exemples de ce chapitre, on utilise un instrument fictif mais réaliste : l'euro dollar.
+
+3
+00:00:11,954 --> 00:00:13,565
+Un lot représente cent mille euros.
+
+4
+00:00:13,985 --> 00:00:16,348
+Un pip correspond à la quatrième décimale.
+
+5
+00:00:16,768 --> 00:00:26,367
+Et sur l'euro dollar, un pip vaut dix dollars pour un lot. Donc un dollar pour zéro virgule un lot, et dix centimes de dollar pour zéro virgule zéro un lot.
+
+6
+00:00:26,787 --> 00:00:35,893
+Les montants sont en dollars, la devise de cotation. Sur un compte en euros, ils sont convertis : dix centimes de dollar font environ neuf centimes d'euro.
+
+7
+00:00:37,263 --> 00:00:41,988
+D'où vient cette valeur ? Valeur du pip égale volume, fois taille du pip.
+
+8
+00:00:42,408 --> 00:00:50,309
+Pour un lot : cent mille fois zéro virgule zéro zéro zéro un, soit dix dollars.
+
+9
+00:00:50,729 --> 00:00:53,781
+Pour zéro virgule un lot : un dollar par pip.
+
+10
+00:00:54,201 --> 00:00:57,880
+Pour zéro virgule zéro un lot : dix centimes par pip.
+
+11
+00:00:58,300 --> 00:01:03,907
+Conclusion : le volume de ta position détermine directement la vitesse à laquelle tu gagnes… ou tu perds.
+
+12
+00:01:05,277 --> 00:01:10,333
+Prenons un compte de mille euros. On achète zéro virgule un lot d'euro dollar.
+
+13
+00:01:10,753 --> 00:01:13,496
+Achat à l'Ask, à 1,08520.
+
+14
+00:01:13,916 --> 00:01:17,942
+Plus tard, on revend au Bid, à 1,08820.
+
+15
+00:01:18,362 --> 00:01:19,707
+L'écart est de trente pips.
+
+16
+00:01:20,127 --> 00:01:22,864
+Trente pips, fois un dollar par pip : trente dollars.
+
+17
+00:01:23,285 --> 00:01:26,708
+Soit environ vingt-sept euros et soixante-dix-huit centimes de gain.
+
+18
+00:01:28,078 --> 00:01:29,414
+Et si le prix baisse ?
+
+19
+00:01:29,834 --> 00:01:33,226
+Même achat à 1,08520.
+
+20
+00:01:33,646 --> 00:01:36,661
+Revente à 1,08220.
+
+21
+00:01:37,081 --> 00:01:38,093
+Moins trente pips.
+
+22
+00:01:38,513 --> 00:01:40,006
+Soit une perte de trente dollars.
+
+23
+00:01:40,426 --> 00:01:47,190
+Le calcul est parfaitement symétrique : le même mouvement, dans l'autre sens, donne la même somme en négatif.
+
+24
+00:01:48,560 --> 00:01:51,932
+Comparons trois comptes face au même mouvement de trente pips.
+
+25
+00:01:52,352 --> 00:01:59,224
+Avec dix euros, on verra au chapitre sept qu'ouvrir même zéro virgule zéro un lot n'est souvent pas possible.
+
+26
+00:01:59,644 --> 00:02:08,598
+Avec cent euros et zéro virgule zéro un lot, trente pips représentent trois dollars, soit environ trois pour cent du compte.
+
+27
+00:02:09,018 --> 00:02:18,011
+Avec mille euros et zéro virgule un lot, trente dollars, soit là aussi environ trois pour cent. Ce qui compte, c'est le rapport entre le volume et la taille du compte.
+
+28
+00:02:19,381 --> 00:02:24,356
+Tu as peut-être remarqué que juste après l'ouverture, une position est déjà en négatif.
+
+29
+00:02:24,776 --> 00:02:26,621
+C'est normal : tu as acheté à l'Ask…
+
+30
+00:02:27,041 --> 00:02:31,040
+…mais ta position est évaluée au Bid, le prix auquel tu pourrais revendre.
+
+31
+00:02:31,460 --> 00:02:36,935
+Avec un spread de deux pips sur zéro virgule un lot, tu démarres à moins deux dollars.
+
+32
+00:02:37,355 --> 00:02:40,800
+Le prix doit d'abord parcourir le spread pour que tu reviennes à zéro.
+
+33
+00:02:42,170 --> 00:02:43,490
+Le spread n'est pas le seul coût.
+
+34
+00:02:43,910 --> 00:02:47,824
+Le spread est intégré au prix, et il est payé à chaque ouverture de position.
+
+35
+00:02:48,244 --> 00:02:59,565
+Certains comptes facturent aussi une commission. Par exemple, avec trois dollars cinquante par lot et par côté, une position de zéro virgule un lot coûte soixante-dix centimes aller-retour.
+
+36
+00:02:59,985 --> 00:03:12,158
+Enfin, si tu gardes une position ouverte la nuit, un swap s'applique. Il dépend des taux d'intérêt des deux devises, et il est le plus souvent négatif. Le mercredi, il est souvent triplé pour couvrir le week-end.
+
+37
+00:03:13,528 --> 00:03:15,849
+Distinguons maintenant deux types de résultat.
+
+38
+00:03:16,269 --> 00:03:21,253
+Tant que la position est ouverte, le gain ou la perte est latent : il change à chaque mouvement de prix.
+
+39
+00:03:21,673 --> 00:03:27,241
+Quand tu fermes la position, le résultat devient réalisé, et il est définitivement ajouté à ton solde.
+
+40
+00:03:28,611 --> 00:03:31,205
+C'est la différence entre Balance et Equity.
+
+41
+00:03:31,625 --> 00:03:35,376
+La Balance, c'est ton solde, en tenant compte uniquement des positions fermées.
+
+42
+00:03:35,796 --> 00:03:42,387
+L'Equity, c'est la valeur réelle de ton compte à l'instant présent : la Balance, plus ou moins les résultats latents.
+
+43
+00:03:42,807 --> 00:03:47,067
+Avec une Balance de mille euros et une position en perte de quinze euros…
+
+44
+00:03:47,487 --> 00:03:52,797
+…ton Equity est de neuf cent quatre-vingt-cinq euros. Si tu fermais tout maintenant, c'est ce qu'il te resterait.
+
+45
+00:03:53,217 --> 00:03:59,617
+Et c'est justement l'Equity qui compte pour la marge et l'effet de levier. C'est le sujet du prochain chapitre.

@@ -1,0 +1,169 @@
+{
+"id": "ch16",
+"num": 16,
+"title": "Comprendre ses statistiques",
+"accent": "#F472B6",
+"music": 0,
+"beats": [
+{
+"v": {
+"t": "chapter"
+},
+"lines": [
+"Chapitre seize : comprendre ses statistiques."
+]
+},
+{
+"v": {
+"t": "term",
+"en": "Win rate",
+"fr": "Taux de réussite",
+"def": "La proportion de positions gagnantes. 6 gagnantes sur 10 = 60 %."
+},
+"lines": [
+"Le premier chiffre que tout le monde regarde : le win rate, ou taux de réussite.",
+"C'est la proportion de positions gagnantes. Six gagnantes sur dix, c'est un taux de réussite de soixante pour cent. Mais ce chiffre seul ne veut presque rien dire."
+]
+},
+{
+"v": {
+"t": "calc",
+"h": "Un taux de réussite élevé… et pourtant",
+"ctx": "Exemple A · 10 trades",
+"rows": [
+"7 gains de +10 $ = +70 $",
+"3 pertes de −30 $ = −90 $",
+"70 − 90 = −20 $"
+],
+"res": "70 % de réussite, compte en baisse",
+"rc": "red"
+},
+"lines": [
+"Regarde cet exemple.",
+"Sept positions gagnantes, de dix dollars chacune : soixante-dix dollars.",
+"Trois positions perdantes, de trente dollars chacune : quatre-vingt-dix dollars.",
+"Résultat : moins vingt dollars.",
+"Soixante-dix pour cent de réussite, et pourtant le compte baisse."
+]
+},
+{
+"v": {
+"t": "calc",
+"h": "Un taux de réussite faible… et pourtant",
+"ctx": "Exemple B · 10 trades",
+"rows": [
+"4 gains de +30 $ = +120 $",
+"6 pertes de −10 $ = −60 $",
+"120 − 60 = +60 $"
+],
+"res": "40 % de réussite, compte en hausse",
+"rc": "green"
+},
+"lines": [
+"Et à l'inverse…",
+"Quatre positions gagnantes de trente dollars : cent vingt dollars.",
+"Six positions perdantes de dix dollars : soixante dollars.",
+"Résultat : plus soixante dollars.",
+"Quarante pour cent de réussite seulement, et le compte progresse. Ce qui compte, c'est la combinaison entre la fréquence et la taille des gains et des pertes."
+]
+},
+{
+"v": {
+"t": "calc",
+"h": "L'espérance mathématique",
+"rows": [
+"E = (% gains × gain moyen) − (% pertes × perte moyenne)",
+"A : 0,7 × 10 − 0,3 × 30 = −2 $",
+"B : 0,4 × 30 − 0,6 × 10 = +6 $"
+],
+"res": "Résultat moyen par trade",
+"rc": "accent"
+},
+"lines": [
+"On peut résumer cela avec l'espérance mathématique.",
+"Espérance égale pourcentage de gains fois gain moyen, moins pourcentage de pertes fois perte moyenne.",
+"Exemple A : zéro virgule sept fois dix, moins zéro virgule trois fois trente : moins deux dollars par trade, en moyenne.",
+"Exemple B : plus six dollars par trade, en moyenne.",
+"Attention : ces chiffres décrivent le passé. Rien ne garantit qu'ils se reproduiront."
+]
+},
+{
+"v": {
+"t": "bento",
+"h": "Les autres statistiques utiles",
+"cols": 2,
+"tiles": [
+{
+"tag": "PROFIT FACTOR",
+"k": "Gains bruts ÷ pertes brutes",
+"d": "au-dessus de 1 : les gains ont dépassé les pertes"
+},
+{
+"tag": "DRAWDOWN MAX",
+"k": "Plus forte baisse",
+"d": "du sommet au creux du compte"
+},
+{
+"tag": "RATIO MOYEN",
+"k": "Gain moyen ÷ perte moyenne",
+"d": "la taille relative des gains et des pertes"
+},
+{
+"tag": "ÉCHANTILLON",
+"k": "Nombre de trades",
+"d": "plus il est grand, plus les chiffres sont fiables"
+}
+]
+},
+"lines": [
+"D'autres statistiques complètent le tableau.",
+"Le profit factor : les gains bruts divisés par les pertes brutes. Au-dessus de un, les gains ont dépassé les pertes.",
+"Le drawdown maximal : la plus forte baisse du compte, d'un sommet à un creux.",
+"Le ratio entre le gain moyen et la perte moyenne.",
+"Et surtout, le nombre de trades. Sur dix trades, les statistiques ne prouvent presque rien. Il en faut beaucoup plus."
+]
+},
+{
+"v": {
+"t": "bars",
+"h": "Séries de pertes · 100 trades à 50 % de réussite",
+"items": [
+{
+"label": "5 pertes d'affilée, au moins une fois",
+"v": 81,
+"txt": "≈ 81 %",
+"c": "red"
+},
+{
+"label": "8 pertes d'affilée, au moins une fois",
+"v": 17,
+"txt": "≈ 17 %",
+"c": "#FFB547"
+}
+],
+"lw": 620
+},
+"lines": [
+"Les statistiques aident aussi à anticiper les séries de pertes.",
+"Avec une chance sur deux de gagner chaque trade, sur cent trades, il y a environ quatre-vingt-un pour cent de chances de subir au moins une série de cinq pertes d'affilée.",
+"Et environ dix-sept pour cent de chances d'en subir huit d'affilée. Une série de pertes n'est donc pas forcément anormale : elle est statistiquement attendue."
+]
+},
+{
+"v": {
+"t": "quote",
+"q": "Les chiffres du passé décrivent. Ils ne promettent rien.",
+"hl": [
+0,
+1,
+2,
+3
+]
+},
+"lines": [
+"Retiens ceci : les statistiques permettent de comprendre ce qui s'est passé, et de mesurer le risque.",
+"Mais elles ne promettent jamais l'avenir. Les marchés changent, et un résultat passé, même excellent, peut ne pas se reproduire."
+]
+}
+]
+}

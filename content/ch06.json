@@ -1,0 +1,263 @@
+{
+"id": "ch06",
+"num": 6,
+"title": "Calculer gains et pertes",
+"accent": "#34D399",
+"music": 1,
+"beats": [
+{
+"v": {
+"t": "chapter"
+},
+"lines": [
+"Chapitre six : calculer ses gains et ses pertes."
+]
+},
+{
+"v": {
+"t": "bento",
+"h": "Notre instrument d'exemple",
+"cols": 2,
+"tiles": [
+{
+"tag": "INSTRUMENT",
+"k": "EUR/USD",
+"d": "paire de devises la plus échangée"
+},
+{
+"tag": "1 LOT",
+"k": "100 000 €",
+"d": "de devise de base"
+},
+{
+"tag": "1 PIP",
+"k": "0,0001",
+"d": "quatrième décimale"
+},
+{
+"tag": "VALEUR DU PIP",
+"k": "10 $ par lot",
+"d": "donc 1 $ pour 0,10 lot et 0,10 $ pour 0,01 lot"
+}
+]
+},
+"lines": [
+"Pour tous les exemples de ce chapitre, on utilise un instrument fictif mais réaliste : l'euro dollar.",
+"Un lot représente cent mille euros.",
+"Un pip correspond à la quatrième décimale.",
+"Et sur l'euro dollar, un pip vaut dix dollars pour un lot. Donc un dollar pour zéro virgule un lot, et dix centimes de dollar pour zéro virgule zéro un lot.",
+"Les montants sont en dollars, la devise de cotation. Sur un compte en euros, ils sont convertis : dix centimes de dollar font environ neuf centimes d'euro."
+]
+},
+{
+"v": {
+"t": "calc",
+"h": "La valeur d'un pip",
+"rows": [
+"Valeur du pip = volume × taille du pip",
+"1 lot : 100 000 × 0,0001 = 10 $",
+"0,10 lot : 10 000 × 0,0001 = 1 $",
+"0,01 lot : 1 000 × 0,0001 = 0,10 $"
+],
+"res": "Plus le volume est grand, plus chaque pip pèse lourd"
+},
+"lines": [
+"D'où vient cette valeur ? Valeur du pip égale volume, fois taille du pip.",
+"Pour un lot : cent mille fois zéro virgule zéro zéro zéro un, soit dix dollars.",
+"Pour zéro virgule un lot : un dollar par pip.",
+"Pour zéro virgule zéro un lot : dix centimes par pip.",
+"Conclusion : le volume de ta position détermine directement la vitesse à laquelle tu gagnes… ou tu perds."
+]
+},
+{
+"v": {
+"t": "calc",
+"h": "Calculer un bénéfice",
+"ctx": "Compte de 1 000 € · Achat de 0,10 lot EUR/USD",
+"rows": [
+"Achat à l'Ask : 1,08520",
+"Revente au Bid : 1,08820",
+"Écart : +0,00300 = +30 pips",
+"30 pips × 1 $ = +30 $"
+],
+"res": "▲ +30 $ ≈ +27,78 €",
+"rc": "green"
+},
+"lines": [
+"Prenons un compte de mille euros. On achète zéro virgule un lot d'euro dollar.",
+{
+"text": "Achat à l'Ask, à 1,08520.",
+"say": "Achat à l'asque, à un virgule zéro huit cinq deux zéro."
+},
+{
+"text": "Plus tard, on revend au Bid, à 1,08820.",
+"say": "Plus tard, on revend au bide, à un virgule zéro huit huit deux zéro."
+},
+"L'écart est de trente pips.",
+"Trente pips, fois un dollar par pip : trente dollars.",
+"Soit environ vingt-sept euros et soixante-dix-huit centimes de gain."
+]
+},
+{
+"v": {
+"t": "calc",
+"h": "Calculer une perte",
+"ctx": "Même position · le prix baisse",
+"rows": [
+"Achat à l'Ask : 1,08520",
+"Revente au Bid : 1,08220",
+"Écart : −0,00300 = −30 pips",
+"−30 pips × 1 $ = −30 $"
+],
+"res": "▼ −30 $ ≈ −27,78 €",
+"rc": "red"
+},
+"lines": [
+"Et si le prix baisse ?",
+{
+"text": "Même achat à 1,08520.",
+"say": "Même achat à un virgule zéro huit cinq deux zéro."
+},
+{
+"text": "Revente à 1,08220.",
+"say": "Revente à un virgule zéro huit deux deux zéro."
+},
+"Moins trente pips.",
+"Soit une perte de trente dollars.",
+"Le calcul est parfaitement symétrique : le même mouvement, dans l'autre sens, donne la même somme en négatif."
+]
+},
+{
+"v": {
+"t": "bars",
+"h": "Même mouvement de 30 pips, trois comptes",
+"items": [
+{
+"label": "Compte 10 €",
+"v": 0.5,
+"txt": "voir chapitre 7",
+"c": "dim"
+},
+{
+"label": "Compte 100 € · 0,01",
+"v": 3,
+"txt": "± 3 $",
+"c": "accent"
+},
+{
+"label": "Compte 1 000 € · 0,10",
+"v": 30,
+"txt": "± 30 $",
+"c": "accent"
+}
+]
+},
+"lines": [
+"Comparons trois comptes face au même mouvement de trente pips.",
+"Avec dix euros, on verra au chapitre sept qu'ouvrir même zéro virgule zéro un lot n'est souvent pas possible.",
+"Avec cent euros et zéro virgule zéro un lot, trente pips représentent trois dollars, soit environ trois pour cent du compte.",
+"Avec mille euros et zéro virgule un lot, trente dollars, soit là aussi environ trois pour cent. Ce qui compte, c'est le rapport entre le volume et la taille du compte."
+]
+},
+{
+"v": {
+"t": "calc",
+"h": "Pourquoi une position démarre en négatif",
+"rows": [
+"Achat à l'Ask : 1,08520",
+"Valeur immédiate au Bid : 1,08500",
+"Spread : 2 pips × 1 $"
+],
+"res": "▼ −2 $ dès l'ouverture",
+"rc": "red"
+},
+"lines": [
+"Tu as peut-être remarqué que juste après l'ouverture, une position est déjà en négatif.",
+"C'est normal : tu as acheté à l'Ask…",
+"…mais ta position est évaluée au Bid, le prix auquel tu pourrais revendre.",
+"Avec un spread de deux pips sur zéro virgule un lot, tu démarres à moins deux dollars.",
+"Le prix doit d'abord parcourir le spread pour que tu reviennes à zéro."
+]
+},
+{
+"v": {
+"t": "list",
+"h": "Les autres coûts",
+"items": [
+{
+"s": "↔",
+"t": "Spread",
+"d": "intégré au prix, payé à chaque ouverture"
+},
+{
+"s": "€",
+"t": "Commission",
+"d": "ex. fictif : 3,50 $ par lot et par côté → 0,70 $ aller-retour pour 0,10 lot"
+},
+{
+"s": "☾",
+"t": "Swap",
+"d": "ex. fictif : −0,80 $ par nuit pour 0,10 lot · varie chaque jour"
+}
+]
+},
+"lines": [
+"Le spread n'est pas le seul coût.",
+"Le spread est intégré au prix, et il est payé à chaque ouverture de position.",
+"Certains comptes facturent aussi une commission. Par exemple, avec trois dollars cinquante par lot et par côté, une position de zéro virgule un lot coûte soixante-dix centimes aller-retour.",
+"Enfin, si tu gardes une position ouverte la nuit, un swap s'applique. Il dépend des taux d'intérêt des deux devises, et il est le plus souvent négatif. Le mercredi, il est souvent triplé pour couvrir le week-end."
+]
+},
+{
+"v": {
+"t": "compare",
+"h": "Latent ou réalisé ?",
+"l": {
+"t": "Gain latent",
+"c": "#FFB547",
+"st": "Position encore ouverte",
+"items": [
+"Le résultat bouge à chaque tick",
+"Rien n'est encore acquis"
+]
+},
+"r": {
+"t": "Gain réalisé",
+"c": "green",
+"st": "Position fermée",
+"items": [
+"Le résultat est définitif",
+"Il est ajouté à la Balance"
+],
+"at": 2
+}
+},
+"lines": [
+"Distinguons maintenant deux types de résultat.",
+"Tant que la position est ouverte, le gain ou la perte est latent : il change à chaque mouvement de prix.",
+"Quand tu fermes la position, le résultat devient réalisé, et il est définitivement ajouté à ton solde."
+]
+},
+{
+"v": {
+"t": "calc",
+"h": "Balance & Equity",
+"rows": [
+"Balance = solde des positions fermées",
+"Equity = Balance + résultats latents",
+"Balance 1 000 € · position −15 €"
+],
+"res": "Equity = 985 €",
+"rc": "#FFB547"
+},
+"lines": [
+"C'est la différence entre Balance et Equity.",
+"La Balance, c'est ton solde, en tenant compte uniquement des positions fermées.",
+"L'Equity, c'est la valeur réelle de ton compte à l'instant présent : la Balance, plus ou moins les résultats latents.",
+"Avec une Balance de mille euros et une position en perte de quinze euros…",
+"…ton Equity est de neuf cent quatre-vingt-cinq euros. Si tu fermais tout maintenant, c'est ce qu'il te resterait.",
+"Et c'est justement l'Equity qui compte pour la marge et l'effet de levier. C'est le sujet du prochain chapitre."
+]
+}
+]
+}

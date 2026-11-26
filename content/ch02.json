@@ -1,0 +1,57 @@
+{"id":"ch02","num":2,"title":"Les marchés financiers","accent":"#3EE6FF","music":1,
+"beats":[
+ {"v":{"t":"chapter"},"lines":["Chapitre deux : les marchés financiers."]},
+ {"v":{"t":"bento","h":"Un seul principe, de nombreux marchés","cols":4,"tiles":[{"tag":"DEVISES","k":"Forex"},{"tag":"ENTREPRISES","k":"Actions"},{"tag":"PANIERS","k":"Indices"},{"tag":"NUMÉRIQUE","k":"Cryptos"},{"tag":"RESSOURCES","k":"Matières premières"},{"tag":"FONDS","k":"ETF"},{"tag":"DETTE","k":"Obligations"},{"tag":"CONTRATS","k":"Dérivés"}]},"lines":[
+  "Il existe de nombreux marchés, mais ils fonctionnent tous sur le même principe : un prix qui bouge selon l'offre et la demande.",
+  "Faisons le tour des principaux."]},
+ {"v":{"t":"term","en":"Forex","fr":"Foreign Exchange · le marché des changes","def":"On y échange des devises par paires, comme l'euro contre le dollar : EUR/USD.","ex":{"p":"wave","seed":3}},"lines":[
+  "Commençons par le Forex, le marché des devises.",
+  "C'est le plus grand marché financier du monde : il s'y échange plusieurs milliers de milliards de dollars chaque jour.",
+  "On y échange toujours une devise contre une autre. Par exemple, la paire euro dollar indique combien de dollars vaut un euro."]},
+ {"v":{"t":"calc","h":"Lire une paire de devises","rows":["EUR/USD = 1,0850","1 € = 1,0850 $","Devise de base / devise de cotation"],"res":"Si la paire monte, l'euro se renforce","rc":"accent"},"lines":[
+  "Si l'euro dollar cote un virgule zéro huit cinq zéro…",
+  "…cela signifie qu'un euro vaut un dollar et huit centimes et demi.",
+  "La première devise est la devise de base, la seconde est la devise de cotation.",
+  "Quand la paire monte, l'euro se renforce face au dollar. Quand elle baisse, il s'affaiblit."]},
+ {"v":{"t":"term","en":"Actions","fr":"Stocks · Shares","def":"Une action est une part d'une entreprise. Son prix reflète ce que les investisseurs pensent de son avenir.","ex":{"p":"upbig","seed":8,"mode":"candles"}},"lines":[
+  "Viennent ensuite les actions.",
+  "Une action, c'est une petite part d'une entreprise. Acheter une action Apple, c'est devenir copropriétaire d'Apple, à toute petite échelle.",
+  "Son prix varie selon les résultats de l'entreprise et selon ce que les investisseurs anticipent pour son avenir."]},
+ {"v":{"t":"term","en":"Indices","fr":"Indices boursiers","def":"Un indice suit la valeur d'un panier d'actions : CAC 40, S&P 500, DAX, Nasdaq…","ex":{"p":"up","seed":11}},"lines":[
+  "Un indice boursier mesure la performance d'un panier d'actions.",
+  "Le CAC 40 regroupe quarante grandes entreprises françaises. Le S&P 500, cinq cents grandes entreprises américaines.",
+  "Suivre un indice, c'est observer la santé globale d'un marché, plutôt que celle d'une seule entreprise."]},
+ {"v":{"t":"term","en":"Crypto","fr":"Cryptomonnaies","def":"Actifs numériques comme le Bitcoin. Marché ouvert 24 h/24, 7 j/7, très volatil.","ex":{"p":"volatile","seed":5,"c":"#F7931A"}},"lines":[
+  "Les cryptomonnaies, comme le Bitcoin, sont des actifs numériques.",
+  "Leur marché est ouvert en permanence, même le week-end.",
+  "Et leurs prix peuvent varier de plusieurs dizaines de pour cent en peu de temps. Le risque est donc particulièrement élevé."]},
+ {"v":{"t":"bento","h":"Les matières premières","cols":3,"tiles":[{"tag":"MÉTAUX","k":"Or","d":"valeur refuge, cotée en dollars l'once : XAU/USD","c":"#FACC15"},{"tag":"ÉNERGIE","k":"Pétrole","d":"Brent et WTI, sensibles à la géopolitique"},{"tag":"AGRICULTURE","k":"Blé, café…","d":"dépendent des récoltes et du climat"}]},"lines":[
+  "Les matières premières sont des ressources physiques.",
+  "L'or est souvent considéré comme une valeur refuge : en période d'inquiétude, certains investisseurs s'y réfugient.",
+  "Le pétrole, avec le Brent et le WTI, réagit fortement aux tensions géopolitiques et aux décisions des pays producteurs.",
+  "Il existe aussi des matières premières agricoles, comme le blé ou le café, qui dépendent des récoltes et de la météo."]},
+ {"v":{"t":"term","en":"ETF","fr":"Exchange Traded Fund · fonds indiciel coté","def":"Un fonds qui réplique un indice ou un secteur, et qui s'achète en bourse comme une action.","ex":{"p":"up","seed":15}},"lines":[
+  "Les ETF sont des fonds cotés en bourse.",
+  "Ils répliquent un indice, un secteur ou un thème. Avec un seul ETF, on peut être exposé à des centaines d'entreprises.",
+  "Ils sont surtout utilisés par les investisseurs de long terme, pour diversifier à moindre coût."]},
+ {"v":{"t":"term","en":"Bonds","fr":"Obligations","def":"Un prêt à un État ou à une entreprise, en échange d'intérêts réguliers.","ex":{"p":"calm","seed":2}},"lines":[
+  "Les obligations, elles, sont des titres de dette.",
+  "Quand tu achètes une obligation, tu prêtes de l'argent à un État ou à une entreprise, qui te verse des intérêts.",
+  "Leur prix varie notamment en fonction des taux d'intérêt."]},
+ {"v":{"t":"list","h":"Les produits dérivés","items":[{"s":"◆","t":"Produit dérivé","d":"son prix dépend d'un actif sous-jacent"},{"s":"◆","t":"Future","d":"contrat à terme : prix fixé aujourd'hui, échéance future"},{"s":"◆","t":"CFD","d":"contrat sur la différence de prix, sans posséder l'actif"}]},"lines":[
+  "Et maintenant, une famille essentielle : les produits dérivés.",
+  "Un dérivé est un contrat dont la valeur dépend d'un autre actif, qu'on appelle le sous-jacent.",
+  "Les futures, ou contrats à terme, fixent aujourd'hui un prix pour une transaction future. Ils sont échangés sur des marchés organisés.",
+  "Les CFD, pour contrats sur la différence, sont très utilisés par les traders particuliers : on échange simplement la différence de prix entre l'ouverture et la fermeture."]},
+ {"v":{"t":"compare","h":"Posséder ou spéculer ?","l":{"t":"Achat réel","c":"accent","st":"ex : acheter une action","items":["Tu possèdes l'actif","Dividendes et droits de vote","Pas de levier, pas de vente à découvert simple"],"step":true},"r":{"t":"CFD","c":"#FFB547","st":"ex : CFD sur la même action","items":["Tu ne possèdes rien","Tu gagnes ou perds la variation","Levier, vente possible, frais de financement"],"step":true,"at":3}},"lines":[
+  "C'est une différence fondamentale.",
+  "Quand tu achètes réellement une action, tu la possèdes.",
+  "Tu peux percevoir des dividendes, et tu n'utilises pas d'effet de levier.",
+  "Avec un CFD, tu ne possèdes rien : tu signes un contrat avec ton courtier sur l'évolution du prix.",
+  "Tu peux te positionner à la baisse comme à la hausse.",
+  "Mais tu utilises souvent un effet de levier, et tu paies des frais de financement si tu gardes la position plusieurs jours."]},
+ {"v":{"t":"stat","h":"À retenir","n":"CFD","c":"accent","d":"Produit complexe, à effet de levier : il peut faire perdre rapidement plus que ce qu'on imaginait.","dl":1},"lines":[
+  "Les autorités européennes classent les CFD parmi les produits complexes et risqués.",
+  "C'est pour cela que leur levier est plafonné pour les particuliers. On verra tout cela en détail au chapitre sept.",
+  "Prochaine étape : apprendre à parler le langage des traders."]}
+]}

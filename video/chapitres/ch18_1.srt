@@ -1,0 +1,139 @@
+1
+00:00:00,900 --> 00:00:03,784
+Chapitre dix-huit : une journée type.
+
+2
+00:00:04,204 --> 00:00:18,503
+Tu t'installes devant ta plateforme. Concrètement, par quoi tu commences, et par quoi tu finis ? Voici une routine d'observation complète. Ce n'est pas une stratégie, ni un signal : c'est une méthode de travail.
+
+3
+00:00:19,873 --> 00:00:24,736
+Voici le déroulé d'une journée type, à l'heure de Paris, pour quelqu'un qui observe le Forex.
+
+4
+00:00:25,156 --> 00:00:27,212
+Vers huit heures trente, on prépare.
+
+5
+00:00:27,632 --> 00:00:31,815
+Ensuite, on analyse le marché, de la grande unité de temps vers la petite.
+
+6
+00:00:32,235 --> 00:00:35,744
+À neuf heures, Londres ouvre : on observe, sans se précipiter.
+
+7
+00:00:36,164 --> 00:00:41,434
+À partir de quatorze heures, New York ouvre, et les annonces américaines peuvent secouer le marché.
+
+8
+00:00:41,854 --> 00:00:47,195
+Et en fin de journée, on clôture la séance proprement. Détaillons chaque étape.
+
+9
+00:00:48,565 --> 00:00:55,939
+Huit heures trente. Tu ouvres ta plateforme, MetaTrader ou TradingView : la démarche est la même.
+
+10
+00:00:56,359 --> 00:01:04,765
+Premier réflexe : l'état du compte. Balance, Equity, marge libre. Tu sais exactement d'où tu pars.
+
+11
+00:01:05,185 --> 00:01:11,866
+Deuxième réflexe : y a-t-il des positions encore ouvertes depuis la veille ? Avec quel Stop Loss, et quel swap ?
+
+12
+00:01:12,286 --> 00:01:20,571
+Troisième réflexe : dans le Market Watch, tu regardes le spread de l'instrument. S'il est anormalement large, c'est une information.
+
+13
+00:01:21,941 --> 00:01:24,466
+Ensuite, le calendrier économique de la journée.
+
+14
+00:01:24,886 --> 00:01:31,878
+Tu repères les annonces importantes et leur heure, ici les inscriptions au chômage américaines à quatorze heures trente.
+
+15
+00:01:32,298 --> 00:01:44,580
+Et un discours du président de la FED à seize heures. Autour de ces moments, le spread peut s'élargir et le prix bouger brutalement. Beaucoup préfèrent n'avoir aucune position ouverte à ces heures-là.
+
+16
+00:01:45,950 --> 00:01:50,281
+Dernière étape de la préparation : écrire ses limites du jour, avant de commencer.
+
+17
+00:01:50,701 --> 00:01:54,400
+Par exemple : jamais plus de un pour cent du compte par position.
+
+18
+00:01:54,820 --> 00:02:01,644
+Une perte maximale de trois pour cent pour la journée. Si elle est atteinte, la séance s'arrête, quoi qu'il arrive.
+
+19
+00:02:02,064 --> 00:02:09,449
+Et un nombre maximum de positions. Ces chiffres sont des exemples. L'important, c'est de les fixer à froid.
+
+20
+00:02:10,819 --> 00:02:17,149
+Vient ensuite l'analyse. On commence toujours par la grande unité de temps : le graphique journalier.
+
+21
+00:02:17,569 --> 00:02:18,804
+Puis on descend en quatre heures…
+
+22
+00:02:19,224 --> 00:02:20,716
+…et enfin en une heure.
+
+23
+00:02:21,136 --> 00:02:32,236
+Le journalier donne le contexte général, le quatre heures précise la structure, et le une heure montre le détail du moment. Commencer par le détail, c'est risquer de ne pas voir la forêt derrière l'arbre.
+
+24
+00:02:33,606 --> 00:02:36,306
+Sur chaque unité de temps, tu poses les mêmes questions.
+
+25
+00:02:36,726 --> 00:02:42,970
+Quelle est la structure ? Des sommets et des creux de plus en plus hauts, de plus en plus bas, ou un marché latéral ?
+
+26
+00:02:43,390 --> 00:02:48,632
+Où sont les zones clés ? Par exemple le plus haut récent, qui peut agir comme résistance…
+
+27
+00:02:49,052 --> 00:02:56,105
+…et le dernier creux important, qui peut agir comme support. Tu les traces sur le graphique, sans rien décider pour l'instant.
+
+28
+00:02:57,475 --> 00:03:01,306
+Beaucoup de traders repèrent aussi les Fair Value Gaps, ou FVG.
+
+29
+00:03:01,726 --> 00:03:08,368
+C'est une zone de prix que le marché a traversée si vite qu'il n'y a presque pas eu d'échanges. Elle se repère sur trois bougies.
+
+30
+00:03:09,738 --> 00:03:11,076
+Regarde ces bougies.
+
+31
+00:03:11,496 --> 00:03:17,455
+On s'intéresse à trois bougies consécutives : la bougie un, la grande bougie deux, et la bougie trois.
+
+32
+00:03:17,875 --> 00:03:25,815
+Si le plus bas de la bougie trois reste au-dessus du plus haut de la bougie un, l'espace entre les deux forme un Fair Value Gap haussier.
+
+33
+00:03:26,235 --> 00:03:30,484
+Tu le traces comme une zone, au même titre qu'un support ou une résistance.
+
+34
+00:03:31,854 --> 00:03:33,632
+Le principe est le même à la baisse.
+
+35
+00:03:34,052 --> 00:03:36,617
+Trois bougies, avec une grande bougie baissière au milieu.

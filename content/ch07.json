@@ -1,0 +1,56 @@
+{"id":"ch07","num":7,"title":"Effet de levier et marge","accent":"#FF8A3D","music":2,
+"beats":[
+ {"v":{"t":"chapter"},"lines":["Chapitre sept : l'effet de levier et la marge.","C'est probablement le chapitre le plus important de toute la formation."]},
+ {"v":{"t":"term","en":"Leverage","fr":"Effet de levier","def":"Contrôler une position plus grande que l'argent immobilisé. Avec 1:30, 1 € de marge permet une exposition de 30 €."},"lines":[
+  "Leverage, l'effet de levier.",
+  "Il permet d'ouvrir une position dont la valeur est bien supérieure à l'argent que tu immobilises. Avec un levier de un pour trente, un euro de marge permet une exposition de trente euros."]},
+ {"v":{"t":"calc","h":"Valeur notionnelle et marge","ctx":"0,01 lot EUR/USD","rows":["Valeur notionnelle : 1 000 €","Levier 1:30","Marge = 1 000 € ÷ 30 = 33,33 €"],"res":"33,33 € bloqués pour 1 000 € exposés","rc":"accent"},"lines":[
+  "Prenons zéro virgule zéro un lot d'euro dollar.",
+  "Sa valeur notionnelle, c'est-à-dire la valeur réelle de la position, est de mille euros.",
+  "Avec un levier de un pour trente…",
+  "…la marge, c'est-à-dire la somme bloquée comme garantie, est de mille divisé par trente, soit trente-trois euros et trente-trois centimes.",
+  "Attention : la marge n'est pas un coût. C'est une garantie, immobilisée tant que la position est ouverte."]},
+ {"v":{"t":"bars","h":"Marge requise pour 1 000 € d'exposition","items":[{"label":"Levier 1:1","v":1000,"txt":"1 000 €"},{"label":"Levier 1:10","v":100,"txt":"100 €"},{"label":"Levier 1:20","v":50,"txt":"50 €"},{"label":"Levier 1:30","v":33.33,"txt":"33,33 €"}]},"lines":[
+  "Comparons plusieurs leviers pour la même exposition de mille euros.",
+  "Sans levier, en un pour un, il faut mille euros.",
+  "En un pour dix, cent euros.",
+  "En un pour vingt, cinquante euros.",
+  "En un pour trente, trente-trois euros. Mais quel que soit le levier, l'exposition reste de mille euros : le gain ou la perte par pip est exactement le même."]},
+ {"v":{"t":"accounts","h":"Pourquoi 10 € ne suffisent pas","move":0,"acc":[{"name":"Compte 10 €","bal":10,"lots":0.01},{"name":"Compte 100 €","bal":100,"lots":0.01},{"name":"Compte 1 000 €","bal":1000,"lots":0.01}]},"lines":[
+  "Revenons à notre question : pourquoi un compte de dix euros ne permet-il pas forcément d'ouvrir zéro virgule zéro un lot ?",
+  "Parce qu'avec un levier de un pour trente, cette position demande environ trente-trois euros de marge.",
+  "Avec dix euros, la marge disponible est insuffisante : l'ordre est refusé. Avec cent euros ou mille euros, c'est possible.",
+  "Sur d'autres instruments, la taille minimale et la marge peuvent être différentes. Il faut toujours vérifier les spécifications du contrat chez son courtier."]},
+ {"v":{"t":"list","h":"Les indicateurs du compte","items":[{"s":"€","t":"Margin","d":"la marge utilisée par les positions ouvertes"},{"s":"◎","t":"Free Margin","d":"Equity − Margin : ce qui reste disponible"},{"s":"%","t":"Margin Level","d":"Equity ÷ Margin × 100"}]},"lines":[
+  "Sur ta plateforme, trois indicateurs surveillent cette marge.",
+  "Margin : la marge totale actuellement bloquée par tes positions.",
+  "Free Margin : la marge libre, c'est-à-dire l'Equity moins la marge utilisée. C'est ce qui te reste pour encaisser des pertes ou ouvrir d'autres positions.",
+  "Margin Level : l'Equity divisée par la marge, multipliée par cent. C'est la jauge de santé de ton compte."]},
+ {"v":{"t":"accounts","h":"Même compte, trois expositions","move":-200,"moveAt":2,"moveDur":600,"acc":[{"name":"0,01 lot","bal":1000,"lots":0.01},{"name":"0,10 lot","bal":1000,"lots":0.1},{"name":"0,30 lot","bal":1000,"lots":0.3}]},"lines":[
+  "Maintenant, la démonstration la plus importante.",
+  "Trois comptes identiques de mille euros, avec le même levier. Seule la taille de la position change : exposition de mille, dix mille, puis trente mille euros.",
+  "Le marché baisse de deux cents pips. Regarde l'Equity et le Margin Level de chaque compte.",
+  "Le premier perd environ dix-huit euros : presque rien.",
+  "Le deuxième perd environ cent quatre-vingt-cinq euros.",
+  "Le troisième voit son Margin Level s'effondrer… jusqu'au Stop Out. La position est fermée automatiquement, avec une perte d'environ cinq cents euros."]},
+ {"v":{"t":"list","h":"Margin Call et Stop Out","items":[{"s":"!","t":"Margin Call","d":"alerte : le Margin Level passe sous un seuil fixé par le courtier (souvent autour de 100 %)","c":"#FFB547"},{"s":"✕","t":"Stop Out","d":"fermeture automatique des positions · 50 % pour les clients particuliers dans l'UE","c":"red"},{"s":"⚙","t":"Liquidation automatique","d":"les positions sont fermées une à une jusqu'à remonter au-dessus du seuil"}]},"lines":[
+  "Que s'est-il passé ?",
+  "Quand le Margin Level descend sous un premier seuil, souvent autour de cent pour cent selon le courtier, tu reçois un Margin Call : un avertissement.",
+  "S'il continue de baisser et atteint le niveau de Stop Out, cinquante pour cent pour les clients particuliers dans l'Union européenne, le courtier ferme automatiquement tes positions.",
+  "C'est une liquidation automatique : elle protège le compte contre une perte encore plus grande, mais elle rend la perte définitive."]},
+ {"v":{"t":"bars","h":"Leviers maximum · clients particuliers (UE)","items":[{"label":"Forex majeures","v":30,"txt":"1:30"},{"label":"Autres devises, or, grands indices","v":20,"txt":"1:20"},{"label":"Autres matières premières, indices","v":10,"txt":"1:10"},{"label":"Actions","v":5,"txt":"1:5"},{"label":"Cryptomonnaies","v":2,"txt":"1:2"}]},"lines":[
+  "En Europe, l'Autorité européenne des marchés financiers a plafonné l'effet de levier des particuliers sur les CFD.",
+  "Un pour trente sur les paires de devises majeures.",
+  "Un pour vingt sur les autres paires, l'or et les grands indices.",
+  "Un pour dix sur les autres matières premières et les indices secondaires.",
+  "Un pour cinq sur les actions…",
+  "…et un pour deux sur les cryptomonnaies. Les particuliers bénéficient aussi d'une protection contre le solde négatif : ils ne peuvent pas perdre plus que leur dépôt."]},
+ {"v":{"t":"stat","h":"Les leviers supérieurs","n":"1:500","c":"red","d":"Proposés hors UE ou aux clients professionnels : une variation de 0,2 % peut alors suffire à liquider la marge","dl":1},"lines":[
+  "Certains courtiers proposent des leviers de un pour cinq cents, voire plus, souvent depuis des pays moins régulés, ou réservés aux clients professionnels.",
+  "Avec un tel levier, une variation de zéro virgule deux pour cent suffit à faire perdre l'équivalent de toute la marge engagée.",
+  "Plus le levier est élevé, plus il devient facile d'ouvrir une exposition démesurée par rapport à son capital."]},
+ {"v":{"t":"quote","q":"Le levier ne change pas le risque d'un pip. C'est l'exposition qui fait le risque.","hl":[7,8,9,10]},"lines":[
+  "Retiens bien cette idée.",
+  "Le levier ne rend pas une position plus risquée en soi : il permet d'en ouvrir une plus grosse. C'est l'exposition totale par rapport au capital qui fait le risque.",
+  "Maintenant, voyons les courtiers et la plateforme MetaTrader cinq."]}
+]}

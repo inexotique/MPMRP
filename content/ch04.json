@@ -1,0 +1,323 @@
+{
+"id": "ch04",
+"num": 4,
+"title": "Lire un graphique",
+"accent": "#FFB547",
+"music": 3,
+"beats": [
+{
+"v": {
+"t": "chapter"
+},
+"lines": [
+"Chapitre quatre : lire un graphique."
+]
+},
+{
+"v": {
+"t": "chart",
+"h": "Deux axes, une histoire",
+"p": "wave",
+"side": [
+"→ Axe horizontal : le temps",
+"↑ Axe vertical : le prix"
+]
+},
+"lines": [
+"Un graphique de prix raconte une histoire, et il se lit sur deux axes.",
+"L'axe horizontal, c'est le temps. Plus on va vers la droite, plus on se rapproche du présent.",
+"L'axe vertical, c'est le prix. Plus la courbe est haute, plus le prix est élevé."
+]
+},
+{
+"v": {
+"t": "chart",
+"h": "Le graphique en ligne",
+"p": "up",
+"seed": 4
+},
+"lines": [
+"Le graphique le plus simple est le graphique en ligne.",
+"Il relie les prix de clôture successifs. C'est clair, mais on perd beaucoup d'informations : que s'est-il passé entre deux points ?"
+]
+},
+{
+"v": {
+"t": "candle",
+"h": "Le chandelier japonais"
+},
+"lines": [
+"C'est là qu'intervient le chandelier japonais, utilisé depuis des siècles.",
+"Prenons tous les mouvements de prix d'une période, et résumons-les en une seule bougie.",
+"Le point le plus haut atteint pendant la période : le High.",
+"Le prix de clôture, à la fin de la période : le Close.",
+"Le prix d'ouverture, au début : l'Open.",
+"Et le point le plus bas : le Low.",
+"La partie épaisse est le corps, entre l'ouverture et la clôture. Les traits fins au-dessus et en dessous sont les mèches."
+]
+},
+{
+"v": {
+"t": "candle",
+"h": "Bougie baissière",
+"bear": true,
+"labels": [
+[
+"OPEN",
+0.72,
+"Ouverture"
+],
+[
+"CLOSE",
+0.3,
+"Clôture"
+],
+[
+"HIGH",
+1,
+"Plus haut"
+],
+[
+"LOW",
+0,
+"Plus bas"
+]
+]
+},
+"lines": [
+"Ici, la clôture est au-dessus de l'ouverture : c'était une bougie haussière, en vert.",
+"Voici maintenant une bougie baissière, en rouge.",
+"Le prix a ouvert en haut…",
+"…puis a clôturé plus bas.",
+"Le corps va donc de l'ouverture, en haut, jusqu'à la clôture, en bas.",
+"Les mèches montent toujours au plus haut et descendent toujours au plus bas de la période.",
+"Une seule bougie résume donc quatre prix : Open, High, Low, Close. On parle de données OHLC."
+]
+},
+{
+"v": {
+"t": "chart",
+"h": "Des bougies, une à une",
+"p": "pullback",
+"mode": "candles",
+"per": 6,
+"draw": 260,
+"seed": 7
+},
+"lines": [
+"Une bougie se construit en direct, pendant toute sa période.",
+"Tant que la période n'est pas terminée, la bougie bouge, s'allonge, change parfois de couleur.",
+"Quand la période se termine, la bougie se fige, et une nouvelle commence."
+]
+},
+{
+"v": {
+"t": "bento",
+"h": "Les unités de temps",
+"cols": 3,
+"tiles": [
+{
+"tag": "MINUTES",
+"k": "M1 · M5 · M15 · M30",
+"d": "1, 5, 15 et 30 minutes par bougie"
+},
+{
+"tag": "HEURES",
+"k": "H1 · H4",
+"d": "1 heure et 4 heures par bougie"
+},
+{
+"tag": "LONG TERME",
+"k": "D1 · W1 · MN1",
+"d": "1 jour, 1 semaine, 1 mois par bougie"
+}
+]
+},
+"lines": [
+"La durée d'une bougie s'appelle l'unité de temps, ou timeframe.",
+"M1, M5, M15 et M30 : une, cinq, quinze ou trente minutes par bougie.",
+"H1 et H4 : une heure et quatre heures.",
+"D1, W1 et MN1 : un jour, une semaine et un mois."
+]
+},
+{
+"v": {
+"t": "tf",
+"h": "Le même mouvement, trois regards"
+},
+"lines": [
+"Voici le même mouvement de prix, vu en cinq minutes…",
+"…en une heure…",
+"…et en un jour.",
+"Plus l'unité de temps est petite, plus on voit de détails et de bruit. Plus elle est grande, plus on voit la direction générale. Aucune n'est meilleure : elles répondent à des questions différentes."
+]
+},
+{
+"v": {
+"t": "chart",
+"h": "Tendance haussière",
+"p": "up",
+"mode": "candles",
+"per": 6,
+"seed": 3
+},
+"lines": [
+"Avec les bougies, on peut décrire l'état du marché.",
+"Une tendance haussière : les sommets et les creux sont de plus en plus hauts."
+]
+},
+{
+"v": {
+"t": "chart",
+"h": "Tendance baissière",
+"p": "down",
+"mode": "candles",
+"per": 6,
+"seed": 5
+},
+"lines": [
+"Une tendance baissière : les sommets et les creux sont de plus en plus bas."
+]
+},
+{
+"v": {
+"t": "chart",
+"h": "Marché latéral",
+"p": "range",
+"mode": "candles",
+"per": 6,
+"seed": 4,
+"levels": [
+{
+"y": 0.68,
+"y2": 0.62,
+"label": "PLAFOND",
+"c": "red",
+"l": 1
+},
+{
+"y": 0.32,
+"y2": 0.38,
+"label": "PLANCHER",
+"c": "green",
+"l": 1
+}
+]
+},
+"lines": [
+"Et un marché latéral, ou range…",
+"…où le prix rebondit entre un plafond et un plancher, sans direction nette."
+]
+},
+{
+"v": {
+"t": "chart",
+"h": "Supports et résistances",
+"p": "sr",
+"mode": "candles",
+"per": 5,
+"seed": 6,
+"levels": [
+{
+"y": 0.7,
+"y2": 0.66,
+"label": "RÉSISTANCE",
+"c": "red",
+"l": 1
+},
+{
+"y": 0.3,
+"y2": 0.34,
+"label": "SUPPORT",
+"c": "green",
+"l": 2
+}
+],
+"ann": [
+{
+"x": 0.1,
+"l": 1,
+"c": "red"
+},
+{
+"x": 0.5,
+"l": 1,
+"c": "red"
+},
+{
+"x": 0.2,
+"l": 2,
+"c": "green"
+},
+{
+"x": 0.6,
+"l": 2,
+"c": "green"
+}
+]
+},
+"lines": [
+"Sur un graphique, certaines zones reviennent souvent.",
+"Une résistance, là où le prix a buté plusieurs fois vers le haut.",
+"Un support, là où il a rebondi plusieurs fois vers le bas.",
+"Ces zones sont observées par beaucoup de participants, mais elles ne garantissent rien."
+]
+},
+{
+"v": {
+"t": "chart",
+"h": "La structure du marché",
+"p": "hhhl",
+"pts": 120,
+"noise": 0.008,
+"ann": [
+{
+"x": 0.111,
+"text": "HH",
+"c": "green",
+"l": 1
+},
+{
+"x": 0.333,
+"text": "HH",
+"c": "green",
+"l": 1
+},
+{
+"x": 0.555,
+"text": "HH",
+"c": "green",
+"l": 1
+},
+{
+"x": 0.222,
+"text": "HL",
+"c": "accent",
+"dy": 70,
+"l": 1
+},
+{
+"x": 0.444,
+"text": "HL",
+"c": "accent",
+"dy": 70,
+"l": 1
+},
+{
+"x": 0.667,
+"text": "HL",
+"c": "accent",
+"dy": 70,
+"l": 1
+}
+]
+},
+"lines": [
+"Enfin, la structure du marché, c'est l'enchaînement des sommets et des creux.",
+"Tant que la succession de sommets et de creux plus hauts se poursuit, la structure reste haussière.",
+"Lire un graphique, ce n'est pas prédire l'avenir : c'est décrire objectivement ce qui s'est passé.",
+"Maintenant que tu sais lire un graphique, voyons comment on passe un ordre."
+]
+}
+]
+}

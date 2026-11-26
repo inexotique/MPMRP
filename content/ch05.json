@@ -1,0 +1,56 @@
+{"id":"ch05","num":5,"title":"Les ordres de trading","accent":"#4DA3FF","music":0,
+"beats":[
+ {"v":{"t":"chapter"},"lines":["Chapitre cinq : les ordres de trading."]},
+ {"v":{"t":"compare","h":"Ouvrir et fermer une position","l":{"t":"▲ BUY","c":"green","st":"Ouverture à l'Ask","items":["Fermeture par une vente","au Bid"]},"r":{"t":"▼ SELL","c":"red","st":"Ouverture au Bid","items":["Fermeture par un achat","à l'Ask"],"at":1}},"lines":[
+  "Un ordre, c'est une instruction que tu donnes à ton courtier.",
+  "Une position acheteuse s'ouvre à l'Ask et se ferme en vendant au Bid. Une position vendeuse, c'est l'inverse.",
+  "Ouvrir une position, c'est entrer sur le marché. La fermer, c'est en sortir, et transformer le résultat latent en résultat réel."]},
+ {"v":{"t":"order","kind":"market","h":"Market Order · ordre au marché"},"lines":[
+  "Le plus simple : le Market Order, l'ordre au marché.",
+  "Il est exécuté immédiatement, au meilleur prix disponible à cet instant.",
+  "Avantage : la rapidité. Limite : tu ne contrôles pas exactement le prix d'exécution."]},
+ {"v":{"t":"quote","q":"Les ordres en attente s'exécutent seulement si le prix atteint un niveau choisi.","hl":[3,4]},"lines":[
+  "Il existe aussi les ordres en attente, ou Pending orders.",
+  "Ils ne sont exécutés que si le prix atteint un niveau que tu as défini à l'avance."]},
+ {"v":{"t":"order","kind":"buyLimit","h":"Buy Limit"},"lines":[
+  "Le Buy Limit est un ordre d'achat placé en dessous du prix actuel.",
+  "Si le prix descend jusqu'à ce niveau, l'achat est déclenché.",
+  "Il exprime l'idée : j'accepte d'acheter, mais seulement à un prix plus bas."]},
+ {"v":{"t":"order","kind":"sellLimit","h":"Sell Limit"},"lines":[
+  "Le Sell Limit est l'inverse : un ordre de vente placé au-dessus du prix actuel.",
+  "Il s'exécute si le prix monte jusqu'à ce niveau."]},
+ {"v":{"t":"order","kind":"buyStop","h":"Buy Stop"},"lines":[
+  "Le Buy Stop est un ordre d'achat placé au-dessus du prix actuel.",
+  "Il se déclenche si le prix monte et franchit ce niveau. Il est souvent associé à l'idée de cassure."]},
+ {"v":{"t":"order","kind":"sellStop","h":"Sell Stop"},"lines":[
+  "Le Sell Stop est un ordre de vente placé en dessous du prix actuel.",
+  "Il se déclenche si le prix descend et franchit ce niveau."]},
+ {"v":{"t":"order","kind":"stopLimit","h":"Stop Limit"},"lines":[
+  "Le Stop Limit combine deux niveaux.",
+  "Quand le prix atteint le niveau stop, un ordre limite est placé à son tour.",
+  "L'ordre ne sera exécuté qu'au prix limite, ou mieux. Et si le prix n'y revient jamais, l'ordre n'est pas exécuté."]},
+ {"v":{"t":"order","kind":"stopLoss","h":"Stop Loss"},"lines":[
+  "Passons à la protection. Le Stop Loss est un ordre qui ferme automatiquement ta position si le prix va contre toi.",
+  "Il sert à limiter une perte à un niveau que tu as décidé à l'avance.",
+  "Sans Stop Loss, une position perdante peut continuer à se dégrader."]},
+ {"v":{"t":"order","kind":"takeProfit","h":"Take Profit"},"lines":[
+  "Le Take Profit fait l'inverse.",
+  "Il ferme automatiquement la position quand un objectif de gain est atteint, même si tu n'es pas devant ton écran."]},
+ {"v":{"t":"order","kind":"trailing","h":"Trailing Stop · stop suiveur"},"lines":[
+  "Le Trailing Stop, ou stop suiveur, est un Stop Loss qui se déplace.",
+  "Quand le prix évolue en ta faveur, le stop le suit à distance fixe.",
+  "Mais il ne recule jamais. Si le prix se retourne, le stop est touché et la position se ferme."]},
+ {"v":{"t":"order","kind":"partial","h":"Fermeture partielle"},"lines":[
+  "La fermeture partielle consiste à fermer seulement une partie de ta position.",
+  "Par exemple, sur une position d'un lot, tu fermes zéro virgule cinq lot, et le reste continue d'évoluer."]},
+ {"v":{"t":"order","kind":"slippage","h":"Prix d'exécution et slippage"},"lines":[
+  "Un point essentiel : le prix d'exécution n'est pas toujours celui que tu as demandé.",
+  "Lors d'une annonce économique ou d'un gap, le prix peut sauter plusieurs niveaux d'un coup.",
+  "Ton Stop Loss est alors exécuté au premier prix disponible, parfois bien plus loin. C'est le slippage.",
+  "Un Stop Loss classique limite le risque, mais ne garantit pas un prix exact. Certains courtiers proposent des stops garantis, généralement contre des frais."]},
+ {"v":{"t":"bento","h":"Récapitulatif","cols":4,"tiles":[{"tag":"IMMÉDIAT","k":"Market","d":"au prix actuel"},{"tag":"PLUS BAS","k":"Buy Limit","d":"achat si le prix descend"},{"tag":"PLUS HAUT","k":"Sell Limit","d":"vente si le prix monte"},{"tag":"CASSURE ↑","k":"Buy Stop","d":"achat si le prix monte"},{"tag":"CASSURE ↓","k":"Sell Stop","d":"vente si le prix baisse"},{"tag":"PROTECTION","k":"Stop Loss","d":"limite la perte","c":"red"},{"tag":"OBJECTIF","k":"Take Profit","d":"encaisse le gain","c":"green"},{"tag":"SUIVEUR","k":"Trailing Stop","d":"suit le prix"}]},"lines":[
+  "Récapitulons.",
+  "Les ordres au marché s'exécutent tout de suite. Les ordres limites attendent un meilleur prix. Les ordres stop attendent un franchissement.",
+  "Et le Stop Loss, le Take Profit et le Trailing Stop encadrent la sortie de la position.",
+  "Maintenant, passons aux chiffres : comment calcule-t-on un gain ou une perte ?"]}
+]}

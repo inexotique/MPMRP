@@ -1,0 +1,75 @@
+1
+00:00:00,900 --> 00:00:03,682
+Chapitre onze : les prop firms.
+
+2
+00:00:05,052 --> 00:00:07,439
+Tu as sûrement vu des publicités pour des prop firms.
+
+3
+00:00:07,859 --> 00:00:17,631
+Ce sont des sociétés qui proposent de trader un capital qu'elles mettent à ta disposition, après une évaluation. On parle de compte financé, ou funded account.
+
+4
+00:00:19,001 --> 00:00:20,936
+Le fonctionnement est généralement le suivant.
+
+5
+00:00:21,356 --> 00:00:27,144
+Tu paies des frais d'inscription pour passer un challenge, souvent de quelques dizaines à quelques centaines d'euros.
+
+6
+00:00:27,564 --> 00:00:31,318
+Tu dois atteindre un objectif de profit, par exemple huit ou dix pour cent…
+
+7
+00:00:31,738 --> 00:00:33,788
+…sans jamais dépasser certaines limites de perte.
+
+8
+00:00:34,208 --> 00:00:38,242
+Si tu réussis, tu obtiens un compte financé, et tu touches une part des bénéfices.
+
+9
+00:00:39,612 --> 00:00:43,373
+Voici des règles typiques, sur un exemple fictif de cent mille dollars.
+
+10
+00:00:43,793 --> 00:00:45,636
+Un objectif de profit de huit pour cent.
+
+11
+00:00:46,056 --> 00:00:52,767
+Un drawdown journalier maximal de cinq pour cent : si tu perds plus de cinq mille dollars dans la journée, le challenge est perdu.
+
+12
+00:00:53,187 --> 00:00:56,326
+Un drawdown maximal de dix pour cent sur toute la durée.
+
+13
+00:00:56,746 --> 00:01:01,506
+Et un partage des bénéfices, ou profit split, par exemple quatre-vingts pour cent pour toi.
+
+14
+00:01:02,876 --> 00:01:04,145
+Quelques points essentiels.
+
+15
+00:01:04,565 --> 00:01:10,076
+Beaucoup de comptes dits financés sont en réalité des comptes simulés : tes positions ne vont pas réellement sur le marché.
+
+16
+00:01:10,496 --> 00:01:14,446
+Les retraits sont soumis à des conditions précises, et les règles peuvent changer.
+
+17
+00:01:14,866 --> 00:01:23,089
+Et en cas d'échec, les frais d'inscription sont perdus. Une grande partie des revenus de certaines sociétés provient justement de ces frais.
+
+18
+00:01:24,459 --> 00:01:32,583
+Avant de t'engager, lis l'intégralité des conditions générales. Une prop firm n'est ni un emploi, ni un placement garanti.
+
+19
+00:01:33,003 --> 00:01:36,329
+Et souviens-toi que ce secteur est encore peu encadré dans de nombreux pays.

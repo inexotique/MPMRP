@@ -1,0 +1,303 @@
+1
+00:00:00,900 --> 00:00:03,713
+Chapitre trois : le vocabulaire du trader.
+
+2
+00:00:04,133 --> 00:00:10,027
+Voici ton dictionnaire. Pour chaque mot : l'anglais, le français, et un exemple visuel.
+
+3
+00:00:11,397 --> 00:00:13,438
+Buy et Sell : acheter et vendre.
+
+4
+00:00:13,858 --> 00:00:19,146
+Une position acheteuse gagne quand le prix monte. Une position vendeuse gagne quand le prix baisse.
+
+5
+00:00:19,566 --> 00:00:27,329
+Regarde le même prix : à gauche le gain, à droite la perte. Puis, quand le prix se retourne, les rôles s'inversent.
+
+6
+00:00:28,699 --> 00:00:30,742
+Être Long, c'est être acheteur.
+
+7
+00:00:31,162 --> 00:00:38,082
+Être Short, c'est être vendeur : on vend un actif qu'on ne possède pas, pour le racheter plus tard, en espérant moins cher.
+
+8
+00:00:39,452 --> 00:00:48,546
+Bullish signifie haussier. L'image vient du taureau, qui frappe avec ses cornes de bas en haut. Un Bull Market, c'est un marché en hausse durable.
+
+9
+00:00:48,966 --> 00:00:58,005
+Bearish signifie baissier. L'ours frappe avec ses pattes de haut en bas. Un Bear Market, c'est un marché en baisse durable.
+
+10
+00:00:59,375 --> 00:01:00,580
+Bid et Ask.
+
+11
+00:01:01,000 --> 00:01:09,158
+Le Bid est le prix auquel tu peux vendre. L'Ask est le prix auquel tu peux acheter. Et l'Ask est toujours légèrement au-dessus du Bid.
+
+12
+00:01:10,528 --> 00:01:12,004
+Cet écart s'appelle le spread.
+
+13
+00:01:12,424 --> 00:01:15,499
+Si l'Ask est à 1,08520…
+
+14
+00:01:15,919 --> 00:01:18,830
+…et le Bid à 1,08500…
+
+15
+00:01:19,250 --> 00:01:22,502
+…l'écart est de 0,00020.
+
+16
+00:01:22,922 --> 00:01:27,488
+Soit 2 pips. C'est un coût que tu paies à chaque ouverture de position.
+
+17
+00:01:28,858 --> 00:01:31,666
+Pip, Point et Tick mesurent les mouvements de prix.
+
+18
+00:01:32,086 --> 00:01:41,621
+Sur l'euro dollar, un pip correspond à la quatrième décimale : zéro virgule zéro zéro zéro un. Sur les paires en yen, c'est la deuxième décimale.
+
+19
+00:01:42,041 --> 00:01:53,213
+Sur MetaTrader, un point correspond généralement à la plus petite décimale affichée, soit un dixième de pip sur l'euro dollar. Attention, certains utilisent ce mot différemment.
+
+20
+00:01:53,633 --> 00:01:57,369
+Le tick, c'est le plus petit mouvement de prix possible pour un instrument donné.
+
+21
+00:01:58,739 --> 00:02:05,494
+Le lot mesure la taille d'une position sur le Forex. Un lot standard représente cent mille unités de la devise de base.
+
+22
+00:02:05,914 --> 00:02:10,344
+Un mini lot, zéro virgule un, représente dix mille unités.
+
+23
+00:02:10,764 --> 00:02:17,912
+Et un micro lot, zéro virgule zéro un, mille unités. C'est souvent la plus petite taille disponible.
+
+24
+00:02:19,282 --> 00:02:21,484
+Volatility, la volatilité.
+
+25
+00:02:21,904 --> 00:02:27,021
+Elle mesure l'amplitude des mouvements de prix. Un marché volatil bouge beaucoup et vite.
+
+26
+00:02:27,441 --> 00:02:31,493
+Plus la volatilité est forte, plus les gains et les pertes potentiels sont importants.
+
+27
+00:02:32,863 --> 00:02:34,899
+Liquidity, la liquidité.
+
+28
+00:02:35,319 --> 00:02:41,585
+Un marché liquide compte beaucoup d'acheteurs et de vendeurs : on peut y passer un ordre rapidement, avec un spread généralement faible.
+
+29
+00:02:42,005 --> 00:02:44,961
+Un marché peu liquide peut provoquer des écarts de prix importants.
+
+30
+00:02:46,331 --> 00:02:50,057
+Le volume, c'est la quantité d'actif échangée sur une période.
+
+31
+00:02:50,477 --> 00:02:53,883
+Un fort volume montre qu'un mouvement implique beaucoup de participants.
+
+32
+00:02:55,253 --> 00:02:57,143
+Momentum, c'est l'élan du marché.
+
+33
+00:02:57,563 --> 00:03:05,094
+Il décrit la vitesse et la force d'un mouvement. Un mouvement peut ralentir, accélérer, ou s'essouffler.
+
+34
+00:03:06,464 --> 00:03:08,128
+Trend, la tendance.
+
+35
+00:03:08,548 --> 00:03:14,090
+C'est la direction générale du prix sur une période : haussière, baissière, ou sans direction claire.
+
+36
+00:03:15,460 --> 00:03:17,631
+Range, le marché latéral.
+
+37
+00:03:18,051 --> 00:03:22,242
+Le prix fait des allers-retours entre un plafond et un plancher, sans vraie direction.
+
+38
+00:03:23,612 --> 00:03:25,274
+Breakout, la cassure.
+
+39
+00:03:25,694 --> 00:03:28,854
+C'est le moment où le prix sort d'une zone dans laquelle il était enfermé.
+
+40
+00:03:29,274 --> 00:03:35,680
+Une cassure n'est jamais garantie : le prix peut aussi revenir dans la zone. On parle alors de fausse cassure.
+
+41
+00:03:37,050 --> 00:03:38,624
+Pullback, le repli.
+
+42
+00:03:39,044 --> 00:03:45,975
+Dans une tendance, le prix ne monte jamais en ligne droite. Il recule parfois temporairement : c'est un pullback.
+
+43
+00:03:47,345 --> 00:03:48,015
+Retest.
+
+44
+00:03:48,435 --> 00:03:52,360
+Après une cassure, le prix revient parfois tester le niveau qu'il vient de franchir.
+
+45
+00:03:53,730 --> 00:03:55,538
+Support et Resistance.
+
+46
+00:03:55,958 --> 00:04:02,181
+Une résistance est une zone où le prix a eu du mal à monter plus haut. Les vendeurs y ont été plus actifs.
+
+47
+00:04:02,601 --> 00:04:07,653
+Un support est une zone où le prix a eu du mal à descendre. Les acheteurs y ont été plus présents.
+
+48
+00:04:08,073 --> 00:04:13,292
+Ce sont des zones, pas des lignes parfaites. Et elles finissent souvent par être franchies.
+
+49
+00:04:14,662 --> 00:04:16,859
+Trois mots proches, mais différents.
+
+50
+00:04:17,279 --> 00:04:21,530
+Une consolidation est une pause : le prix se resserre, il hésite.
+
+51
+00:04:21,950 --> 00:04:30,531
+Une correction est un recul temporaire après une hausse. Sur les actions, on parle souvent de correction au-delà de dix pour cent de baisse.
+
+52
+00:04:30,951 --> 00:04:35,676
+Un reversal, c'est un vrai retournement : la tendance change de direction.
+
+53
+00:04:37,046 --> 00:04:39,792
+Pour décrire une tendance, on observe les sommets et les creux.
+
+54
+00:04:40,212 --> 00:04:43,042
+Higher High : un sommet plus haut que le précédent.
+
+55
+00:04:43,462 --> 00:04:50,196
+Higher Low : un creux plus haut que le précédent. Une succession des deux décrit une tendance haussière.
+
+56
+00:04:51,566 --> 00:04:52,235
+À l'inverse…
+
+57
+00:04:52,655 --> 00:04:55,798
+Lower High : un sommet plus bas que le précédent.
+
+58
+00:04:56,218 --> 00:05:01,671
+Lower Low : un creux plus bas. Ensemble, ils décrivent une tendance baissière.
+
+59
+00:05:03,041 --> 00:05:04,706
+Slippage, le glissement.
+
+60
+00:05:05,126 --> 00:05:11,105
+C'est l'écart entre le prix que tu demandes et le prix auquel ton ordre est réellement exécuté.
+
+61
+00:05:11,525 --> 00:05:17,636
+Il apparaît surtout quand le marché bouge très vite. Il peut jouer contre toi, ou parfois en ta faveur.
+
+62
+00:05:19,006 --> 00:05:21,036
+Gap, c'est un trou dans le graphique.
+
+63
+00:05:21,456 --> 00:05:28,964
+Le prix saute d'un niveau à un autre sans passer par les prix intermédiaires. C'est fréquent après le week-end ou après une annonce importante.
+
+64
+00:05:30,334 --> 00:05:30,977
+Drawdown.
+
+65
+00:05:31,397 --> 00:05:35,221
+C'est la baisse d'un compte entre son point le plus haut et son point le plus bas.
+
+66
+00:05:35,641 --> 00:05:39,910
+Si ton compte passe de mille à huit cents euros, ton drawdown est de vingt pour cent.
+
+67
+00:05:41,280 --> 00:05:43,942
+Encore quelques mots indispensables.
+
+68
+00:05:44,362 --> 00:05:48,785
+Break Even, le point mort : la position ne gagne ni ne perd.
+
+69
+00:05:49,205 --> 00:05:56,482
+Swap : des frais, ou parfois un petit crédit, appliqués quand tu gardes une position ouverte après la clôture du jour.
+
+70
+00:05:56,902 --> 00:06:00,906
+Commission : des frais facturés par certains courtiers à chaque transaction.
+
+71
+00:06:01,326 --> 00:06:07,006
+Hedging, la couverture : ouvrir une position opposée pour réduire un risque existant.
+
+72
+00:06:08,376 --> 00:06:09,828
+Et pour finir ce dictionnaire…
+
+73
+00:06:10,248 --> 00:06:15,873
+Exposure, l'exposition : la valeur totale du marché à laquelle tu es exposé.
+
+74
+00:06:16,293 --> 00:06:21,087
+Position Size, la taille de position : le volume que tu choisis.
+
+75
+00:06:21,507 --> 00:06:28,983
+Et Profit and Loss, souvent abrégé P&L : le résultat de tes positions, en gain ou en perte.
+
+76
+00:06:29,403 --> 00:06:33,029
+Tu as maintenant le vocabulaire. Passons à la lecture des graphiques.

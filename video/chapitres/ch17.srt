@@ -1,0 +1,111 @@
+1
+00:00:00,900 --> 00:00:03,445
+Chapitre dix-sept : s'entraîner intelligemment.
+
+2
+00:00:04,815 --> 00:00:06,904
+Un compte de démonstration ne coûte rien.
+
+3
+00:00:07,324 --> 00:00:15,243
+C'est l'endroit idéal pour apprendre la plateforme, tester chaque type d'ordre et vérifier tes calculs, sans risquer un centime.
+
+4
+00:00:16,613 --> 00:00:17,600
+Que faut-il pratiquer ?
+
+5
+00:00:18,020 --> 00:00:21,834
+Chaque type d'ordre, pour voir concrètement comment il se comporte.
+
+6
+00:00:22,254 --> 00:00:28,485
+Les calculs : vérifier que la valeur du pip, la marge et la taille de position correspondent à ce que tu avais prévu.
+
+7
+00:00:28,905 --> 00:00:34,183
+La lecture du compte : observer comment l'Equity et le Margin Level réagissent.
+
+8
+00:00:34,603 --> 00:00:38,123
+Et le journal, pour chaque position, sans exception.
+
+9
+00:00:39,493 --> 00:00:47,537
+Pour que la démo soit utile, elle doit être réaliste : un capital proche de ce que tu pourrais réellement engager, et les mêmes règles de risque.
+
+10
+00:00:47,957 --> 00:00:54,841
+Trader cent mille dollars fictifs avec des positions démesurées n'apprend rien, et peut même donner de mauvaises habitudes.
+
+11
+00:00:56,211 --> 00:00:58,428
+Une routine simple aide à rester rigoureux.
+
+12
+00:00:58,848 --> 00:01:04,752
+Avant : consulter le calendrier, relire la fiche de l'instrument, fixer une perte maximale pour la journée.
+
+13
+00:01:05,172 --> 00:01:09,186
+Pendant : respecter les tailles et les niveaux prévus, sans improviser.
+
+14
+00:01:09,606 --> 00:01:12,943
+Après : remplir le journal, et analyser les erreurs à froid.
+
+15
+00:01:14,313 --> 00:01:16,790
+Voici les erreurs les plus fréquentes chez les débutants.
+
+16
+00:01:17,210 --> 00:01:20,224
+Ignorer les frais, qui s'accumulent position après position.
+
+17
+00:01:20,644 --> 00:01:23,501
+Trader sans Stop Loss, en espérant que le prix revienne.
+
+18
+00:01:23,921 --> 00:01:26,377
+Augmenter la taille après une perte, pour se refaire.
+
+19
+00:01:26,797 --> 00:01:30,883
+Suivre aveuglément des influenceurs, qui ne montrent souvent que leurs gains.
+
+20
+00:01:31,303 --> 00:01:34,848
+Et passer en réel trop vite, avant d'avoir compris tous les mécanismes.
+
+21
+00:01:36,218 --> 00:01:39,454
+Pour continuer à apprendre, privilégie les sources officielles.
+
+22
+00:01:39,874 --> 00:01:44,731
+L'AMF publie des guides pédagogiques et des listes noires de sites non autorisés.
+
+23
+00:01:45,151 --> 00:01:51,251
+Le registre REGAFI permet de vérifier si un établissement financier est autorisé à exercer en France.
+
+24
+00:01:51,671 --> 00:01:56,176
+L'ESMA, l'autorité européenne, publie les règles qui encadrent les CFD.
+
+25
+00:01:56,596 --> 00:02:00,790
+Et le document d'informations clés de ton courtier détaille les risques et les coûts de chaque produit.
+
+26
+00:02:02,160 --> 00:02:04,965
+Apprendre le trading prend du temps, et c'est normal.
+
+27
+00:02:05,385 --> 00:02:09,961
+Il n'existe aucun raccourci, et ceux qui en vendent vendent surtout… des raccourcis.
+
+28
+00:02:10,381 --> 00:02:14,226
+Pour finir, mettons tout cela en pratique, avec une journée type devant ta plateforme.

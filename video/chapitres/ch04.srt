@@ -1,0 +1,175 @@
+1
+00:00:00,900 --> 00:00:03,075
+Chapitre quatre : lire un graphique.
+
+2
+00:00:04,445 --> 00:00:08,503
+Un graphique de prix raconte une histoire, et il se lit sur deux axes.
+
+3
+00:00:08,923 --> 00:00:13,733
+L'axe horizontal, c'est le temps. Plus on va vers la droite, plus on se rapproche du présent.
+
+4
+00:00:14,153 --> 00:00:19,439
+L'axe vertical, c'est le prix. Plus la courbe est haute, plus le prix est élevé.
+
+5
+00:00:20,809 --> 00:00:23,153
+Le graphique le plus simple est le graphique en ligne.
+
+6
+00:00:23,573 --> 00:00:29,686
+Il relie les prix de clôture successifs. C'est clair, mais on perd beaucoup d'informations : que s'est-il passé entre deux points ?
+
+7
+00:00:31,056 --> 00:00:34,391
+C'est là qu'intervient le chandelier japonais, utilisé depuis des siècles.
+
+8
+00:00:34,811 --> 00:00:39,090
+Prenons tous les mouvements de prix d'une période, et résumons-les en une seule bougie.
+
+9
+00:00:39,510 --> 00:00:42,524
+Le point le plus haut atteint pendant la période : le High.
+
+10
+00:00:42,944 --> 00:00:46,430
+Le prix de clôture, à la fin de la période : le Close.
+
+11
+00:00:46,850 --> 00:00:49,326
+Le prix d'ouverture, au début : l'Open.
+
+12
+00:00:49,746 --> 00:00:51,230
+Et le point le plus bas : le Low.
+
+13
+00:00:51,650 --> 00:00:58,560
+La partie épaisse est le corps, entre l'ouverture et la clôture. Les traits fins au-dessus et en dessous sont les mèches.
+
+14
+00:00:59,930 --> 00:01:05,243
+Ici, la clôture est au-dessus de l'ouverture : c'était une bougie haussière, en vert.
+
+15
+00:01:05,663 --> 00:01:08,430
+Voici maintenant une bougie baissière, en rouge.
+
+16
+00:01:08,850 --> 00:01:09,935
+Le prix a ouvert en haut…
+
+17
+00:01:10,355 --> 00:01:11,715
+…puis a clôturé plus bas.
+
+18
+00:01:12,135 --> 00:01:16,306
+Le corps va donc de l'ouverture, en haut, jusqu'à la clôture, en bas.
+
+19
+00:01:16,726 --> 00:01:21,059
+Les mèches montent toujours au plus haut et descendent toujours au plus bas de la période.
+
+20
+00:01:21,479 --> 00:01:32,345
+Une seule bougie résume donc quatre prix : Open, High, Low, Close. On parle de données OHLC.
+
+21
+00:01:33,715 --> 00:01:36,355
+Une bougie se construit en direct, pendant toute sa période.
+
+22
+00:01:36,775 --> 00:01:41,365
+Tant que la période n'est pas terminée, la bougie bouge, s'allonge, change parfois de couleur.
+
+23
+00:01:41,785 --> 00:01:45,903
+Quand la période se termine, la bougie se fige, et une nouvelle commence.
+
+24
+00:01:47,273 --> 00:01:51,188
+La durée d'une bougie s'appelle l'unité de temps, ou timeframe.
+
+25
+00:01:51,608 --> 00:01:58,501
+M1, M5, M15 et M30 : une, cinq, quinze ou trente minutes par bougie.
+
+26
+00:01:58,921 --> 00:02:02,402
+H1 et H4 : une heure et quatre heures.
+
+27
+00:02:02,822 --> 00:02:08,146
+D1, W1 et MN1 : un jour, une semaine et un mois.
+
+28
+00:02:09,516 --> 00:02:12,916
+Voici le même mouvement de prix, vu en cinq minutes…
+
+29
+00:02:13,336 --> 00:02:14,000
+…en une heure…
+
+30
+00:02:14,420 --> 00:02:15,292
+…et en un jour.
+
+31
+00:02:15,712 --> 00:02:26,799
+Plus l'unité de temps est petite, plus on voit de détails et de bruit. Plus elle est grande, plus on voit la direction générale. Aucune n'est meilleure : elles répondent à des questions différentes.
+
+32
+00:02:28,169 --> 00:02:30,939
+Avec les bougies, on peut décrire l'état du marché.
+
+33
+00:02:31,359 --> 00:02:35,627
+Une tendance haussière : les sommets et les creux sont de plus en plus hauts.
+
+34
+00:02:36,997 --> 00:02:41,363
+Une tendance baissière : les sommets et les creux sont de plus en plus bas.
+
+35
+00:02:42,733 --> 00:02:45,209
+Et un marché latéral, ou range…
+
+36
+00:02:45,629 --> 00:02:49,696
+…où le prix rebondit entre un plafond et un plancher, sans direction nette.
+
+37
+00:02:51,066 --> 00:02:54,206
+Sur un graphique, certaines zones reviennent souvent.
+
+38
+00:02:54,626 --> 00:02:58,539
+Une résistance, là où le prix a buté plusieurs fois vers le haut.
+
+39
+00:02:58,959 --> 00:03:01,770
+Un support, là où il a rebondi plusieurs fois vers le bas.
+
+40
+00:03:02,190 --> 00:03:07,602
+Ces zones sont observées par beaucoup de participants, mais elles ne garantissent rien.
+
+41
+00:03:08,972 --> 00:03:12,804
+Enfin, la structure du marché, c'est l'enchaînement des sommets et des creux.
+
+42
+00:03:13,224 --> 00:03:17,906
+Tant que la succession de sommets et de creux plus hauts se poursuit, la structure reste haussière.
+
+43
+00:03:18,326 --> 00:03:23,318
+Lire un graphique, ce n'est pas prédire l'avenir : c'est décrire objectivement ce qui s'est passé.
+
+44
+00:03:23,738 --> 00:03:27,255
+Maintenant que tu sais lire un graphique, voyons comment on passe un ordre.

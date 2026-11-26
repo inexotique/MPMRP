@@ -1,0 +1,305 @@
+{
+"id": "ch09",
+"num": 9,
+"title": "Indicateurs et économie",
+"accent": "#F472B6",
+"music": 0,
+"beats": [
+{
+"v": {
+"t": "chapter"
+},
+"lines": [
+"Chapitre neuf : les indicateurs et l'économie."
+]
+},
+{
+"v": {
+"t": "quote",
+"q": "Un indicateur ne prédit rien. Il résume le passé avec une formule.",
+"hl": [
+2,
+3,
+7,
+8
+]
+},
+"lines": [
+"Un indicateur technique est un calcul appliqué aux prix passés.",
+"Il ne prédit pas l'avenir : il résume ce qui s'est déjà passé, d'une autre manière. Voyons les plus connus, sans aucune règle d'achat ou de vente."
+]
+},
+{
+"v": {
+"t": "term",
+"en": "SMA & EMA",
+"fr": "Moyennes mobiles",
+"def": "SMA : moyenne simple des N derniers prix. EMA : moyenne exponentielle, qui donne plus de poids aux prix récents.",
+"ex": {
+"p": "wave",
+"seed": 4
+}
+},
+"lines": [
+"Les moyennes mobiles, d'abord.",
+"La SMA est la moyenne simple des derniers prix, par exemple sur vingt bougies. L'EMA est une moyenne exponentielle : elle donne plus de poids aux prix récents, et réagit donc plus vite.",
+"Leur limite : elles sont toujours en retard sur le prix, puisqu'elles sont calculées sur le passé."
+]
+},
+{
+"v": {
+"t": "term",
+"en": "RSI",
+"fr": "Relative Strength Index · indice de force relative",
+"def": "Oscille entre 0 et 100. Compare l'ampleur des hausses et des baisses récentes, souvent sur 14 périodes.",
+"ex": {
+"p": "volatile",
+"seed": 3,
+"levels": [
+{
+"y": 0.7,
+"label": "70",
+"c": "red"
+},
+{
+"y": 0.3,
+"label": "30",
+"c": "green"
+}
+]
+}
+},
+"lines": [
+"Le RSI, ou indice de force relative.",
+"Il oscille entre zéro et cent, et compare la force des hausses et des baisses récentes, souvent sur quatorze périodes. Les niveaux soixante-dix et trente sont souvent tracés.",
+"Sa limite : dans une tendance forte, il peut rester longtemps à un extrême pendant que le prix continue dans la même direction."
+]
+},
+{
+"v": {
+"t": "term",
+"en": "MACD",
+"fr": "Convergence-divergence des moyennes mobiles",
+"def": "Mesure l'écart entre deux moyennes mobiles exponentielles, avec une ligne de signal.",
+"ex": {
+"p": "wave",
+"seed": 9
+}
+},
+"lines": [
+"Le MACD mesure l'écart entre deux moyennes mobiles exponentielles, une rapide et une lente.",
+"Il permet d'observer l'accélération ou le ralentissement d'un mouvement. Lui aussi est en retard, car il est construit à partir de moyennes."
+]
+},
+{
+"v": {
+"t": "term",
+"en": "Bollinger",
+"fr": "Bandes de Bollinger",
+"def": "Une moyenne mobile entourée de deux bandes, à deux écarts-types : elles s'écartent quand la volatilité augmente.",
+"ex": {
+"p": "consolidation",
+"seed": 6
+}
+},
+"lines": [
+"Les bandes de Bollinger entourent une moyenne mobile de deux bandes, calculées avec l'écart-type.",
+"Elles s'écartent quand le marché devient volatil, et se resserrent quand il se calme. Elles décrivent la volatilité, pas la direction."
+]
+},
+{
+"v": {
+"t": "bento",
+"h": "ATR · VWAP · Volume · Fibonacci",
+"cols": 2,
+"tiles": [
+{
+"tag": "ATR",
+"k": "Average True Range",
+"d": "l'amplitude moyenne des bougies : une mesure de volatilité"
+},
+{
+"tag": "VWAP",
+"k": "Prix moyen pondéré",
+"d": "le prix moyen de la séance, pondéré par les volumes"
+},
+{
+"tag": "VOLUME",
+"k": "Activité",
+"d": "combien a été échangé à chaque période"
+},
+{
+"tag": "FIBONACCI",
+"k": "Retracements",
+"d": "niveaux en pourcentage d'un mouvement : 38,2 %, 50 %, 61,8 %"
+}
+]
+},
+"lines": [
+"Quatre autres outils très répandus.",
+"L'ATR mesure l'amplitude moyenne des bougies. C'est un thermomètre de la volatilité.",
+"Le VWAP est le prix moyen de la séance, pondéré par les volumes échangés. Il est surtout utilisé en intraday.",
+"Le volume montre l'activité derrière chaque mouvement. Sur le Forex, il s'agit souvent d'un volume de ticks fourni par le courtier, pas du volume global.",
+"Et les retracements de Fibonacci tracent des niveaux en pourcentage d'un mouvement. Ce sont des repères conventionnels, sans fondement prédictif démontré."
+]
+},
+{
+"v": {
+"t": "stat",
+"h": "La limite commune",
+"n": "Aucun",
+"c": "accent",
+"d": "indicateur ne fonctionne à tous les coups. Ils décrivent, ils ne garantissent pas.",
+"dl": 0
+},
+"lines": [
+"Retiens la limite commune à tous ces outils : aucun indicateur ne fonctionne à tous les coups. Ils aident à décrire le marché, pas à le prédire.",
+"Passons maintenant à ce qui fait bouger les prix en profondeur : l'économie."
+]
+},
+{
+"v": {
+"t": "term",
+"en": "Inflation",
+"fr": "Hausse générale des prix",
+"def": "Quand les prix augmentent, la monnaie perd du pouvoir d'achat. Elle est mesurée par le CPI.",
+"ex": {
+"p": "up",
+"seed": 2,
+"c": "red"
+}
+},
+"lines": [
+"L'inflation, c'est la hausse générale des prix dans une économie.",
+"Elle est mesurée par l'indice des prix à la consommation, appelé CPI aux États-Unis.",
+"Une inflation trop forte pousse les banques centrales à agir."
+]
+},
+{
+"v": {
+"t": "bento",
+"h": "Les banques centrales",
+"cols": 2,
+"tiles": [
+{
+"tag": "ÉTATS-UNIS",
+"k": "FED",
+"d": "Réserve fédérale · décide lors des réunions du FOMC, 8 fois par an"
+},
+{
+"tag": "ZONE EURO",
+"k": "BCE",
+"d": "Banque centrale européenne · fixe les taux de la zone euro"
+},
+{
+"tag": "OUTIL N°1",
+"k": "Taux d'intérêt",
+"d": "le coût de l'argent",
+"wide": true
+}
+]
+},
+"lines": [
+"Les banques centrales jouent un rôle clé.",
+"Aux États-Unis, la FED. Ses décisions sont prises lors des réunions du FOMC, huit fois par an.",
+"En zone euro, la BCE, la Banque centrale européenne.",
+"Leur outil principal : les taux d'intérêt. Monter les taux rend le crédit plus cher et freine l'inflation. Cela rend souvent aussi la monnaie plus attractive."
+]
+},
+{
+"v": {
+"t": "list",
+"h": "Les grandes statistiques",
+"items": [
+{
+"s": "PIB",
+"t": "Produit intérieur brut",
+"d": "la croissance de l'économie"
+},
+{
+"s": "CPI",
+"t": "Indice des prix à la consommation",
+"d": "l'inflation, chaque mois"
+},
+{
+"s": "NFP",
+"t": "Non-Farm Payrolls",
+"d": "créations d'emplois américaines, en général le 1er vendredi du mois"
+}
+]
+},
+"lines": [
+"Certaines statistiques sont suivies de très près.",
+"Le PIB mesure la croissance de l'économie.",
+"Le CPI mesure l'inflation, chaque mois.",
+"Et le NFP, les créations d'emplois aux États-Unis, publié en général le premier vendredi du mois, à quatorze heures trente, heure de Paris."
+]
+},
+{
+"v": {
+"t": "calendar",
+"h": "Le calendrier économique",
+"rows": [
+{
+"t": "11:00",
+"cur": "EUR",
+"ev": "PIB zone euro (estimation)",
+"imp": 2
+},
+{
+"t": "11:00",
+"cur": "EUR",
+"ev": "Inflation zone euro (estimation)",
+"imp": 2
+},
+{
+"t": "14:30",
+"cur": "USD",
+"ev": "NFP · emplois non agricoles",
+"imp": 3
+},
+{
+"t": "20:00",
+"cur": "USD",
+"ev": "Décision de taux du FOMC",
+"imp": 3
+}
+],
+"hl": [
+-1,
+2,
+3,
+2
+],
+"spikeAt": 2
+},
+"lines": [
+"Toutes ces annonces sont regroupées dans un calendrier économique, gratuit sur de nombreux sites.",
+"Chaque événement a une heure précise, une devise concernée, et un niveau d'importance.",
+"Au moment d'une annonce importante, le marché compare le chiffre publié à ce qui était attendu. Une surprise peut provoquer un mouvement très violent en quelques secondes.",
+"Les spreads s'élargissent, la liquidité diminue, et le slippage devient fréquent. C'est pour cela que ces moments sont particulièrement risqués."
+]
+},
+{
+"v": {
+"t": "chart",
+"h": "Les événements géopolitiques",
+"p": "spike",
+"seed": 11,
+"ann": [
+{
+"x": 0.58,
+"k": "vline",
+"text": "ÉVÉNEMENT",
+"l": 1
+}
+]
+},
+"lines": [
+"Enfin, les événements géopolitiques : élections, conflits, sanctions, crises.",
+"Ils sont imprévisibles, et peuvent créer des gaps et des mouvements extrêmes, notamment sur le pétrole, l'or et les devises.",
+"Comprendre l'économie, ce n'est pas deviner l'avenir : c'est savoir pourquoi le marché peut soudain s'agiter."
+]
+}
+]
+}

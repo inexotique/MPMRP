@@ -1,0 +1,155 @@
+1
+00:00:00,900 --> 00:00:03,473
+Chapitre cinq : les ordres de trading.
+
+2
+00:00:04,843 --> 00:00:07,801
+Un ordre, c'est une instruction que tu donnes à ton courtier.
+
+3
+00:00:08,221 --> 00:00:15,553
+Une position acheteuse s'ouvre à l'Ask et se ferme en vendant au Bid. Une position vendeuse, c'est l'inverse.
+
+4
+00:00:15,973 --> 00:00:24,477
+Ouvrir une position, c'est entrer sur le marché. La fermer, c'est en sortir, et transformer le résultat latent en résultat réel.
+
+5
+00:00:25,847 --> 00:00:29,422
+Le plus simple : le Market Order, l'ordre au marché.
+
+6
+00:00:29,842 --> 00:00:33,178
+Il est exécuté immédiatement, au meilleur prix disponible à cet instant.
+
+7
+00:00:33,598 --> 00:00:40,177
+Avantage : la rapidité. Limite : tu ne contrôles pas exactement le prix d'exécution.
+
+8
+00:00:41,547 --> 00:00:45,094
+Il existe aussi les ordres en attente, ou Pending orders.
+
+9
+00:00:45,514 --> 00:00:50,013
+Ils ne sont exécutés que si le prix atteint un niveau que tu as défini à l'avance.
+
+10
+00:00:51,383 --> 00:00:55,176
+Le Buy Limit est un ordre d'achat placé en dessous du prix actuel.
+
+11
+00:00:55,596 --> 00:00:58,989
+Si le prix descend jusqu'à ce niveau, l'achat est déclenché.
+
+12
+00:00:59,409 --> 00:01:03,985
+Il exprime l'idée : j'accepte d'acheter, mais seulement à un prix plus bas.
+
+13
+00:01:05,355 --> 00:01:09,863
+Le Sell Limit est l'inverse : un ordre de vente placé au-dessus du prix actuel.
+
+14
+00:01:10,283 --> 00:01:12,968
+Il s'exécute si le prix monte jusqu'à ce niveau.
+
+15
+00:01:14,338 --> 00:01:18,211
+Le Buy Stop est un ordre d'achat placé au-dessus du prix actuel.
+
+16
+00:01:18,631 --> 00:01:23,909
+Il se déclenche si le prix monte et franchit ce niveau. Il est souvent associé à l'idée de cassure.
+
+17
+00:01:25,279 --> 00:01:29,873
+Le Sell Stop est un ordre de vente placé en dessous du prix actuel.
+
+18
+00:01:30,293 --> 00:01:33,405
+Il se déclenche si le prix descend et franchit ce niveau.
+
+19
+00:01:34,775 --> 00:01:36,529
+Le Stop Limit combine deux niveaux.
+
+20
+00:01:36,949 --> 00:01:40,598
+Quand le prix atteint le niveau stop, un ordre limite est placé à son tour.
+
+21
+00:01:41,018 --> 00:01:47,813
+L'ordre ne sera exécuté qu'au prix limite, ou mieux. Et si le prix n'y revient jamais, l'ordre n'est pas exécuté.
+
+22
+00:01:49,183 --> 00:01:55,587
+Passons à la protection. Le Stop Loss est un ordre qui ferme automatiquement ta position si le prix va contre toi.
+
+23
+00:01:56,007 --> 00:01:59,502
+Il sert à limiter une perte à un niveau que tu as décidé à l'avance.
+
+24
+00:01:59,922 --> 00:02:03,950
+Sans Stop Loss, une position perdante peut continuer à se dégrader.
+
+25
+00:02:05,320 --> 00:02:07,291
+Le Take Profit fait l'inverse.
+
+26
+00:02:07,711 --> 00:02:13,208
+Il ferme automatiquement la position quand un objectif de gain est atteint, même si tu n'es pas devant ton écran.
+
+27
+00:02:14,578 --> 00:02:19,081
+Le Trailing Stop, ou stop suiveur, est un Stop Loss qui se déplace.
+
+28
+00:02:19,501 --> 00:02:23,150
+Quand le prix évolue en ta faveur, le stop le suit à distance fixe.
+
+29
+00:02:23,570 --> 00:02:29,532
+Mais il ne recule jamais. Si le prix se retourne, le stop est touché et la position se ferme.
+
+30
+00:02:30,902 --> 00:02:34,811
+La fermeture partielle consiste à fermer seulement une partie de ta position.
+
+31
+00:02:35,231 --> 00:02:41,929
+Par exemple, sur une position d'un lot, tu fermes zéro virgule cinq lot, et le reste continue d'évoluer.
+
+32
+00:02:43,299 --> 00:02:48,357
+Un point essentiel : le prix d'exécution n'est pas toujours celui que tu as demandé.
+
+33
+00:02:48,777 --> 00:02:53,297
+Lors d'une annonce économique ou d'un gap, le prix peut sauter plusieurs niveaux d'un coup.
+
+34
+00:02:53,717 --> 00:02:59,890
+Ton Stop Loss est alors exécuté au premier prix disponible, parfois bien plus loin. C'est le slippage.
+
+35
+00:03:00,310 --> 00:03:10,205
+Un Stop Loss classique limite le risque, mais ne garantit pas un prix exact. Certains courtiers proposent des stops garantis, généralement contre des frais.
+
+36
+00:03:11,575 --> 00:03:12,607
+Récapitulons.
+
+37
+00:03:13,027 --> 00:03:21,552
+Les ordres au marché s'exécutent tout de suite. Les ordres limites attendent un meilleur prix. Les ordres stop attendent un franchissement.
+
+38
+00:03:21,972 --> 00:03:27,793
+Et le Stop Loss, le Take Profit et le Trailing Stop encadrent la sortie de la position.
+
+39
+00:03:28,213 --> 00:03:32,261
+Maintenant, passons aux chiffres : comment calcule-t-on un gain ou une perte ?

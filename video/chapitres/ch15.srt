@@ -1,0 +1,155 @@
+1
+00:00:00,900 --> 00:00:05,602
+Chapitre quinze : un trade de A à Z, sur un compte de démonstration.
+
+2
+00:00:06,022 --> 00:00:10,211
+L'objectif n'est pas de choisir le bon moment, mais de comprendre chaque étape du processus.
+
+3
+00:00:11,581 --> 00:00:15,417
+Un trade, ce n'est pas juste un clic. C'est une suite d'étapes.
+
+4
+00:00:15,837 --> 00:00:17,497
+Lire la fiche de l'instrument.
+
+5
+00:00:17,917 --> 00:00:19,839
+Consulter le calendrier économique.
+
+6
+00:00:20,259 --> 00:00:23,339
+Définir le Stop Loss et la taille de position.
+
+7
+00:00:23,759 --> 00:00:25,012
+Ouvrir la position.
+
+8
+00:00:25,432 --> 00:00:26,770
+Suivre l'évolution du compte.
+
+9
+00:00:27,190 --> 00:00:28,385
+Fermer la position.
+
+10
+00:00:28,805 --> 00:00:30,744
+Et noter le trade dans un journal.
+
+11
+00:00:32,114 --> 00:00:35,346
+Première étape : on vérifie la fiche de l'euro dollar.
+
+12
+00:00:35,766 --> 00:00:48,169
+Spread d'environ un virgule deux pip, dix dollars par pip et par lot, volume minimum de zéro virgule zéro un lot, levier de un pour trente. Le compte de démonstration contient mille dollars.
+
+13
+00:00:49,539 --> 00:00:51,668
+Deuxième étape : le calendrier économique.
+
+14
+00:00:52,088 --> 00:00:57,691
+Aujourd'hui, une publication importante est prévue à quatorze heures trente : l'inflation américaine.
+
+15
+00:00:58,111 --> 00:01:07,257
+On le note : à ce moment-là, le spread peut s'élargir et le prix peut bouger brutalement. Ce n'est pas un signal, c'est une information sur le risque.
+
+16
+00:01:08,627 --> 00:01:11,896
+Troisième étape : on fixe le risque et la taille.
+
+17
+00:01:12,316 --> 00:01:14,419
+On prévoit de risquer au maximum dix dollars.
+
+18
+00:01:14,839 --> 00:01:17,525
+Le Stop Loss est placé à vingt pips du prix d'entrée.
+
+19
+00:01:17,945 --> 00:01:23,005
+Dix divisé par vingt fois dix : zéro virgule zéro cinq lot.
+
+20
+00:01:23,425 --> 00:01:28,365
+On fixe aussi un Take Profit, ici à quarante pips. Ces niveaux sont purement pédagogiques.
+
+21
+00:01:29,735 --> 00:01:33,715
+Quatrième étape : on ouvre la position. Nouvel ordre.
+
+22
+00:01:34,135 --> 00:01:37,907
+On saisit le volume calculé : zéro virgule zéro cinq lot.
+
+23
+00:01:38,327 --> 00:01:40,645
+On renseigne le Stop Loss et le Take Profit.
+
+24
+00:01:41,065 --> 00:01:48,889
+Et on achète au prix du marché. Cet achat sert uniquement d'exemple de mécanique : ce n'est ni un signal, ni une recommandation.
+
+25
+00:01:49,309 --> 00:01:57,151
+Cinquième étape : on surveille le compte. La marge bloquée est d'environ cent quatre-vingts dollars, et l'Equity varie avec le prix.
+
+26
+00:01:57,571 --> 00:02:02,153
+Le profit latent commence légèrement négatif, à cause du spread, puis il évolue.
+
+27
+00:02:02,573 --> 00:02:10,110
+Sixième étape : la position est fermée, ici manuellement. Elle aurait aussi pu être fermée par le Stop Loss ou le Take Profit.
+
+28
+00:02:10,530 --> 00:02:13,806
+Le résultat est maintenant réalisé, et il apparaît dans l'historique.
+
+29
+00:02:15,176 --> 00:02:20,421
+Si le Take Profit avait été atteint, le gain aurait été d'environ vingt dollars, avant frais.
+
+30
+00:02:20,841 --> 00:02:34,723
+Si le Stop Loss avait été touché, la perte aurait été d'environ dix dollars, exactement le risque prévu. Dans les deux cas, le gain visé et la perte maximale étaient fixés à l'avance. L'issue du trade, elle, ne l'était pas.
+
+31
+00:02:36,093 --> 00:02:39,108
+Dernière étape, souvent oubliée : le journal.
+
+32
+00:02:39,528 --> 00:02:40,733
+On note la date et l'heure…
+
+33
+00:02:41,153 --> 00:02:43,096
+…l'instrument et le sens de la position…
+
+34
+00:02:43,516 --> 00:02:44,684
+…la taille et le risque…
+
+35
+00:02:45,104 --> 00:02:48,537
+…les niveaux d'entrée, de Stop Loss et de Take Profit…
+
+36
+00:02:48,957 --> 00:02:50,706
+…le résultat, frais compris…
+
+37
+00:02:51,126 --> 00:02:55,620
+…et le ressenti. C'est ce journal qui permet ensuite d'analyser ses statistiques.
+
+38
+00:02:56,990 --> 00:03:04,110
+Sur un compte de démonstration, le but n'est pas de gagner de l'argent fictif. C'est de maîtriser chaque étape du processus.
+
+39
+00:03:04,530 --> 00:03:06,576
+Justement, parlons de ces statistiques.
