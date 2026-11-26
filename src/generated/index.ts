@@ -15,5 +15,4 @@ import ch14 from './ch14.json';
 import ch15 from './ch15.json';
 import ch16 from './ch16.json';
 import ch17 from './ch17.json';
-import ch18 from './ch18.json';
-export const CHAPTERS = [ch01, ch02, ch03, ch04, ch05, ch06, ch07, ch08, ch09, ch10, ch11, ch12, ch13, ch14, ch15, ch16, ch17, ch18];
+export const CHAPTERS = [ch01, ch02, ch03, ch04, ch05, ch06, ch07, ch08, ch09, ch10, ch11, ch12, ch13, ch14, ch15, ch16, ch17];

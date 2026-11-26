@@ -326,6 +326,7 @@ export const CandleV: React.FC<VP> = ({v, cue, n, accent}) => {
 export const TimeframesV: React.FC<VP> = ({v, cue, n, accent}) => {
   const p = pathOf('pullback', 240, 0.03, 12);
   const tfs: [string, number, number][] = v.tfs ?? [['M5', 4, 240], ['H1', 12, 240], ['D1', 40, 240]];
+  // note: v.tfs lets a chapter show a top-down order (e.g. D1 → H4 → H1)
   return (
     <AbsoluteFill>
       <Heading text={v.h} accent={accent} at={0} />
@@ -440,6 +441,49 @@ export const QuoteV: React.FC<VP> = ({v, cue, n, accent}) => {
           return <span key={i} style={{opacity: o, color: hl ? accent : C.white}}>{w} </span>;
         })}
       </div>
+    </AbsoluteFill>
+  );
+};
+
+// ── Fair Value Gap anatomy: 3-candle imbalance, zone between candle 1 extreme and candle 3 extreme ──
+const FVG_BULL = [[.30, .40, .27, .36], [.36, .39, .29, .33], [.33, .43, .31, .40], [.40, .45, .37, .42], [.42, .72, .41, .70], [.70, .73, .58, .66], [.66, .75, .63, .71], [.71, .74, .62, .68], [.68, .78, .65, .74]];
+export const FvgV: React.FC<VP> = ({v, cue, n, accent}) => {
+  const f = useCurrentFrame();
+  const bear = !!v.bear;
+  const cs = FVG_BULL.map(([o, h, l, c]) => (bear ? [1 - o, 1 - l, 1 - h, 1 - c] : [o, h, l, c]));
+  const z0 = bear ? 1 - .58 : .45, z1 = bear ? 1 - .45 : .58;
+  const X0 = 360, W = 1200, top = 230, H = 600;
+  const Y = (y: number) => top + H - y * H;
+  const cw = W / cs.length;
+  const hl = ease(f, cue(Math.min(1, n - 1)), 30);
+  const zone = ease(f, cue(Math.min(2, n - 1)), 40);
+  const zc = bear ? C.red : C.green;
+  return (
+    <AbsoluteFill>
+      <Heading text={v.h} accent={accent} at={0} top={60} />
+      <svg width={1920} height={1080} style={{position: 'absolute'}}>
+        <rect x={X0 + 3 * cw} width={(W - 3 * cw) * zone} y={Y(z1)} height={Y(z0) - Y(z1)} fill={zc} opacity={0.2} />
+        {zone > 0.01 ? <>
+          <line x1={X0 + 3 * cw} x2={X0 + 3 * cw + (W - 3 * cw) * zone} y1={Y(z0)} y2={Y(z0)} stroke={zc} strokeWidth={3} strokeDasharray="12 8" />
+          <line x1={X0 + 3 * cw} x2={X0 + 3 * cw + (W - 3 * cw) * zone} y1={Y(z1)} y2={Y(z1)} stroke={zc} strokeWidth={3} strokeDasharray="12 8" />
+          <text x={X0 + W + 30} y={(Y(z0) + Y(z1)) / 2 + 16} fill={zc} fontFamily={F.display} fontWeight={900} fontSize={52} opacity={zone}>FVG</text>
+          <text x={X0 + W + 30} y={Y(z0) + (bear ? -14 : 40)} fill={C.dim} fontFamily={F.sans} fontWeight={600} fontSize={26} opacity={zone}>{bear ? 'plus haut bougie 3' : 'plus haut bougie 1'}</text>
+          <text x={X0 + W + 30} y={Y(z1) + (bear ? 40 : -14)} fill={C.dim} fontFamily={F.sans} fontWeight={600} fontSize={26} opacity={zone}>{bear ? 'plus bas bougie 1' : 'plus bas bougie 3'}</text>
+        </> : null}
+        {cs.map(([o, h, l, c], i) => {
+          const p = ease(f, cue(0) + i * 6, 20);
+          const up = c >= o, col2 = up ? C.green : C.red;
+          const x = X0 + i * cw + cw / 2;
+          const dim = hl > 0 && (i < 3 || i > 5) ? 1 - 0.65 * hl : 1;
+          return (
+            <g key={i} opacity={p * dim} transform={`translate(0 ${(1 - p) * 30})`}>
+              <line x1={x} x2={x} y1={Y(h)} y2={Y(l)} stroke={col2} strokeWidth={4} />
+              <rect x={x - cw * 0.3} width={cw * 0.6} y={Y(Math.max(o, c))} height={Math.max(4, Math.abs(Y(o) - Y(c)))} fill={col2} rx={3} />
+              {i >= 3 && i <= 5 ? <text x={x} y={top + H + 50} textAnchor="middle" fill={C.white} fontFamily={F.sans} fontWeight={800} fontSize={30} opacity={hl}>{i - 2}</text> : null}
+            </g>
+          );
+        })}
+      </svg>
     </AbsoluteFill>
   );
 };

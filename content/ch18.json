@@ -1,329 +1,94 @@
-{
-"id": "ch18",
-"num": 18,
-"title": "Quiz final",
-"accent": "#A3E635",
-"music": 0,
-"beats": [
-{
-"v": {
-"t": "chapter"
-},
-"lines": [
-"Chapitre dix-huit : le quiz final.",
-"Une question, quelques secondes pour réfléchir, puis la réponse. C'est parti."
-]
-},
-{
-"v": {
-"t": "quiz",
-"num": 1,
-"q": "À quel prix une position acheteuse est-elle ouverte ?",
-"opts": [
-"Au Bid",
-"À l'Ask",
-"Au prix moyen",
-"Au prix de clôture"
-],
-"a": 1,
-"why": "On achète à l'Ask, le prix le plus haut des deux."
-},
-"lines": [
-{
-"text": "Question un : à quel prix une position acheteuse est-elle ouverte ?",
-"pause": 5
-},
-"Réponse : à l'Ask. On achète au prix le plus haut, et on revend au Bid."
-]
-},
-{
-"v": {
-"t": "quiz",
-"num": 2,
-"q": "EUR/USD passe de 1,08500 à 1,08800. Combien de pips ?",
-"opts": [
-"3 pips",
-"30 pips",
-"300 pips",
-"0,3 pip"
-],
-"a": 1,
-"why": "0,00300 ÷ 0,0001 = 30 pips."
-},
-"lines": [
-{
-"text": "Question deux : l'euro dollar passe de 1,08500 à 1,08800. Combien de pips ?",
-"say": "Question deux : l'euro dollar passe de un virgule zéro huit cinq zéro zéro à un virgule zéro huit huit zéro zéro. Combien de pipes ?",
-"pause": 5
-},
-{
-"text": "Réponse : 30 pips. L'écart est de 0,00300, et un pip vaut 0,0001.",
-"say": "Réponse : trente pipes. L'écart est de zéro virgule zéro zéro trois, et un pip vaut zéro virgule zéro zéro zéro un."
-}
-]
-},
-{
-"v": {
-"t": "quiz",
-"num": 3,
-"q": "Quelle est la valeur d'un pip pour 0,10 lot d'EUR/USD ?",
-"opts": [
-"0,10 $",
-"1 $",
-"10 $",
-"100 $"
-],
-"a": 1,
-"why": "10 000 unités × 0,0001 = 1 $ par pip."
-},
-"lines": [
-{
-"text": "Question trois : quelle est la valeur d'un pip pour zéro virgule un lot d'euro dollar ?",
-"pause": 5
-},
-"Réponse : un dollar. Dix mille unités, fois zéro virgule zéro zéro zéro un."
-]
-},
-{
-"v": {
-"t": "quiz",
-"num": 4,
-"q": "Quelle marge pour 0,01 lot EUR/USD avec un levier de 1:30 ?",
-"opts": [
-"10 €",
-"33,33 €",
-"300 €",
-"1 000 €"
-],
-"a": 1,
-"why": "1 000 € d'exposition ÷ 30 = 33,33 €."
-},
-"lines": [
-{
-"text": "Question quatre : quelle marge faut-il pour zéro virgule zéro un lot d'euro dollar, avec un levier de un pour trente ?",
-"pause": 5
-},
-"Réponse : environ trente-trois euros. Mille euros d'exposition, divisés par trente."
-]
-},
-{
-"v": {
-"t": "quiz",
-"num": 5,
-"q": "Balance 1 000 €, position ouverte à −40 €. Quelle est l'Equity ?",
-"opts": [
-"1 040 €",
-"1 000 €",
-"960 €",
-"40 €"
-],
-"a": 2,
-"why": "Equity = Balance + résultat latent = 960 €."
-},
-"lines": [
-{
-"text": "Question cinq : ta Balance est de mille euros, et ta position ouverte perd quarante euros. Quelle est ton Equity ?",
-"pause": 5
-},
-"Réponse : neuf cent soixante euros. L'Equity inclut les résultats latents."
-]
-},
-{
-"v": {
-"t": "quiz",
-"num": 6,
-"q": "Quel ordre achète uniquement si le prix descend à un niveau ?",
-"opts": [
-"Buy Stop",
-"Sell Limit",
-"Buy Limit",
-"Take Profit"
-],
-"a": 2,
-"why": "Le Buy Limit est placé sous le prix actuel."
-},
-"lines": [
-{
-"text": "Question six : quel ordre permet d'acheter uniquement si le prix descend jusqu'à un niveau choisi ?",
-"pause": 5
-},
-"Réponse : le Buy Limit, placé sous le prix actuel."
-]
-},
-{
-"v": {
-"t": "quiz",
-"num": 7,
-"q": "Après une perte de 50 %, quel gain faut-il pour revenir au capital initial ?",
-"opts": [
-"+50 %",
-"+75 %",
-"+100 %",
-"+150 %"
-],
-"a": 2,
-"why": "500 € doivent regagner 500 € : +100 %."
-},
-"lines": [
-{
-"text": "Question sept : après une perte de cinquante pour cent, quel gain faut-il pour retrouver ton capital initial ?",
-"pause": 5
-},
-"Réponse : cent pour cent. Cinq cents euros doivent regagner cinq cents euros."
-]
-},
-{
-"v": {
-"t": "quiz",
-"num": 8,
-"q": "Dans l'UE, à quel Margin Level le Stop Out intervient-il pour un particulier ?",
-"opts": [
-"100 %",
-"75 %",
-"50 %",
-"0 %"
-],
-"a": 2,
-"why": "La règle européenne impose la fermeture à 50 %."
-},
-"lines": [
-{
-"text": "Question huit : dans l'Union européenne, à quel Margin Level le Stop Out intervient-il pour un client particulier ?",
-"pause": 5
-},
-"Réponse : cinquante pour cent."
-]
-},
-{
-"v": {
-"t": "quiz",
-"num": 9,
-"q": "Compte de 1 000 $, risque de 10 $, Stop Loss à 50 pips sur EUR/USD. Quelle taille ?",
-"opts": [
-"0,01 lot",
-"0,02 lot",
-"0,05 lot",
-"0,10 lot"
-],
-"a": 1,
-"why": "10 ÷ (50 × 10) = 0,02 lot."
-},
-"lines": [
-{
-"text": "Question neuf : compte de mille dollars, risque prévu de dix dollars, Stop Loss à cinquante pips sur l'euro dollar. Quelle taille de position ?",
-"pause": 5
-},
-"Réponse : zéro virgule zéro deux lot. Dix, divisé par cinquante fois dix."
-]
-},
-{
-"v": {
-"t": "quiz",
-"num": 10,
-"q": "70 % de trades gagnants signifie-t-il forcément un compte en hausse ?",
-"opts": [
-"Oui, toujours",
-"Non, tout dépend de la taille des gains et des pertes",
-"Oui, au-delà de 100 trades",
-"Non, il faut 90 %"
-],
-"a": 1,
-"why": "7 × 10 $ − 3 × 30 $ = −20 $ : on peut perdre avec 70 % de réussite."
-},
-"lines": [
-{
-"text": "Question dix : un taux de réussite de soixante-dix pour cent garantit-il un compte en hausse ?",
-"pause": 5
-},
-"Réponse : non. Si les pertes sont beaucoup plus grandes que les gains, le compte peut baisser malgré tout."
-]
-},
-{
-"v": {
-"t": "bento",
-"h": "Ce que tu sais maintenant",
-"cols": 4,
-"tiles": [
-{
-"tag": "01",
-"k": "Les marchés",
-"d": "offre, demande, acteurs"
-},
-{
-"tag": "02",
-"k": "Le vocabulaire",
-"d": "Bid, Ask, spread, pip, lot"
-},
-{
-"tag": "03",
-"k": "Les graphiques",
-"d": "bougies, tendances, unités de temps"
-},
-{
-"tag": "04",
-"k": "Les ordres",
-"d": "market, limit, stop, SL, TP"
-},
-{
-"tag": "05",
-"k": "Les calculs",
-"d": "pips, Balance, Equity"
-},
-{
-"tag": "06",
-"k": "Le levier",
-"d": "marge, Margin Level, Stop Out"
-},
-{
-"tag": "07",
-"k": "Les plateformes",
-"d": "courtiers régulés, MT5"
-},
-{
-"tag": "08",
-"k": "Les risques",
-"d": "psychologie, arnaques"
-}
-]
-},
-"lines": [
-"Bravo, tu es arrivé au bout de cette formation. Récapitulons.",
-"Tu sais comment fonctionnent les marchés et qui y participe.",
-"Tu parles le langage des traders.",
-"Tu sais lire un graphique en chandeliers.",
-"Tu connais les différents types d'ordres.",
-"Tu sais calculer un gain, une perte, et distinguer Balance et Equity.",
-"Tu comprends l'effet de levier, la marge et le Stop Out.",
-"Tu sais reconnaître un courtier régulé et utiliser MetaTrader cinq.",
-"Et tu connais les risques, y compris ceux qui viennent de ta propre psychologie."
-]
-},
-{
-"v": {
-"t": "quote",
-"q": "Comprendre ne rend pas rentable. Mais comprendre protège.",
-"hl": [
-0,
-6,
-7
-]
-},
-"lines": [
-"Un dernier mot. Comprendre le trading ne garantit aucun gain.",
-"Mais comprendre te protège : des mauvaises décisions, des promesses trompeuses, et des risques que tu n'aurais pas vus.",
-"Si tu veux aller plus loin, commence toujours par un compte de démonstration. Merci d'avoir suivi Trading Academy."
-]
-},
-{
-"v": {
-"t": "kinetic",
-"w": "TRADING ACADEMY",
-"sub": "Contenu éducatif · aucun conseil en investissement",
-"size": 150
-},
-"lines": [
-"À bientôt."
-]
-}
-]
-}
+{"id":"ch18","num":18,"title":"Une journée type","accent":"#A3E635","music":0,
+"beats":[
+ {"v":{"t":"chapter"},"lines":["Chapitre dix-huit : une journée type.","Tu t'installes devant ta plateforme. Concrètement, par quoi tu commences, et par quoi tu finis ? Voici une routine d'observation complète. Ce n'est pas une stratégie, ni un signal : c'est une méthode de travail."]},
+ {"v":{"t":"list","h":"Le déroulé de la journée","items":[{"s":"8:30","t":"Préparer","d":"calendrier, état du compte, perte maximale du jour"},{"s":"8:45","t":"Analyser du haut vers le bas","d":"D1 → H4 → H1 : tendance, structure, zones"},{"s":"9:00","t":"Observer","d":"l'ouverture de Londres, sans se précipiter"},{"s":"14:00","t":"Rester prudent","d":"ouverture de New York et annonces américaines"},{"s":"18:00","t":"Clôturer la séance","d":"journal, bilan, plateforme fermée"}]},"lines":[
+  "Voici le déroulé d'une journée type, à l'heure de Paris, pour quelqu'un qui observe le Forex.",
+  "Vers huit heures trente, on prépare.",
+  "Ensuite, on analyse le marché, de la grande unité de temps vers la petite.",
+  "À neuf heures, Londres ouvre : on observe, sans se précipiter.",
+  "À partir de quatorze heures, New York ouvre, et les annonces américaines peuvent secouer le marché.",
+  "Et en fin de journée, on clôture la séance proprement. Détaillons chaque étape."]},
+ {"v":{"t":"mt5","steps":[
+   {"f":"full","tip":"8 h 30 · on ouvre la plateforme"},
+   {"f":"account","tip":"1 · l'état du compte"},
+   {"f":"trade","tip":"2 · positions encore ouvertes ?"},
+   {"f":"mw","tip":"3 · instrument et spread"}]},"lines":[
+  "Huit heures trente. Tu ouvres ta plateforme, MetaTrader ou TradingView : la démarche est la même.",
+  "Premier réflexe : l'état du compte. Balance, Equity, marge libre. Tu sais exactement d'où tu pars.",
+  "Deuxième réflexe : y a-t-il des positions encore ouvertes depuis la veille ? Avec quel Stop Loss, et quel swap ?",
+  "Troisième réflexe : dans le Market Watch, tu regardes le spread de l'instrument. S'il est anormalement large, c'est une information."]},
+ {"v":{"t":"calendar","h":"Le calendrier du jour","rows":[{"t":"10:00","cur":"EUR","ev":"Indice IFO (Allemagne)","imp":2},{"t":"14:30","cur":"USD","ev":"Inscriptions au chômage","imp":2},{"t":"16:00","cur":"USD","ev":"Discours du président de la FED","imp":3}],"hl":[-1,1,2]},"lines":[
+  "Ensuite, le calendrier économique de la journée.",
+  "Tu repères les annonces importantes et leur heure, ici les inscriptions au chômage américaines à quatorze heures trente.",
+  "Et un discours du président de la FED à seize heures. Autour de ces moments, le spread peut s'élargir et le prix bouger brutalement. Beaucoup préfèrent n'avoir aucune position ouverte à ces heures-là."]},
+ {"v":{"t":"calc","h":"Fixer ses limites du jour","ctx":"Compte de 1 000 $ · exemple pédagogique","rows":["Risque maximum par position : 1 % = 10 $","Perte maximale de la journée : 3 % = 30 $","Nombre maximum de positions : 3"],"res":"Limites écrites avant de commencer","rc":"accent"},"lines":[
+  "Dernière étape de la préparation : écrire ses limites du jour, avant de commencer.",
+  "Par exemple : jamais plus de un pour cent du compte par position.",
+  "Une perte maximale de trois pour cent pour la journée. Si elle est atteinte, la séance s'arrête, quoi qu'il arrive.",
+  "Et un nombre maximum de positions. Ces chiffres sont des exemples. L'important, c'est de les fixer à froid."]},
+ {"v":{"t":"tf","h":"Analyser du haut vers le bas","tfs":[["D1",40,240],["H4",14,240],["H1",5,240]]},"lines":[
+  "Vient ensuite l'analyse. On commence toujours par la grande unité de temps : le graphique journalier.",
+  "Puis on descend en quatre heures…",
+  "…et enfin en une heure.",
+  "Le journalier donne le contexte général, le quatre heures précise la structure, et le une heure montre le détail du moment. Commencer par le détail, c'est risquer de ne pas voir la forêt derrière l'arbre."]},
+ {"v":{"t":"chart","h":"La structure et les zones clés","p":"hhhl","pts":120,"noise":0.008,"mode":"candles","per":4,"levels":[{"y":0.95,"y2":0.9,"label":"RÉSISTANCE · plus haut récent","c":"red","l":2},{"y":0.42,"y2":0.37,"label":"SUPPORT · dernier creux","c":"green","l":3}]},"lines":[
+  "Sur chaque unité de temps, tu poses les mêmes questions.",
+  "Quelle est la structure ? Des sommets et des creux de plus en plus hauts, de plus en plus bas, ou un marché latéral ?",
+  "Où sont les zones clés ? Par exemple le plus haut récent, qui peut agir comme résistance…",
+  "…et le dernier creux important, qui peut agir comme support. Tu les traces sur le graphique, sans rien décider pour l'instant."]},
+ {"v":{"t":"term","en":"Fair Value Gap","fr":"Déséquilibre de prix · FVG","def":"Une zone laissée « vide » par un mouvement très rapide, repérée sur trois bougies consécutives."},"lines":[
+  "Beaucoup de traders repèrent aussi les Fair Value Gaps, ou FVG.",
+  "C'est une zone de prix que le marché a traversée si vite qu'il n'y a presque pas eu d'échanges. Elle se repère sur trois bougies."]},
+ {"v":{"t":"fvg","h":"Repérer un FVG haussier"},"lines":[
+  "Regarde ces bougies.",
+  "On s'intéresse à trois bougies consécutives : la bougie un, la grande bougie deux, et la bougie trois.",
+  "Si le plus bas de la bougie trois reste au-dessus du plus haut de la bougie un, l'espace entre les deux forme un Fair Value Gap haussier.",
+  "Tu le traces comme une zone, au même titre qu'un support ou une résistance."]},
+ {"v":{"t":"fvg","h":"Et un FVG baissier","bear":true},"lines":[
+  "Le principe est le même à la baisse.",
+  "Trois bougies, avec une grande bougie baissière au milieu.",
+  "Si le plus haut de la bougie trois reste sous le plus bas de la bougie un, l'écart forme un Fair Value Gap baissier."]},
+ {"v":{"t":"list","h":"Ce qu'un FVG n'est pas","items":[{"s":"✕","t":"Pas une garantie","d":"le prix peut revenir dans la zone… ou jamais","c":"red"},{"s":"✕","t":"Pas un signal","d":"c'est une zone d'observation, comme un support","c":"red"},{"s":"!","t":"Dépend de l'unité de temps","d":"un FVG en M5 n'a pas le même poids qu'en D1"},{"s":"!","t":"Concept non démontré","d":"popularisé sur les réseaux, sans preuve scientifique"}]},"lines":[
+  "Attention à ce qu'un FVG n'est pas.",
+  "Ce n'est pas une garantie : le prix peut revenir dans la zone, la traverser, ou ne jamais y revenir.",
+  "Ce n'est pas un signal d'achat ou de vente : c'est une zone à observer, comme un support.",
+  "Son importance dépend de l'unité de temps.",
+  "Et c'est un concept popularisé sur les réseaux, dont l'efficacité n'a pas été démontrée scientifiquement."]},
+ {"v":{"t":"compare","h":"Pendant la séance","l":{"t":"✓ Ce qu'on fait","c":"green","items":["Observer comment le prix réagit aux zones","Poser des alertes de prix","Agir seulement selon son plan écrit"],"step":true},"r":{"t":"✕ Ce qu'on évite","c":"red","items":["Fixer l'écran pendant des heures","Ouvrir une position par ennui","Déplacer son Stop Loss pour « laisser une chance »"],"step":true,"at":4}},"lines":[
+  "Pendant la séance, le travail consiste surtout à observer.",
+  "On regarde comment le prix réagit quand il arrive sur les zones tracées le matin.",
+  "On pose des alertes de prix, pour ne pas rester collé à l'écran.",
+  "Et si on prend une position, c'est uniquement selon son plan écrit, avec un Stop Loss et une taille calculée.",
+  "À l'inverse, on évite de fixer l'écran pendant des heures…",
+  "…d'ouvrir une position par ennui…",
+  "…ou de déplacer son Stop Loss pour laisser une chance à une position perdante."]},
+ {"v":{"t":"quote","q":"Ne rien faire est aussi une décision. Souvent, la meilleure.","hl":[0,1,2,3,4,5]},"lines":[
+  "Et surtout, retiens ceci : ne rien faire est une décision à part entière.",
+  "Une journée sans aucune position, parce que rien ne correspondait à ton plan, est une journée réussie."]},
+ {"v":{"t":"bento","h":"18 h · clôturer la séance","cols":3,"tiles":[{"tag":"1","k":"Positions","d":"fermées, ou protégées par un Stop Loss"},{"tag":"2","k":"Journal","d":"chaque position, chaque émotion"},{"tag":"3","k":"Bilan","d":"plan respecté ? limites respectées ?"},{"tag":"4","k":"Leçon du jour","d":"une seule chose à améliorer"},{"tag":"5","k":"Préparer demain","d":"calendrier du lendemain"},{"tag":"6","k":"Fermer","d":"la plateforme, et décrocher"}]},"lines":[
+  "En fin de journée, on clôture la séance dans l'ordre.",
+  "Les positions sont fermées, ou protégées par un Stop Loss.",
+  "On remplit le journal.",
+  "On fait le bilan : as-tu respecté ton plan et tes limites ?",
+  "On note une seule leçon à retenir.",
+  "On jette un œil au calendrier du lendemain.",
+  "Et on ferme la plateforme. Décrocher fait partie de la routine."]},
+ {"v":{"t":"compare","h":"Commencer par… finir par…","l":{"t":"Commencer par","c":"accent","items":["Le compte et les positions","Le calendrier","Ses limites du jour","La grande unité de temps"],"step":true},"r":{"t":"Finir par","c":"cyan","items":["Les positions protégées","Le journal et le bilan","La préparation du lendemain","Fermer la plateforme"],"step":true,"at":1}},"lines":[
+  "En résumé : on commence par le compte, le calendrier, ses limites, et la vue d'ensemble.",
+  "Et on finit par protéger ses positions, remplir son journal, préparer le lendemain, puis fermer la plateforme."]},
+ {"v":{"t":"bento","h":"Ce que tu sais maintenant","cols":4,"tiles":[{"tag":"01","k":"Les marchés","d":"offre, demande, acteurs"},{"tag":"02","k":"Le vocabulaire","d":"Bid, Ask, spread, pip, lot"},{"tag":"03","k":"Les graphiques","d":"bougies, tendances, unités de temps"},{"tag":"04","k":"Les ordres","d":"market, limit, stop, SL, TP"},{"tag":"05","k":"Les calculs","d":"pips, taille de position, Equity"},{"tag":"06","k":"Le levier","d":"marge, Margin Level, Stop Out"},{"tag":"07","k":"La pratique","d":"MT5, journal, statistiques"},{"tag":"08","k":"Les risques","d":"psychologie, arnaques"}]},"lines":[
+  "Bravo, tu es arrivé au bout de cette formation. Récapitulons.",
+  "Tu sais comment fonctionnent les marchés et qui y participe.",
+  "Tu parles le langage des traders.",
+  "Tu sais lire un graphique en chandeliers.",
+  "Tu connais les différents types d'ordres.",
+  "Tu sais calculer un gain, une perte, et une taille de position.",
+  "Tu comprends l'effet de levier, la marge et le Stop Out.",
+  "Tu sais organiser une journée sur ta plateforme, et tenir un journal.",
+  "Et tu connais les risques, y compris ceux qui viennent de ta propre psychologie."]},
+ {"v":{"t":"quote","q":"Comprendre ne rend pas rentable. Mais comprendre protège.","hl":[0,6,7]},"lines":[
+  "Un dernier mot. Comprendre le trading ne garantit aucun gain.",
+  "Mais comprendre te protège : des mauvaises décisions, des promesses trompeuses, et des risques que tu n'aurais pas vus.",
+  "Commence toujours par un compte de démonstration. Merci d'avoir suivi Trading Academy."]},
+ {"v":{"t":"kinetic","w":"TRADING ACADEMY","sub":"Contenu éducatif · aucun conseil en investissement","size":150},"lines":["À bientôt."]}
+]}

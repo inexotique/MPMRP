@@ -14,7 +14,7 @@ export type Ch = {id: string; num: number; title: string; accent: string; music:
 const MAP: Record<string, React.FC<any>> = {
   chapter: V.ChapterV, intro: V.IntroV, kinetic: V.KineticV, stat: V.StatV, list: V.ListV, term: V.TermV, compare: V.CompareV,
   chart: V.ChartV, calc: V.CalcV, bento: V.BentoV, bars: V.BarsV, split: V.SplitV, candle: V.CandleV, tf: V.TimeframesV,
-  flow: V.FlowV, quiz: V.QuizV, quote: V.QuoteV, order: G.OrderV, accounts: G.AccountsV, mt5: G.MT5V, map: G.MapV, calendar: G.CalendarV,
+  flow: V.FlowV, quiz: V.QuizV, fvg: V.FvgV, quote: V.QuoteV, order: G.OrderV, accounts: G.AccountsV, mt5: G.MT5V, map: G.MapV, calendar: G.CalendarV,
 };
 const XF = 18; // transition overlap (frames)
 
