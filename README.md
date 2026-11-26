@@ -21,6 +21,7 @@ TTS_ENGINE=xtts python3 scripts/tts.py content/ch05.json   # régénère la narr
 npx remotion studio src/index.ts                           # prévisualisation
 npx remotion render src/index.ts ch05 out/chapters/ch05.mp4 --codec h265 --crf 22
 python3 scripts/assemble.py                                # assemble la vidéo sans réencodage → out/Trading_Academy.mp4 + .srt + SOMMAIRE.md
+python3 scripts/assemble.py --parts 1-7,8-13,14-17,18-18   # découpe sans perte en parties de moins de 400 Mo → out/parts/
 ```
 
 ## Livrables

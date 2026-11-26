@@ -1,7 +1,9 @@
 # PROJECT_STATE — Trading Academy
 
 ## Statut
-- 18 chapitres, environ 60 minutes de vidéo. Chapitres 1 à 16 rendus, 17 et 18 en cours, assemblage automatique à la fin (`scripts/produce.sh`).
+- **TERMINÉ** (26/11, 7 h 17, heure de Paris). 18 chapitres, durée 1:11:06, 1,20 Go, H.265 1080p à 60 i/s, 18 chapitres intégrés au MP4. Fichier `out/Trading_Academy.mp4` avec ses sous-titres (`.srt`) et `SOMMAIRE.md`.
+- Envoi : la limite d'envoi est de 400 Mo. La vidéo est donc aussi découpée sans perte en 4 parties dans `out/parts/` (`python3 scripts/assemble.py --parts 1-7,8-13,14-17,18-18`).
+- Contrôle de la narration du ch18 : 11 phrases sur 113 restent signalées après 2 nouvelles tentatives, surtout des écarts de transcription des nombres (« 8h30 » au lieu de « huit heures trente »). Aucune n'a été jugée bloquante.
 - Voix : ch01 Edge Rémy · ch02 ElevenLabs Liam v3 (quota gratuit épuisé ensuite) · ch03 à ch18 XTTS-v2 « Viktor » (gratuite, locale). Choix validé par l'utilisateur.
 - Style « moderne » à partir du ch10 : fonds colorés par scène, illustrations 3D, transitions par masque, rotation 3D et zoom, HUD, particules, effets sonores enrichis.
 - Le ch18 « Une journée type » remplace le quiz : routine de la journée, démonstration en démo avec un plan d'exemple, conseils pour débuter.
