@@ -3,7 +3,8 @@ import {AbsoluteFill, interpolate, useCurrentFrame} from 'remotion';
 import {C, F} from '../theme';
 import {clamp, ease, inOut, pop} from '../lib/anim';
 import {Glass, KineticWord, MaskText} from '../components/core';
-import {Chart, Heading, R, VP, col, pathOf} from './kit';
+import {Chart, Heading, MotionCtx, R, VP, col, pathOf} from './kit';
+import {Icon, iconFor} from './icons';
 
 const center: React.CSSProperties = {justifyContent: 'center', alignItems: 'center'};
 const lineAt = (cue: VP['cue'], n: number, i: number, map?: number[]) => cue(map ? map[i] ?? n - 1 : Math.min(i, n - 1)) + (map ? 0 : Math.max(0, i - (n - 1)) * 40);
@@ -68,6 +69,7 @@ export const StatV: React.FC<VP> = ({v, cue, accent}) => {
 
 // ── Progressive list ──
 export const ListV: React.FC<VP> = ({v, cue, n, accent}) => {
+  const {variant} = React.useContext(MotionCtx);
   const items: any[] = v.items;
   const big = items.length <= 3;
   return (
@@ -79,6 +81,7 @@ export const ListV: React.FC<VP> = ({v, cue, n, accent}) => {
           return (
             <R key={i} at={lineAt(cue, n, i, v.at)} k="left">
               <Glass style={{padding: big ? '26px 40px' : '16px 34px', display: 'flex', alignItems: 'center', gap: 30, borderRadius: 24}}>
+                {variant ? <Icon name={iconFor(`${o.s ?? ''} ${o.t} ${o.d ?? ''}`, i)} at={lineAt(cue, n, i, v.at) + 4} size={big ? 62 : 48} color={col(o.c ?? 'accent', accent)} /> : null}
                 <div style={{fontFamily: F.display, fontWeight: 800, fontSize: big ? 46 : 36, color: col(o.c, accent), minWidth: 60, textAlign: 'center'}}>{o.s ?? String(i + 1).padStart(2, '0')}</div>
                 <div>
                   <div style={{fontFamily: F.sans, fontWeight: 700, fontSize: big ? 46 : 38, color: C.white}}>{o.t}</div>
@@ -177,7 +180,7 @@ export const CalcV: React.FC<VP> = ({v, cue, n, accent}) => {
   const resAt = lineAt(cue, n, rows.length, v.at);
   const rp = pop(f, resAt);
   return (
-    <AbsoluteFill style={{...center, flexDirection: 'column'}}>
+    <AbsoluteFill style={{...center, flexDirection: 'column', paddingTop: v.h ? 150 : 0, boxSizing: 'border-box'}}>
       <Heading text={v.h} accent={accent} at={0} />
       {v.ctx ? <R at={cue(0)}><div style={{fontFamily: F.sans, fontSize: 36, fontWeight: 600, color: C.dim, marginBottom: 34, textAlign: 'center'}}>{v.ctx}</div></R> : null}
       <div style={{display: 'flex', flexDirection: 'column', gap: 22, alignItems: 'center', marginTop: 60}}>
@@ -196,6 +199,7 @@ export const CalcV: React.FC<VP> = ({v, cue, n, accent}) => {
 
 // ── Bento grid of tiles ──
 export const BentoV: React.FC<VP> = ({v, cue, n, accent}) => {
+  const {variant} = React.useContext(MotionCtx);
   const tiles: any[] = v.tiles;
   const cols = v.cols ?? (tiles.length <= 4 ? 2 : tiles.length <= 6 ? 3 : 4);
   return (
@@ -205,7 +209,10 @@ export const BentoV: React.FC<VP> = ({v, cue, n, accent}) => {
         {tiles.map((t, i) => (
           <R key={i} at={lineAt(cue, n, i, v.at)} k="pop" style={{gridColumn: t.wide ? 'span 2' : undefined, display: 'flex'}}>
             <Glass glow={t.c ? col(t.c, accent) : undefined} style={{flex: 1, padding: '28px 34px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', borderRadius: 28}}>
-              <div style={{fontFamily: F.sans, fontWeight: 700, fontSize: 28, color: col(t.c ?? 'accent', accent), letterSpacing: '0.12em'}}>{t.tag ?? ''}</div>
+              <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start'}}>
+                <div style={{fontFamily: F.sans, fontWeight: 700, fontSize: 28, color: col(t.c ?? 'accent', accent), letterSpacing: '0.12em'}}>{t.tag ?? ''}</div>
+                {variant ? <Icon name={iconFor(`${t.tag ?? ''} ${t.k} ${t.d ?? ''}`, i)} at={lineAt(cue, n, i, v.at) + 6} size={tiles.length > 6 ? 56 : 72} color={col(t.c ?? 'accent', accent)} opacity={0.85} /> : null}
+              </div>
               <div>
                 <div style={{fontFamily: F.display, fontWeight: 800, fontSize: tiles.length > 6 ? 46 : 56, color: C.white, lineHeight: 1.05}}>{t.k}</div>
                 {t.d ? <div style={{fontFamily: F.sans, fontWeight: 500, fontSize: tiles.length > 6 ? 28 : 32, color: C.dim, marginTop: 10, lineHeight: 1.3}}>{t.d}</div> : null}

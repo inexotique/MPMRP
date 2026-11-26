@@ -7,6 +7,7 @@ import {KineticCaptions} from './Captions';
 import * as V from './visuals';
 import * as G from './gui';
 import {MotionCtx, type VP} from './kit';
+import {Icon, iconFor} from './icons';
 
 export type Ch = {id: string; num: number; title: string; accent: string; music: number; fps: number; total: number;
   beats: {v: any; from: number; dur: number}[]; segments: {id: string; beat: number; line: number; text: string; file?: string; from: number; dur: number; words?: number[]; audio?: {file: string; from: number; dur: number}}[]};
@@ -40,6 +41,44 @@ const Shell: React.FC<{dur: number; children: React.ReactNode; kind: number; mod
   else { clip = `inset(${((1 - ei) * 100).toFixed(1)}% 0 0 0)`; tin = `translateY(${(1 - ei) * 90}px)`; }
   const tout = t === 2 ? `scale(${1 - 0.18 * eo})` : t === 1 ? `perspective(1600px) rotateY(${eo * 22}deg) translateX(${-eo * 200}px)` : `translateY(${-eo * 70}px) scale(${1 - 0.05 * eo})`;
   return <AbsoluteFill style={{opacity: Math.min(1, ei * 1.4) * (1 - eo), transform: `${tin} ${tout} scale(${push})`, clipPath: clip}}>{children}</AbsoluteFill>;
+};
+
+/** Colour stage (ch10+): each beat gets its own deep gradient; cross-fades between beats; moving light blobs. */
+const TONES = ['#0B1736', '#1C0B33', '#052B2C', '#2B0D16', '#0C2414', '#2A1B05', '#101A3F', '#24072A'];
+const hex = (h: string) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
+const mixHex = (a: string, b: string, t: number) => { const A = hex(a), B = hex(b); return `rgb(${A.map((v, i) => Math.round(v + (B[i] - v) * t)).join(',')})`; };
+const ColorStage: React.FC<{beats: Ch['beats']; accent: string}> = ({beats, accent}) => {
+  const f = useCurrentFrame();
+  let k = 0;
+  beats.forEach((b, i) => { if (f >= b.from) k = i; });
+  const t = interpolate(f, [beats[k].from, beats[k].from + 40], [0, 1], clamp);
+  const prev = TONES[(k + TONES.length - 1) % TONES.length], cur = TONES[k % TONES.length];
+  const base = k === 0 ? cur : mixHex(prev, cur, t);
+  const a = Math.sin(f / 160) * 18, b = Math.cos(f / 190) * 14;
+  return (
+    <AbsoluteFill style={{background: `radial-gradient(1200px 900px at ${50 + a}% ${40 + b}%, ${base}, #04060A 78%)`}}>
+      <AbsoluteFill style={{background: `radial-gradient(700px 500px at ${22 - a / 2}% ${78 - b}%, ${accent}30, transparent 70%), radial-gradient(800px 600px at ${82 + a / 3}% ${18 + b / 2}%, ${accent}22, transparent 70%)`}} />
+      <AbsoluteFill style={{background: 'radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.6))'}} />
+    </AbsoluteFill>
+  );
+};
+
+/** Large extruded 3D line illustration slowly rotating behind headline beats. */
+const BigIllustration: React.FC<{name: string; accent: string; side: number}> = ({name, accent, side}) => {
+  const f = useCurrentFrame();
+  const ry = Math.sin(f / 70) * 28 + side * 12, rx = 12 + Math.sin(f / 95) * 6;
+  const o = interpolate(f, [0, 40], [0, 1], clamp);
+  return (
+    <AbsoluteFill style={{justifyContent: 'center', alignItems: side ? 'flex-end' : 'center', paddingRight: side ? 120 : 0, perspective: 1400, opacity: o, pointerEvents: 'none'}}>
+      <div style={{position: 'relative', width: 460, height: 460, transformStyle: 'preserve-3d', transform: `rotateY(${ry}deg) rotateX(${rx}deg) translateY(${Math.sin(f / 50) * 12}px)`}}>
+        {[0, 1, 2, 3, 4, 5].map((z) => (
+          <div key={z} style={{position: 'absolute', inset: 0, transform: `translateZ(${-z * 9}px)`, opacity: z === 0 ? 0.3 : 0.09 - z * 0.012}}>
+            <Icon name={name} at={z * 2} size={460} color={z === 0 ? accent : '#FFFFFF'} />
+          </div>
+        ))}
+      </div>
+    </AbsoluteFill>
+  );
 };
 
 /** Slow drifting light particles (cheap: plain divs). */
@@ -117,7 +156,7 @@ export const Chapter: React.FC<{ch: Ch}> = ({ch}) => {
   return (
     <MotionCtx.Provider value={{variant: modern ? (ch.num % 3) + 1 : 0}}>
     <AbsoluteFill style={{background: C.bg}}>
-      <Background accent={ch.accent} />
+      {modern ? <ColorStage beats={ch.beats} accent={ch.accent} /> : <Background accent={ch.accent} />}
       {modern ? <Particles accent={ch.accent} /> : null}
       <AbsoluteFill style={{transform: `translate(${drift}px, ${Math.cos(f / 300) * 6}px) scale(${1.01 + 0.01 * Math.sin(f / 400)})`}}>
         {ch.beats.map((b, bi) => {
@@ -127,7 +166,12 @@ export const Chapter: React.FC<{ch: Ch}> = ({ch}) => {
           const props: VP & {num: number; title: string} = {v: b.v, cue, n: segs.length, dur: b.dur, accent: ch.accent, num: ch.num, title: ch.title};
           return (
             <Sequence key={bi} from={b.from} durationInFrames={b.dur + XF} layout="none">
-              <Shell dur={b.dur} kind={bi} modern={modern}><Comp {...props} /></Shell>
+              <Shell dur={b.dur} kind={bi} modern={modern}>
+                {modern && ['chapter', 'quote', 'kinetic', 'stat', 'term'].includes(b.v.t) && !b.v.ex ? (
+                  <BigIllustration name={iconFor(`${b.v.h ?? ''} ${b.v.w ?? ''} ${b.v.q ?? ''} ${b.v.en ?? ''} ${b.v.fr ?? ''} ${b.v.def ?? ''} ${ch.title}`, bi)} accent={ch.accent} side={1} />
+                ) : null}
+                <Comp {...props} />
+              </Shell>
             </Sequence>
           );
         })}
