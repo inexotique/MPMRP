@@ -1,0 +1,191 @@
+1
+00:00:00,900 --> 00:00:04,435
+Chapitre huit : les courtiers et MetaTrader cinq.
+
+2
+00:00:05,805 --> 00:00:09,061
+Pour trader, tu passes par un courtier, ou broker.
+
+3
+00:00:09,481 --> 00:00:14,363
+Il fait l'intermédiaire entre toi et le marché : il reçoit tes ordres et te fournit les prix.
+
+4
+00:00:14,783 --> 00:00:17,098
+Il te donne accès à une plateforme de trading.
+
+5
+00:00:17,518 --> 00:00:24,376
+Et il conserve ton argent. Chez un courtier régulé, ces fonds doivent être placés sur des comptes séparés des siens.
+
+6
+00:00:25,746 --> 00:00:28,829
+Un courtier régulé est surveillé par une autorité financière.
+
+7
+00:00:29,249 --> 00:00:36,096
+En France, c'est l'AMF. Elle publie des listes noires de sites non autorisés : c'est le premier réflexe à avoir.
+
+8
+00:00:36,516 --> 00:00:43,005
+Grâce au passeport européen, un courtier agréé dans un autre pays de l'Union peut proposer ses services en France.
+
+9
+00:00:43,425 --> 00:00:47,527
+Beaucoup de courtiers européens sont par exemple régulés à Chypre, par la CySEC.
+
+10
+00:00:47,947 --> 00:00:52,447
+La régulation impose notamment de séparer l'argent des clients de celui de l'entreprise.
+
+11
+00:00:52,867 --> 00:00:59,128
+À Chypre, un fonds d'indemnisation peut couvrir jusqu'à vingt mille euros par client en cas de faillite du courtier.
+
+12
+00:00:59,548 --> 00:01:03,409
+Et les clients particuliers bénéficient de la protection contre le solde négatif.
+
+13
+00:01:04,779 --> 00:01:06,218
+La différence est majeure.
+
+14
+00:01:06,638 --> 00:01:16,509
+Avec un courtier non régulé, rien ne garantit que tu pourras récupérer ton argent. Les retraits peuvent être bloqués, et en cas de problème, il n'y a souvent aucun recours.
+
+15
+00:01:17,879 --> 00:01:25,695
+Pour illustrer la suite, prenons l'exemple de Pepperstone, un courtier connu. Ce n'est ni une publicité, ni une recommandation.
+
+16
+00:01:26,115 --> 00:01:32,313
+Il propose, comme beaucoup d'autres, des comptes de démonstration et des comptes réels, ainsi que plusieurs types de comptes.
+
+17
+00:01:33,683 --> 00:01:40,998
+Le compte de démonstration fonctionne avec de l'argent fictif. C'est l'outil idéal pour découvrir une plateforme sans rien risquer.
+
+18
+00:01:41,418 --> 00:01:47,363
+Le compte réel engage ton propre argent. Et la différence la plus sous-estimée, ce sont les émotions.
+
+19
+00:01:48,732 --> 00:01:50,834
+Il existe souvent deux grands types de comptes.
+
+20
+00:01:51,254 --> 00:02:04,015
+Le compte Standard : pas de commission, mais un spread plus large. Le compte Raw Spread : un spread très serré, mais une commission par lot. Selon le volume, l'un ou l'autre peut coûter moins cher.
+
+21
+00:02:05,385 --> 00:02:08,123
+Les courtiers utilisent différents modèles d'exécution.
+
+22
+00:02:08,543 --> 00:02:11,915
+Le Market Maker peut se placer lui-même en contrepartie de tes ordres.
+
+23
+00:02:12,335 --> 00:02:17,880
+Le modèle STP transmet tes ordres à des fournisseurs de liquidité, comme des banques.
+
+24
+00:02:18,300 --> 00:02:27,778
+Le modèle ECN fait se rencontrer les ordres de nombreux participants dans un réseau. Dans tous les cas, la régulation impose une obligation de meilleure exécution.
+
+25
+00:02:29,148 --> 00:02:33,333
+Côté argent, les dépôts se font par virement ou par carte, toujours à ton nom.
+
+26
+00:02:33,753 --> 00:02:38,396
+Les retraits sont généralement renvoyés vers le même moyen de paiement, pour lutter contre le blanchiment.
+
+27
+00:02:38,816 --> 00:02:48,923
+Et les frais à surveiller sont le spread, la commission, le swap, mais aussi parfois des frais de conversion ou d'inactivité. Lis toujours la grille tarifaire.
+
+28
+00:02:50,293 --> 00:02:58,168
+Découvrons maintenant MetaTrader cinq, l'une des plateformes les plus utilisées au monde. Ce que tu vois est une reconstitution simplifiée.
+
+29
+00:02:58,588 --> 00:03:03,045
+À gauche, la fenêtre Market Watch affiche les cotations des instruments.
+
+30
+00:03:03,465 --> 00:03:09,782
+Pour chaque symbole, le Bid à gauche, et l'Ask à droite. Les prix changent de couleur à chaque variation.
+
+31
+00:03:10,202 --> 00:03:15,880
+En dessous, le Navigator donne accès à tes comptes, aux indicateurs et aux robots de trading.
+
+32
+00:03:16,300 --> 00:03:21,489
+Au centre, le graphique de l'instrument sélectionné, ici l'euro dollar en une heure.
+
+33
+00:03:21,909 --> 00:03:26,190
+En haut, tu peux changer d'unité de temps : de M1 à MN1.
+
+34
+00:03:26,610 --> 00:03:31,275
+En bas, la boîte à outils, avec l'onglet Trade, qui affiche tes positions ouvertes.
+
+35
+00:03:31,695 --> 00:03:39,982
+Et sur la dernière ligne, l'état de ton compte : Balance, Equity, Margin, Free Margin, et Margin Level.
+
+36
+00:03:41,352 --> 00:03:46,541
+Passons à la pratique, sur un compte de démonstration. On clique sur Nouvel ordre.
+
+37
+00:03:46,961 --> 00:03:49,962
+On choisit le volume : zéro virgule un lot.
+
+38
+00:03:50,382 --> 00:03:52,869
+On définit un Stop Loss et un Take Profit.
+
+39
+00:03:53,289 --> 00:03:56,192
+Puis on clique sur Buy by Market : achat au prix du marché.
+
+40
+00:03:56,612 --> 00:04:00,850
+La position apparaît immédiatement dans l'onglet Trade, avec son prix d'ouverture.
+
+41
+00:04:01,270 --> 00:04:05,865
+Regarde le bas de l'écran : une marge est maintenant bloquée, et l'Equity bouge avec le prix.
+
+42
+00:04:06,285 --> 00:04:10,592
+Le profit latent varie en direct, d'abord légèrement négatif à cause du spread.
+
+43
+00:04:11,012 --> 00:04:17,871
+Pour fermer la position, on clique sur la croix. Le résultat est alors réalisé, et la Balance est mise à jour.
+
+44
+00:04:18,291 --> 00:04:21,712
+Dans l'onglet Historique, on retrouve la transaction terminée.
+
+45
+00:04:23,082 --> 00:04:24,426
+D'autres plateformes existent.
+
+46
+00:04:24,846 --> 00:04:31,651
+TradingView est surtout connu pour ses graphiques. Il peut être relié à certains courtiers pour passer des ordres.
+
+47
+00:04:32,071 --> 00:04:37,113
+cTrader propose une interface moderne, appréciée pour la transparence de l'exécution.
+
+48
+00:04:37,533 --> 00:04:47,923
+Et MetaTrader quatre, l'ancêtre de MT5, reste très répandu sur le Forex. Le principe est le même partout : des prix, des ordres, et un compte à surveiller.

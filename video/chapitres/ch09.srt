@@ -1,0 +1,151 @@
+1
+00:00:00,900 --> 00:00:03,886
+Chapitre neuf : les indicateurs et l'économie.
+
+2
+00:00:05,256 --> 00:00:08,288
+Un indicateur technique est un calcul appliqué aux prix passés.
+
+3
+00:00:08,708 --> 00:00:16,806
+Il ne prédit pas l'avenir : il résume ce qui s'est déjà passé, d'une autre manière. Voyons les plus connus, sans aucune règle d'achat ou de vente.
+
+4
+00:00:18,176 --> 00:00:19,608
+Les moyennes mobiles, d'abord.
+
+5
+00:00:20,028 --> 00:00:31,461
+La SMA est la moyenne simple des derniers prix, par exemple sur vingt bougies. L'EMA est une moyenne exponentielle : elle donne plus de poids aux prix récents, et réagit donc plus vite.
+
+6
+00:00:31,881 --> 00:00:36,891
+Leur limite : elles sont toujours en retard sur le prix, puisqu'elles sont calculées sur le passé.
+
+7
+00:00:38,261 --> 00:00:40,969
+Le RSI, ou indice de force relative.
+
+8
+00:00:41,389 --> 00:00:50,605
+Il oscille entre zéro et cent, et compare la force des hausses et des baisses récentes, souvent sur quatorze périodes. Les niveaux soixante-dix et trente sont souvent tracés.
+
+9
+00:00:51,025 --> 00:00:58,221
+Sa limite : dans une tendance forte, il peut rester longtemps à un extrême pendant que le prix continue dans la même direction.
+
+10
+00:00:59,591 --> 00:01:05,668
+Le MACD mesure l'écart entre deux moyennes mobiles exponentielles, une rapide et une lente.
+
+11
+00:01:06,088 --> 00:01:13,500
+Il permet d'observer l'accélération ou le ralentissement d'un mouvement. Lui aussi est en retard, car il est construit à partir de moyennes.
+
+12
+00:01:14,870 --> 00:01:19,166
+Les bandes de Bollinger entourent une moyenne mobile de deux bandes, calculées avec l'écart-type.
+
+13
+00:01:19,586 --> 00:01:27,290
+Elles s'écartent quand le marché devient volatil, et se resserrent quand il se calme. Elles décrivent la volatilité, pas la direction.
+
+14
+00:01:28,660 --> 00:01:30,565
+Quatre autres outils très répandus.
+
+15
+00:01:30,985 --> 00:01:36,809
+L'ATR mesure l'amplitude moyenne des bougies. C'est un thermomètre de la volatilité.
+
+16
+00:01:37,229 --> 00:01:44,563
+Le VWAP est le prix moyen de la séance, pondéré par les volumes échangés. Il est surtout utilisé en intraday.
+
+17
+00:01:44,983 --> 00:01:54,165
+Le volume montre l'activité derrière chaque mouvement. Sur le Forex, il s'agit souvent d'un volume de ticks fourni par le courtier, pas du volume global.
+
+18
+00:01:54,585 --> 00:02:02,930
+Et les retracements de Fibonacci tracent des niveaux en pourcentage d'un mouvement. Ce sont des repères conventionnels, sans fondement prédictif démontré.
+
+19
+00:02:04,300 --> 00:02:12,620
+Retiens la limite commune à tous ces outils : aucun indicateur ne fonctionne à tous les coups. Ils aident à décrire le marché, pas à le prédire.
+
+20
+00:02:13,040 --> 00:02:16,577
+Passons maintenant à ce qui fait bouger les prix en profondeur : l'économie.
+
+21
+00:02:17,947 --> 00:02:21,610
+L'inflation, c'est la hausse générale des prix dans une économie.
+
+22
+00:02:22,030 --> 00:02:27,023
+Elle est mesurée par l'indice des prix à la consommation, appelé CPI aux États-Unis.
+
+23
+00:02:27,443 --> 00:02:30,225
+Une inflation trop forte pousse les banques centrales à agir.
+
+24
+00:02:31,595 --> 00:02:33,321
+Les banques centrales jouent un rôle clé.
+
+25
+00:02:33,741 --> 00:02:41,144
+Aux États-Unis, la FED. Ses décisions sont prises lors des réunions du FOMC, huit fois par an.
+
+26
+00:02:41,564 --> 00:02:45,344
+En zone euro, la BCE, la Banque centrale européenne.
+
+27
+00:02:45,764 --> 00:02:55,233
+Leur outil principal : les taux d'intérêt. Monter les taux rend le crédit plus cher et freine l'inflation. Cela rend souvent aussi la monnaie plus attractive.
+
+28
+00:02:56,603 --> 00:02:59,050
+Certaines statistiques sont suivies de très près.
+
+29
+00:02:59,470 --> 00:03:02,319
+Le PIB mesure la croissance de l'économie.
+
+30
+00:03:02,739 --> 00:03:05,358
+Le CPI mesure l'inflation, chaque mois.
+
+31
+00:03:05,778 --> 00:03:14,993
+Et le NFP, les créations d'emplois aux États-Unis, publié en général le premier vendredi du mois, à quatorze heures trente, heure de Paris.
+
+32
+00:03:16,363 --> 00:03:21,440
+Toutes ces annonces sont regroupées dans un calendrier économique, gratuit sur de nombreux sites.
+
+33
+00:03:21,860 --> 00:03:27,164
+Chaque événement a une heure précise, une devise concernée, et un niveau d'importance.
+
+34
+00:03:27,584 --> 00:03:36,810
+Au moment d'une annonce importante, le marché compare le chiffre publié à ce qui était attendu. Une surprise peut provoquer un mouvement très violent en quelques secondes.
+
+35
+00:03:37,230 --> 00:03:45,537
+Les spreads s'élargissent, la liquidité diminue, et le slippage devient fréquent. C'est pour cela que ces moments sont particulièrement risqués.
+
+36
+00:03:46,907 --> 00:03:51,985
+Enfin, les événements géopolitiques : élections, conflits, sanctions, crises.
+
+37
+00:03:52,405 --> 00:03:59,553
+Ils sont imprévisibles, et peuvent créer des gaps et des mouvements extrêmes, notamment sur le pétrole, l'or et les devises.
+
+38
+00:03:59,973 --> 00:04:06,319
+Comprendre l'économie, ce n'est pas deviner l'avenir : c'est savoir pourquoi le marché peut soudain s'agiter.

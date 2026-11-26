@@ -1,0 +1,147 @@
+1
+00:00:00,900 --> 00:00:04,673
+Chapitre treize : la fiche d'identité d'un instrument.
+
+2
+00:00:06,043 --> 00:00:12,601
+Chaque instrument a ses propres règles : taille du contrat, valeur d'un mouvement, marge, horaires, frais.
+
+3
+00:00:13,021 --> 00:00:19,257
+Toutes ces informations sont regroupées dans une fiche qu'on appelle la spécification du contrat. Apprenons à la lire.
+
+4
+00:00:20,627 --> 00:00:24,808
+Voici à quoi ressemble la fiche de l'euro dollar, avec des valeurs typiques.
+
+5
+00:00:25,228 --> 00:00:27,614
+La taille du contrat : cent mille euros pour un lot.
+
+6
+00:00:28,034 --> 00:00:30,562
+Le nombre de décimales affichées : cinq.
+
+7
+00:00:30,982 --> 00:00:38,318
+Le volume minimum : zéro virgule zéro un lot, avec un pas de zéro virgule zéro un.
+
+8
+00:00:38,738 --> 00:00:45,419
+La marge : trois virgule trente-trois pour cent de la valeur, ce qui correspond à un levier de un pour trente.
+
+9
+00:00:45,839 --> 00:00:50,596
+Les horaires de cotation : vingt-quatre heures sur vingt-quatre, cinq jours sur sept.
+
+10
+00:00:51,016 --> 00:00:53,166
+Le swap pour une position acheteuse…
+
+11
+00:00:53,586 --> 00:00:58,425
+…et celui pour une position vendeuse. Ils changent régulièrement.
+
+12
+00:00:58,845 --> 00:01:01,057
+Et la valeur d'un pip : dix dollars par lot.
+
+13
+00:01:02,427 --> 00:01:08,850
+Prenons maintenant l'or. Chez beaucoup de courtiers, un lot d'or représente cent onces.
+
+14
+00:01:09,270 --> 00:01:13,354
+Avec une once à deux mille quatre cents dollars, un lot vaut deux cent quarante mille dollars.
+
+15
+00:01:13,774 --> 00:01:17,955
+Quand le prix de l'or bouge d'un dollar, un lot gagne ou perd cent dollars.
+
+16
+00:01:18,375 --> 00:01:27,554
+Avec zéro virgule zéro un lot, c'est un dollar par dollar de variation. Et l'or peut bouger de plusieurs dizaines de dollars en une journée.
+
+17
+00:01:27,974 --> 00:01:38,077
+Le levier maximum sur l'or est de un pour vingt pour un particulier en Europe : zéro virgule zéro un lot demande donc environ cent vingt dollars de marge.
+
+18
+00:01:38,497 --> 00:01:44,022
+Même volume affiché, mais une exposition et une marge très différentes de l'euro dollar.
+
+19
+00:01:45,392 --> 00:01:51,019
+Sur un CFD d'indice, comme le US500, la logique change encore.
+
+20
+00:01:51,439 --> 00:02:00,062
+Chez certains courtiers, un lot vaut un dollar par point d'indice. À cinq mille trois cents points, l'exposition est de cinq mille trois cents dollars.
+
+21
+00:02:00,482 --> 00:02:05,153
+Si l'indice bouge de cinquante points, la position gagne ou perd cinquante dollars.
+
+22
+00:02:05,573 --> 00:02:10,073
+Avec un levier de un pour vingt, la marge est d'environ deux cent soixante-cinq dollars.
+
+23
+00:02:10,493 --> 00:02:18,648
+Mais attention : d'autres courtiers utilisent dix dollars, ou même cinquante dollars par point. Il faut toujours vérifier.
+
+24
+00:02:20,018 --> 00:02:25,520
+Et sur les cryptomonnaies ? Prenons le bitcoin, avec un lot égal à un bitcoin.
+
+25
+00:02:25,940 --> 00:02:30,031
+Zéro virgule zéro un lot représente six cents dollars d'exposition.
+
+26
+00:02:30,451 --> 00:02:34,879
+Avec le levier maximum de un pour deux, il faut trois cents dollars de marge.
+
+27
+00:02:35,299 --> 00:02:40,041
+Et une variation de cinq pour cent, assez fréquente sur le bitcoin, représente trente dollars.
+
+28
+00:02:41,411 --> 00:02:44,966
+Comparons la marge nécessaire pour zéro virgule zéro un lot.
+
+29
+00:02:45,386 --> 00:02:47,768
+Environ trente-six dollars sur l'euro dollar.
+
+30
+00:02:48,188 --> 00:02:50,419
+Environ cent vingt dollars sur l'or.
+
+31
+00:02:50,839 --> 00:02:57,748
+Et environ trois cents dollars sur le bitcoin. Le même chiffre de volume ne veut donc rien dire sans la fiche de l'instrument.
+
+32
+00:02:59,118 --> 00:03:00,839
+Où trouver ces informations ?
+
+33
+00:03:01,259 --> 00:03:06,684
+Dans MetaTrader cinq : un clic droit sur le symbole dans le Market Watch, puis Spécification.
+
+34
+00:03:07,104 --> 00:03:10,539
+Sur le site de ton courtier, dans la rubrique des conditions de trading.
+
+35
+00:03:10,959 --> 00:03:19,178
+Et dans le document d'informations clés, obligatoire en Europe pour chaque type de CFD. Il décrit les risques et les coûts.
+
+36
+00:03:20,548 --> 00:03:24,844
+La règle est simple : avant de toucher à un nouvel instrument, lis sa fiche.
+
+37
+00:03:25,264 --> 00:03:29,139
+Et maintenant que tu sais lire une fiche, voyons comment calculer la taille d'une position.
