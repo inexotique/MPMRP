@@ -9,20 +9,55 @@ export type VP = {v: any; cue: (k: number) => number; n: number; dur: number; ac
 export const col = (c: string | undefined, accent: string) =>
   !c ? C.white : c === 'green' ? C.green : c === 'red' ? C.red : c === 'accent' ? accent : c === 'dim' ? C.dim : c === 'cyan' ? C.cyan : c;
 
+/** Motion style for the chapter (0 = classic, 1 = tilt, 2 = zoom, 3 = mask) + idle floating. */
+export const MotionCtx = React.createContext<{variant: number}>({variant: 0});
+let _seed = 0;
+
 /** Element appearing at frame `at` — kinds: up (spring rise), pop (scale overshoot), fade, left/right (slide). */
 export const R: React.FC<{at: number; k?: 'up' | 'pop' | 'fade' | 'left' | 'right'; style?: React.CSSProperties; children?: React.ReactNode}> = ({at, k = 'up', style, children}) => {
   const f = useCurrentFrame();
-  const p = pop(f, at, {damping: 15, stiffness: 150});
-  const o = interpolate(f, [at, at + 12], [0, 1], clamp);
-  const tr = k === 'pop' ? `scale(${0.5 + 0.5 * p})` : k === 'left' ? `translateX(${(1 - p) * -120}px)` : k === 'right' ? `translateX(${(1 - p) * 120}px)` : k === 'fade' ? 'none' : `translateY(${(1 - p) * 70}px)`;
-  return <div style={{opacity: o, transform: tr, ...style}}>{children}</div>;
+  const {variant} = React.useContext(MotionCtx);
+  const seed = React.useMemo(() => (_seed = (_seed + 1) % 97), []);
+  const p = pop(f, at, variant ? {damping: 18, stiffness: 120, mass: 0.9} : {damping: 15, stiffness: 150});
+  const o = interpolate(f, [at, at + (variant ? 16 : 12)], [0, 1], clamp);
+  const float = variant && f > at + 20 ? Math.sin((f + seed * 37) / 55) * 4 : 0;
+  let tr: string;
+  let clip: string | undefined;
+  if (variant && (k === 'up' || k === 'left' || k === 'right')) {
+    const dx = k === 'left' ? -1 : k === 'right' ? 1 : 0;
+    if (variant === 1) tr = `perspective(1200px) rotateX(${(1 - p) * 50}deg) rotateY(${dx * (1 - p) * -25}deg) translateY(${(1 - p) * 50 + float}px)`;
+    else if (variant === 2) tr = `scale(${1.18 - 0.18 * p}) translate(${dx * (1 - p) * 60}px, ${float}px)`;
+    else { tr = `translate(${dx * (1 - p) * 40}px, ${(1 - p) * 30 + float}px)`; clip = `inset(0 0 ${Math.max(0, (1 - p) * 100).toFixed(1)}% 0 round 24px)`; }
+  } else {
+    tr = k === 'pop' ? `scale(${0.5 + 0.5 * p}) translateY(${float}px)` : k === 'left' ? `translateX(${(1 - p) * -120}px)` : k === 'right' ? `translateX(${(1 - p) * 120}px)` : k === 'fade' ? 'none' : `translateY(${(1 - p) * 70 + float}px)`;
+  }
+  return <div style={{opacity: o, transform: tr, clipPath: clip, transformOrigin: 'center bottom', ...style}}>{children}</div>;
 };
 
 /** Mask-reveal heading used at the top of most beats. */
 export const Heading: React.FC<{text?: string; at?: number; accent: string; top?: number}> = ({text, at = 0, accent, top = 90}) => {
   const f = useCurrentFrame();
+  const {variant} = React.useContext(MotionCtx);
   if (!text) return null;
   const p = ease(f, at, 30);
+  if (variant) {
+    const words = text.split(' ');
+    return (
+      <div style={{position: 'absolute', top, width: '100%', textAlign: 'center'}}>
+        <div style={{display: 'inline-flex', gap: 18, flexWrap: 'wrap', justifyContent: 'center'}}>
+          {words.map((w, i) => {
+            const q = pop(f, at + 2 + i * 4, {damping: 16, stiffness: 160});
+            return (
+              <div key={i} style={{overflow: 'hidden', paddingBottom: 8}}>
+                <div style={{transform: `translateY(${(1 - q) * 110}%) rotate(${(1 - q) * 6}deg)`, fontFamily: F.display, fontWeight: 800, fontSize: 64, color: C.white, letterSpacing: '-0.02em'}}>{w}</div>
+              </div>
+            );
+          })}
+        </div>
+        <div style={{height: 4, width: 160, margin: '6px auto 0', borderRadius: 2, background: `linear-gradient(90deg, transparent, ${accent}, transparent)`, transform: `scaleX(${ease(f, at + 8, 36)}) translateX(${Math.sin(f / 30) * 20}px)`}} />
+      </div>
+    );
+  }
   return (
     <div style={{position: 'absolute', top, width: '100%', textAlign: 'center'}}>
       <div style={{display: 'inline-block', overflow: 'hidden', paddingBottom: 8}}>
