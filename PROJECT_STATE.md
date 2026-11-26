@@ -2,6 +2,7 @@
 
 ## Statut
 - **TERMINÉ** (26/11, 7 h 17, heure de Paris). 18 chapitres, durée 1:11:06, 1,20 Go, H.265 1080p à 60 i/s, 18 chapitres intégrés au MP4. Fichier `out/Trading_Academy.mp4` avec ses sous-titres (`.srt`) et `SOMMAIRE.md`.
+- Sur GitHub, le dossier `video/` contient un MP4 par chapitre, chacun sous 100 Mo. Le ch18 est en 3 morceaux. On y trouve aussi les sous-titres et `liste.txt`, qui permet de recréer le film complet avec ffmpeg (voir `video/LISEZMOI.md`).
 - Envoi : la limite d'envoi est de 400 Mo. La vidéo est donc aussi découpée sans perte en 4 parties dans `out/parts/` (`python3 scripts/assemble.py --parts 1-7,8-13,14-17,18-18`).
 - Contrôle de la narration du ch18 : 11 phrases sur 113 restent signalées après 2 nouvelles tentatives, surtout des écarts de transcription des nombres (« 8h30 » au lieu de « huit heures trente »). Aucune n'a été jugée bloquante.
 - Voix : ch01 Edge Rémy · ch02 ElevenLabs Liam v3 (quota gratuit épuisé ensuite) · ch03 à ch18 XTTS-v2 « Viktor » (gratuite, locale). Choix validé par l'utilisateur.

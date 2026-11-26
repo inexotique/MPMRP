@@ -25,6 +25,7 @@ python3 scripts/assemble.py --parts 1-7,8-13,14-17,18-18   # découpe sans perte
 ```
 
 ## Livrables
+- **`video/`** : la vidéo, un MP4 par chapitre, dans le dépôt. `video/LISEZMOI.md` explique comment recréer le fichier complet.
 - `out/Trading_Academy.mp4`, `out/Trading_Academy.srt` et `out/SOMMAIRE.md`.
 - `GLOSSAIRE.md` et `FICHE_REVISION.md`.
 
